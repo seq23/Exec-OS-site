@@ -7660,8 +7660,38 @@
         "MX-RISK-STATEMENT-SUBSTANCE"
       ],
       "not_applicable_reason": null
+    },
+    {
+      "validation_id": "VAL-EXTRACTION-SURFACE-BASELINE-PRESENCE",
+      "status": "ADMITTED",
+      "name": "validate:extraction-surface-baseline-presence",
+      "check_type": "validator",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "The extraction-surface guard could be disarmed by deleting its own baseline. snapshot and check run adjacent in the ordered build job; with artifacts/validation/extraction-surface-snapshot.json absent, snapshot wrote a fresh baseline and exited 0, and check then compared the tree against a file the same run had just written and printed PASS - 2,233 governed surfaces green while asserting nothing. Reproduced on main at 51117429c by a single rm. This is the 'grades its own answer sheet' failure that moving the pair ahead of build:all was supposed to end, returning through the bootstrap path, and VAL-EXTRACTION-SURFACE-GUARD-SNAPSHOT's own risk statement already named it in prose while the code did not enforce it. This self-test drives the real guard in throwaway git repositories and asserts that a removed baseline hard-fails in both snapshot and check, that git rm and EXTRACTION_SURFACE_REBASELINE=1 are not back doors to it, that a genuinely first-ever baseline still bootstraps and a non-git tree stops by name rather than silently, that drift refusal and reviewed rebaselining are unchanged, that zero governed pages hard-fail rather than snapshot an empty set, and that no workflow or npm script sets the rebaseline override.",
+      "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:extraction-surface-baseline-presence",
+      "implementation_path": "package.json",
+      "environment": "container",
+      "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/repo/pass.json",
+      "negative_fixture": "fixtures/validation/repo/fail.json",
+      "evidence_output": "artifacts/diagnostics/<run-id>/validate-extraction-surface-baseline-presence/summary.json",
+      "runtime_budget_seconds": 300,
+      "maintenance_owner": "repo",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Atomically admitted by validation:add.",
+      "decision_date": "2026-09-07",
+      "matrix_ids": [
+        "MX-EXTRACTION-SURFACE-BASELINE-PRESENCE"
+      ],
+      "not_applicable_reason": null
     }
   ],
-  "record_count": 243,
+  "record_count": 244,
   "generated_at": "2026-08-08T23:30:00Z"
 }
