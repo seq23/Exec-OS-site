@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T13:32:15.331Z",
+  "generated_at": "2026-09-07T13:36:57.695Z",
   "provider_state": "OK",
   "overall_status": "PENDING",
   "status_is_healthy": false,
@@ -11,7 +11,7 @@
       "target_id": "si_11a7e9cb5b23839c",
       "query": "accountability partner vs traditional coaching for creators",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -27,7 +27,7 @@
       "target_id": "si_32f3803b2df5ecc9",
       "query": "accountability partner vs traditional coaching for athletes",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -43,7 +43,7 @@
       "target_id": "si_3d069f4e467d790e",
       "query": "accountability partner vs traditional coaching for body goal users",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -59,7 +59,7 @@
       "target_id": "si_227a512b7e5e794b",
       "query": "accountability partner vs traditional coaching for busy parents",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -75,7 +75,7 @@
       "target_id": "si_227a512b7e5e794b",
       "query": "accountability partner vs traditional coaching for busy parents",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -91,7 +91,7 @@
       "target_id": "si_11a7e9cb5b23839c",
       "query": "accountability partner vs traditional coaching for creators",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -107,7 +107,7 @@
       "target_id": "si_16d254cf0b735007",
       "query": "accountability partner vs traditional coaching for people with many projects",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -123,7 +123,7 @@
       "target_id": "si_16d254cf0b735007",
       "query": "accountability partner vs traditional coaching for people with many projects",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -139,7 +139,7 @@
       "target_id": "si_16d254cf0b735007",
       "query": "accountability partner vs traditional coaching for people with many projects",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -155,7 +155,7 @@
       "target_id": "si_16d254cf0b735007",
       "query": "accountability partner vs traditional coaching for people with many projects",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -171,7 +171,7 @@
       "target_id": "si_11a7e9cb5b23839c",
       "query": "accountability partner vs traditional coaching for creators",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -187,7 +187,7 @@
       "target_id": "si_227a512b7e5e794b",
       "query": "accountability partner vs traditional coaching for busy parents",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -203,7 +203,7 @@
       "target_id": "si_11a7e9cb5b23839c",
       "query": "accountability partner vs traditional coaching for creators",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -219,7 +219,7 @@
       "target_id": "si_227a512b7e5e794b",
       "query": "accountability partner vs traditional coaching for busy parents",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",
@@ -235,7 +235,23 @@
       "target_id": "si_16d254cf0b735007",
       "query": "accountability partner vs traditional coaching for people with many projects",
       "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "retested_at": "2026-09-06T13:32:15.331Z",
+      "retested_at": "2026-09-07T13:36:57.695Z",
+      "provider_states": {
+        "gsc": "OK",
+        "grounded_search": "OK",
+        "competitor": "OK"
+      },
+      "gsc_metrics": null,
+      "grounded_own_domain_referenced": null,
+      "competitor_domains": [],
+      "retest_state": "EVIDENCE_CAPTURED"
+    },
+    {
+      "repair_id": "repair_568ac268735378bd",
+      "target_id": "si_16d254cf0b735007",
+      "query": "accountability partner vs traditional coaching for people with many projects",
+      "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
+      "retested_at": "2026-09-07T13:36:57.695Z",
       "provider_states": {
         "gsc": "OK",
         "grounded_search": "OK",

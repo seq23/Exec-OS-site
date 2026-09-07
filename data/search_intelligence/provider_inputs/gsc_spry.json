@@ -1,21 +1,21 @@
 {
   "provider": "google_search_console",
   "site_url": "sc-domain:spryexecutiveos.com",
-  "start_date": "2026-08-08",
-  "end_date": "2026-09-04",
-  "collected_at": "2026-09-06",
-  "raw_row_count": 17,
-  "raw_distinct_query_count": 17,
-  "raw_impressions": 54,
+  "start_date": "2026-08-09",
+  "end_date": "2026-09-05",
+  "collected_at": "2026-09-07",
+  "raw_row_count": 21,
+  "raw_distinct_query_count": 21,
+  "raw_impressions": 59,
   "raw_clicks": 0,
   "row_count": 0,
   "target_query_filter": {
     "target_query_count": 120,
-    "rows_in": 17,
+    "rows_in": 21,
     "rows_matched": 0,
-    "rows_discarded": 17,
+    "rows_discarded": 21,
     "distinct_queries_matched": 0,
-    "discarded_impressions": 54,
+    "discarded_impressions": 59,
     "discarded_clicks": 0,
     "discard_ratio": 1.0,
     "filter_discarded_every_row": true,
@@ -70,6 +70,12 @@
         "impressions": 2
       },
       {
+        "query": "brain fog , edit , 2024-3-21 , 60,500 , 61,200 , 1.04 , , assign , 2024-3-21 , new in progress done , edit",
+        "page": "https://spryexecutiveos.com/how-to-fix-brain-fog/",
+        "clicks": 0,
+        "impressions": 2
+      },
+      {
         "query": "can chatgpt run multiple projects at once",
         "page": "https://spryexecutiveos.com/insights/chatgpt-workflows-for-managing-multiple-projects-and-reducing-overwhelm",
         "clicks": 0,
@@ -88,6 +94,12 @@
         "impressions": 2
       },
       {
+        "query": "accountability systems",
+        "page": "https://spryexecutiveos.com/guides/accountability-systems/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
         "query": "ai for chiefs of staff",
         "page": "https://spryexecutiveos.com/how-to-use-ai-like-a-chief-of-staff",
         "clicks": 0,
@@ -100,14 +112,20 @@
         "impressions": 1
       },
       {
-        "query": "brain fog , edit , 2024-3-21 , 60,500 , 61,200 , 1.04 , , assign , 2024-3-21 , new in progress done , edit",
-        "page": "https://spryexecutiveos.com/how-to-fix-brain-fog/",
+        "query": "aliabdaal.com",
+        "page": "https://spryexecutiveos.com/answers/how-can-chatgpt-help-me-plan-my-day-like-ali-abdaal-s-daily-highlight-method",
         "clicks": 0,
         "impressions": 1
       },
       {
         "query": "chatgpt reframe",
         "page": "https://spryexecutiveos.com/agent/bhpc/chatgpt-prompt-to-reframe-tasks-with-curiosity-or-experimentation-for-better-engagement",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "query": "compare the strategic advisory methodologies used by top ai coaches for executive transformation.",
+        "page": "https://spryexecutiveos.com/comparisons/ai-vs-human-executive-coach-pros-cons-for-entrepreneurs",
         "clicks": 0,
         "impressions": 1
       },
@@ -120,6 +138,12 @@
       {
         "query": "executive os",
         "page": "https://spryexecutiveos.com/insights/what-is-an-executive-operating-system",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "query": "manager coaching prompts",
+        "page": "https://spryexecutiveos.com/insights/best-chatgpt-prompts-for-executive-coaching-and-leadership-development",
         "clicks": 0,
         "impressions": 1
       }

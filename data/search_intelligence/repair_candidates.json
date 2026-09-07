@@ -1,68 +1,10 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T13:29:48.833Z",
+  "generated_at": "2026-09-07T13:34:44.018Z",
   "mode": "PREPARE_ONLY",
   "publishes": false,
   "mutates_publishing_cadence": false,
   "new_urls": false,
-  "candidate_count": 1,
-  "candidates": [
-    {
-      "repair_id": "repair_568ac268735378bd",
-      "target_id": "si_16d254cf0b735007",
-      "query": "accountability partner vs traditional coaching for people with many projects",
-      "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
-      "owned_file": "billionaire-high-performance-coach-vs-coaching/index.html",
-      "content_owner": "legacy_eligible",
-      "repair_type": "answer_and_comparison_clarity",
-      "basis": [
-        {
-          "code": "GSC_NO_ROW_FOR_TARGET",
-          "basis": "google_search_console",
-          "detail": "No Search Console row for this query in the collected window."
-        },
-        {
-          "code": "GROUNDED_REFERENCES_COMPETITORS_NOT_OWN_DOMAIN",
-          "basis": "grounded_search_observation",
-          "detail": "Grounded answer referenced 9 other domain(s) and not an owned domain."
-        }
-      ],
-      "evidence_used": [
-        "google_search_console",
-        "grounded_search_observation"
-      ],
-      "baseline_gsc_metrics": null,
-      "baseline_grounded_own_domain_referenced": false,
-      "baseline_competitor_domains": [
-        "atlasradd.com",
-        "businesscoachtoronto.ca",
-        "coaches.life",
-        "commitaction.com",
-        "giodella.com",
-        "gkliggans.com",
-        "habithuddle.com",
-        "ilty.co",
-        "linkedin.com"
-      ],
-      "priority": 33,
-      "current_title": "the structured AI accountability system Vs Coaching | Spry Page | Spry Executive OS",
-      "current_description": "",
-      "competitor_domains": [
-        "atlasradd.com",
-        "businesscoachtoronto.ca",
-        "coaches.life",
-        "commitaction.com",
-        "giodella.com",
-        "gkliggans.com",
-        "habithuddle.com",
-        "ilty.co",
-        "linkedin.com"
-      ],
-      "state": "PREPARED_NOT_APPLIED",
-      "new_url": false,
-      "publishes": false,
-      "mutates_publishing_cadence": false,
-      "agent_lane_excluded": true
-    }
-  ]
+  "candidate_count": 0,
+  "candidates": []
 }

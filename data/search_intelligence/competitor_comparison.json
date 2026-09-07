@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T13:32:15.045Z",
+  "generated_at": "2026-09-07T13:36:57.385Z",
   "provider_state": "OK",
   "overall_status": "OK",
   "status_is_healthy": true,
@@ -8,1500 +8,1636 @@
   "competitors": [
     {
       "domain": "github.com",
-      "observed_reference_count": 14,
+      "observed_reference_count": 13,
       "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_e9707f3529cd28f6",
-        "si_40e7ef1bb925f256",
-        "si_fb5f35d05eb49ce0",
-        "si_65a157c439e0d938",
-        "si_1364c2c98ad6a560",
-        "si_ebff5db86dce4045",
-        "si_6efcc2639f9c89e5",
-        "si_4532544fda5e6c15",
-        "si_b1fe0b961b207d0d",
-        "si_fafdf9ef4a170353",
-        "si_1dc03d767578d87b",
-        "si_42d0ce81aac0a47a",
-        "si_cdbbffa94f26be67"
+        "si_5cd4202c824e469b",
+        "si_798cfc25dde215a1",
+        "si_6d299eeec5f8bced",
+        "si_68b8ba468a1e9abc",
+        "si_e37ffd2757cb8d5e",
+        "si_d9828b99591bb9ae",
+        "si_b873f1bc7fbd3e0f",
+        "si_c12f036c85ec99f6",
+        "si_94fd33a349222981",
+        "si_4f38a7a0e5a55dfc",
+        "si_e254958e3517f87d",
+        "si_4efed1b40aeb209a",
+        "si_0a4ca46355201966"
       ]
     },
     {
       "domain": "github.laiyagushi.com",
-      "observed_reference_count": 7,
-      "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_e9707f3529cd28f6",
-        "si_1364c2c98ad6a560",
-        "si_ebff5db86dce4045",
-        "si_b1fe0b961b207d0d",
-        "si_1dc03d767578d87b",
-        "si_cdbbffa94f26be67"
-      ]
-    },
-    {
-      "domain": "nestgenie.ai",
-      "observed_reference_count": 5,
-      "target_ids": [
-        "si_23622d987124abfa",
-        "si_0d12c4713bd9ba5b",
-        "si_3d8ff5c7f4c9a6ef",
-        "si_41bf29ee1fe9eeb2",
-        "si_737be2d1fd9d6707"
-      ]
-    },
-    {
-      "domain": "pensy.ai",
       "observed_reference_count": 4,
       "target_ids": [
-        "si_40e7ef1bb925f256",
-        "si_6efcc2639f9c89e5",
-        "si_707576d6004dac0d",
-        "si_1dc03d767578d87b"
+        "si_5cd4202c824e469b",
+        "si_6d299eeec5f8bced",
+        "si_4f38a7a0e5a55dfc",
+        "si_0a4ca46355201966"
+      ]
+    },
+    {
+      "domain": "accountabilitypartner360.com",
+      "observed_reference_count": 3,
+      "target_ids": [
+        "si_94fd33a349222981",
+        "si_fcb2dbe4a447d9bd",
+        "si_0a4ca46355201966"
+      ]
+    },
+    {
+      "domain": "apps.apple.com",
+      "observed_reference_count": 3,
+      "target_ids": [
+        "si_eae9b5329349223f",
+        "si_94fd33a349222981",
+        "si_4efed1b40aeb209a"
       ]
     },
     {
       "domain": "arxiv.org",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_fb5f35d05eb49ce0",
-        "si_fafdf9ef4a170353",
-        "si_42d0ce81aac0a47a"
+        "si_5cd4202c824e469b",
+        "si_798cfc25dde215a1",
+        "si_b873f1bc7fbd3e0f"
       ]
     },
     {
-      "domain": "blog.aihavit.com",
+      "domain": "chaegim.com",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_fb5f35d05eb49ce0",
-        "si_cdbbffa94f26be67"
+        "si_798cfc25dde215a1",
+        "si_68b8ba468a1e9abc",
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
       "domain": "dev.to",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_fb5f35d05eb49ce0",
-        "si_ebff5db86dce4045",
-        "si_fafdf9ef4a170353"
+        "si_6d299eeec5f8bced",
+        "si_e254958e3517f87d",
+        "si_4efed1b40aeb209a"
       ]
     },
     {
-      "domain": "doi.org",
+      "domain": "frontiersin.org",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_fb5f35d05eb49ce0",
-        "si_927da2ddb593f27c",
-        "si_4532544fda5e6c15"
+        "si_51137c3081798653",
+        "si_1f0a715aa894c401",
+        "si_4efed1b40aeb209a"
       ]
     },
     {
       "domain": "kikko.ai",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_23622d987124abfa",
-        "si_3d8ff5c7f4c9a6ef",
-        "si_41bf29ee1fe9eeb2"
+        "si_3c4ae944af5097ad",
+        "si_c12f036c85ec99f6",
+        "si_6ac98872d3d35a06"
       ]
     },
     {
       "domain": "overlord.app",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_40e7ef1bb925f256",
-        "si_b1fe0b961b207d0d",
-        "si_1dc03d767578d87b"
+        "si_94fd33a349222981",
+        "si_e254958e3517f87d",
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
       "domain": "peeta.ai",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_23622d987124abfa",
-        "si_41bf29ee1fe9eeb2",
-        "si_8b36985c859944db"
+        "si_3c4ae944af5097ad",
+        "si_c12f036c85ec99f6",
+        "si_6ac98872d3d35a06"
       ]
     },
     {
-      "domain": "phionyx.ai",
+      "domain": "peggyapp.com",
       "observed_reference_count": 3,
       "target_ids": [
-        "si_3d8ff5c7f4c9a6ef",
-        "si_737be2d1fd9d6707",
-        "si_8b36985c859944db"
+        "si_3c4ae944af5097ad",
+        "si_c12f036c85ec99f6",
+        "si_6ac98872d3d35a06"
       ]
     },
     {
-      "domain": "accountabilitypartner360.com",
+      "domain": "academia.edu",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_1dc03d767578d87b"
+        "si_51137c3081798653",
+        "si_1f0a715aa894c401"
       ]
     },
     {
-      "domain": "aiforbusyhumans.com",
+      "domain": "accountabilitypt.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_737be2d1fd9d6707",
-        "si_8b36985c859944db"
+        "si_85a7020c461a1025",
+        "si_fcb2dbe4a447d9bd"
       ]
     },
     {
-      "domain": "apps.apple.com",
+      "domain": "blog.aihavit.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_cdbbffa94f26be67"
+        "si_4efed1b40aeb209a",
+        "si_0a4ca46355201966"
       ]
     },
     {
       "domain": "bodybuddy.app",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_cdbbffa94f26be67"
+        "si_fcb2dbe4a447d9bd",
+        "si_0a4ca46355201966"
       ]
     },
     {
-      "domain": "databody.ai",
+      "domain": "bodyby.ai",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_1a04cc623847fde0",
-        "si_cdbbffa94f26be67"
+        "si_eae9b5329349223f",
+        "si_0a4ca46355201966"
       ]
     },
     {
-      "domain": "egoapp.fit",
+      "domain": "doi.org",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_65a157c439e0d938",
-        "si_ebff5db86dce4045"
+        "si_1f0a715aa894c401",
+        "si_4efed1b40aeb209a"
       ]
     },
     {
-      "domain": "enerzee.app",
+      "domain": "gymbuddy.ai",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_b1fe0b961b207d0d",
-        "si_1dc03d767578d87b"
+        "si_fcb2dbe4a447d9bd",
+        "si_0a4ca46355201966"
       ]
     },
     {
-      "domain": "learnaiwithmariah.com",
+      "domain": "habithuddle.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_65a157c439e0d938",
-        "si_ebff5db86dce4045"
+        "si_fcb2dbe4a447d9bd",
+        "si_428cc471e01c8ede"
       ]
     },
     {
-      "domain": "littlemight.com",
+      "domain": "l.ohai.ai",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_737be2d1fd9d6707",
-        "si_8b36985c859944db"
+        "si_3c4ae944af5097ad",
+        "si_6ac98872d3d35a06"
       ]
     },
     {
-      "domain": "mdpi.com",
+      "domain": "nike.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_4532544fda5e6c15",
-        "si_42d0ce81aac0a47a"
+        "si_85a7020c461a1025",
+        "si_428cc471e01c8ede"
       ]
     },
     {
-      "domain": "mentalloadai.com",
+      "domain": "parendipity.ai",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_3d8ff5c7f4c9a6ef",
-        "si_41bf29ee1fe9eeb2"
+        "si_c12f036c85ec99f6",
+        "si_6ac98872d3d35a06"
       ]
     },
     {
-      "domain": "peggyapp.com",
+      "domain": "pensy.ai",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_41bf29ee1fe9eeb2",
-        "si_8b36985c859944db"
+        "si_e37ffd2757cb8d5e",
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
-      "domain": "reknr.com",
+      "domain": "qu3ry.net",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_40e7ef1bb925f256",
-        "si_6efcc2639f9c89e5"
+        "si_5cd4202c824e469b",
+        "si_4f38a7a0e5a55dfc"
       ]
     },
     {
-      "domain": "saga.coach",
+      "domain": "scottlaidler.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_b1fe0b961b207d0d",
-        "si_1dc03d767578d87b"
-      ]
-    },
-    {
-      "domain": "swipehealth.ai",
-      "observed_reference_count": 2,
-      "target_ids": [
-        "si_65a157c439e0d938",
-        "si_ebff5db86dce4045"
+        "si_85a7020c461a1025",
+        "si_428cc471e01c8ede"
       ]
     },
     {
       "domain": "textlauren.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_e9707f3529cd28f6",
-        "si_dfc54f738021b07a"
+        "si_3ebb4b622ad110af",
+        "si_d9828b99591bb9ae"
       ]
     },
     {
-      "domain": "thawly.ai",
+      "domain": "trycofounder.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_0d12c4713bd9ba5b",
-        "si_3d8ff5c7f4c9a6ef"
+        "si_68b8ba468a1e9abc",
+        "si_e37ffd2757cb8d5e"
       ]
     },
     {
-      "domain": "unsiloed.life",
+      "domain": "zen-labo.com",
       "observed_reference_count": 2,
       "target_ids": [
-        "si_23622d987124abfa",
-        "si_41bf29ee1fe9eeb2"
+        "si_85a7020c461a1025",
+        "si_fcb2dbe4a447d9bd"
       ]
     },
     {
-      "domain": "accountableai.xyz",
+      "domain": "accountabilitycoach.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_40e7ef1bb925f256"
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
-      "domain": "agent-mom.com",
+      "domain": "adriencotton.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_41bf29ee1fe9eeb2"
+        "si_428cc471e01c8ede"
       ]
     },
     {
-      "domain": "alphamothers.com",
+      "domain": "aegisboardroom.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_3d8ff5c7f4c9a6ef"
+        "si_68b8ba468a1e9abc"
+      ]
+    },
+    {
+      "domain": "agentfounder.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_e37ffd2757cb8d5e"
+      ]
+    },
+    {
+      "domain": "aiagentgovernance.org",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_b873f1bc7fbd3e0f"
+      ]
+    },
+    {
+      "domain": "aidisclose.app",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_798cfc25dde215a1"
+      ]
+    },
+    {
+      "domain": "aiexpert.ee",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_3ebb4b622ad110af"
+      ]
+    },
+    {
+      "domain": "aiforbusyhumans.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_6ac98872d3d35a06"
+      ]
+    },
+    {
+      "domain": "aihavit.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_0a4ca46355201966"
+      ]
+    },
+    {
+      "domain": "aitency.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_6d299eeec5f8bced"
       ]
     },
     {
       "domain": "annet.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_6efcc2639f9c89e5"
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
-      "domain": "antonkoekemoer.com",
+      "domain": "antiboringlearninglab.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_51137c3081798653"
+      ]
+    },
+    {
+      "domain": "antigravitylab.net",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_4f38a7a0e5a55dfc"
       ]
     },
     {
       "domain": "archionapp.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_6efcc2639f9c89e5"
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
-      "domain": "arvo.guru",
+      "domain": "artificialcuriositylabs.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_b1fe0b961b207d0d"
-      ]
-    },
-    {
-      "domain": "aseyi.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_707576d6004dac0d"
-      ]
-    },
-    {
-      "domain": "ashutoshveriprajna.substack.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_fb5f35d05eb49ce0"
+        "si_d9828b99591bb9ae"
       ]
     },
     {
       "domain": "asianefficiency.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_8b36985c859944db"
+        "si_3ebb4b622ad110af"
       ]
     },
     {
-      "domain": "athenae.io",
+      "domain": "auralife.io",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1364c2c98ad6a560"
+        "si_94fd33a349222981"
       ]
     },
     {
-      "domain": "athletedata.health",
+      "domain": "bettersoftware.uk",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1364c2c98ad6a560"
+        "si_5cd4202c824e469b"
       ]
     },
     {
-      "domain": "audit.systemores.com",
+      "domain": "bodybyaicoach.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_42d0ce81aac0a47a"
+        "si_eae9b5329349223f"
       ]
     },
     {
-      "domain": "bestyou.ai",
+      "domain": "bodybyte.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_b1fe0b961b207d0d"
+        "si_eae9b5329349223f"
       ]
     },
     {
-      "domain": "betterparentai.com",
+      "domain": "boundlessfounder.co",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_0d12c4713bd9ba5b"
+        "si_e37ffd2757cb8d5e"
       ]
     },
     {
-      "domain": "beyondtime.ai",
+      "domain": "brittneykingcoaching.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_40e7ef1bb925f256"
+        "si_51137c3081798653"
       ]
     },
     {
-      "domain": "biznetboost.com",
+      "domain": "capafy.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_68b8ba468a1e9abc"
       ]
     },
     {
-      "domain": "bizunderworld.com",
+      "domain": "clawm.net",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_5cd4202c824e469b"
       ]
     },
     {
-      "domain": "bostonglobe.com",
+      "domain": "coachguido.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_737be2d1fd9d6707"
-      ]
-    },
-    {
-      "domain": "budy.fit",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_b1fe0b961b207d0d"
-      ]
-    },
-    {
-      "domain": "businessaction.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_707576d6004dac0d"
-      ]
-    },
-    {
-      "domain": "businessinsider.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_dfc54f738021b07a"
-      ]
-    },
-    {
-      "domain": "caleye.fit",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_927da2ddb593f27c"
-      ]
-    },
-    {
-      "domain": "chaegim.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_1dc03d767578d87b"
-      ]
-    },
-    {
-      "domain": "cmr.berkeley.edu",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_e254958e3517f87d"
       ]
     },
     {
       "domain": "cofounder.im",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_e37ffd2757cb8d5e"
       ]
     },
     {
-      "domain": "coursiv.io",
+      "domain": "cognipal.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_b173a71e1a8d12bb"
+      ]
+    },
+    {
+      "domain": "concairge.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_3c4ae944af5097ad"
+      ]
+    },
+    {
+      "domain": "corahealth.app",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_eae9b5329349223f"
+      ]
+    },
+    {
+      "domain": "creatorgrid.app",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_b173a71e1a8d12bb"
+      ]
+    },
+    {
+      "domain": "creatorpulsestudio.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
       "domain": "creatorscore.io",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23ebd684352659fe"
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
-      "domain": "danmartell.com",
+      "domain": "creatorsenseai.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_b173a71e1a8d12bb"
+      ]
+    },
+    {
+      "domain": "dannywareham.co.uk",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_51137c3081798653"
+      ]
+    },
+    {
+      "domain": "databody.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_0a4ca46355201966"
+      ]
+    },
+    {
+      "domain": "datatracker.ietf.org",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_b873f1bc7fbd3e0f"
+      ]
+    },
+    {
+      "domain": "day75.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_428cc471e01c8ede"
+      ]
+    },
+    {
+      "domain": "delegatic.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_b873f1bc7fbd3e0f"
+      ]
+    },
+    {
+      "domain": "derzai.app",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_3ebb4b622ad110af"
+      ]
+    },
+    {
+      "domain": "digitallydemented.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_d9828b99591bb9ae"
+      ]
+    },
+    {
+      "domain": "divinenavigation.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_51137c3081798653"
       ]
     },
     {
       "domain": "dl.acm.org",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_fb5f35d05eb49ce0"
+        "si_4efed1b40aeb209a"
       ]
     },
     {
-      "domain": "edge3.net",
+      "domain": "docs.maximem.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_e9707f3529cd28f6"
+        "si_94fd33a349222981"
       ]
     },
     {
-      "domain": "emilyreuschel.com",
+      "domain": "emstewartcoaching.substack.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_737be2d1fd9d6707"
+        "si_51137c3081798653"
       ]
     },
     {
-      "domain": "executiveaipartners.com",
+      "domain": "endureallcoaching.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_85a7020c461a1025"
       ]
     },
     {
-      "domain": "exhale.bot",
+      "domain": "f3.app",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_3d8ff5c7f4c9a6ef"
+        "si_e37ffd2757cb8d5e"
       ]
     },
     {
       "domain": "familymind.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23622d987124abfa"
+        "si_3c4ae944af5097ad"
       ]
     },
     {
-      "domain": "famsies.com",
+      "domain": "feelivate.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_0d12c4713bd9ba5b"
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
-      "domain": "forgefitapp.com",
+      "domain": "fitlio.app",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_65a157c439e0d938"
+        "si_eae9b5329349223f"
       ]
     },
     {
-      "domain": "frontiersin.org",
+      "domain": "fitnleanai.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_927da2ddb593f27c"
+        "si_eae9b5329349223f"
       ]
     },
     {
-      "domain": "fuzzysmart.com",
+      "domain": "foundersbar.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_927da2ddb593f27c"
+        "si_d9828b99591bb9ae"
       ]
     },
     {
-      "domain": "fynnfamily.com",
+      "domain": "founderspsyche.substack.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_41bf29ee1fe9eeb2"
+        "si_68b8ba468a1e9abc"
       ]
     },
     {
-      "domain": "goalwizeai.com",
+      "domain": "get.mem.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23622d987124abfa"
+        "si_3ebb4b622ad110af"
       ]
     },
     {
-      "domain": "influencers-time.com",
+      "domain": "getfounder.app",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_927da2ddb593f27c"
+        "si_e37ffd2757cb8d5e"
       ]
     },
     {
-      "domain": "joinlevl.com",
+      "domain": "getmotivated.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23ebd684352659fe"
+        "si_428cc471e01c8ede"
       ]
     },
     {
-      "domain": "khaby.ai",
+      "domain": "getperspective.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23ebd684352659fe"
+        "si_3ebb4b622ad110af"
       ]
     },
     {
-      "domain": "kidooo.ai",
+      "domain": "getsense.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_0d12c4713bd9ba5b"
+        "si_c12f036c85ec99f6"
       ]
     },
     {
-      "domain": "kinesis-delta.vercel.app",
+      "domain": "getzoe.app",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1a04cc623847fde0"
+        "si_5c2e9df98fe0af45"
+      ]
+    },
+    {
+      "domain": "habitbox.app",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_428cc471e01c8ede"
+      ]
+    },
+    {
+      "domain": "hale.fitness",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_eae9b5329349223f"
+      ]
+    },
+    {
+      "domain": "heysunday.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_c12f036c85ec99f6"
+      ]
+    },
+    {
+      "domain": "hianna.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_3c4ae944af5097ad"
+      ]
+    },
+    {
+      "domain": "howtothink.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_3ebb4b622ad110af"
+      ]
+    },
+    {
+      "domain": "jpsiou.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_428cc471e01c8ede"
+      ]
+    },
+    {
+      "domain": "jupitergoals.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_5c2e9df98fe0af45"
+      ]
+    },
+    {
+      "domain": "keelify.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_e254958e3517f87d"
+      ]
+    },
+    {
+      "domain": "keez.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
       "domain": "kitsuneai.co",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23ebd684352659fe"
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
-      "domain": "kulvex.ai",
+      "domain": "kognivu.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_42d0ce81aac0a47a"
+        "si_3ebb4b622ad110af"
       ]
     },
     {
-      "domain": "l.ohai.ai",
+      "domain": "littlemight.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23622d987124abfa"
+        "si_6ac98872d3d35a06"
       ]
     },
     {
-      "domain": "laurenselley.com",
+      "domain": "lumenstories.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_737be2d1fd9d6707"
+        "si_51137c3081798653"
       ]
     },
     {
-      "domain": "link.springer.com",
+      "domain": "maven.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_4532544fda5e6c15"
+        "si_6d299eeec5f8bced"
       ]
     },
     {
-      "domain": "mittendad.substack.com",
+      "domain": "mdpi.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_737be2d1fd9d6707"
+        "si_68b8ba468a1e9abc"
       ]
     },
     {
       "domain": "momplan.life",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23622d987124abfa"
-      ]
-    },
-    {
-      "domain": "momtalk.ai",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_3d8ff5c7f4c9a6ef"
+        "si_3c4ae944af5097ad"
       ]
     },
     {
       "domain": "momwise.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23622d987124abfa"
-      ]
-    },
-    {
-      "domain": "mulio.ai",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_40e7ef1bb925f256"
+        "si_3c4ae944af5097ad"
       ]
     },
     {
       "domain": "mumdad.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_8b36985c859944db"
+        "si_c12f036c85ec99f6"
       ]
     },
     {
-      "domain": "mwm.ai",
+      "domain": "musclebuddy.net",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1364c2c98ad6a560"
+        "si_94fd33a349222981"
       ]
     },
     {
-      "domain": "nature.com",
+      "domain": "musecocreator.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_4532544fda5e6c15"
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
-      "domain": "news.lenovo.com",
+      "domain": "nag.bot",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_e9707f3529cd28f6"
+        "si_5c2e9df98fe0af45"
       ]
     },
     {
-      "domain": "nutraingredients.com",
+      "domain": "nestgenie.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_927da2ddb593f27c"
+        "si_6ac98872d3d35a06"
+      ]
+    },
+    {
+      "domain": "nickveenhof.be",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_d9828b99591bb9ae"
+      ]
+    },
+    {
+      "domain": "ofs.ccwu.cc",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_4f38a7a0e5a55dfc"
       ]
     },
     {
       "domain": "ogamic.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1dc03d767578d87b"
+        "si_85a7020c461a1025"
       ]
     },
     {
-      "domain": "ourlifeapp.ai",
+      "domain": "olsnotion.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_8b36985c859944db"
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
-      "domain": "ovid.com",
+      "domain": "onefitai.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_fb5f35d05eb49ce0"
+        "si_eae9b5329349223f"
       ]
     },
     {
-      "domain": "p.rst.im",
+      "domain": "outlivept.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_40e7ef1bb925f256"
+        "si_428cc471e01c8ede"
       ]
     },
     {
-      "domain": "par-ai.app",
+      "domain": "phionyx.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_0d12c4713bd9ba5b"
+        "si_6ac98872d3d35a06"
       ]
     },
     {
-      "domain": "parendipity.ai",
+      "domain": "pkjcoaching.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_41bf29ee1fe9eeb2"
-      ]
-    },
-    {
-      "domain": "parentii.app",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_0d12c4713bd9ba5b"
-      ]
-    },
-    {
-      "domain": "parentos.ai",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_3d8ff5c7f4c9a6ef"
-      ]
-    },
-    {
-      "domain": "parentscript.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_0d12c4713bd9ba5b"
-      ]
-    },
-    {
-      "domain": "patents-review.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_23ebd684352659fe"
-      ]
-    },
-    {
-      "domain": "permission.ai",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_737be2d1fd9d6707"
-      ]
-    },
-    {
-      "domain": "picparent.com",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_0d12c4713bd9ba5b"
-      ]
-    },
-    {
-      "domain": "pinksheep.ai",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_e9707f3529cd28f6"
-      ]
-    },
-    {
-      "domain": "players.news",
-      "observed_reference_count": 1,
-      "target_ids": [
-        "si_4532544fda5e6c15"
+        "si_51137c3081798653"
       ]
     },
     {
       "domain": "pmc.ncbi.nlm.nih.gov",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_4532544fda5e6c15"
+        "si_1f0a715aa894c401"
       ]
     },
     {
-      "domain": "promo.suedeai.ai",
+      "domain": "prodsens.live",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23ebd684352659fe"
+        "si_6d299eeec5f8bced"
+      ]
+    },
+    {
+      "domain": "profmindful.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_1f0a715aa894c401"
       ]
     },
     {
       "domain": "provenanceai.app",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_fafdf9ef4a170353"
+        "si_798cfc25dde215a1"
       ]
     },
     {
-      "domain": "push-pull.app",
+      "domain": "qa.ohai.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_65a157c439e0d938"
+        "si_c12f036c85ec99f6"
       ]
     },
     {
-      "domain": "qorven.ai",
+      "domain": "raav.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_6d299eeec5f8bced"
       ]
     },
     {
-      "domain": "qu3ry.net",
+      "domain": "rayfit.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_42d0ce81aac0a47a"
+        "si_fcb2dbe4a447d9bd"
       ]
     },
     {
-      "domain": "realaiparent.com",
+      "domain": "rileyapp.vercel.app",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23622d987124abfa"
+        "si_c12f036c85ec99f6"
+      ]
+    },
+    {
+      "domain": "roedermultisport.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_85a7020c461a1025"
       ]
     },
     {
       "domain": "rosieai.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_41bf29ee1fe9eeb2"
+        "si_3c4ae944af5097ad"
       ]
     },
     {
-      "domain": "scovert.com",
+      "domain": "rundreamachieve.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_6efcc2639f9c89e5"
+        "si_85a7020c461a1025"
       ]
     },
     {
-      "domain": "screenwiseapp.com",
+      "domain": "ryansultan.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_737be2d1fd9d6707"
+        "si_1f0a715aa894c401"
       ]
     },
     {
-      "domain": "sherlock.website",
+      "domain": "sage-framework.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_927da2ddb593f27c"
+        "si_798cfc25dde215a1"
       ]
     },
     {
-      "domain": "skills.2389.ai",
+      "domain": "sbozich.github.io",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_6d299eeec5f8bced"
       ]
     },
     {
-      "domain": "skopx.com",
+      "domain": "scienceworkshealth.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_e9707f3529cd28f6"
+        "si_1f0a715aa894c401"
       ]
     },
     {
-      "domain": "sport.nspcc.org.uk",
+      "domain": "sellwithboost.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_4532544fda5e6c15"
+        "si_e254958e3517f87d"
       ]
     },
     {
-      "domain": "sportsnest.ai",
+      "domain": "showmyai.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1364c2c98ad6a560"
+        "si_798cfc25dde215a1"
+      ]
+    },
+    {
+      "domain": "solisight.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_1f0a715aa894c401"
       ]
     },
     {
       "domain": "strasysglobal.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_68b8ba468a1e9abc"
       ]
     },
     {
-      "domain": "suilaai.com",
+      "domain": "student.kineticgain.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_23ebd684352659fe"
+        "si_798cfc25dde215a1"
       ]
     },
     {
-      "domain": "tdspersonnel.com",
+      "domain": "swipehealth.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_e9707f3529cd28f6"
+        "si_fcb2dbe4a447d9bd"
       ]
     },
     {
-      "domain": "tendril.neural-forge.io",
+      "domain": "teti.ai",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_8b36985c859944db"
+        "si_5cd4202c824e469b"
+      ]
+    },
+    {
+      "domain": "thawly.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_6ac98872d3d35a06"
+      ]
+    },
+    {
+      "domain": "theaibreak.substack.com",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_68b8ba468a1e9abc"
       ]
     },
     {
       "domain": "thekoto.dev",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_40e7ef1bb925f256"
+        "si_e254958e3517f87d"
       ]
     },
     {
       "domain": "theleveragedyears.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_d9828b99591bb9ae"
       ]
     },
     {
-      "domain": "thepath.ai",
+      "domain": "thrini.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_0d12c4713bd9ba5b"
+        "si_eae9b5329349223f"
       ]
     },
     {
-      "domain": "theplayway.com",
+      "domain": "tomsguide.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_3d8ff5c7f4c9a6ef"
+        "si_3ebb4b622ad110af"
       ]
     },
     {
-      "domain": "theverge.com",
+      "domain": "triagemethod.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_fb5f35d05eb49ce0"
+        "si_1f0a715aa894c401"
       ]
     },
     {
-      "domain": "tiffin.edu",
+      "domain": "trysteward.org",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_4532544fda5e6c15"
+        "si_e37ffd2757cb8d5e"
       ]
     },
     {
-      "domain": "transform.life",
+      "domain": "unbroken75.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_1a04cc623847fde0"
+        "si_428cc471e01c8ede"
       ]
     },
     {
-      "domain": "trayne.ai",
+      "domain": "unleashyourpower.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_b1fe0b961b207d0d"
+        "si_51137c3081798653"
       ]
     },
     {
-      "domain": "trit.health",
+      "domain": "weightsandglory.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_927da2ddb593f27c"
+        "si_85a7020c461a1025"
       ]
     },
     {
-      "domain": "trycofounder.com",
+      "domain": "youraccountably.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_e254958e3517f87d"
       ]
     },
     {
-      "domain": "vibeventure.ai",
+      "domain": "yukaichou.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_707576d6004dac0d"
+        "si_e254958e3517f87d"
       ]
     },
     {
-      "domain": "voxx.run",
+      "domain": "zencreator.pro",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_65a157c439e0d938"
+        "si_b173a71e1a8d12bb"
       ]
     },
     {
-      "domain": "yasminalouisenutrition.com",
+      "domain": "zenduel.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_fb5f35d05eb49ce0"
+        "si_fcb2dbe4a447d9bd"
       ]
     },
     {
-      "domain": "zenframe.no",
+      "domain": "zenn.dev",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_8b36985c859944db"
+        "si_b873f1bc7fbd3e0f"
+      ]
+    },
+    {
+      "domain": "zenodo.org",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_5cd4202c824e469b"
       ]
     },
     {
       "domain": "zintellex.com",
       "observed_reference_count": 1,
       "target_ids": [
-        "si_dfc54f738021b07a"
+        "si_3ebb4b622ad110af"
+      ]
+    },
+    {
+      "domain": "zylos.ai",
+      "observed_reference_count": 1,
+      "target_ids": [
+        "si_b873f1bc7fbd3e0f"
       ]
     }
   ],
   "per_query": [
     {
-      "target_id": "si_1a04cc623847fde0",
-      "query": "AI accountability system for body goal users and delegation",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "accountabilitypartner360.com",
-        "apps.apple.com",
-        "blog.aihavit.com",
-        "bodybuddy.app",
-        "databody.ai",
-        "github.com",
-        "github.laiyagushi.com",
-        "kinesis-delta.vercel.app",
-        "transform.life"
-      ],
-      "competitor_domain_count": 9,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:1a52fbe6d1450747d1a686afc05fd085feebc4a781fa513599b890beb748622e",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_e9707f3529cd28f6",
-      "query": "AI accountability system for athletes and executive assistant workflows",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "edge3.net",
-        "github.com",
-        "github.laiyagushi.com",
-        "news.lenovo.com",
-        "pinksheep.ai",
-        "skopx.com",
-        "tdspersonnel.com",
-        "textlauren.com"
-      ],
-      "competitor_domain_count": 8,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:7ad06beefc329c50dd41a50937bff793e72252b703f53934b8a42d384589203b",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_40e7ef1bb925f256",
-      "query": "AI accountability system for overplanners and performance routines",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "accountableai.xyz",
-        "beyondtime.ai",
-        "github.com",
-        "mulio.ai",
-        "overlord.app",
-        "p.rst.im",
-        "pensy.ai",
-        "reknr.com",
-        "thekoto.dev"
-      ],
-      "competitor_domain_count": 9,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:5076ceae527f542368afbe17a0c35a7e8b2b38cb7662ea46582a98b21d669fb2",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_fb5f35d05eb49ce0",
-      "query": "AI accountability system for body goal users and self-trust rebuilding",
+      "target_id": "si_5cd4202c824e469b",
+      "query": "AI accountability system for consistency strugglers and emotional reset",
       "own_domain_referenced": false,
       "competitor_domains": [
         "arxiv.org",
-        "ashutoshveriprajna.substack.com",
-        "blog.aihavit.com",
-        "dev.to",
-        "dl.acm.org",
-        "doi.org",
-        "github.com",
-        "ovid.com",
-        "theverge.com",
-        "yasminalouisenutrition.com"
-      ],
-      "competitor_domain_count": 10,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:ee5a0651ce2db26e7d2ec0987b76c4da358ed9bc342bd1e1b53384dc70cff0b9",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_65a157c439e0d938",
-      "query": "AI accountability system for missed-day recovery users and workout execution",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "egoapp.fit",
-        "forgefitapp.com",
-        "github.com",
-        "learnaiwithmariah.com",
-        "push-pull.app",
-        "swipehealth.ai",
-        "voxx.run"
-      ],
-      "competitor_domain_count": 7,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:6270e2647494738c22c15e261fe050dbf3388dc01732eb000baac971dad30324",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_1364c2c98ad6a560",
-      "query": "AI accountability system for athletes and calendar control",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "athenae.io",
-        "athletedata.health",
+        "bettersoftware.uk",
+        "clawm.net",
         "github.com",
         "github.laiyagushi.com",
-        "mwm.ai",
-        "sportsnest.ai"
-      ],
-      "competitor_domain_count": 6,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:1c9c5e7f05986922cbcc1339ee402f05e7bb961742cf826a3df59503440c732c",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_ebff5db86dce4045",
-      "query": "AI accountability system for missed-day recovery users and fitness consistency",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "dev.to",
-        "egoapp.fit",
-        "github.com",
-        "github.laiyagushi.com",
-        "learnaiwithmariah.com",
-        "swipehealth.ai"
-      ],
-      "competitor_domain_count": 6,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:53906770deb7d6675a633e1004961e4873ad8511277e913b61fb2bdbf632c772",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_23622d987124abfa",
-      "query": "AI accountability system for busy parents and goal tracking",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "familymind.ai",
-        "goalwizeai.com",
-        "kikko.ai",
-        "l.ohai.ai",
-        "momplan.life",
-        "momwise.ai",
-        "nestgenie.ai",
-        "peeta.ai",
-        "realaiparent.com",
-        "unsiloed.life"
-      ],
-      "competitor_domain_count": 10,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:09f0fbaf3ec74ca95ec783174cd7d2a3728727a5f5ccf651696b7a73f781d695",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_927da2ddb593f27c",
-      "query": "AI accountability system for creators and nutrition discipline",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "caleye.fit",
-        "doi.org",
-        "frontiersin.org",
-        "fuzzysmart.com",
-        "influencers-time.com",
-        "nutraingredients.com",
-        "sherlock.website",
-        "trit.health"
+        "qu3ry.net",
+        "teti.ai",
+        "zenodo.org"
       ],
       "competitor_domain_count": 8,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:9452c87ccf4386a16d5376e416ad50ba8f17027d92dcc0cc511f8e2092136e1f",
+      "evidence_ref": "grounded_response_sha256:de2c67f0131f7851782a5ea5f7b2b651407320d3d4131c87544867c643932816",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     },
     {
-      "target_id": "si_6efcc2639f9c89e5",
-      "query": "AI accountability system for people with many projects and performance routines",
+      "target_id": "si_798cfc25dde215a1",
+      "query": "AI accountability system for students and early-career professionals and fitness consistency",
       "own_domain_referenced": false,
       "competitor_domains": [
-        "annet.ai",
-        "archionapp.com",
-        "github.com",
-        "pensy.ai",
-        "reknr.com",
-        "scovert.com"
-      ],
-      "competitor_domain_count": 6,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:834d4a918c0d4737292696959907f7706813f537150a64feb866a0e230b82ec6",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_4532544fda5e6c15",
-      "query": "AI accountability system for athletes and prioritization",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "doi.org",
-        "github.com",
-        "link.springer.com",
-        "mdpi.com",
-        "nature.com",
-        "players.news",
-        "pmc.ncbi.nlm.nih.gov",
-        "sport.nspcc.org.uk",
-        "tiffin.edu"
-      ],
-      "competitor_domain_count": 9,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:631163fedf0cd27a13b66d6e0c7fdc48b6c422d3c9f7ebb46fafcb3b54716b9c",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_b1fe0b961b207d0d",
-      "query": "AI accountability system for overplanners and workout execution",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "arvo.guru",
-        "bestyou.ai",
-        "budy.fit",
-        "enerzee.app",
-        "github.com",
-        "github.laiyagushi.com",
-        "overlord.app",
-        "saga.coach",
-        "trayne.ai"
-      ],
-      "competitor_domain_count": 9,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:8710e9ea6c38749c6326fba8a3c635ed198f3ae6b9fe3bb0deafc51e2973809e",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_0d12c4713bd9ba5b",
-      "query": "AI accountability system for busy parents and behavior reframing",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "betterparentai.com",
-        "famsies.com",
-        "kidooo.ai",
-        "nestgenie.ai",
-        "par-ai.app",
-        "parentii.app",
-        "parentscript.com",
-        "picparent.com",
-        "thawly.ai",
-        "thepath.ai"
-      ],
-      "competitor_domain_count": 10,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:103e16af036874a3dc0984a46937e67c906c1607c8fb51deb1a6c394518bd400",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_23ebd684352659fe",
-      "query": "AI accountability system for creators and career acceleration",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "creatorscore.io",
-        "joinlevl.com",
-        "khaby.ai",
-        "kitsuneai.co",
-        "patents-review.com",
-        "promo.suedeai.ai",
-        "suilaai.com"
-      ],
-      "competitor_domain_count": 7,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:9b66ca4b6863b85763f5cdff2256c730e734d0622ac7d83929cc2a6b9cb65167",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_3d8ff5c7f4c9a6ef",
-      "query": "AI accountability system for busy parents and emotional reset",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "alphamothers.com",
-        "exhale.bot",
-        "kikko.ai",
-        "mentalloadai.com",
-        "momtalk.ai",
-        "nestgenie.ai",
-        "parentos.ai",
-        "phionyx.ai",
-        "thawly.ai",
-        "theplayway.com"
-      ],
-      "competitor_domain_count": 10,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:ec4fdd66a122164fa2a676ec4b16384ece3d6a75029ff33cb44099edec961571",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_41bf29ee1fe9eeb2",
-      "query": "AI accountability system for busy parents and multi-project management",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "agent-mom.com",
-        "fynnfamily.com",
-        "kikko.ai",
-        "mentalloadai.com",
-        "nestgenie.ai",
-        "parendipity.ai",
-        "peeta.ai",
-        "peggyapp.com",
-        "rosieai.ai",
-        "unsiloed.life"
-      ],
-      "competitor_domain_count": 10,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:38d3155d23826b92629d3c9748f383af1b6adc8bb929cdbfefcb5b51d7c8a6bb",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_fafdf9ef4a170353",
-      "query": "AI accountability system for students and early-career professionals and performance routines",
-      "own_domain_referenced": false,
-      "competitor_domains": [
+        "aidisclose.app",
         "arxiv.org",
-        "dev.to",
-        "github.com",
-        "provenanceai.app"
-      ],
-      "competitor_domain_count": 4,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:a39714f0c7d464378a90a9dc2442ac17263c244f6e6030599a459f781b25490a",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_707576d6004dac0d",
-      "query": "AI accountability system for entrepreneurs and career acceleration",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "antonkoekemoer.com",
-        "aseyi.com",
-        "bizunderworld.com",
-        "businessaction.com",
-        "cofounder.im",
-        "danmartell.com",
-        "pensy.ai",
-        "qorven.ai",
-        "trycofounder.com",
-        "vibeventure.ai"
-      ],
-      "competitor_domain_count": 10,
-      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:220f8c07e6c9156c875084589e4f12e2e5501961b6bc21366d6fc10209f4cb7c",
-      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
-    },
-    {
-      "target_id": "si_1dc03d767578d87b",
-      "query": "AI accountability system for overplanners and fitness consistency",
-      "own_domain_referenced": false,
-      "competitor_domains": [
-        "accountabilitypartner360.com",
         "chaegim.com",
-        "enerzee.app",
         "github.com",
-        "github.laiyagushi.com",
-        "ogamic.com",
-        "overlord.app",
-        "pensy.ai",
-        "saga.coach"
+        "provenanceai.app",
+        "sage-framework.com",
+        "showmyai.ai",
+        "student.kineticgain.com"
       ],
-      "competitor_domain_count": 9,
+      "competitor_domain_count": 8,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:3d01c26202aae70e5501e1940523c68aa914104cf66421c0ff480e17c39e121b",
+      "evidence_ref": "grounded_response_sha256:a5b885171b993bbbb4bd4f2aafe1575c29bd23b6afc28838e549975d6ed6fedf",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     },
     {
-      "target_id": "si_dfc54f738021b07a",
-      "query": "AI accountability system for upwardly mobile executives and performance routines",
+      "target_id": "si_b173a71e1a8d12bb",
+      "query": "AI accountability system for creators and goal tracking",
       "own_domain_referenced": false,
       "competitor_domains": [
-        "biznetboost.com",
-        "businessinsider.com",
-        "cmr.berkeley.edu",
-        "coursiv.io",
-        "executiveaipartners.com",
-        "skills.2389.ai",
-        "strasysglobal.com",
+        "archionapp.com",
+        "cognipal.ai",
+        "creatorgrid.app",
+        "creatorpulsestudio.com",
+        "creatorscore.io",
+        "creatorsenseai.com",
+        "kitsuneai.co",
+        "musecocreator.com",
+        "olsnotion.com",
+        "zencreator.pro"
+      ],
+      "competitor_domain_count": 10,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:f1651af34000e650e7764854c1eaf75e41dc0d40f6ce896be5bb263d20f1ec6d",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_6d299eeec5f8bced",
+      "query": "AI accountability system for consistency strugglers and multi-project management",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "aitency.com",
+        "dev.to",
+        "github.com",
+        "github.laiyagushi.com",
+        "maven.com",
+        "prodsens.live",
+        "raav.ai",
+        "sbozich.github.io"
+      ],
+      "competitor_domain_count": 8,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:38d15e9be74381b38fdbaac6a5969f656474b8b0d59dd322bf8fee34cd4cb0ae",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_51137c3081798653",
+      "query": "behavioral self-regulation system vs traditional coaching for overplanners",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "academia.edu",
+        "antiboringlearninglab.com",
+        "brittneykingcoaching.com",
+        "dannywareham.co.uk",
+        "divinenavigation.com",
+        "emstewartcoaching.substack.com",
+        "frontiersin.org",
+        "lumenstories.com",
+        "pkjcoaching.com",
+        "unleashyourpower.com"
+      ],
+      "competitor_domain_count": 10,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:336ca856b3d74b4fc822438e94de565aa5ebc0552cd7939b33e0c00238d49ddb",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_3ebb4b622ad110af",
+      "query": "AI accountability system for consistency strugglers and weekly review",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "aiexpert.ee",
+        "asianefficiency.com",
+        "derzai.app",
+        "get.mem.ai",
+        "getperspective.ai",
+        "howtothink.ai",
+        "kognivu.com",
         "textlauren.com",
-        "theleveragedyears.com",
+        "tomsguide.com",
         "zintellex.com"
       ],
       "competitor_domain_count": 10,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:f35e729888832d40b706ad1d269e8c4dd7a87b6cad8a312b8d739919a05dabba",
+      "evidence_ref": "grounded_response_sha256:3ea669109d6432c0db2b283c0d696a711a06b3ec877073cbe4c4e97cd8b618da",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     },
     {
-      "target_id": "si_737be2d1fd9d6707",
-      "query": "AI accountability system for busy parents and self-trust rebuilding",
+      "target_id": "si_85a7020c461a1025",
+      "query": "best accountability partner for athletes who need workout execution",
       "own_domain_referenced": false,
       "competitor_domains": [
-        "aiforbusyhumans.com",
-        "bostonglobe.com",
-        "emilyreuschel.com",
-        "laurenselley.com",
-        "littlemight.com",
-        "mittendad.substack.com",
-        "nestgenie.ai",
-        "permission.ai",
-        "phionyx.ai",
-        "screenwiseapp.com"
+        "accountabilitypt.com",
+        "endureallcoaching.com",
+        "nike.com",
+        "ogamic.com",
+        "roedermultisport.com",
+        "rundreamachieve.com",
+        "scottlaidler.com",
+        "weightsandglory.com",
+        "zen-labo.com"
+      ],
+      "competitor_domain_count": 9,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:9e361d53ded4608b4e127c706409339af350e86fd32d58ddc6996a2b5cd239f8",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_68b8ba468a1e9abc",
+      "query": "AI accountability system for founders and behavior reframing",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "aegisboardroom.com",
+        "capafy.ai",
+        "chaegim.com",
+        "founderspsyche.substack.com",
+        "github.com",
+        "mdpi.com",
+        "strasysglobal.com",
+        "theaibreak.substack.com",
+        "trycofounder.com"
+      ],
+      "competitor_domain_count": 9,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:54a27bdae9a8d4b4153fe65397b94e92b04398d4faa3c872b2e3656378be77ff",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_e37ffd2757cb8d5e",
+      "query": "AI accountability system for founders and career acceleration",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "agentfounder.ai",
+        "boundlessfounder.co",
+        "cofounder.im",
+        "f3.app",
+        "getfounder.app",
+        "github.com",
+        "pensy.ai",
+        "trycofounder.com",
+        "trysteward.org"
+      ],
+      "competitor_domain_count": 9,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:df8a967b2aac716266b3ce584ff9d9db924a32aec652525efd05cad46b72713b",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_d9828b99591bb9ae",
+      "query": "AI accountability system for consistency strugglers and chief-of-staff operating rhythm",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "artificialcuriositylabs.ai",
+        "digitallydemented.com",
+        "foundersbar.com",
+        "github.com",
+        "nickveenhof.be",
+        "textlauren.com",
+        "theleveragedyears.com"
+      ],
+      "competitor_domain_count": 7,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:ca42feda6f53783731deecdf048cc8a756280198c47d3392672c825502e7bf73",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_3c4ae944af5097ad",
+      "query": "AI accountability system for busy parents and daily planning",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "concairge.ai",
+        "familymind.ai",
+        "hianna.ai",
+        "kikko.ai",
+        "l.ohai.ai",
+        "momplan.life",
+        "momwise.ai",
+        "peeta.ai",
+        "peggyapp.com",
+        "rosieai.ai"
       ],
       "competitor_domain_count": 10,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:72fd7f1a0041bb88b30cf793c10c9847906a6cb6e2b7fa5615b3bb3faafeaabb",
+      "evidence_ref": "grounded_response_sha256:04ef4bc8e967e0707cb98b37334aa5120d9164dd99cfb48460a95b05f66274ba",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     },
     {
-      "target_id": "si_8b36985c859944db",
-      "query": "AI accountability system for busy parents and weekly review",
+      "target_id": "si_b873f1bc7fbd3e0f",
+      "query": "AI accountability system for consistency strugglers and delegation",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "aiagentgovernance.org",
+        "arxiv.org",
+        "datatracker.ietf.org",
+        "delegatic.com",
+        "github.com",
+        "zenn.dev",
+        "zylos.ai"
+      ],
+      "competitor_domain_count": 7,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:4c0c667a9a25b1733ac939b7a2e3dfe2d6f2decca2ef84e6aad5762a4ba2b5aa",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_eae9b5329349223f",
+      "query": "AI system for body goal users struggling with fitness consistency",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "apps.apple.com",
+        "bodyby.ai",
+        "bodybyaicoach.com",
+        "bodybyte.ai",
+        "corahealth.app",
+        "fitlio.app",
+        "fitnleanai.com",
+        "hale.fitness",
+        "onefitai.com",
+        "thrini.com"
+      ],
+      "competitor_domain_count": 10,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:bad5f7e714b16df6df896685f01a31dd6df6e94d5d2adbcb904f899a5bf7317f",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_c12f036c85ec99f6",
+      "query": "AI accountability system for busy parents and missed-day recovery",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "getsense.ai",
+        "github.com",
+        "heysunday.ai",
+        "kikko.ai",
+        "mumdad.ai",
+        "parendipity.ai",
+        "peeta.ai",
+        "peggyapp.com",
+        "qa.ohai.ai",
+        "rileyapp.vercel.app"
+      ],
+      "competitor_domain_count": 10,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:9f7ced8fab9fe8f6cd55ed388621c0be0b4ba95459562b0e9357d7fa884504e8",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_94fd33a349222981",
+      "query": "AI accountability system for missed-day recovery users and nutrition discipline",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "accountabilitypartner360.com",
+        "apps.apple.com",
+        "auralife.io",
+        "docs.maximem.ai",
+        "github.com",
+        "musclebuddy.net",
+        "overlord.app"
+      ],
+      "competitor_domain_count": 7,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:ded08c1fa6c483a15d902bf219f2a3e6916ff6e9effe2c53181ce8240bd080d6",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_6ac98872d3d35a06",
+      "query": "AI accountability system for busy parents and overplanning",
       "own_domain_referenced": false,
       "competitor_domains": [
         "aiforbusyhumans.com",
-        "asianefficiency.com",
+        "kikko.ai",
+        "l.ohai.ai",
         "littlemight.com",
-        "mumdad.ai",
-        "ourlifeapp.ai",
+        "nestgenie.ai",
+        "parendipity.ai",
         "peeta.ai",
         "peggyapp.com",
         "phionyx.ai",
-        "tendril.neural-forge.io",
-        "zenframe.no"
+        "thawly.ai"
       ],
       "competitor_domain_count": 10,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:7b5348e2118550e6ca2ab0925a421c097eca35353ea512c9eb596991063c0133",
+      "evidence_ref": "grounded_response_sha256:8dff29bf48ec4930d959a2b6b27d03827a65c4cdb55ba7333c8e1537f98698a1",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     },
     {
-      "target_id": "si_42d0ce81aac0a47a",
-      "query": "AI accountability system for consistency strugglers and behavior reframing",
+      "target_id": "si_1f0a715aa894c401",
+      "query": "behavioral self-regulation system vs traditional coaching for people with many projects",
       "own_domain_referenced": false,
       "competitor_domains": [
-        "arxiv.org",
-        "audit.systemores.com",
-        "github.com",
-        "kulvex.ai",
-        "mdpi.com",
-        "qu3ry.net"
+        "academia.edu",
+        "doi.org",
+        "frontiersin.org",
+        "pmc.ncbi.nlm.nih.gov",
+        "profmindful.com",
+        "ryansultan.com",
+        "scienceworkshealth.com",
+        "solisight.com",
+        "triagemethod.com"
       ],
-      "competitor_domain_count": 6,
+      "competitor_domain_count": 9,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:b029cb6e0bcee045fb805d20d92591f47e0acddbe259526c394c7429832b5402",
+      "evidence_ref": "grounded_response_sha256:d7a1dedff1b391ee20ec33cf8ac6e078798a1e54c2d45032e114d1082172ec7f",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     },
     {
-      "target_id": "si_cdbbffa94f26be67",
-      "query": "AI accountability system for body goal users and calendar control",
+      "target_id": "si_4f38a7a0e5a55dfc",
+      "query": "AI accountability system for consistency strugglers and self-trust rebuilding",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "antigravitylab.net",
+        "github.com",
+        "github.laiyagushi.com",
+        "ofs.ccwu.cc",
+        "qu3ry.net"
+      ],
+      "competitor_domain_count": 5,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:23bf01f4233a151973100de4d5b780dcbbdaeef378a8830b0c3697a42fa6b882",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_fcb2dbe4a447d9bd",
+      "query": "best accountability partner for body goal users who need workout execution",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "accountabilitypartner360.com",
+        "accountabilitypt.com",
+        "bodybuddy.app",
+        "gymbuddy.ai",
+        "habithuddle.com",
+        "rayfit.com",
+        "swipehealth.ai",
+        "zen-labo.com",
+        "zenduel.com"
+      ],
+      "competitor_domain_count": 9,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:621dfaf4d3f85f38b55d281a9dbb946f8ed840d452e6229379d890ce821ea5c0",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_e254958e3517f87d",
+      "query": "AI accountability system for missed-day recovery users and behavior reframing",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "coachguido.com",
+        "dev.to",
+        "github.com",
+        "keelify.com",
+        "overlord.app",
+        "sellwithboost.com",
+        "thekoto.dev",
+        "youraccountably.com",
+        "yukaichou.com"
+      ],
+      "competitor_domain_count": 9,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:33b75a0ed95f3062f9bba84a974a703a61cdcc84200e3b3947ccc3034319f1a8",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_4efed1b40aeb209a",
+      "query": "AI accountability system for body goal users and decision making",
       "own_domain_referenced": false,
       "competitor_domains": [
         "apps.apple.com",
         "blog.aihavit.com",
+        "dev.to",
+        "dl.acm.org",
+        "doi.org",
+        "frontiersin.org",
+        "github.com"
+      ],
+      "competitor_domain_count": 7,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:9f87ca153ba0f866c54cb94979b436f1c16bc6934023d0ffbbe41ef88894831b",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_5c2e9df98fe0af45",
+      "query": "AI accountability system for decision-fatigue users and goal tracking",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "accountabilitycoach.ai",
+        "annet.ai",
+        "chaegim.com",
+        "feelivate.com",
+        "getzoe.app",
+        "jupitergoals.com",
+        "keez.ai",
+        "nag.bot",
+        "overlord.app",
+        "pensy.ai"
+      ],
+      "competitor_domain_count": 10,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:b4a20bcf7a08bdcc1cbafec2b0826ce16a7ca097b389e3f5c18e0ad52ec3706f",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_0a4ca46355201966",
+      "query": "AI accountability system for body goal users and habit consistency",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "accountabilitypartner360.com",
+        "aihavit.com",
+        "blog.aihavit.com",
         "bodybuddy.app",
+        "bodyby.ai",
         "databody.ai",
         "github.com",
-        "github.laiyagushi.com"
+        "github.laiyagushi.com",
+        "gymbuddy.ai"
       ],
-      "competitor_domain_count": 6,
+      "competitor_domain_count": 9,
       "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
-      "evidence_ref": "grounded_response_sha256:86e44fc5ff1eb370ad76256cd5479f59ba8f8c7ff027c5201b9af2b6a0b377e5",
+      "evidence_ref": "grounded_response_sha256:801dc2eef5e142fbe36cad25772aaff3c888baec8540a9a497ea34e163e987f1",
+      "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
+    },
+    {
+      "target_id": "si_428cc471e01c8ede",
+      "query": "best accountability partner for athletes who need performance routines",
+      "own_domain_referenced": false,
+      "competitor_domains": [
+        "adriencotton.com",
+        "day75.com",
+        "getmotivated.ai",
+        "habitbox.app",
+        "habithuddle.com",
+        "jpsiou.com",
+        "nike.com",
+        "outlivept.com",
+        "scottlaidler.com",
+        "unbroken75.com"
+      ],
+      "competitor_domain_count": 10,
+      "comparison_verdict": "ONLY_COMPETITORS_REFERENCED",
+      "evidence_ref": "grounded_response_sha256:04e9834245a6f284dcf580591f6607aed0b9476e8d5d901f86e61b0e164eaa4d",
       "truth_boundary": "Referenced-domain comparison from grounded search; not a ranking."
     }
   ],

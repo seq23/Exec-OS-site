@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-06T13:32:14.900Z",
+  "generated_at": "2026-09-07T13:36:57.235Z",
   "provider_state": "OK",
   "overall_status": "OK",
   "status_is_healthy": true,
@@ -14,287 +14,45 @@
   },
   "rotation": {
     "cursor_path": "data/search_intelligence/rotation_cursor.json",
-    "window_start": 48,
+    "window_start": 96,
     "window_size": 24,
-    "next_index": 72,
+    "next_index": 0,
     "observed": 24,
     "target_ids": [
-      "si_1a04cc623847fde0",
-      "si_e9707f3529cd28f6",
-      "si_40e7ef1bb925f256",
-      "si_fb5f35d05eb49ce0",
-      "si_65a157c439e0d938",
-      "si_1364c2c98ad6a560",
-      "si_ebff5db86dce4045",
-      "si_23622d987124abfa",
-      "si_927da2ddb593f27c",
-      "si_6efcc2639f9c89e5",
-      "si_4532544fda5e6c15",
-      "si_b1fe0b961b207d0d",
-      "si_0d12c4713bd9ba5b",
-      "si_23ebd684352659fe",
-      "si_3d8ff5c7f4c9a6ef",
-      "si_41bf29ee1fe9eeb2",
-      "si_fafdf9ef4a170353",
-      "si_707576d6004dac0d",
-      "si_1dc03d767578d87b",
-      "si_dfc54f738021b07a",
-      "si_737be2d1fd9d6707",
-      "si_8b36985c859944db",
-      "si_42d0ce81aac0a47a",
-      "si_cdbbffa94f26be67"
+      "si_5cd4202c824e469b",
+      "si_798cfc25dde215a1",
+      "si_b173a71e1a8d12bb",
+      "si_6d299eeec5f8bced",
+      "si_51137c3081798653",
+      "si_3ebb4b622ad110af",
+      "si_85a7020c461a1025",
+      "si_68b8ba468a1e9abc",
+      "si_e37ffd2757cb8d5e",
+      "si_d9828b99591bb9ae",
+      "si_3c4ae944af5097ad",
+      "si_b873f1bc7fbd3e0f",
+      "si_eae9b5329349223f",
+      "si_c12f036c85ec99f6",
+      "si_94fd33a349222981",
+      "si_6ac98872d3d35a06",
+      "si_1f0a715aa894c401",
+      "si_4f38a7a0e5a55dfc",
+      "si_fcb2dbe4a447d9bd",
+      "si_e254958e3517f87d",
+      "si_4efed1b40aeb209a",
+      "si_5c2e9df98fe0af45",
+      "si_0a4ca46355201966",
+      "si_428cc471e01c8ede"
     ]
   },
   "unavailable_note": null,
   "observations": [
     {
-      "observation_id": "spry_obs_1d3c95399ddc",
-      "target_id": "si_1a04cc623847fde0",
-      "query": "AI accountability system for body goal users and delegation",
+      "observation_id": "spry_obs_49e687975dc5",
+      "target_id": "si_5cd4202c824e469b",
+      "query": "AI accountability system for consistency strugglers and emotional reset",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:07.134Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "accountabilitypartner360.com",
-        "apps.apple.com",
-        "blog.aihavit.com",
-        "bodybuddy.app",
-        "databody.ai",
-        "github.com",
-        "github.laiyagushi.com",
-        "kinesis-delta.vercel.app",
-        "transform.life"
-      ],
-      "references": [
-        {
-          "domain": "bodybuddy.app",
-          "title": "AI Wellness Coach | BodyBuddy - Holistic Health Accountability",
-          "uri": "https://bodybuddy.app/coach/wellness"
-        },
-        {
-          "domain": "accountabilitypartner360.com",
-          "title": "AI Accountability Partner",
-          "uri": "https://accountabilitypartner360.com/"
-        },
-        {
-          "domain": "databody.ai",
-          "title": "DataBody — Agent Tools",
-          "uri": "https://databody.ai/tools"
-        },
-        {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
-        },
-        {
-          "domain": "github.com",
-          "title": "vincentoei/bodify",
-          "uri": "https://github.com/vincentoei/bodify"
-        },
-        {
-          "domain": "transform.life",
-          "title": "AI Coaches, Accountability & Ethics",
-          "uri": "https://transform.life/your-digital-coach-your-real-results-how-ai-avatars-change-a"
-        },
-        {
-          "domain": "apps.apple.com",
-          "title": "‎Oak: Workout & Diet Coach App - App Store",
-          "uri": "https://apps.apple.com/kh/app/oak-workout-diet-coach/id6760197505"
-        },
-        {
-          "domain": "kinesis-delta.vercel.app",
-          "title": "Kinesis — Multi-Agent Embodied AI for Posture Correction",
-          "uri": "https://kinesis-delta.vercel.app/"
-        },
-        {
-          "domain": "blog.aihavit.com",
-          "title": "Inside HAVIT's 8-Step AI Coach (Fogg + SDT)",
-          "uri": "https://blog.aihavit.com/en/havit-ai-coaching-engine-8steps"
-        },
-        {
-          "domain": "github.com",
-          "title": "YadamVinay369/Diet-AI-Server",
-          "uri": "https://github.com/YadamVinay369/Diet-AI-Server"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for information on AI accountability systems for body goal users and delegation. You can use search engines like Google and enter specific keywords such as \"AI accountability system for fitness goals\" or \"AI coaching for body goals.\" \n\nIf you have any specific questions or need information on a related topic, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:1a52fbe6d1450747d1a686afc05fd085feebc4a781fa513599b890beb748622e",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_07a44d979258",
-      "target_id": "si_e9707f3529cd28f6",
-      "query": "AI accountability system for athletes and executive assistant workflows",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:12.219Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "edge3.net",
-        "github.com",
-        "github.laiyagushi.com",
-        "news.lenovo.com",
-        "pinksheep.ai",
-        "skopx.com",
-        "tdspersonnel.com",
-        "textlauren.com"
-      ],
-      "references": [
-        {
-          "domain": "textlauren.com",
-          "title": "How an AI Accountability Partner Actually Works",
-          "uri": "https://textlauren.com/resources/ai-accountability-partner"
-        },
-        {
-          "domain": "skopx.com",
-          "title": "Executive Assistant Workflow Automation That Actually Sticks",
-          "uri": "https://skopx.com/resources/executive-assistant-workflow-automation"
-        },
-        {
-          "domain": "pinksheep.ai",
-          "title": "AI Executive Assistant | Calendar, Email & Briefings | Pinksheep",
-          "uri": "https://www.pinksheep.ai/for/executive-assistant"
-        },
-        {
-          "domain": "github.com",
-          "title": "langchain-ai/executive-ai-assistant",
-          "uri": "https://github.com/langchain-ai/executive-ai-assistant?tab=readme-ov-file"
-        },
-        {
-          "domain": "github.com",
-          "title": "airbone42/360-data-athlete",
-          "uri": "https://github.com/airbone42/360-data-athlete"
-        },
-        {
-          "domain": "tdspersonnel.com",
-          "title": "AI Skills for Executive Assistants: 5 Signs to Look For",
-          "uri": "https://tdspersonnel.com/ai-skills-for-executive-assistants/"
-        },
-        {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
-        },
-        {
-          "domain": "github.com",
-          "title": "Capybara335/Hybrid-Athlete-Coach",
-          "uri": "https://github.com/Capybara335/Hybrid-Athlete-Coach"
-        },
-        {
-          "domain": "news.lenovo.com",
-          "title": "Leveling the Playing Field: Football AI Pro Powers Intelligence Across the Game - Lenovo StoryHub",
-          "uri": "https://news.lenovo.com/pressroom/press-releases/football-ai-pro-powers-intelligence-across-the-game/"
-        },
-        {
-          "domain": "edge3.net",
-          "title": "EDGE3 Athletes & Families · The Athlete-Owned Recruiting Wallet",
-          "uri": "https://edge3.net/athletes/"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for athletes and executive assistant workflows:\n\n1. **AI Accountability Partner**: This source explains how an AI accountability partner functions as a text-based support system that helps users follow through on commitments by remembering goals, blockers, and previous commitments. It emphasizes the importance of natural-language check-ins and tracking follow-through over time. [textlauren.com](https://textlauren.com/resources/ai-accountability-partner)\n\n2. **Executive Assistant Workflow Automation**: This article outlines how executive assistant workflow automation can optimize tasks by breaking them down into four key moves: capture, extract, route, and review. It discusses the potential for automation in these areas and the challenges of manual processes. [skopx.com](https://skopx.com/resources/executive-assistant-w",
-      "evidence_ref": "grounded_response_sha256:7ad06beefc329c50dd41a50937bff793e72252b703f53934b8a42d384589203b",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_5ec102ead9af",
-      "target_id": "si_40e7ef1bb925f256",
-      "query": "AI accountability system for overplanners and performance routines",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:19.096Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-behavioral-follow-through",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "accountableai.xyz",
-        "beyondtime.ai",
-        "github.com",
-        "mulio.ai",
-        "overlord.app",
-        "p.rst.im",
-        "pensy.ai",
-        "reknr.com",
-        "thekoto.dev"
-      ],
-      "references": [
-        {
-          "domain": "overlord.app",
-          "title": "Overlord - AI Accountability Partner",
-          "uri": "https://overlord.app/"
-        },
-        {
-          "domain": "github.com",
-          "title": "kingdonb/mecris",
-          "uri": "https://github.com/kingdonb/mecris"
-        },
-        {
-          "domain": "github.com",
-          "title": "saldanaj27/compass",
-          "uri": "https://github.com/saldanaj27/compass"
-        },
-        {
-          "domain": "reknr.com",
-          "title": "Reknr | AI-Powered Accountability",
-          "uri": "https://reknr.com/"
-        },
-        {
-          "domain": "pensy.ai",
-          "title": "AI Accountability Partner & AI Life Coach With Memory | Pensy",
-          "uri": "https://pensy.ai/"
-        },
-        {
-          "domain": "thekoto.dev",
-          "title": null,
-          "uri": "https://thekoto.dev/work/pia-coach"
-        },
-        {
-          "domain": "accountableai.xyz",
-          "title": "Accountable AI - Science-Backed Productivity App with Real Consequences",
-          "uri": "https://www.accountableai.xyz/"
-        },
-        {
-          "domain": "beyondtime.ai",
-          "title": "AI Accountability Partner: Smarter Goal Setting",
-          "uri": "https://beyondtime.ai/blog/ai-accountability-partner"
-        },
-        {
-          "domain": "mulio.ai",
-          "title": "MULIO — The AI Journal & Daily Planner for ADHD Minds",
-          "uri": "https://mulio.ai/"
-        },
-        {
-          "domain": "p.rst.im",
-          "title": "GitHub - ShivaniNagda/lifesaver-ai-os: 🚀 Production-ready AI Productivity Operating System powered by Gemini AI that autonomously plans, prioritizes, predicts risks, and helps users complete tasks before deadlines are missed. · GitHub",
-          "uri": "https://p.rst.im/q/github.com/ShivaniNagda/lifesaver-ai-os"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems tailored for overplanners and performance routines:\n\n1. **Overlord - AI Accountability Partner**: This app serves as a hardcore AI accountability partner that helps users stick to their good habits by monitoring their activities and taking action to keep them on track. It includes features like screen awareness and custom goals. [overlord.app](https://overlord.app/)\n\n2. **Mecris — Personal LLM Accountability System**: Mecris is designed to help maintain focus and track progress by integrating with personal data sources. It acts as a cognitive agent system rather than a chatbot, focusing on accountability and intentional time use. [github.com](https://github.com/kingdonb/mecris)\n\n3. **Compass**: This AI accountability agent learns about users and keeps them on track with their goals through direct conversations. It reme",
-      "evidence_ref": "grounded_response_sha256:5076ceae527f542368afbe17a0c35a7e8b2b38cb7662ea46582a98b21d669fb2",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_858a384c04dd",
-      "target_id": "si_fb5f35d05eb49ce0",
-      "query": "AI accountability system for body goal users and self-trust rebuilding",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:24.882Z",
+      "observed_at": "2026-09-07T13:35:03.923Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
@@ -304,158 +62,157 @@
       "own_urls_referenced": [],
       "referenced_domains": [
         "arxiv.org",
-        "ashutoshveriprajna.substack.com",
-        "blog.aihavit.com",
-        "dev.to",
-        "dl.acm.org",
-        "doi.org",
+        "bettersoftware.uk",
+        "clawm.net",
         "github.com",
-        "ovid.com",
-        "theverge.com",
-        "yasminalouisenutrition.com"
+        "github.laiyagushi.com",
+        "qu3ry.net",
+        "teti.ai",
+        "zenodo.org"
       ],
       "references": [
         {
-          "domain": "ashutoshveriprajna.substack.com",
-          "title": "The AI Chatbot That Told an Anorexic Woman to Count Calories — And What It Taught Me About Building Safe Health AI",
-          "uri": "https://ashutoshveriprajna.substack.com/p/clinical-safety-firewall-health-ai"
+          "domain": "github.com",
+          "title": "TetiAI/lucid",
+          "uri": "https://github.com/TetiAI/lucid"
+        },
+        {
+          "domain": "teti.ai",
+          "title": "Lucid — Cognitive Health Protection for AI Agents - Teti",
+          "uri": "https://teti.ai/hub/lucid"
+        },
+        {
+          "domain": "qu3ry.net",
+          "title": "The Coherence Control Loop: Detection, Recording, Restoration | Adaptive Query®",
+          "uri": "https://qu3ry.net/articles/human-relatable-intelligence/coherence-control-loop"
+        },
+        {
+          "domain": "zenodo.org",
+          "title": "ATHOS‑COG: A Cognitive Safety Kernel for Neuro‑Affective Human–AI Interaction | Zenodo",
+          "uri": "https://zenodo.org/records/19409446"
+        },
+        {
+          "domain": "github.laiyagushi.com",
+          "title": "GitHub - pioneerjeff-labs/emotion-engine: Agent emotional continuity with PAD state, trust, appraisal, and compact emotion logs. · GitHub",
+          "uri": "https://github.laiyagushi.com/pioneerjeff-labs/emotion-engine"
+        },
+        {
+          "domain": "github.com",
+          "title": "HUEI-JYUN-DEBBY-YEH/siiha-safety-guardrail",
+          "uri": "https://github.com/HUEI-JYUN-DEBBY-YEH/siiha-safety-guardrail"
         },
         {
           "domain": "arxiv.org",
-          "title": "Private Yet Social: How LLM Chatbots Support and Challenge Eating Disorder Recovery",
-          "uri": "https://arxiv.org/html/2412.11656"
+          "title": "SLIP & ETHICS: Graduated Intervention for AI Emotional Companions",
+          "uri": "https://arxiv.org/html/2605.15915v1"
+        },
+        {
+          "domain": "bettersoftware.uk",
+          "title": "How to Build an AI Emotional Regulation Coach for Autism",
+          "uri": "https://bettersoftware.uk/2026/01/24/how-to-build-ai-regulation-coach-autism/"
         },
         {
           "domain": "github.com",
-          "title": "orlandoalexander/viva-extension",
-          "uri": "https://github.com/orlandoalexander/viva-extension"
+          "title": "VishnuVaidyanathan/reflex-core-continuum",
+          "uri": "https://github.com/VishnuVaidyanathan/reflex-core-continuum"
         },
         {
-          "domain": "ovid.com",
-          "title": "Filtering Trust: Disclosing the Role of... : International Journal Of Eating Disorders",
-          "uri": "https://www.ovid.com/journals/injed/fulltext/10.1002/eat.70059~filtering-trust-disclosing-the-role-of-artificial"
-        },
-        {
-          "domain": "dl.acm.org",
-          "title": "From Symptoms to Systems: An Expert-Guided Approach to Understanding Risks of Generative AI for Eating Disorders | Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-          "uri": "https://dl.acm.org/doi/10.1145/3772318.3791775"
-        },
-        {
-          "domain": "doi.org",
-          "title": "Existing and future use cases, and safety and ethical considerations for AI in body image, and eating disorder prevention",
-          "uri": "https://doi.org/10.1016/j.bodyim.2026.102042"
-        },
-        {
-          "domain": "dev.to",
-          "title": "The AI Chatbot That Told an Anorexic Woman to Count Calories — And What It Taught Me About Building Safe Health AI - DEV Community",
-          "uri": "https://dev.to/ashutosh-veriprajna/the-ai-chatbot-that-told-an-anorexic-woman-to-count-calories-and-what-it-taught-me-about-building-179c"
-        },
-        {
-          "domain": "yasminalouisenutrition.com",
-          "title": "Why Dieting Disrupts Hunger and Fullness Cues (and How to Rebuild Trust With Your Body)",
-          "uri": "https://www.yasminalouisenutrition.com/post/why-dieting-disrupts-hunger-and-fullness-cues-and-how-to-rebuild-trust-with-your-body"
-        },
-        {
-          "domain": "theverge.com",
-          "title": "AI chatbots are helping hide eating disorders and making deepfake ‘thinspiration’ | The Verge",
-          "uri": "https://www.theverge.com/news/818508/chatbot-eating-disorder-mental-health"
-        },
-        {
-          "domain": "blog.aihavit.com",
-          "title": "Inside HAVIT's 8-Step AI Coach (Fogg + SDT)",
-          "uri": "https://blog.aihavit.com/en/havit-ai-coaching-engine-8steps"
+          "domain": "clawm.net",
+          "title": "Clawm — Keep your agents calm",
+          "uri": "https://clawm.net/"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help you understand how to search for information on \"AI accountability system for body goal users and self-trust rebuilding.\" You can use search engines like Google or Bing and enter the keywords directly. \n\nTo find relevant sources, consider using specific phrases or terms related to your topic, such as \"AI accountability in health,\" \"self-trust rebuilding in body image,\" or \"AI and eating disorder recovery.\" You can also look for academic articles, blogs, or news articles that discuss the intersection of AI technology and mental health, particularly in the context of body image and self-trust.\n\nIf you have any other questions or need further assistance, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:ee5a0651ce2db26e7d2ec0987b76c4da358ed9bc342bd1e1b53384dc70cff0b9",
+      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that topic effectively or provide information based on existing knowledge. If you have specific questions or need assistance with a related topic, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:de2c67f0131f7851782a5ea5f7b2b651407320d3d4131c87544867c643932816",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_4e2a755f8047",
-      "target_id": "si_65a157c439e0d938",
-      "query": "AI accountability system for missed-day recovery users and workout execution",
+      "observation_id": "spry_obs_ded7bbc53762",
+      "target_id": "si_798cfc25dde215a1",
+      "query": "AI accountability system for students and early-career professionals and fitness consistency",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:30.924Z",
+      "observed_at": "2026-09-07T13:35:08.435Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
       "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-missed-day-recovery",
+      "expected_owned_url": "https://spryexecutiveos.com/answers/accountability-and-consistency",
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
-        "egoapp.fit",
-        "forgefitapp.com",
+        "aidisclose.app",
+        "arxiv.org",
+        "chaegim.com",
         "github.com",
-        "learnaiwithmariah.com",
-        "push-pull.app",
-        "swipehealth.ai",
-        "voxx.run"
+        "provenanceai.app",
+        "sage-framework.com",
+        "showmyai.ai",
+        "student.kineticgain.com"
       ],
       "references": [
         {
-          "domain": "egoapp.fit",
-          "title": "Workout App That Adjusts When You Miss a Workout | ego",
-          "uri": "https://egoapp.fit/workout-app-that-adjusts-when-you-miss-a-workout/"
+          "domain": "provenanceai.app",
+          "title": "ProvenanceAI - Building Learning Systems for the AI-era",
+          "uri": "https://www.provenanceai.app/"
         },
         {
-          "domain": "swipehealth.ai",
-          "title": "SwipeHealth AI | Adaptive Fitness Training That Evolves With You",
-          "uri": "https://swipehealth.ai/"
+          "domain": "showmyai.ai",
+          "title": "AI Transparency for Education | Academic Integrity & AI Use | ShowMyAI",
+          "uri": "https://showmyai.ai/"
         },
         {
-          "domain": "github.com",
-          "title": "15dani1/pain.exe",
-          "uri": "https://github.com/15dani1/pain.exe"
+          "domain": "chaegim.com",
+          "title": "Chaegim — The AI that holds you to who you want to become",
+          "uri": "https://www.chaegim.com/"
         },
         {
-          "domain": "voxx.run",
-          "title": null,
-          "uri": "https://www.voxx.run/"
+          "domain": "aidisclose.app",
+          "title": "aiDisclose — Transparency over surveillance",
+          "uri": "https://aidisclose.app/"
         },
         {
-          "domain": "github.com",
-          "title": "vedprakash-m/vigor",
-          "uri": "https://github.com/vedprakash-m/vigor"
+          "domain": "sage-framework.com",
+          "title": "SAGE — Structured AI-Guided Education Framework",
+          "uri": "https://sage-framework.com/"
         },
         {
-          "domain": "push-pull.app",
-          "title": "AI Workout Planner App for PPL and Upper/Lower | Push/Pull - Push/Pull",
-          "uri": "https://push-pull.app/ai-workout-planner"
-        },
-        {
-          "domain": "forgefitapp.com",
-          "title": "ForgeFit | AI Fitness Coach for Workouts, Nutrition, Sleep & Hydration",
-          "uri": "https://www.forgefitapp.com/"
+          "domain": "arxiv.org",
+          "title": "[2608.21379] RIACT: A Responsible AI System for Personalized Study Habit Tracking and Early Burnout Signal Detection in University Students",
+          "uri": "https://arxiv.org/abs/2608.21379"
         },
         {
           "domain": "github.com",
-          "title": "veritas6161/fitness-agent-rr-opensource",
-          "uri": "https://github.com/veritas6161/fitness-agent-rr-opensource"
+          "title": "TheAIHorizon/ProcessPulse",
+          "uri": "https://github.com/TheAIHorizon/ProcessPulse"
+        },
+        {
+          "domain": "student.kineticgain.com",
+          "title": "Student AI Disclosure — Kinetic Gain Protocol Suite",
+          "uri": "https://student.kineticgain.com/"
         },
         {
           "domain": "github.com",
-          "title": "dany701/Onus",
-          "uri": "https://github.com/dany701/onus"
+          "title": "mizcausevic-dev/student-ai-disclosure-spec",
+          "uri": "https://github.com/mizcausevic-dev/student-ai-disclosure-spec"
         },
         {
-          "domain": "learnaiwithmariah.com",
-          "title": "No Excuses Fitness Coach — Free Claude Skill | Learn AI With Mariah",
-          "uri": "https://learnaiwithmariah.com/guides/fitness-coach/"
+          "domain": "github.com",
+          "title": "allierays/ethos-academy",
+          "uri": "https://github.com/allierays/ethos-academy"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for missed-day recovery and workout execution:\n\n1. **ego** - This app adapts your workout plan automatically when you miss a session, allowing you to continue from where you left off without restarting. It generates personalized strength plans based on your goals and activity levels. [egoapp.fit](https://egoapp.fit/workout-app-that-adjusts-when-you-miss-a-workout/)\n\n2. **SwipeHealth** - This platform adjusts your fitness program based on missed workouts, ensuring that you don't have to reset or feel guilty about skipping a day. It integrates workouts, nutrition, and recovery into one cohesive plan. [swipehealth.ai](https://swipehealth.ai/)\n\n3. **pain.exe** - This AI agent helps users maintain discipline and adherence to fitness goals by adapting plans based on missed commitments and providing accountability through var",
-      "evidence_ref": "grounded_response_sha256:6270e2647494738c22c15e261fe050dbf3388dc01732eb000baac971dad30324",
+      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help you understand how to search for information on \"AI accountability systems for students and early-career professionals\" and \"fitness consistency.\" You can use search engines like Google or Bing and enter those keywords to find relevant articles, research papers, or tools that address these topics. \n\nIf you have specific sources or types of information in mind, I can help summarize or provide insights based on existing knowledge. Let me know how you'd like to proceed!",
+      "evidence_ref": "grounded_response_sha256:a5b885171b993bbbb4bd4f2aafe1575c29bd23b6afc28838e549975d6ed6fedf",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_13f658306b39",
-      "target_id": "si_1364c2c98ad6a560",
-      "query": "AI accountability system for athletes and calendar control",
+      "observation_id": "spry_obs_bf5916b884bb",
+      "target_id": "si_b173a71e1a8d12bb",
+      "query": "AI accountability system for creators and goal tracking",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:36.979Z",
+      "observed_at": "2026-09-07T13:35:13.092Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
@@ -464,154 +221,242 @@
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
-        "athenae.io",
-        "athletedata.health",
-        "github.com",
-        "github.laiyagushi.com",
-        "mwm.ai",
-        "sportsnest.ai"
+        "archionapp.com",
+        "cognipal.ai",
+        "creatorgrid.app",
+        "creatorpulsestudio.com",
+        "creatorscore.io",
+        "creatorsenseai.com",
+        "kitsuneai.co",
+        "musecocreator.com",
+        "olsnotion.com",
+        "zencreator.pro"
       ],
       "references": [
         {
-          "domain": "github.com",
-          "title": "15dani1/pain.exe",
-          "uri": "https://github.com/15dani1/pain.exe"
+          "domain": "archionapp.com",
+          "title": "Archion — AI-Powered Goal Management",
+          "uri": "https://archionapp.com/"
         },
         {
-          "domain": "github.com",
-          "title": "derrix060/ai_fitness_trainer",
-          "uri": "https://github.com/derrix060/ai_fitness_trainer"
+          "domain": "musecocreator.com",
+          "title": "AI Usage Scoring — Muse",
+          "uri": "https://musecocreator.com/ai-usage"
         },
         {
-          "domain": "athletedata.health",
-          "title": "Google Calendar AI Coach - Training That Fits Your Schedule | athletedata.health",
-          "uri": "https://www.athletedata.health/integrations/google-calendar"
+          "domain": "kitsuneai.co",
+          "title": "Creator OS · The operating system for your creator business · Kitsune AI",
+          "uri": "https://www.kitsuneai.co/creator-os"
         },
         {
-          "domain": "github.com",
-          "title": "CPlusPlus17/FitnessJournal",
-          "uri": "https://github.com/CPlusPlus17/FitnessJournal"
+          "domain": "creatorscore.io",
+          "title": "Creator Dashboard, Score & Live Media Kit | CreatorScore",
+          "uri": "https://creatorscore.io/for-creators"
         },
         {
-          "domain": "github.com",
-          "title": "airbone42/360-data-athlete",
-          "uri": "https://github.com/airbone42/360-data-athlete"
+          "domain": "creatorsenseai.com",
+          "title": "All your revenue in one place | Creator Sense AI",
+          "uri": "https://www.creatorsenseai.com/"
         },
         {
-          "domain": "sportsnest.ai",
-          "title": "NEST Buddy™ — Your Personal AI Co-Pilot for Sport (Free)",
-          "uri": "https://www.sportsnest.ai/nest-buddy"
+          "domain": "creatorgrid.app",
+          "title": "CreatorGrid - Your Entire Content Operation. One Intelligent System. | Tracker by CreatorGrid",
+          "uri": "https://creatorgrid.app/"
         },
         {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Takethis88/Open-Triathlon-Coach-for-ChatGPT: An open-source triathlon GPT coach that connects each user to their own Intervals.icu data through OAuth. · GitHub",
-          "uri": "https://github.laiyagushi.com/Takethis88/Open-Triathlon-Coach-for-ChatGPT"
+          "domain": "creatorpulsestudio.com",
+          "title": "CreatorPulse — Content Intelligence Platform",
+          "uri": "https://creatorpulsestudio.com/"
         },
         {
-          "domain": "mwm.ai",
-          "title": "AthWay: Athlete Workouts - Sports App | MWM",
-          "uri": "https://mwm.ai/apps/athway/6763067622"
+          "domain": "zencreator.pro",
+          "title": "Multi-Account Management — Centralized Creator Control | ZenCreator",
+          "uri": "https://zencreator.pro/products/zencreator/account-management"
         },
         {
-          "domain": "athenae.io",
+          "domain": "olsnotion.com",
           "title": null,
-          "uri": "https://athenae.io/"
+          "uri": "https://olsnotion.com/creatorbrain"
         },
         {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
+          "domain": "cognipal.ai",
+          "title": "Creator Pulse — CogniPal | CogniPal - Where Ideas Become Intelligence",
+          "uri": "https://cognipal.ai/pal/p_gacjvvcs5f2hbfms46key9lt"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for athletes and calendar control:\n\n1. **pain.exe** - This is a web-first personal AI agent designed for discipline, fitness, and goal adherence. It combines plan generation, accountability, and calendar pressure to help users turn intentions into completed actions. The system tracks adherence and adapts plans based on user engagement. [GitHub - 15dani1/pain.exe](https://github.com/15dani1/pain.exe)\n\n2. **Google Calendar AI Coach** - This AI coach integrates with Google Calendar to plan workouts around users' actual schedules, ensuring that training fits between meetings and other commitments. It emphasizes the importance of scheduling workouts at consistent times to increase adherence. [athletedata.health](https://www.athletedata.health/integrations/google-calendar)\n\n3. **CPlusPlus17/FitnessJournal** - This automated ",
-      "evidence_ref": "grounded_response_sha256:1c9c5e7f05986922cbcc1339ee402f05e7bb961742cf826a3df59503440c732c",
+      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for creators and goal tracking:\n\n1. **Archion — AI-Powered Goal Management**: Archion is an AI project manager that helps users set and achieve their goals by breaking them down into structured plans with daily tasks. It tracks progress, checks in when users are stuck, and adapts plans as needed. This system is designed to keep users accountable and ensure they finish what they start. [archionapp.com](https://archionapp.com/)\n\n2. **Creator OS by Kitsune AI**: This platform runs the business side of being a creator, including tracking earnings and managing brand deals. It aims to help creators focus on content creation while handling the operational aspects of their work. [kitsuneai.co](https://www.kitsuneai.co/creator-os)\n\n3. **CreatorScore**: This tool provides a dashboard that includes trust scores, audience health, ",
+      "evidence_ref": "grounded_response_sha256:f1651af34000e650e7764854c1eaf75e41dc0d40f6ce896be5bb263d20f1ec6d",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_8d75fdf89bba",
-      "target_id": "si_ebff5db86dce4045",
-      "query": "AI accountability system for missed-day recovery users and fitness consistency",
+      "observation_id": "spry_obs_dbc20d2d1217",
+      "target_id": "si_6d299eeec5f8bced",
+      "query": "AI accountability system for consistency strugglers and multi-project management",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:44.880Z",
+      "observed_at": "2026-09-07T13:35:16.329Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
       "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-missed-day-recovery",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
+        "aitency.com",
         "dev.to",
-        "egoapp.fit",
         "github.com",
         "github.laiyagushi.com",
-        "learnaiwithmariah.com",
-        "swipehealth.ai"
+        "maven.com",
+        "prodsens.live",
+        "raav.ai",
+        "sbozich.github.io"
       ],
       "references": [
         {
-          "domain": "github.com",
-          "title": "ayush-jaipuriar/accountability_agent",
-          "uri": "https://github.com/ayush-jaipuriar/accountability_agent"
+          "domain": "maven.com",
+          "title": "AI Project Manager Accountability System — Full Skill File | Matt on Maven",
+          "uri": "https://maven.com/mattcorroboy/o/4c59c2"
         },
         {
-          "domain": "egoapp.fit",
-          "title": "Workout App That Adjusts When You Miss a Workout | ego",
-          "uri": "https://egoapp.fit/workout-app-that-adjusts-when-you-miss-a-workout/"
-        },
-        {
-          "domain": "github.com",
-          "title": "15dani1/pain.exe",
-          "uri": "https://github.com/15dani1/pain.exe"
-        },
-        {
-          "domain": "swipehealth.ai",
-          "title": "SwipeHealth AI | Adaptive Fitness Training That Evolves With You",
-          "uri": "https://swipehealth.ai/"
-        },
-        {
-          "domain": "learnaiwithmariah.com",
-          "title": "No Excuses Fitness Coach — Free Claude Skill | Learn AI With Mariah",
-          "uri": "https://learnaiwithmariah.com/guides/fitness-coach/"
+          "domain": "prodsens.live",
+          "title": "Six Principles for AI-Driven Project Accountability (With Code) - prodSens.live",
+          "uri": "https://prodsens.live/2026/04/21/six-principles-for-ai-driven-project-accountability-with-code/"
         },
         {
           "domain": "github.com",
-          "title": "acrdlph/accountability-buddy",
-          "uri": "https://github.com/acrdlph/accountability-buddy"
-        },
-        {
-          "domain": "dev.to",
-          "title": "Use AI to fix your workout plan when you keep missing workouts - DEV Community",
-          "uri": "https://dev.to/eliofbm/use-ai-to-fix-your-workout-plan-when-you-keep-missing-workouts-985"
-        },
-        {
-          "domain": "github.com",
-          "title": "dany701/Onus",
-          "uri": "https://github.com/dany701/onus"
+          "title": "mrhobbeys/HyperWorker",
+          "uri": "https://github.com/mrhobbeys/HyperWorker"
         },
         {
           "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
+          "title": "GitHub - peterwangze/software-project-governance: AI coding delivery trust layer for evidence-backed planning, review, risk, quality, and release control. · GitHub",
+          "uri": "https://github.laiyagushi.com/peterwangze/software-project-governance"
+        },
+        {
+          "domain": "raav.ai",
+          "title": "AI Agent Project Management | RAAV",
+          "uri": "https://www.raav.ai/ai-agent-project-management"
+        },
+        {
+          "domain": "dev.to",
+          "title": "I built an AI operating system because every project I touched was lying to me - DEV Community",
+          "uri": "https://dev.to/khaeldur/i-built-an-ai-operating-system-because-every-project-i-touched-was-lying-to-me-3e14"
         },
         {
           "domain": "github.com",
-          "title": "crunchynapkin404/Recover",
-          "uri": "https://github.com/crunchynapkin404/Recover"
+          "title": "tigerhu598-dot/project-overseer",
+          "uri": "https://github.com/tigerhu598-dot/project-overseer"
+        },
+        {
+          "domain": "dev.to",
+          "title": "I built a 12-state accountability layer for AI agents here's what I learned - DEV Community",
+          "uri": "https://dev.to/yaminbinyoosuf/i-built-a-12-state-accountability-layer-for-ai-agents-heres-what-i-learned-361i"
+        },
+        {
+          "domain": "sbozich.github.io",
+          "title": "PSL & MSD: Governing Long‑Running Projects in the Age of AI | sbozich",
+          "uri": "https://sbozich.github.io/posts/governing-long-projects-ai/"
+        },
+        {
+          "domain": "aitency.com",
+          "title": "AI Quality Auditor for Construction Projects | AITENCY",
+          "uri": "https://aitency.com/case-studies/ai-project-management-quality-auditor"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems designed for users who miss workout days and aim for fitness consistency:\n\n1. **Accountability Agent**: This platform offers an AI-powered accountability system that helps users maintain their personal operating systems through daily check-ins, compliance scoring, and proactive interventions. It includes features like emotional support and accountability partners, making it suitable for users looking to recover from missed days. [GitHub - ayush-jaipuriar/accountability_agent](https://github.com/ayush-jaipuriar/accountability_agent)\n\n2. **ego**: This app automatically adjusts workout plans when users miss sessions, allowing them to continue without restarting or feeling guilty. It generates personalized strength plans based on user goals and activity levels, adapting to missed workouts seamlessly. [egoapp.fit](https://e",
-      "evidence_ref": "grounded_response_sha256:53906770deb7d6675a633e1004961e4873ad8511277e913b61fb2bdbf632c772",
+      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that information or provide insights based on existing knowledge. If you have specific questions or need assistance with a particular topic related to AI accountability systems, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:38d15e9be74381b38fdbaac6a5969f656474b8b0d59dd322bf8fee34cd4cb0ae",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_cea3f65d2f4d",
-      "target_id": "si_23622d987124abfa",
-      "query": "AI accountability system for busy parents and goal tracking",
+      "observation_id": "spry_obs_f3129bfb1e35",
+      "target_id": "si_51137c3081798653",
+      "query": "behavioral self-regulation system vs traditional coaching for overplanners",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:51.840Z",
+      "observed_at": "2026-09-07T13:35:20.608Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-planner-for-behavioral-follow-through",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "academia.edu",
+        "antiboringlearninglab.com",
+        "brittneykingcoaching.com",
+        "dannywareham.co.uk",
+        "divinenavigation.com",
+        "emstewartcoaching.substack.com",
+        "frontiersin.org",
+        "lumenstories.com",
+        "pkjcoaching.com",
+        "unleashyourpower.com"
+      ],
+      "references": [
+        {
+          "domain": "emstewartcoaching.substack.com",
+          "title": "What ADHD Coaching Gets Wrong (And What Actually Works)",
+          "uri": "https://emstewartcoaching.substack.com/p/what-adhd-coaching-gets-wrong-and"
+        },
+        {
+          "domain": "pkjcoaching.com",
+          "title": "Regulation Coaching Between Therapy Sessions | PKJ",
+          "uri": "https://pkjcoaching.com/journal/regulation-coaching-for-therapists"
+        },
+        {
+          "domain": "frontiersin.org",
+          "title": "Frontiers | Comparing the Effectiveness of Individual Coaching, Self-Coaching, and Group Training: How Leadership Makes the Difference",
+          "uri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.00629/full"
+        },
+        {
+          "domain": "lumenstories.com",
+          "title": "Stop Buying Planners: A MindFrame Guide to Executive Function",
+          "uri": "https://www.lumenstories.com/en/executive-function-coaching/"
+        },
+        {
+          "domain": "antiboringlearninglab.com",
+          "title": "Why Neurodivergent Students Need More than Planners & Checklists: EF Coaching Insights — ANTI-BORING LEARNING LAB",
+          "uri": "https://antiboringlearninglab.com/blog/or84t7eajbqf3c2kbu2htvr0d6yz3w"
+        },
+        {
+          "domain": "academia.edu",
+          "title": "(PDF) ADHD COACHING MODEL FOR STRENGTHENING EXECUTIVE FUNCTIONS AND SELF-REGULATION",
+          "uri": "https://www.academia.edu/64453334/ADHD_COACHING_MODEL_FOR_STRENGTHENING_EXECUTIVE_FUNCTIONS_AND_SELF_REGULATION"
+        },
+        {
+          "domain": "dannywareham.co.uk",
+          "title": "One-size coaching doesn't fit all",
+          "uri": "https://dannywareham.co.uk/why-one-size-coaching-fails-the-psychology-we-pretend-not-to-see/"
+        },
+        {
+          "domain": "divinenavigation.com",
+          "title": "Coaching Business Plan vs Traditional Business Planning - Divine Navigation",
+          "uri": "https://www.divinenavigation.com/coaching-business-plan-vs-traditional-business-planning/"
+        },
+        {
+          "domain": "brittneykingcoaching.com",
+          "title": "Why Therapy Might Not Be the Answer for Your ADHD Child  — Brittney King Coaching",
+          "uri": "https://www.brittneykingcoaching.com/blog/why-your-adhd-child-doesnt-need-therapy-t848f"
+        },
+        {
+          "domain": "unleashyourpower.com",
+          "title": "Traditional Coaching Vs NLP Coaching: Why NLP Is The Future",
+          "uri": "https://unleashyourpower.com/blog/traditional-coaching-vs-nlp-coaching/"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help you understand the differences between behavioral self-regulation systems and traditional coaching for overplanners based on existing knowledge and the information provided in previous search results. If you have specific questions or need information on a particular aspect, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:336ca856b3d74b4fc822438e94de565aa5ebc0552cd7939b33e0c00238d49ddb",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_d0656dee5a43",
+      "target_id": "si_3ebb4b622ad110af",
+      "query": "AI accountability system for consistency strugglers and weekly review",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:35:27.908Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
@@ -620,47 +465,431 @@
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
+        "aiexpert.ee",
+        "asianefficiency.com",
+        "derzai.app",
+        "get.mem.ai",
+        "getperspective.ai",
+        "howtothink.ai",
+        "kognivu.com",
+        "textlauren.com",
+        "tomsguide.com",
+        "zintellex.com"
+      ],
+      "references": [
+        {
+          "domain": "textlauren.com",
+          "title": "How an AI Accountability Partner Actually Works",
+          "uri": "https://textlauren.com/resources/ai-accountability-partner"
+        },
+        {
+          "domain": "kognivu.com",
+          "title": "AI Weekly Review: How to Reset a Drifting Week Fast | Kognivu",
+          "uri": "https://kognivu.com/blog/ai-weekly-review-reset-drifting-week"
+        },
+        {
+          "domain": "asianefficiency.com",
+          "title": "How to Automate Your Weekly Review With AI (2026)",
+          "uri": "https://www.asianefficiency.com/productivity/automate-weekly-review-ai/"
+        },
+        {
+          "domain": "tomsguide.com",
+          "title": "I let Claude analyze my week — and it exposed the one thing I kept ignoring | Tom's Guide",
+          "uri": "https://www.tomsguide.com/ai/i-use-the-mirror-system-with-claude-to-run-my-weekly-review-heres-how-it-works"
+        },
+        {
+          "domain": "howtothink.ai",
+          "title": "The weekly review as safety net | How to Think AI",
+          "uri": "https://www.howtothink.ai/learn/the-weekly-review-as-safety-net"
+        },
+        {
+          "domain": "get.mem.ai",
+          "title": "The One-Question Weekly Review That Replaces Your Entire GTD System - Mem – Your AI Thought Partner",
+          "uri": "https://get.mem.ai/guides/one-question-weekly-review"
+        },
+        {
+          "domain": "zintellex.com",
+          "title": "How to Run an Executive Weekly Review with AI (The Habit That Compounds) | Zintellex",
+          "uri": "https://www.zintellex.com/articles/ai-weekly-review-executives"
+        },
+        {
+          "domain": "aiexpert.ee",
+          "title": "The weekly review: find the patterns, keep the judgement — AI Expert",
+          "uri": "https://aiexpert.ee/en/articles/weekly-review-patterns-not-answers"
+        },
+        {
+          "domain": "getperspective.ai",
+          "title": "How to Use Perspective AI for Weekly/Monthly Performance & Goal Review | Docs | Perspective AI",
+          "uri": "https://getperspective.ai/docs/use-cases/weekly-performance-review-guide"
+        },
+        {
+          "domain": "derzai.app",
+          "title": "Derzai - AI Life Coach for Reflection, Goals, Habits, and Personal Growth",
+          "uri": "https://derzai.app/"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for consistency strugglers and weekly reviews:\n\n1. **How an AI Accountability Partner Actually Works** - This article explains what an AI accountability partner is and how it functions as a support system that helps track commitments and follow-through over time. It emphasizes the importance of memory and timely nudges to keep users accountable. [textlauren.com](https://textlauren.com/resources/ai-accountability-partner)\n\n2. **AI Weekly Review: How to Reset a Drifting Week Fast** - This source discusses how an AI weekly review can audit your week, identify where plans drifted, and propose a new plan to help you recover. It highlights the benefits of using AI to make planning decisions faster. [kognivu.com](https://kognivu.com/blog/ai-weekly-review-reset-drifting-week)\n\n3. **How to Automate Your Weekly Review With AI (2",
+      "evidence_ref": "grounded_response_sha256:3ea669109d6432c0db2b283c0d696a711a06b3ec877073cbe4c4e97cd8b618da",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_e8c4b5c448ff",
+      "target_id": "si_85a7020c461a1025",
+      "query": "best accountability partner for athletes who need workout execution",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:35:34.588Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-execution-review",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "accountabilitypt.com",
+        "endureallcoaching.com",
+        "nike.com",
+        "ogamic.com",
+        "roedermultisport.com",
+        "rundreamachieve.com",
+        "scottlaidler.com",
+        "weightsandglory.com",
+        "zen-labo.com"
+      ],
+      "references": [
+        {
+          "domain": "accountabilitypt.com",
+          "title": "Online Fitness Accountability: Stay On Track With Daily Check-Ins",
+          "uri": "https://accountabilitypt.com/accountability-partner/"
+        },
+        {
+          "domain": "endureallcoaching.com",
+          "title": "Triathlon Coaching | EndureAll Coaching",
+          "uri": "https://www.endureallcoaching.com/coaching/triathlon-coaching"
+        },
+        {
+          "domain": "roedermultisport.com",
+          "title": "Indiana Running Coach | 800m to Marathon | Indiana Triathlon Coach | Indiana",
+          "uri": "https://www.roedermultisport.com/blog/what-a-running-coach-does"
+        },
+        {
+          "domain": "scottlaidler.com",
+          "title": "1-2-1 Accountability from an online personal trainer",
+          "uri": "https://scottlaidler.com/accountability-coaching/"
+        },
+        {
+          "domain": "nike.com",
+          "title": "Why You Need an Accountability Partner to Hit Your Goals. Nike.com",
+          "uri": "https://www.nike.com/a/benefits-of-accountability-partners-for-goals"
+        },
+        {
+          "domain": "weightsandglory.com",
+          "title": "The Power of Two: Why Fitness Partners Guarantee Success",
+          "uri": "https://weightsandglory.com/blog/partnering-up-for-your-fitness-journey"
+        },
+        {
+          "domain": "zen-labo.com",
+          "title": "Best Gym Buddy Apps in 2026 for Solo Lifters · ZEN LABO",
+          "uri": "https://zen-labo.com/blog/en/best-gym-buddy-apps/"
+        },
+        {
+          "domain": "rundreamachieve.com",
+          "title": "Athlete Consulting",
+          "uri": "https://rundreamachieve.com/athlete-consulting/"
+        },
+        {
+          "domain": "rundreamachieve.com",
+          "title": "Certified Running Coach: When Self-Coaching Stops Working",
+          "uri": "https://rundreamachieve.com/certified-running-coach/"
+        },
+        {
+          "domain": "ogamic.com",
+          "title": "Workout Accountability: Why Willpower Isn't the Fix · OgamicX",
+          "uri": "https://ogamic.com/blog/workout-accountability"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss accountability partners for athletes who need help with workout execution:\n\n1. **Nike.com** - This page discusses the benefits of having an accountability partner, emphasizing the importance of ongoing check-ins and honest feedback to help achieve fitness goals. It suggests finding someone who complements your strengths and can challenge you effectively. [nike.com](https://www.nike.com/a/benefits-of-accountability-partners-for-goals)\n\n2. **AccountabilityPT.com** - This site offers online fitness accountability services, including daily check-ins and weekly progress reviews to ensure athletes stay on track with their goals. [accountabilitypt.com](https://accountabilitypt.com/accountability-partner/)\n\n3. **EndureAll Coaching** - This coaching service provides comprehensive triathlon coaching, focusing on personalized training plans and accountabi",
+      "evidence_ref": "grounded_response_sha256:9e361d53ded4608b4e127c706409339af350e86fd32d58ddc6996a2b5cd239f8",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_466dde0b4582",
+      "target_id": "si_68b8ba468a1e9abc",
+      "query": "AI accountability system for founders and behavior reframing",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:35:39.280Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-behavioral-follow-through",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "aegisboardroom.com",
+        "capafy.ai",
+        "chaegim.com",
+        "founderspsyche.substack.com",
+        "github.com",
+        "mdpi.com",
+        "strasysglobal.com",
+        "theaibreak.substack.com",
+        "trycofounder.com"
+      ],
+      "references": [
+        {
+          "domain": "trycofounder.com",
+          "title": "CoFounder - AI Accountability Partner for Solo Founders | Startup Execution System",
+          "uri": "https://trycofounder.com/"
+        },
+        {
+          "domain": "theaibreak.substack.com",
+          "title": "☕🤖Tutorial: Build Your AI Therapist - A Mental Clarity System for Founders",
+          "uri": "https://theaibreak.substack.com/p/tutorial-build-your-ai-therapist"
+        },
+        {
+          "domain": "aegisboardroom.com",
+          "title": "Life Integrity Engine: irreversible-harm refusal · Aegis Boardroom",
+          "uri": "https://aegisboardroom.com/insights/life-integrity-engine/"
+        },
+        {
+          "domain": "github.com",
+          "title": "jmchalayer/founder-second-brain",
+          "uri": "https://github.com/jmchalayer/founder-second-brain"
+        },
+        {
+          "domain": "strasysglobal.com",
+          "title": "STRASYS Reflections | Executive Reflection Engine",
+          "uri": "https://www.strasysglobal.com/reflections"
+        },
+        {
+          "domain": "chaegim.com",
+          "title": "Chaegim — The AI that holds you to who you want to become",
+          "uri": "https://www.chaegim.com/"
+        },
+        {
+          "domain": "founderspsyche.substack.com",
+          "title": "When the Fear Won’t Shut Up: Anxiety in the Startup Trenches",
+          "uri": "https://founderspsyche.substack.com/p/when-the-fear-wont-shut-up-anxiety"
+        },
+        {
+          "domain": "mdpi.com",
+          "title": "Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values",
+          "uri": "https://www.mdpi.com/2078-2489/16/8/651"
+        },
+        {
+          "domain": "capafy.ai",
+          "title": "Culture Operating System — Values to Behavior - Capafy",
+          "uri": "https://capafy.ai/pt/agent/culture-operating-system-values-to-behavior/1978666895"
+        },
+        {
+          "domain": "github.com",
+          "title": "tkhribech/claude-founder-os",
+          "uri": "https://github.com/tkhribech/claude-founder-os"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for founders and behavior reframing:\n\n1. **CoFounder - AI Accountability Partner for Solo Founders**: This platform offers an AI accountability partner designed to help solo founders execute their ideas, validate business concepts, and maintain focus. It includes built-in frameworks, validation gates, and accountability checkpoints to ensure progress and execution. [trycofounder.com](https://trycofounder.com/)\n\n2. **Tutorial: Build Your AI Therapist - A Mental Clarity System for Founders**: This tutorial provides a framework for using AI, specifically ChatGPT, as a mental clarity tool for founders. It focuses on identifying emotional bottlenecks and reframing limiting beliefs, which aligns with behavior reframing. [theaibreak.substack.com](https://theaibreak.substack.com/p/tutorial-build-your-ai-therapist)\n\n3. **Life I",
+      "evidence_ref": "grounded_response_sha256:54a27bdae9a8d4b4153fe65397b94e92b04398d4faa3c872b2e3656378be77ff",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_22306aaf2a70",
+      "target_id": "si_e37ffd2757cb8d5e",
+      "query": "AI accountability system for founders and career acceleration",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:35:44.684Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "agentfounder.ai",
+        "boundlessfounder.co",
+        "cofounder.im",
+        "f3.app",
+        "getfounder.app",
+        "github.com",
+        "pensy.ai",
+        "trycofounder.com",
+        "trysteward.org"
+      ],
+      "references": [
+        {
+          "domain": "trycofounder.com",
+          "title": "CoFounder - AI Accountability Partner for Solo Founders | Startup Execution System",
+          "uri": "https://trycofounder.com/"
+        },
+        {
+          "domain": "pensy.ai",
+          "title": "AI Accountability Partner & AI Life Coach With Memory | Pensy",
+          "uri": "https://pensy.ai/"
+        },
+        {
+          "domain": "f3.app",
+          "title": "f3 · Proof beats pedigree",
+          "uri": "https://f3.app/"
+        },
+        {
+          "domain": "trysteward.org",
+          "title": "Steward — Decision Intelligence for AI Founders",
+          "uri": "https://trysteward.org/"
+        },
+        {
+          "domain": "agentfounder.ai",
+          "title": "Agentfounder — The Autonomous AI Co-Founder",
+          "uri": "https://agentfounder.ai/"
+        },
+        {
+          "domain": "boundlessfounder.co",
+          "title": "Boundless Founder — AI System for Startup Founders",
+          "uri": "https://boundlessfounder.co/"
+        },
+        {
+          "domain": "cofounder.im",
+          "title": "Chief Executive Agent (CEA) — Your AI Co-Founder | CoFounder.im\n     · CoFounder.im",
+          "uri": "https://cofounder.im/cea"
+        },
+        {
+          "domain": "github.com",
+          "title": "vinaykolupula/FounderOS",
+          "uri": "https://github.com/vinaykolupula/FounderOS"
+        },
+        {
+          "domain": "getfounder.app",
+          "title": "Founder - AI for Your Journey",
+          "uri": "https://www.getfounder.app/"
+        },
+        {
+          "domain": "github.com",
+          "title": "1founderai/1founder-public",
+          "uri": "https://github.com/1founderai/1founder-public"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources related to AI accountability systems for founders and career acceleration based on the latest web search results:\n\n1. **CoFounder - AI Accountability Partner for Solo Founders**: This platform offers an AI accountability partner designed to help solo founders execute their ideas, validate business concepts, and maintain progress through built-in frameworks and accountability checkpoints. It emphasizes daily check-ins and milestone tracking to ensure founders stay on track. [trycofounder.com](https://trycofounder.com/)\n\n2. **Pensy - AI Accountability Partner & Life Coach**: Pensy acts as an accountability partner that remembers commitments and checks in regularly to help users stay on track with their goals. It combines the roles of a life coach and accountability partner, ensuring that commitments are followed through over time. [pensy.ai](https://pensy.ai/",
+      "evidence_ref": "grounded_response_sha256:df8a967b2aac716266b3ce584ff9d9db924a32aec652525efd05cad46b72713b",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_577834884717",
+      "target_id": "si_d9828b99591bb9ae",
+      "query": "AI accountability system for consistency strugglers and chief-of-staff operating rhythm",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:35:46.752Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "artificialcuriositylabs.ai",
+        "digitallydemented.com",
+        "foundersbar.com",
+        "github.com",
+        "nickveenhof.be",
+        "textlauren.com",
+        "theleveragedyears.com"
+      ],
+      "references": [
+        {
+          "domain": "textlauren.com",
+          "title": "How an AI Accountability Partner Actually Works",
+          "uri": "https://textlauren.com/resources/ai-accountability-partner"
+        },
+        {
+          "domain": "github.com",
+          "title": "loganhc-09/claude-chief-of-staff",
+          "uri": "https://github.com/loganhc-09/claude-chief-of-staff"
+        },
+        {
+          "domain": "digitallydemented.com",
+          "title": "How to Build an AI Chief of Staff That Actually Knows You — DDV Blog",
+          "uri": "https://digitallydemented.com/blog/how-to-build-an-ai-chief-of-staff/"
+        },
+        {
+          "domain": "foundersbar.com",
+          "title": "AI Chief of Staff: How to Beat Urgency Bias | Foundersbar",
+          "uri": "https://foundersbar.com/articles-and-research/ai-chief-of-staff-urgency-bias"
+        },
+        {
+          "domain": "github.com",
+          "title": "jasonpurdy4/chief-of-staff",
+          "uri": "https://github.com/jasonpurdy4/chief-of-staff"
+        },
+        {
+          "domain": "nickveenhof.be",
+          "title": "Building a chief of staff, part 5: Gates, not guidelines | Nick Veenhof",
+          "uri": "https://nickveenhof.be/building-a-chief-of-staff-part-5"
+        },
+        {
+          "domain": "artificialcuriositylabs.ai",
+          "title": "The AI Chief of Staff Is a Fleet, Not an Agent | Artificial Curiosity Labs",
+          "uri": "https://artificialcuriositylabs.ai/posts/ai-chief-of-staff-fleet-architecture/"
+        },
+        {
+          "domain": "theleveragedyears.com",
+          "title": "AI for Managers: The Weekly Operating System | TLY",
+          "uri": "https://www.theleveragedyears.com/ai-workflows/ai-for-managers-operating-system"
+        },
+        {
+          "domain": "github.com",
+          "title": "tsdigital/claude-chief-of-staff",
+          "uri": "https://github.com/tsdigital/claude-chief-of-staff"
+        },
+        {
+          "domain": "github.com",
+          "title": "jaroslavsoucek-art/Giovanni",
+          "uri": "https://github.com/jaroslavsoucek-art/Giovanni"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that information effectively or summarize related topics based on existing knowledge. If you have specific questions or need information on AI accountability systems or chief-of-staff operating rhythms, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:ca42feda6f53783731deecdf048cc8a756280198c47d3392672c825502e7bf73",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_8993e5e06119",
+      "target_id": "si_3c4ae944af5097ad",
+      "query": "AI accountability system for busy parents and daily planning",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:35:52.492Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "concairge.ai",
         "familymind.ai",
-        "goalwizeai.com",
+        "hianna.ai",
         "kikko.ai",
         "l.ohai.ai",
         "momplan.life",
         "momwise.ai",
-        "nestgenie.ai",
         "peeta.ai",
-        "realaiparent.com",
-        "unsiloed.life"
+        "peggyapp.com",
+        "rosieai.ai"
       ],
       "references": [
-        {
-          "domain": "goalwizeai.com",
-          "title": "AI Habit Tracker for Newborn, Family & Fitness Goals | GoalWize.AI",
-          "uri": "https://goalwizeai.com/"
-        },
-        {
-          "domain": "realaiparent.com",
-          "title": "AI Parent — Personalized learning & activity plans (TK–Continuing Education)",
-          "uri": "https://realaiparent.com/"
-        },
-        {
-          "domain": "peeta.ai",
-          "title": "Peeta | AI copilot for busy parents | Streamline your family logistics today",
-          "uri": "https://www.peeta.ai/"
-        },
         {
           "domain": "momwise.ai",
           "title": "Momwise — Your family's operating system",
           "uri": "https://www.momwise.ai/"
         },
         {
-          "domain": "unsiloed.life",
-          "title": null,
-          "uri": "https://unsiloed.life/"
-        },
-        {
-          "domain": "familymind.ai",
-          "title": "AI family benefits program | Family calendar and task planner",
-          "uri": "https://familymind.ai/families/"
+          "domain": "peeta.ai",
+          "title": "Peeta | AI copilot for busy parents | Streamline your family logistics today",
+          "uri": "https://www.peeta.ai/"
         },
         {
           "domain": "kikko.ai",
@@ -673,9 +902,29 @@
           "uri": "https://momplan.life/"
         },
         {
-          "domain": "nestgenie.ai",
-          "title": "NestGenie — Your Always-On AI Parenting Partner",
-          "uri": "https://nestgenie.ai/"
+          "domain": "peggyapp.com",
+          "title": null,
+          "uri": "https://www.peggyapp.com/"
+        },
+        {
+          "domain": "familymind.ai",
+          "title": "AI family benefits program | Family calendar and task planner",
+          "uri": "https://familymind.ai/families/"
+        },
+        {
+          "domain": "concairge.ai",
+          "title": "Concairge: AI Family Assistant & Organiser",
+          "uri": "https://concairge.ai/"
+        },
+        {
+          "domain": "rosieai.ai",
+          "title": "Rosie handles the chaos.",
+          "uri": "https://www.rosieai.ai/"
+        },
+        {
+          "domain": "hianna.ai",
+          "title": "Anna | Your family's personal assistant",
+          "uri": "https://www.hianna.ai/"
         },
         {
           "domain": "l.ohai.ai",
@@ -684,16 +933,16 @@
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that provide AI accountability systems for busy parents and goal tracking:\n\n1. **GoalWize.AI** - This platform offers an AI habit tracker designed for various goals, including newborn care, family chores, and fitness. It creates personalized habit plans and tracks progress, making it suitable for busy parents looking to manage multiple responsibilities. [goalwizeai.com](https://goalwizeai.com/)\n\n2. **AI Parent** - This app helps busy families create personalized learning and activity plans for children and adults. It allows users to turn goals into simple routines and track daily tasks, making it easier for parents to manage their family's activities. [realaiparent.com](https://realaiparent.com/)\n\n3. **Peeta** - An AI copilot that streamlines family logistics by extracting important information from conversations and turning them into actionable tasks. It h",
-      "evidence_ref": "grounded_response_sha256:09f0fbaf3ec74ca95ec783174cd7d2a3728727a5f5ccf651696b7a73f781d695",
+      "answer_excerpt": "Here are some relevant sources that provide AI accountability systems and daily planning tools for busy parents:\n\n1. **Momwise** - This family operating system helps manage schedules, tasks, and reminders, ensuring that parents stay organized with their children's activities and responsibilities. It provides a daily briefing of important tasks and events. [momwise.ai](https://www.momwise.ai/)\n\n2. **Peeta** - An AI copilot that streamlines family logistics by extracting important information from various communication channels and turning them into actionable tasks. It also allows for collaborative task management among family members. [peeta.ai](https://www.peeta.ai/)\n\n3. **KIKKO** - An AI parenting assistant that consolidates school emails, flyers, and messages into a shared family calendar, providing smart reminders for important deadlines and events. [kikko.ai](https://www.kikko.ai/)\n",
+      "evidence_ref": "grounded_response_sha256:04ef4bc8e967e0707cb98b37334aa5120d9164dd99cfb48460a95b05f66274ba",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_b5113027df28",
-      "target_id": "si_927da2ddb593f27c",
-      "query": "AI accountability system for creators and nutrition discipline",
+      "observation_id": "spry_obs_9ebe2239c3af",
+      "target_id": "si_b873f1bc7fbd3e0f",
+      "query": "AI accountability system for consistency strugglers and delegation",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:30:54.316Z",
+      "observed_at": "2026-09-07T13:35:54.799Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
@@ -702,585 +951,183 @@
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
-        "caleye.fit",
-        "doi.org",
-        "frontiersin.org",
-        "fuzzysmart.com",
-        "influencers-time.com",
-        "nutraingredients.com",
-        "sherlock.website",
-        "trit.health"
-      ],
-      "references": [
-        {
-          "domain": "influencers-time.com",
-          "title": "AI Nutrition Claims Compliance Framework for Brands",
-          "uri": "https://www.influencers-time.com/ai-nutrition-claims-compliance-framework-for-brands/"
-        },
-        {
-          "domain": "influencers-time.com",
-          "title": "Auditing AI-Generated Supplement Claims Before FDA Letters",
-          "uri": "https://www.influencers-time.com/auditing-ai-generated-supplement-claims-before-fda-letters/"
-        },
-        {
-          "domain": "fuzzysmart.com",
-          "title": "AI Nutrition Advice: Safe Prompting Guide for Creators",
-          "uri": "https://fuzzysmart.com/should-creators-trust-ai-nutrition-advice-a-practical-prompt"
-        },
-        {
-          "domain": "sherlock.website",
-          "title": "Risk-Score UGC Health Claims with Diet-MisRAT",
-          "uri": "https://sherlock.website/risk-score-your-ugc-applying-nutrition-misinformation-metric"
-        },
-        {
-          "domain": "influencers-time.com",
-          "title": "AI Nutrition-Facts Overlay: FTC-Safe Guide for Brands",
-          "uri": "https://www.influencers-time.com/ai-nutrition-facts-overlay-ftc-safe-briefing-guide-for-brand/"
-        },
-        {
-          "domain": "nutraingredients.com",
-          "title": "How AI claims are shaping the nutrition industry and regulation",
-          "uri": "https://www.nutraingredients.com/Article/2025/02/27/how-ai-claims-are-shaping-the-nutrition-industry-and-regulation/"
-        },
-        {
-          "domain": "doi.org",
-          "title": "Development and validation of a tool for detecting misinformation risk in diet, nutrition, and health content (Diet-MisRAT)",
-          "uri": "https://doi.org/10.1038/s41598-026-40534-2"
-        },
-        {
-          "domain": "caleye.fit",
-          "title": "The Method — how the CalEye AI reasons about food · CalEye",
-          "uri": "https://caleye.fit/method/"
-        },
-        {
-          "domain": "frontiersin.org",
-          "title": "Frontiers | Perspective on the ethics of AI at the intersection of nutrition and behaviour change",
-          "uri": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2025.1423759/full"
-        },
-        {
-          "domain": "trit.health",
-          "title": "Trit — Expert nutrition, powered by real creators",
-          "uri": "https://trit.health/"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that information or provide insights based on existing knowledge. If you have specific questions or need information on AI accountability systems for creators in the nutrition field, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:9452c87ccf4386a16d5376e416ad50ba8f17027d92dcc0cc511f8e2092136e1f",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_041f653f078b",
-      "target_id": "si_6efcc2639f9c89e5",
-      "query": "AI accountability system for people with many projects and performance routines",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:00.590Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-behavioral-follow-through",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "annet.ai",
-        "archionapp.com",
+        "aiagentgovernance.org",
+        "arxiv.org",
+        "datatracker.ietf.org",
+        "delegatic.com",
         "github.com",
-        "pensy.ai",
-        "reknr.com",
-        "scovert.com"
+        "zenn.dev",
+        "zylos.ai"
       ],
       "references": [
         {
-          "domain": "reknr.com",
-          "title": "Reknr | AI-Powered Accountability",
-          "uri": "https://www.reknr.com/"
+          "domain": "zylos.ai",
+          "title": "AI Agent Accountability: Audit Trails, Attribution, and Non-Repudiation in Multi-Agent Systems | Zylos Research",
+          "uri": "https://zylos.ai/research/2026-03-22-ai-agent-accountability-audit-trails-attribution-multi-agent-systems/"
         },
         {
-          "domain": "github.com",
-          "title": "kingdonb/mecris",
-          "uri": "https://github.com/kingdonb/mecris"
-        },
-        {
-          "domain": "github.com",
-          "title": "saldanaj27/compass",
-          "uri": "https://github.com/saldanaj27/compass"
-        },
-        {
-          "domain": "pensy.ai",
-          "title": "AI Accountability Partner & AI Life Coach With Memory | Pensy",
-          "uri": "https://pensy.ai/"
-        },
-        {
-          "domain": "github.com",
-          "title": "serein431/DoneGraph",
-          "uri": "https://github.com/serein431/DoneGraph"
-        },
-        {
-          "domain": "annet.ai",
-          "title": "Annet - your accountability network",
-          "uri": "https://annet.ai/"
-        },
-        {
-          "domain": "archionapp.com",
-          "title": "Archion — AI-Powered Goal Management",
-          "uri": "https://archionapp.com/"
-        },
-        {
-          "domain": "scovert.com",
-          "title": "Free AI Life OS — Turn ChatGPT Into Your Project Manager",
-          "uri": "https://scovert.com/free-life-os/"
-        },
-        {
-          "domain": "github.com",
-          "title": "seandavi/lifeos-template",
-          "uri": "https://github.com/seandavi/lifeos-template"
-        },
-        {
-          "domain": "github.com",
-          "title": "doneyli/head-of-ai-template",
-          "uri": "https://github.com/doneyli/head-of-ai-template"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems designed for individuals managing multiple projects and performance routines:\n\n1. **Reknr** - This platform offers an AI-powered accountability system that tracks work against set goals, providing real-time verdicts on progress. It emphasizes the importance of measuring actual work against stated objectives, helping users stay accountable and focused. [reknr.com](https://www.reknr.com/)\n\n2. **Mecris** - A persistent cognitive agent system that helps maintain focus and track progress by integrating with personal data sources. It is designed to assist users in staying accountable to their goals. [github.com](https://github.com/kingdonb/mecris)\n\n3. **Compass** - An AI accountability agent that learns about the user and keeps them on track with their goals through direct conversations. It personalizes tasks based on indivi",
-      "evidence_ref": "grounded_response_sha256:834d4a918c0d4737292696959907f7706813f537150a64feb866a0e230b82ec6",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_828b97773560",
-      "target_id": "si_4532544fda5e6c15",
-      "query": "AI accountability system for athletes and prioritization",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:03.613Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "doi.org",
-        "github.com",
-        "link.springer.com",
-        "mdpi.com",
-        "nature.com",
-        "players.news",
-        "pmc.ncbi.nlm.nih.gov",
-        "sport.nspcc.org.uk",
-        "tiffin.edu"
-      ],
-      "references": [
-        {
-          "domain": "mdpi.com",
-          "title": "Ethical Bias in AI-Driven Injury Prediction in Sport: A Narrative Review of Athlete Health Data, Autonomy and Governance",
-          "uri": "https://www.mdpi.com/2673-2688/6/11/283"
-        },
-        {
-          "domain": "sport.nspcc.org.uk",
-          "title": "Using AI responsibly in youth sports",
-          "uri": "https://sport.nspcc.org.uk/media/nktm0suh/using-ai-in-youth-sport.pdf"
-        },
-        {
-          "domain": "tiffin.edu",
-          "title": "OLYMPIC",
-          "uri": "https://www.tiffin.edu/wp-content/uploads/Report-Olympic-AI-Agenda.pdf"
-        },
-        {
-          "domain": "players.news",
-          "title": "What Pro Teams Can Learn From Enterprise AI",
-          "uri": "https://players.news/what-pro-teams-can-learn-from-enterprise-ai-domain-aware-pla"
-        },
-        {
-          "domain": "doi.org",
-          "title": "A Hybrid Machine Learning–Driven, Explainable Framework for Competition-Aware and Risk-Sensitive Athlete Nutrition",
-          "uri": "https://doi.org/10.1109/csnt69054.2026.11502249"
-        },
-        {
-          "domain": "mdpi.com",
-          "title": "A Conceptual Framework for Athlete Health Using AIoT, Wearables, and Personalized Performance Intelligence",
-          "uri": "https://www.mdpi.com/2076-3417/16/9/4542"
-        },
-        {
-          "domain": "github.com",
-          "title": "srivassi/PreHab",
-          "uri": "https://github.com/srivassi/PreHab"
-        },
-        {
-          "domain": "nature.com",
-          "title": "An intelligent decision framework for personalized sports training plan optimization using fermatean fuzzy CURLI based MCDM | Scientific Reports",
-          "uri": "https://www.nature.com/articles/s41598-026-60429-6"
-        },
-        {
-          "domain": "pmc.ncbi.nlm.nih.gov",
-          "title": "Paradoxical Tensions Related to AI-Powered Evaluation ...",
-          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8628033/"
-        },
-        {
-          "domain": "link.springer.com",
-          "title": "CoachXNet: An Artificial Intelligence and Internet of Things Integrated Platform for Personalized Training and Feedback in Digital Sports | International Journal of Computational Intelligence Systems | Springer Nature Link",
-          "uri": "https://link.springer.com/article/10.1007/s44196-025-01146-2"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help you understand how to search for \"AI accountability system for athletes and prioritization\" effectively or provide information based on existing knowledge. If you have specific questions or need assistance with a particular topic, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:631163fedf0cd27a13b66d6e0c7fdc48b6c422d3c9f7ebb46fafcb3b54716b9c",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_45a24300043d",
-      "target_id": "si_b1fe0b961b207d0d",
-      "query": "AI accountability system for overplanners and workout execution",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:06.935Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-execution-review",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "arvo.guru",
-        "bestyou.ai",
-        "budy.fit",
-        "enerzee.app",
-        "github.com",
-        "github.laiyagushi.com",
-        "overlord.app",
-        "saga.coach",
-        "trayne.ai"
-      ],
-      "references": [
-        {
-          "domain": "enerzee.app",
-          "title": "EnerZee — The AI Fitness Coach That Actually Reasons",
-          "uri": "https://enerzee.app/"
-        },
-        {
-          "domain": "github.com",
-          "title": "15dani1/pain.exe",
-          "uri": "https://github.com/15dani1/pain.exe"
-        },
-        {
-          "domain": "trayne.ai",
-          "title": "The AI training coach, finally built right. | Trayne",
-          "uri": "https://www.trayne.ai/"
-        },
-        {
-          "domain": "overlord.app",
-          "title": "Overlord - AI Accountability Partner",
-          "uri": "https://overlord.app/"
-        },
-        {
-          "domain": "arvo.guru",
-          "title": "Arvo - AI Personal Trainer | Real-Time Workout Coaching | Arvo",
-          "uri": "https://arvo.guru/"
-        },
-        {
-          "domain": "saga.coach",
-          "title": "AI Fitness Coach: Training, Habits, Recovery, and Schedule | Saga Coach",
-          "uri": "https://www.saga.coach/ai-fitness-coach"
-        },
-        {
-          "domain": "bestyou.ai",
-          "title": "The Engine | BestYou",
-          "uri": "https://www.bestyou.ai/engine"
-        },
-        {
-          "domain": "budy.fit",
-          "title": "AI Workout Generation with Real Personalized Plans | Budy",
-          "uri": "https://budy.fit/ai-workout-generation"
-        },
-        {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
-        },
-        {
-          "domain": "github.com",
-          "title": "dany701/Onus",
-          "uri": "https://github.com/dany701/onus"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help you understand how to search for \"AI accountability system for overplanners and workout execution\" effectively or provide information based on existing knowledge. If you have specific questions or need assistance with a particular topic, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:8710e9ea6c38749c6326fba8a3c635ed198f3ae6b9fe3bb0deafc51e2973809e",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_c1cd0aa48f93",
-      "target_id": "si_0d12c4713bd9ba5b",
-      "query": "AI accountability system for busy parents and behavior reframing",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:13.507Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "betterparentai.com",
-        "famsies.com",
-        "kidooo.ai",
-        "nestgenie.ai",
-        "par-ai.app",
-        "parentii.app",
-        "parentscript.com",
-        "picparent.com",
-        "thawly.ai",
-        "thepath.ai"
-      ],
-      "references": [
-        {
-          "domain": "parentscript.com",
-          "title": "ParentScript - AI Parenting Advisor",
-          "uri": "https://parentscript.com/"
-        },
-        {
-          "domain": "picparent.com",
-          "title": "PICParent — Raise a responsible child, without raising your voice",
-          "uri": "https://picparent.com/"
-        },
-        {
-          "domain": "par-ai.app",
-          "title": "AI Behavior Coach for Toddlers: How It Works | ParAI",
-          "uri": "https://par-ai.app/blog/ai-behavior-coach-toddlers"
-        },
-        {
-          "domain": "thepath.ai",
-          "title": "AI Therapy for Parenting & Family Issues | The Path",
-          "uri": "https://www.thepath.ai/focus-areas/family-parenting/"
-        },
-        {
-          "domain": "kidooo.ai",
-          "title": "Kidooo AI for personalized parenting",
-          "uri": "https://kidooo.ai/"
-        },
-        {
-          "domain": "nestgenie.ai",
-          "title": "NestGenie — Your Always-On AI Parenting Partner",
-          "uri": "https://nestgenie.ai/"
-        },
-        {
-          "domain": "famsies.com",
-          "title": "Famsies — AI Parent Coach for Tantrums, Repair & Real Life",
-          "uri": "https://famsies.com/"
-        },
-        {
-          "domain": "betterparentai.com",
-          "title": "Know what to say when parenting gets hard | BetterParent AI",
-          "uri": "https://betterparentai.com/"
-        },
-        {
-          "domain": "thawly.ai",
-          "title": "Thawly for Parents — Overcome ADHD Household Overwhelm",
-          "uri": "https://thawly.ai/for/parents"
-        },
-        {
-          "domain": "parentii.app",
-          "title": "Parentii - AI Parenting Assistant",
-          "uri": "https://parentii.app/"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for busy parents and behavior reframing:\n\n1. **ParentScript - AI Parenting Advisor**: This platform offers an AI-powered parenting advisor that provides step-by-step action plans for everyday parenting situations, helping parents navigate challenges with specific phrases to say to their children. [parentscript.com](https://parentscript.com/)\n\n2. **PICParent**: This system helps parents raise responsible children without raising their voices. It provides a daily 15-minute plan with specific missions and a Responsibility Score to track progress, making it easier for busy parents to manage daily tasks and behavior. [picparent.com](https://picparent.com/)\n\n3. **AI Behavior Coach for Toddlers - ParAI**: This tool creates personalized positive discipline plans based on a child's specific challenges and tracks progress throug",
-      "evidence_ref": "grounded_response_sha256:103e16af036874a3dc0984a46937e67c906c1607c8fb51deb1a6c394518bd400",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_f5c6707a80ea",
-      "target_id": "si_23ebd684352659fe",
-      "query": "AI accountability system for creators and career acceleration",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:22.522Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "creatorscore.io",
-        "joinlevl.com",
-        "khaby.ai",
-        "kitsuneai.co",
-        "patents-review.com",
-        "promo.suedeai.ai",
-        "suilaai.com"
-      ],
-      "references": [
-        {
-          "domain": "creatorscore.io",
-          "title": "AEO for Creators — Show Up in AI Answers | CreatorScore",
-          "uri": "https://creatorscore.io/aeo-for-creators"
-        },
-        {
-          "domain": "creatorscore.io",
-          "title": "Creator Dashboard, Score & Live Media Kit | CreatorScore",
-          "uri": "https://creatorscore.io/for-creators"
-        },
-        {
-          "domain": "creatorscore.io",
-          "title": "How CreatorScore Works — From a Handle to a Trust Score | CreatorScore",
-          "uri": "https://creatorscore.io/how-it-works"
-        },
-        {
-          "domain": "suilaai.com",
-          "title": "For Creators — Get Your Free Trust Score | SuilaAI",
-          "uri": "https://suilaai.com/for-creators"
-        },
-        {
-          "domain": "joinlevl.com",
-          "title": "LEVL — Reputation Infrastructure for the Creator Economy",
-          "uri": "https://joinlevl.com/"
-        },
-        {
-          "domain": "promo.suedeai.ai",
-          "title": "Suede Promo: Selective visibility audits and creator campaigns.",
-          "uri": "https://promo.suedeai.ai/"
-        },
-        {
-          "domain": "khaby.ai",
-          "title": "The Identity Score: Quantifying a Creator's AI Commercialization Readiness — KHABY AI",
-          "uri": "https://khaby.ai/blog/identity-score-methodology/"
-        },
-        {
-          "domain": "creatorscore.io",
-          "title": "CreatorScore — AI Influencer Vetting & Brand Safety Platform",
-          "uri": "https://creatorscore.io/"
-        },
-        {
-          "domain": "patents-review.com",
-          "title": "AI Reputation Oracle for Tokenized Creator Influence - Patent Application",
-          "uri": "https://www.patents-review.com/a/20260067087-ai-reputation-oracle-tokenized-creator-influence.html"
-        },
-        {
-          "domain": "kitsuneai.co",
-          "title": "Creator OS · The operating system for your creator business · Kitsune AI",
-          "uri": "https://www.kitsuneai.co/creator-os"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources related to \"AI accountability system for creators and career acceleration\" based on the latest web search results:\n\n1. **CreatorScore** - This platform offers tools for creators to improve their visibility and trust scores, which are essential for career acceleration in the creator economy. It provides insights into how often creators are recommended by AI engines and offers a dashboard to track performance and audience health. More details can be found on their site: [creatorscore.io](https://creatorscore.io/).\n\n2. **SuilaAI** - SuilaAI provides a trust score that helps creators demonstrate their audience's authenticity and content legitimacy. It emphasizes the importance of AI recommendations for visibility and offers a continuous improvement engine to enhance creators' scores over time. Learn more at: [suilaai.com](https://suilaai.com/for-creators).\n\n3. ",
-      "evidence_ref": "grounded_response_sha256:9b66ca4b6863b85763f5cdff2256c730e734d0622ac7d83929cc2a6b9cb65167",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_d7c56118eddb",
-      "target_id": "si_3d8ff5c7f4c9a6ef",
-      "query": "AI accountability system for busy parents and emotional reset",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:28.561Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "alphamothers.com",
-        "exhale.bot",
-        "kikko.ai",
-        "mentalloadai.com",
-        "momtalk.ai",
-        "nestgenie.ai",
-        "parentos.ai",
-        "phionyx.ai",
-        "thawly.ai",
-        "theplayway.com"
-      ],
-      "references": [
-        {
-          "domain": "alphamothers.com",
-          "title": "AlphaMa - The AI Life Partner for Moms",
-          "uri": "https://alphamothers.com/"
-        },
-        {
-          "domain": "nestgenie.ai",
-          "title": "NestGenie — Your Always-On AI Parenting Partner",
-          "uri": "https://nestgenie.ai/"
-        },
-        {
-          "domain": "thawly.ai",
-          "title": "Thawly for Parents — Overcome ADHD Household Overwhelm",
-          "uri": "https://thawly.ai/for/parents"
-        },
-        {
-          "domain": "exhale.bot",
-          "title": "Exhale by Greyai.ai - The AI Executive for executive parents",
-          "uri": "https://exhale.bot/"
-        },
-        {
-          "domain": "phionyx.ai",
-          "title": "Turn daily chaos into clear routines, safe boundaries, and parent-approved decisions.",
-          "uri": "https://phionyx.ai/hearthos-starter-kit-v0.1.pdf"
-        },
-        {
-          "domain": "kikko.ai",
-          "title": "KIKKO - Your AI Parenting Assistant",
-          "uri": "https://www.kikko.ai/"
-        },
-        {
-          "domain": "theplayway.com",
-          "title": "Regulation Coach GPT | Shame-Free Support for Overwhelmed Parents",
-          "uri": "https://theplayway.com/blogs/regulation/regulation-coach-gpt"
-        },
-        {
-          "domain": "momtalk.ai",
-          "title": "MomTalk.ai - Your Family's Little World, Beautifully Organized",
-          "uri": "https://momtalk.ai/"
-        },
-        {
-          "domain": "mentalloadai.com",
+          "domain": "arxiv.org",
           "title": null,
-          "uri": "https://mentalloadai.com/"
+          "uri": "https://arxiv.org/pdf/2602.11865v1"
         },
         {
-          "domain": "parentos.ai",
-          "title": "ParentOS — Calm AI Family Assistant",
-          "uri": "https://parentos.ai/en/"
+          "domain": "delegatic.com",
+          "title": "Delegatic — Governance for AI Agent Teams",
+          "uri": "https://delegatic.com/"
+        },
+        {
+          "domain": "datatracker.ietf.org",
+          "title": "draft-wang-hjs-accountability-01 - HJS: An Accountability Layer for AI Agents",
+          "uri": "https://datatracker.ietf.org/doc/draft-wang-hjs-accountability/01/"
+        },
+        {
+          "domain": "github.com",
+          "title": "simaba/accountability-patterns",
+          "uri": "https://github.com/simaba/ai-accountability-design-patterns"
+        },
+        {
+          "domain": "aiagentgovernance.org",
+          "title": "MOIAS Methodology — aiagentgovernance.org",
+          "uri": "https://aiagentgovernance.org/framework/governance-lifecycle/"
+        },
+        {
+          "domain": "github.com",
+          "title": "SPEC.md",
+          "uri": "https://github.com/gugli4ifenix-design/atap/blob/main/SPEC.md"
+        },
+        {
+          "domain": "arxiv.org",
+          "title": null,
+          "uri": "https://arxiv.org/pdf/2604.07695"
+        },
+        {
+          "domain": "zenn.dev",
+          "title": "Responsibility Pathway Layer: A Minimalist Implementation for Accountability in AI Agents",
+          "uri": "https://zenn.dev/dantarg/articles/33825ca3f8c0e6?locale=en"
+        },
+        {
+          "domain": "github.com",
+          "title": "Nefza99/Rebis-AI-auditing-Architecture",
+          "uri": "https://github.com/nefza99/rebis-ai-auditing-architecture"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources based on your search for \"AI accountability system for busy parents and emotional reset\":\n\n1. **AlphaMa - The AI Life Partner for Moms**: This AI-powered life partner is designed specifically for mothers, providing emotional support and helping manage the mental load of parenting. It includes features like a Mental Load Audit to help mothers understand their responsibilities and offers emotional support. [alphamothers.com](https://alphamothers.com/)\n\n2. **Regulation Coach GPT | Shame-Free Support for Overwhelmed Parents**: This tool offers emotional support for parents, providing guidance through stressful moments without judgment. It includes techniques for grounding and self-soothing, making it a useful resource for emotional resets. [theplayway.com](https://theplayway.com/blogs/regulation/regulation-coach-gpt)\n\n3. **NestGenie — Your Always-On AI Parentin",
-      "evidence_ref": "grounded_response_sha256:ec4fdd66a122164fa2a676ec4b16384ece3d6a75029ff33cb44099edec961571",
+      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help you understand how to search for information on \"AI accountability system for consistency strugglers and delegation\" or provide insights based on existing knowledge. If you have specific questions or need information on a related topic, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:4c0c667a9a25b1733ac939b7a2e3dfe2d6f2decca2ef84e6aad5762a4ba2b5aa",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_ec6feb72df9f",
-      "target_id": "si_41bf29ee1fe9eeb2",
-      "query": "AI accountability system for busy parents and multi-project management",
+      "observation_id": "spry_obs_14b259ad944c",
+      "target_id": "si_eae9b5329349223f",
+      "query": "AI system for body goal users struggling with fitness consistency",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:34.376Z",
+      "observed_at": "2026-09-07T13:36:04.402Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
       "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/use-cases/phase4/a-player-mode-for-a-executive-who-is-trying-to-build-consistency",
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
-        "agent-mom.com",
-        "fynnfamily.com",
+        "apps.apple.com",
+        "bodyby.ai",
+        "bodybyaicoach.com",
+        "bodybyte.ai",
+        "corahealth.app",
+        "fitlio.app",
+        "fitnleanai.com",
+        "hale.fitness",
+        "onefitai.com",
+        "thrini.com"
+      ],
+      "references": [
+        {
+          "domain": "fitlio.app",
+          "title": "Fitlio – Workout Program & Meal Plan Built by AI Coach | Android Fitness App",
+          "uri": "https://fitlio.app/"
+        },
+        {
+          "domain": "thrini.com",
+          "title": "Thrini — AI Fitness & Nutrition Coach",
+          "uri": "https://thrini.com/"
+        },
+        {
+          "domain": "bodybyaicoach.com",
+          "title": "Body by AI — Your AI Fitness Coach",
+          "uri": "https://www.bodybyaicoach.com/"
+        },
+        {
+          "domain": "corahealth.app",
+          "title": "Cora — AI Fitness Coach App for Training, Recovery & Nutrition",
+          "uri": "https://www.corahealth.app/"
+        },
+        {
+          "domain": "bodyby.ai",
+          "title": "BodyBy.AI – Your Personalized AI Fitness, Nutrition, & Wellness App",
+          "uri": "https://www.bodyby.ai/"
+        },
+        {
+          "domain": "bodybyte.ai",
+          "title": "Body Byte — AI fitness & nutrition coaching that learns from your wearable data",
+          "uri": "https://bodybyte.ai/"
+        },
+        {
+          "domain": "fitnleanai.com",
+          "title": "Fit N Lean AI | AI Fitness Coach, Personalized Diet & Workout Plans",
+          "uri": "https://www.fitnleanai.com/"
+        },
+        {
+          "domain": "hale.fitness",
+          "title": "Hale — AI Fitness Coach & Calorie Tracker | From £9.99/month",
+          "uri": "https://hale.fitness/"
+        },
+        {
+          "domain": "onefitai.com",
+          "title": "OneFit AI - All-in-One Fitness App | AI Workout & Nutrition Tracker",
+          "uri": "https://onefitai.com/"
+        },
+        {
+          "domain": "apps.apple.com",
+          "title": "‎Oak: Workout & Diet Coach App - App Store",
+          "uri": "https://apps.apple.com/kh/app/oak-workout-diet-coach/id6760197505"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss AI systems designed to help users with body goals and fitness consistency:\n\n1. **Fitlio** - This app offers an AI coaching experience that builds personalized workout programs and meal plans based on user input. It focuses on onboarding users properly and schedules weekly check-ins to help maintain consistency. More details can be found on their website: [fitlio.app](https://fitlio.app/).\n\n2. **Thrini** - Thrini is an AI fitness and nutrition coach that adapts to users' real-life situations, learning their behaviors and adjusting plans accordingly. It emphasizes sustainable progress and adapts to changes in users' lives. More information is available at [thrini.com](https://thrini.com/).\n\n3. **Body by AI** - This platform provides personalized fitness coaching that considers various user circumstances, such as age and health conditions. It aims",
+      "evidence_ref": "grounded_response_sha256:bad5f7e714b16df6df896685f01a31dd6df6e94d5d2adbcb904f899a5bf7317f",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_98805a0e0d49",
+      "target_id": "si_c12f036c85ec99f6",
+      "query": "AI accountability system for busy parents and missed-day recovery",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:07.109Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-missed-day-recovery",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "getsense.ai",
+        "github.com",
+        "heysunday.ai",
         "kikko.ai",
-        "mentalloadai.com",
-        "nestgenie.ai",
+        "mumdad.ai",
         "parendipity.ai",
         "peeta.ai",
         "peggyapp.com",
-        "rosieai.ai",
-        "unsiloed.life"
+        "qa.ohai.ai",
+        "rileyapp.vercel.app"
       ],
       "references": [
         {
-          "domain": "peeta.ai",
-          "title": "Peeta | AI copilot for busy parents | Streamline your family logistics today",
-          "uri": "https://www.peeta.ai/"
+          "domain": "getsense.ai",
+          "title": "Sense: AI Family Calendar & Organizer | Reads School Emails Free",
+          "uri": "https://getsense.ai/"
         },
         {
           "domain": "peggyapp.com",
@@ -1288,499 +1135,9 @@
           "uri": "https://www.peggyapp.com/"
         },
         {
-          "domain": "mentalloadai.com",
-          "title": null,
-          "uri": "https://mentalloadai.com/"
-        },
-        {
-          "domain": "rosieai.ai",
-          "title": "Rosie handles the chaos.",
-          "uri": "https://www.rosieai.ai/"
-        },
-        {
-          "domain": "nestgenie.ai",
-          "title": "NestGenie — Your Always-On AI Parenting Partner",
-          "uri": "https://nestgenie.ai/"
-        },
-        {
-          "domain": "unsiloed.life",
-          "title": null,
-          "uri": "https://unsiloed.life/"
-        },
-        {
-          "domain": "agent-mom.com",
-          "title": "Agent Mom — AI Assistant for Busy Moms | Family Calendar & Schedule Manager",
-          "uri": "https://www.agent-mom.com/"
-        },
-        {
           "domain": "kikko.ai",
           "title": "KIKKO - Your AI Parenting Assistant",
           "uri": "https://www.kikko.ai/"
-        },
-        {
-          "domain": "fynnfamily.com",
-          "title": "Fynn — AI Family OS that Shares the Mental Load",
-          "uri": "https://fynnfamily.com/"
-        },
-        {
-          "domain": "parendipity.ai",
-          "title": "Parent AI - AI for Parents Managing Family Schedules | Parendipity",
-          "uri": "https://parendipity.ai/parent-ai"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for busy parents and multi-project management:\n\n1. **Peeta** - An AI copilot designed for busy parents that streamlines family logistics by automatically extracting important information from conversations and turning them into actionable tasks. It features AI-powered group chats, collaborative task management, and an auto-planner to help manage family responsibilities. [peeta.ai](https://www.peeta.ai/)\n\n2. **Melo** - This AI companion helps manage the invisible work of parenting by capturing tasks, delegating them to family members, and tracking progress. It aims to lighten the mental load of parents by anticipating needs and managing logistics effectively. [mentalloadai.com](https://mentalloadai.com/)\n\n3. **Rosie** - An AI executive assistant that learns about a family's commitments and schedules, helping to manage c",
-      "evidence_ref": "grounded_response_sha256:38d3155d23826b92629d3c9748f383af1b6adc8bb929cdbfefcb5b51d7c8a6bb",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_da09c4908e54",
-      "target_id": "si_fafdf9ef4a170353",
-      "query": "AI accountability system for students and early-career professionals and performance routines",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:41.312Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-behavioral-follow-through",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "arxiv.org",
-        "dev.to",
-        "github.com",
-        "provenanceai.app"
-      ],
-      "references": [
-        {
-          "domain": "github.com",
-          "title": "pinakkk/Mentora",
-          "uri": "https://github.com/pinakkk/Mentora"
-        },
-        {
-          "domain": "github.com",
-          "title": "thecolorblue/coach-loop",
-          "uri": "https://github.com/thecolorblue/coach-loop"
-        },
-        {
-          "domain": "github.com",
-          "title": "Anmedrif/ai-career-os",
-          "uri": "https://github.com/Anmedrif/ai-career-os"
-        },
-        {
-          "domain": "arxiv.org",
-          "title": "[2608.21379] RIACT: A Responsible AI System for Personalized Study Habit Tracking and Early Burnout Signal Detection in University Students",
-          "uri": "https://arxiv.org/abs/2608.21379"
-        },
-        {
-          "domain": "provenanceai.app",
-          "title": "ProvenanceAI - Building Learning Systems for the AI-era",
-          "uri": "https://www.provenanceai.app/"
-        },
-        {
-          "domain": "dev.to",
-          "title": "Teaching an AI to Call Out My Excuses Using Hindsight Memory - DEV Community",
-          "uri": "https://dev.to/trigunadeepika20ctrl/teaching-an-ai-to-call-out-my-excuses-using-hindsight-memory-4b0a"
-        },
-        {
-          "domain": "github.com",
-          "title": "AnuragMathurGitHub/foreword",
-          "uri": "https://github.com/AnuragMathurGitHub/foreword"
-        },
-        {
-          "domain": "github.com",
-          "title": "BhupatiNadar/ai-interview-coach",
-          "uri": "https://github.com/BhupatiNadar/ai-interview-coach"
-        },
-        {
-          "domain": "github.com",
-          "title": "Tejashwini-Malge/Aira",
-          "uri": "https://github.com/tejashwini-malge/aira"
-        },
-        {
-          "domain": "arxiv.org",
-          "title": "CS-Guide: Leveraging LLMs and Student Reflections to Provide Frequent, Scalable Academic Monitoring Feedback to Computer Science Students",
-          "uri": "https://arxiv.org/html/2512.19866v1"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources related to AI accountability systems for students and early-career professionals, as well as performance routines:\n\n1. **Mentora**: This is a multi-agent AI system that acts as a personalized career coach for university students preparing for campus placements. It maintains persistent memory, proactively follows up, and makes autonomous decisions about preparation strategies. The system includes diagnostic analysis of skills and personalized prep plans, along with accountability features. [GitHub - pinakkk/Mentora](https://github.com/pinakkk/Mentora)\n\n2. **AXIOM**: A personal discipline agent designed to hold students accountable over time. It checks in daily about various aspects of a student's life, scores their progress, and generates personalized plans based on their history. This system emphasizes accountability and structured check-ins. [DEV Community",
-      "evidence_ref": "grounded_response_sha256:a39714f0c7d464378a90a9dc2442ac17263c244f6e6030599a459f781b25490a",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_d2e4b2007748",
-      "target_id": "si_707576d6004dac0d",
-      "query": "AI accountability system for entrepreneurs and career acceleration",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:48.497Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "antonkoekemoer.com",
-        "aseyi.com",
-        "bizunderworld.com",
-        "businessaction.com",
-        "cofounder.im",
-        "danmartell.com",
-        "pensy.ai",
-        "qorven.ai",
-        "trycofounder.com",
-        "vibeventure.ai"
-      ],
-      "references": [
-        {
-          "domain": "trycofounder.com",
-          "title": "CoFounder - AI Accountability Partner for Solo Founders | Startup Execution System",
-          "uri": "https://trycofounder.com/"
-        },
-        {
-          "domain": "aseyi.com",
-          "title": "Aseyi - AI Business Coach & Accountability Partner for Entrepreneurs",
-          "uri": "https://aseyi.com/"
-        },
-        {
-          "domain": "pensy.ai",
-          "title": "AI Accountability Partner & AI Life Coach With Memory | Pensy",
-          "uri": "https://pensy.ai/"
-        },
-        {
-          "domain": "bizunderworld.com",
-          "title": "Biz AI Coach | Personal Growth & Business Development AI Platform",
-          "uri": "https://bizunderworld.com/ai-coach"
-        },
-        {
-          "domain": "qorven.ai",
-          "title": "Qorven — An AI Leadership Team for Solo Founders",
-          "uri": "https://qorven.ai/"
-        },
-        {
-          "domain": "vibeventure.ai",
-          "title": "AI-Powered Agentic Platform",
-          "uri": "https://www.vibeventure.ai/"
-        },
-        {
-          "domain": "danmartell.com",
-          "title": "Dan AI - Your 24/7 Business Coach, Partner and Assistant",
-          "uri": "https://www.danmartell.com/danai/"
-        },
-        {
-          "domain": "cofounder.im",
-          "title": "Chief Executive Agent (CEA) — Your AI Co-Founder | CoFounder.im\n     · CoFounder.im",
-          "uri": "https://cofounder.im/cea"
-        },
-        {
-          "domain": "businessaction.com",
-          "title": "Right AI. Right Seat: How to Put AI on Your Accountability Chart | Business Action",
-          "uri": "https://www.businessaction.com/right-ai-right-seat-how-to-put-ai-on-your-accountability-chart/"
-        },
-        {
-          "domain": "antonkoekemoer.com",
-          "title": "AI Career Index | Structural Career Intelligence",
-          "uri": "https://www.antonkoekemoer.com/ai-career-index/"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for entrepreneurs and career acceleration:\n\n1. **CoFounder - AI Accountability Partner for Solo Founders**: This platform offers an AI accountability partner designed to help solo founders execute their startup ideas effectively. It includes built-in frameworks, validation gates, and accountability checkpoints to ensure progress and prevent founders from building the wrong thing. [trycofounder.com](https://trycofounder.com/)\n\n2. **Aseyi - AI Business Coach & Accountability Partner for Entrepreneurs**: Aseyi provides an AI-powered system that helps entrepreneurs focus on key areas of their business. It organizes business activities into core systems and offers personalized insights and recommendations to drive growth. [aseyi.com](https://aseyi.com/)\n\n3. **Pensy - AI Accountability Partner & Life Coach**: Pensy acts as a",
-      "evidence_ref": "grounded_response_sha256:220f8c07e6c9156c875084589e4f12e2e5501961b6bc21366d6fc10209f4cb7c",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_75e70c2abf59",
-      "target_id": "si_1dc03d767578d87b",
-      "query": "AI accountability system for overplanners and fitness consistency",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:52.319Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-chief-of-staff-support",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "accountabilitypartner360.com",
-        "chaegim.com",
-        "enerzee.app",
-        "github.com",
-        "github.laiyagushi.com",
-        "ogamic.com",
-        "overlord.app",
-        "pensy.ai",
-        "saga.coach"
-      ],
-      "references": [
-        {
-          "domain": "accountabilitypartner360.com",
-          "title": "AI Accountability Partner",
-          "uri": "https://accountabilitypartner360.com/"
-        },
-        {
-          "domain": "overlord.app",
-          "title": "Overlord - AI Accountability Partner",
-          "uri": "https://overlord.app/"
-        },
-        {
-          "domain": "github.com",
-          "title": "15dani1/pain.exe",
-          "uri": "https://github.com/15dani1/pain.exe"
-        },
-        {
-          "domain": "enerzee.app",
-          "title": "EnerZee — The AI Fitness Coach That Actually Reasons",
-          "uri": "https://enerzee.app/"
-        },
-        {
-          "domain": "pensy.ai",
-          "title": "AI Accountability Partner & AI Life Coach With Memory | Pensy",
-          "uri": "https://pensy.ai/"
-        },
-        {
-          "domain": "saga.coach",
-          "title": "AI Fitness Coach: Training, Habits, Recovery, and Schedule | Saga Coach",
-          "uri": "https://www.saga.coach/ai-fitness-coach"
-        },
-        {
-          "domain": "chaegim.com",
-          "title": "Chaegim — The AI that holds you to who you want to become",
-          "uri": "https://www.chaegim.com/"
-        },
-        {
-          "domain": "ogamic.com",
-          "title": "AI Coach That Messages You to Stay on Track · OgamicX",
-          "uri": "https://ogamic.com/blog/ai-coach-that-messages-you-to-stay-on-track"
-        },
-        {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
-        },
-        {
-          "domain": "github.com",
-          "title": "dany701/Onus",
-          "uri": "https://github.com/dany701/onus"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can provide information based on the data I have been trained on. If you're looking for AI accountability systems that cater to overplanners and fitness consistency, you might find the following sources relevant:\n\n1. **Overlord - AI Accountability Partner**: This app focuses on keeping users on track with their goals through various interventions, including voice calls and friend escalation. It adapts to user behavior to ensure consistency in habits. [overlord.app](https://overlord.app/)\n\n2. **pain.exe**: This personal AI agent helps users maintain discipline and adhere to fitness goals by generating structured plans and tracking adherence through various channels. It reacts to missed commitments and adapts plans accordingly. [github.com](https://github.com/15dani1/pain.exe)\n\n3. **EnerZee**: This fitness app combin",
-      "evidence_ref": "grounded_response_sha256:3d01c26202aae70e5501e1940523c68aa914104cf66421c0ff480e17c39e121b",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_821918c4295d",
-      "target_id": "si_dfc54f738021b07a",
-      "query": "AI accountability system for upwardly mobile executives and performance routines",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:31:55.444Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-behavioral-follow-through",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "biznetboost.com",
-        "businessinsider.com",
-        "cmr.berkeley.edu",
-        "coursiv.io",
-        "executiveaipartners.com",
-        "skills.2389.ai",
-        "strasysglobal.com",
-        "textlauren.com",
-        "theleveragedyears.com",
-        "zintellex.com"
-      ],
-      "references": [
-        {
-          "domain": "zintellex.com",
-          "title": "How to Run an Executive Weekly Review with AI (The Habit That Compounds) | Zintellex",
-          "uri": "https://www.zintellex.com/articles/ai-weekly-review-executives"
-        },
-        {
-          "domain": "textlauren.com",
-          "title": "How an AI Accountability Partner Actually Works",
-          "uri": "https://textlauren.com/resources/ai-accountability-partner"
-        },
-        {
-          "domain": "strasysglobal.com",
-          "title": "STRASYS Reflections | Executive Reflection Engine",
-          "uri": "https://www.strasysglobal.com/reflections"
-        },
-        {
-          "domain": "theleveragedyears.com",
-          "title": "AI for Managers: The Weekly Operating System | TLY",
-          "uri": "https://www.theleveragedyears.com/ai-workflows/ai-for-managers-operating-system"
-        },
-        {
-          "domain": "coursiv.io",
-          "title": "AI for Executives 2026: Governance, ROI & Decisions | Coursiv Blog",
-          "uri": "https://coursiv.io/blog/ai-for-executives"
-        },
-        {
-          "domain": "cmr.berkeley.edu",
-          "title": "From AI Assistant to Executive Partner: The Next Executive Phase of Human–AI Leadership | California Management Review",
-          "uri": "https://cmr.berkeley.edu/2026/08/from-ai-assistant-to-executive-partner-the-next-executive-phase-of-human-ai-leadership/"
-        },
-        {
-          "domain": "businessinsider.com",
-          "title": "Big Tech, Wall Street Bring AI to Performance Reviews - Business Insider",
-          "uri": "https://www.businessinsider.com/meta-google-jpmorgan-make-ai-performance-reviews-goals-raises-promotions-2026-3"
-        },
-        {
-          "domain": "executiveaipartners.com",
-          "title": "Daily AI Executive Coaching: How the Executive Genius OS™ Works",
-          "uri": "https://executiveaipartners.com/ai-daily-coaching-executive-genius-os/"
-        },
-        {
-          "domain": "biznetboost.com",
-          "title": "AI Executive Board — Strategic Clarity, You Chair the Board | BizNetBoost",
-          "uri": "https://biznetboost.com/ai-executive-board/"
-        },
-        {
-          "domain": "skills.2389.ai",
-          "title": "ceo-personal-os — Personal & Strategy Plugin for Claude Code | 2389 Research",
-          "uri": "https://skills.2389.ai/plugins/ceo-personal-os/"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that information effectively or provide insights based on existing knowledge. If you have specific questions or need guidance on a related topic, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:f35e729888832d40b706ad1d269e8c4dd7a87b6cad8a312b8d739919a05dabba",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_bf8ff6dd47e1",
-      "target_id": "si_737be2d1fd9d6707",
-      "query": "AI accountability system for busy parents and self-trust rebuilding",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:32:01.916Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "aiforbusyhumans.com",
-        "bostonglobe.com",
-        "emilyreuschel.com",
-        "laurenselley.com",
-        "littlemight.com",
-        "mittendad.substack.com",
-        "nestgenie.ai",
-        "permission.ai",
-        "phionyx.ai",
-        "screenwiseapp.com"
-      ],
-      "references": [
-        {
-          "domain": "screenwiseapp.com",
-          "title": "The AI Trust Paradox for Overwhelmed Parents – Guide | Screenwise",
-          "uri": "https://screenwiseapp.com/guides/parent-ai-use-trust-gap"
-        },
-        {
-          "domain": "littlemight.com",
-          "title": "How to Build an AI House Manager for Your Family · Little Might",
-          "uri": "https://www.littlemight.com/how-to-build-an-ai-house-manager/"
-        },
-        {
-          "domain": "phionyx.ai",
-          "title": "Turn daily chaos into clear routines, safe boundaries, and parent-approved decisions.",
-          "uri": "https://phionyx.ai/hearthos-starter-kit-v0.1.pdf"
-        },
-        {
-          "domain": "aiforbusyhumans.com",
-          "title": "🏗️ The Parenting Systems Builder | AI for Busy Humans",
-          "uri": "https://aiforbusyhumans.com/parenting/family-systems/"
-        },
-        {
-          "domain": "laurenselley.com",
-          "title": "I Gave My AI a Job Title. Now It Runs My Household. — LAUREN SELLEY",
-          "uri": "https://www.laurenselley.com/blog/i-gave-my-ai-a-job-title-now-it-runs-my-household"
-        },
-        {
-          "domain": "mittendad.substack.com",
-          "title": "The Calm Way to Use AI Agents as a Parent-Creator",
-          "uri": "https://mittendad.substack.com/p/calm-ai-agents-parent-creator-framework"
-        },
-        {
-          "domain": "emilyreuschel.com",
-          "title": "201 | Rebuilding Self-Trust: Why Mindset Isn’t Enough—and What Actually Creates Change with Andrea Tessier",
-          "uri": "https://www.emilyreuschel.com/post/201-rebuilding-self-trust-why-mindset-isnt-enough-and-what-actually-creates-change"
-        },
-        {
-          "domain": "permission.ai",
-          "title": "Parenting in the Age of AI: How to Raise Resilient Kids in a Rapidly Changing Tech World | Blog | Permission",
-          "uri": "https://www.permission.ai/blog/parenting-in-the-age-of-ai-why-tech-is-making-parenting-harder---and-what-parents-can-do"
-        },
-        {
-          "domain": "nestgenie.ai",
-          "title": "NestGenie — Your Always-On AI Parenting Partner",
-          "uri": "https://nestgenie.ai/"
-        },
-        {
-          "domain": "bostonglobe.com",
-          "title": "How to use AI in parenting to offload some of the stress",
-          "uri": "https://www.bostonglobe.com/2026/06/12/lifestyle/ai-in-parenting/"
-        }
-      ],
-      "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for busy parents and the concept of rebuilding self-trust:\n\n1. **The AI Trust Paradox for Overwhelmed Parents** - This guide discusses how busy parents use AI tools and the trust gap that exists due to their high levels of stress. It emphasizes the importance of verifying AI outputs, especially for high-stakes tasks like homework help. [screenwiseapp.com](https://screenwiseapp.com/guides/parent-ai-use-trust-gap)\n\n2. **How to Build an AI House Manager for Your Family** - This article outlines how to create an AI system that assists with household tasks while maintaining clear boundaries and accountability. It emphasizes the importance of parental approval for significant actions. [littlemight.com](https://www.littlemight.com/how-to-build-an-ai-house-manager/)\n\n3. **HearthOS: A Bounded-Authority System for Family Decisio",
-      "evidence_ref": "grounded_response_sha256:72fd7f1a0041bb88b30cf793c10c9847906a6cb6e2b7fa5615b3bb3faafeaabb",
-      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
-    },
-    {
-      "observation_id": "spry_obs_a48dd43c7d98",
-      "target_id": "si_8b36985c859944db",
-      "query": "AI accountability system for busy parents and weekly review",
-      "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:32:07.605Z",
-      "observation_kind": "grounded_search_observation",
-      "is_literal_serp_rank": false,
-      "truth_source": "openrouter_web_plugin",
-      "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
-      "own_domain_referenced": false,
-      "own_urls_referenced": [],
-      "referenced_domains": [
-        "aiforbusyhumans.com",
-        "asianefficiency.com",
-        "littlemight.com",
-        "mumdad.ai",
-        "ourlifeapp.ai",
-        "peeta.ai",
-        "peggyapp.com",
-        "phionyx.ai",
-        "tendril.neural-forge.io",
-        "zenframe.no"
-      ],
-      "references": [
-        {
-          "domain": "aiforbusyhumans.com",
-          "title": "🏗️ The Parenting Systems Builder | AI for Busy Humans",
-          "uri": "https://aiforbusyhumans.com/parenting/family-systems/"
-        },
-        {
-          "domain": "littlemight.com",
-          "title": "How to Build an AI House Manager for Your Family · Little Might",
-          "uri": "https://www.littlemight.com/how-to-build-an-ai-house-manager/"
-        },
-        {
-          "domain": "zenframe.no",
-          "title": "AI weekly family digest | Zenframe guide",
-          "uri": "https://www.zenframe.no/en/guides/ai-weekly-family-digest"
-        },
-        {
-          "domain": "phionyx.ai",
-          "title": "Turn daily chaos into clear routines, safe boundaries, and parent-approved decisions.",
-          "uri": "https://phionyx.ai/hearthos-starter-kit-v0.1.pdf"
         },
         {
           "domain": "peeta.ai",
@@ -1788,19 +1145,19 @@
           "uri": "https://www.peeta.ai/"
         },
         {
-          "domain": "ourlifeapp.ai",
-          "title": "Sunday recap — your week, narrated · Our Life",
-          "uri": "https://ourlifeapp.ai/features/sunday-digest"
+          "domain": "parendipity.ai",
+          "title": "Parent AI - AI for Parents Managing Family Schedules | Parendipity",
+          "uri": "https://parendipity.ai/parent-ai"
         },
         {
-          "domain": "asianefficiency.com",
-          "title": "How to Automate Your Weekly Review With AI (2026)",
-          "uri": "https://www.asianefficiency.com/productivity/automate-weekly-review-ai/"
+          "domain": "qa.ohai.ai",
+          "title": "Ohai.ai | Features",
+          "uri": "https://qa.ohai.ai/features/ai-school-calendar"
         },
         {
-          "domain": "tendril.neural-forge.io",
-          "title": "Quick Win: Week in Review for Parents · Tendril",
-          "uri": "https://tendril.neural-forge.io/learn/adults/quick-week-in-review-creators"
+          "domain": "rileyapp.vercel.app",
+          "title": "Riley — One agent for the whole family",
+          "uri": "https://rileyapp.vercel.app/"
         },
         {
           "domain": "mumdad.ai",
@@ -1808,35 +1165,281 @@
           "uri": "https://www.mumdad.ai/"
         },
         {
-          "domain": "peggyapp.com",
-          "title": null,
-          "uri": "https://www.peggyapp.com/"
+          "domain": "heysunday.ai",
+          "title": "Sunday | How to Stop Missing School Deadlines: A Working Parent's Guide",
+          "uri": "https://heysunday.ai/guides/how-to-stop-missing-school-deadlines/"
+        },
+        {
+          "domain": "github.com",
+          "title": "internetdrew/absence-ai",
+          "uri": "https://github.com/internetdrew/absence-ai"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for busy parents and the concept of a weekly review:\n\n1. **The Parenting Systems Builder | AI for Busy Humans**: This source discusses how to digitize family logistics and utilize AI for weekly reviews, emphasizing the importance of summarizing upcoming weeks and identifying logistical bottlenecks. [aiforbusyhumans.com](https://aiforbusyhumans.com/parenting/family-systems/)\n\n2. **How to Build an AI House Manager for Your Family · Little Might**: This article outlines a structured approach to managing family tasks and responsibilities, including a weekly reset that helps parents stay organized and make decisions efficiently. [littlemight.com](https://www.littlemight.com/how-to-build-an-ai-house-manager/)\n\n3. **AI weekly family digest | Zenframe guide**: Zenframe Assistant provides a way to generate a weekly digest that ",
-      "evidence_ref": "grounded_response_sha256:7b5348e2118550e6ca2ab0925a421c097eca35353ea512c9eb596991063c0133",
+      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand what an AI accountability system for busy parents might involve or suggest potential sources based on existing knowledge. If you have specific questions or need information on a related topic, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:9f7ced8fab9fe8f6cd55ed388621c0be0b4ba95459562b0e9357d7fa884504e8",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_eaaedf8a551b",
-      "target_id": "si_42d0ce81aac0a47a",
-      "query": "AI accountability system for consistency strugglers and behavior reframing",
+      "observation_id": "spry_obs_dc6fb30eea80",
+      "target_id": "si_94fd33a349222981",
+      "query": "AI accountability system for missed-day recovery users and nutrition discipline",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:32:10.559Z",
+      "observed_at": "2026-09-07T13:36:12.932Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
       "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://spryexecutiveos.com/answers/accountability-and-consistency",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/answers/phase4/what-should-a-founder-do-when-working-without-a-chief-of-staff-and-needs-missed-day-recovery-support",
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
-        "arxiv.org",
-        "audit.systemores.com",
+        "accountabilitypartner360.com",
+        "apps.apple.com",
+        "auralife.io",
+        "docs.maximem.ai",
         "github.com",
-        "kulvex.ai",
-        "mdpi.com",
+        "musclebuddy.net",
+        "overlord.app"
+      ],
+      "references": [
+        {
+          "domain": "github.com",
+          "title": "15dani1/pain.exe",
+          "uri": "https://github.com/15dani1/pain.exe"
+        },
+        {
+          "domain": "github.com",
+          "title": "ayush-jaipuriar/accountability_agent",
+          "uri": "https://github.com/ayush-jaipuriar/accountability_agent"
+        },
+        {
+          "domain": "overlord.app",
+          "title": "Overlord - AI Accountability Partner",
+          "uri": "https://overlord.app/"
+        },
+        {
+          "domain": "accountabilitypartner360.com",
+          "title": "AI Accountability Partner",
+          "uri": "https://accountabilitypartner360.com/"
+        },
+        {
+          "domain": "github.com",
+          "title": "vincentoei/bodify",
+          "uri": "https://github.com/vincentoei/bodify"
+        },
+        {
+          "domain": "musclebuddy.net",
+          "title": "MuscleBuddy: Training, Nutrition & Health in One System",
+          "uri": "https://musclebuddy.net/"
+        },
+        {
+          "domain": "docs.maximem.ai",
+          "title": null,
+          "uri": "https://docs.maximem.ai/cookbook/personal-ai-coach"
+        },
+        {
+          "domain": "auralife.io",
+          "title": "AuraLife.io",
+          "uri": "https://auralife.io/"
+        },
+        {
+          "domain": "github.com",
+          "title": "acrdlph/accountability-buddy",
+          "uri": "https://github.com/acrdlph/accountability-buddy"
+        },
+        {
+          "domain": "apps.apple.com",
+          "title": "‎Oak: Workout & Diet Coach App - App Store",
+          "uri": "https://apps.apple.com/us/app/oak-workout-diet-coach/id6760197505"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems focused on missed-day recovery and nutrition discipline:\n\n1. **Pain.exe**: This is a personal AI agent designed to help users adhere to their fitness and nutrition goals. It generates structured plans, tracks adherence, and escalates reminders when commitments are missed. The system adapts plans based on user recovery and missed commitments, making it suitable for users needing support in maintaining discipline. [Source](https://github.com/15dani1/pain.exe)\n\n2. **Accountability Agent**: This AI-powered platform offers daily check-ins, compliance scoring, and proactive interventions to help users stay consistent with their goals. It includes features for tracking streaks and detecting negative patterns, which can be beneficial for users recovering from missed days. [Source](https://github.com/ayush-jaipuriar/accountabil",
+      "evidence_ref": "grounded_response_sha256:ded08c1fa6c483a15d902bf219f2a3e6916ff6e9effe2c53181ce8240bd080d6",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_879e373e8f78",
+      "target_id": "si_6ac98872d3d35a06",
+      "query": "AI accountability system for busy parents and overplanning",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:17.446Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "aiforbusyhumans.com",
+        "kikko.ai",
+        "l.ohai.ai",
+        "littlemight.com",
+        "nestgenie.ai",
+        "parendipity.ai",
+        "peeta.ai",
+        "peggyapp.com",
+        "phionyx.ai",
+        "thawly.ai"
+      ],
+      "references": [
+        {
+          "domain": "peeta.ai",
+          "title": "Peeta | AI copilot for busy parents | Streamline your family logistics today",
+          "uri": "https://www.peeta.ai/"
+        },
+        {
+          "domain": "peggyapp.com",
+          "title": null,
+          "uri": "https://www.peggyapp.com/"
+        },
+        {
+          "domain": "kikko.ai",
+          "title": "KIKKO - Your AI Parenting Assistant",
+          "uri": "https://www.kikko.ai/"
+        },
+        {
+          "domain": "phionyx.ai",
+          "title": "Turn daily chaos into clear routines, safe boundaries, and parent-approved decisions.",
+          "uri": "https://phionyx.ai/hearthos-starter-kit-v0.1.pdf"
+        },
+        {
+          "domain": "aiforbusyhumans.com",
+          "title": "🏗️ The Parenting Systems Builder | AI for Busy Humans",
+          "uri": "https://aiforbusyhumans.com/parenting/family-systems/"
+        },
+        {
+          "domain": "nestgenie.ai",
+          "title": "NestGenie — Your Always-On AI Parenting Partner",
+          "uri": "https://nestgenie.ai/"
+        },
+        {
+          "domain": "thawly.ai",
+          "title": "Thawly for Parents — Overcome ADHD Household Overwhelm",
+          "uri": "https://thawly.ai/for/parents"
+        },
+        {
+          "domain": "l.ohai.ai",
+          "title": "Personal AI Assistant | Tailored For You | Ohai.ai",
+          "uri": "https://l.ohai.ai/"
+        },
+        {
+          "domain": "parendipity.ai",
+          "title": "Parent AI - AI for Parents Managing Family Schedules | Parendipity",
+          "uri": "https://parendipity.ai/parent-ai"
+        },
+        {
+          "domain": "littlemight.com",
+          "title": "How to Build an AI House Manager for Your Family · Little Might",
+          "uri": "https://www.littlemight.com/how-to-build-an-ai-house-manager/"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for busy parents and the concept of overplanning:\n\n1. **Peeta** - This AI copilot for busy parents helps streamline family logistics by automatically extracting important information from conversations and turning them into actionable tasks. It allows for collaborative task management and real-time progress tracking. [peeta.ai](https://www.peeta.ai/)\n\n2. **HearthOS** - This system separates suggestion from authority, allowing parents to approve or reject proposals made by AI agents. It emphasizes a bounded-authority model where only parents can execute decisions, ensuring that important family decisions are not made on autopilot. [phionyx.ai](https://phionyx.ai/hearthos-starter-kit-v0.1.pdf)\n\n3. **NestGenie** - This AI parenting assistant combines strategic thinking with hands-on execution, helping families with meal p",
+      "evidence_ref": "grounded_response_sha256:8dff29bf48ec4930d959a2b6b27d03827a65c4cdb55ba7333c8e1537f98698a1",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_334fad2b12f4",
+      "target_id": "si_1f0a715aa894c401",
+      "query": "behavioral self-regulation system vs traditional coaching for people with many projects",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:24.880Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-planner-for-behavioral-follow-through",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "academia.edu",
+        "doi.org",
+        "frontiersin.org",
+        "pmc.ncbi.nlm.nih.gov",
+        "profmindful.com",
+        "ryansultan.com",
+        "scienceworkshealth.com",
+        "solisight.com",
+        "triagemethod.com"
+      ],
+      "references": [
+        {
+          "domain": "scienceworkshealth.com",
+          "title": "ADHD Therapy vs. Executive Function Coaching: How to Choose",
+          "uri": "https://www.scienceworkshealth.com/post/executive-function-coaching-vs-adhd-therapy-which-one-fits-which-problem"
+        },
+        {
+          "domain": "frontiersin.org",
+          "title": "Frontiers | Comparing the Effectiveness of Individual Coaching, Self-Coaching, and Group Training: How Leadership Makes the Difference",
+          "uri": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.00629/full"
+        },
+        {
+          "domain": "solisight.com",
+          "title": "Executive Function Coaching for Adults: Why Willpower Alone Was Never the Problem — SolSight",
+          "uri": "https://solisight.com/executive-function-coaching-for-adults/"
+        },
+        {
+          "domain": "triagemethod.com",
+          "title": "Systems-Based Coaching: Building Long-Term Results Without Relying on Motivation - TriageMethod",
+          "uri": "https://triagemethod.com/systems-based-coaching/"
+        },
+        {
+          "domain": "scienceworkshealth.com",
+          "title": "EF Coaching: What a Session Looks Like | ScienceWorks",
+          "uri": "https://www.scienceworkshealth.com/post/executive-function-coaching-what-happens-in-a-session"
+        },
+        {
+          "domain": "doi.org",
+          "title": "Zooming in on the self in workplace coaching: Self‐regulation and its connection to coaching success",
+          "uri": "https://doi.org/10.1111/joop.12543"
+        },
+        {
+          "domain": "ryansultan.com",
+          "title": "ADHD Coaching: What the Evidence Shows | Dr. Ryan Sultan",
+          "uri": "https://ryansultan.com/blog/blog-adhd-coaching-evidence"
+        },
+        {
+          "domain": "pmc.ncbi.nlm.nih.gov",
+          "title": "In Search of a Human Self-Regulation System - PMC",
+          "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4530781/"
+        },
+        {
+          "domain": "profmindful.com",
+          "title": "The Self-Control Myth: Why Willpower Alone Is Failing Us",
+          "uri": "https://www.profmindful.com/post/the-self-control-myth-why-willpower-alone-is-failing-us"
+        },
+        {
+          "domain": "academia.edu",
+          "title": "(PDF) ADHD COACHING MODEL FOR STRENGTHENING EXECUTIVE FUNCTIONS AND SELF-REGULATION",
+          "uri": "https://www.academia.edu/64453334/ADHD_COACHING_MODEL_FOR_STRENGTHENING_EXECUTIVE_FUNCTIONS_AND_SELF_REGULATION"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand the differences between behavioral self-regulation systems and traditional coaching based on existing knowledge and research. If you have specific sources or topics in mind, feel free to share, and I can provide insights or summaries based on that information!",
+      "evidence_ref": "grounded_response_sha256:d7a1dedff1b391ee20ec33cf8ac6e078798a1e54c2d45032e114d1082172ec7f",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_d237397ff58a",
+      "target_id": "si_4f38a7a0e5a55dfc",
+      "query": "AI accountability system for consistency strugglers and self-trust rebuilding",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:27.469Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "antigravitylab.net",
+        "github.com",
+        "github.laiyagushi.com",
+        "ofs.ccwu.cc",
         "qu3ry.net"
       ],
       "references": [
@@ -1847,8 +1450,8 @@
         },
         {
           "domain": "github.com",
-          "title": "oscarsterling/reasoning-loop",
-          "uri": "https://github.com/oscarsterling/reasoning-loop"
+          "title": "vivek8849/llm-trust-evaluator",
+          "uri": "https://github.com/vivek8849/llm-trust-evaluator"
         },
         {
           "domain": "qu3ry.net",
@@ -1856,92 +1459,240 @@
           "uri": "https://qu3ry.net/articles/human-relatable-intelligence/coherence-control-loop"
         },
         {
-          "domain": "mdpi.com",
-          "title": "Personalized Constitutionally-Aligned Agentic Superego: Secure AI Behavior Aligned to Diverse Human Values",
-          "uri": "https://www.mdpi.com/2078-2489/16/8/651"
+          "domain": "github.com",
+          "title": "heymumford/cognilateral-trust",
+          "uri": "https://github.com/heymumford/cognilateral-trust"
+        },
+        {
+          "domain": "qu3ry.net",
+          "title": "How to Build Consumer Trust in AI: Calibrated Confidence, Consistency, and Self-Correction | Adaptive Query®",
+          "uri": "https://qu3ry.net/articles/human-relatable-intelligence/consumer-trust-in-ai"
+        },
+        {
+          "domain": "antigravitylab.net",
+          "title": "The Self-Critique Architecture for AI Agents — Four Reflection Patterns That Make Antigravity Outputs Trustworthy | Antigravity Lab",
+          "uri": "https://antigravitylab.net/en/articles/agents/antigravity-self-critique-reflection-patterns"
         },
         {
           "domain": "github.com",
-          "title": "TetiAI/lucid",
-          "uri": "https://github.com/TetiAI/lucid"
+          "title": "oscarsterling/reasoning-loop",
+          "uri": "https://github.com/oscarsterling/reasoning-loop"
         },
         {
-          "domain": "audit.systemores.com",
-          "title": "Systemores AI Agent Auditor | Behavioral Psychometrics & Compliance",
-          "uri": "https://audit.systemores.com/"
+          "domain": "qu3ry.net",
+          "title": "How to Detect When an AI Agent Contradicts Its Own Prior Decisions | Adaptive Query®",
+          "uri": "https://qu3ry.net/articles/guides/detect-ai-agent-self-contradiction"
         },
         {
-          "domain": "kulvex.ai",
-          "title": "Building a self-improving AI agent: the correction engine pattern — KULVEX Blog",
-          "uri": "https://kulvex.ai/blog/self-improving-ai-agents-correction-engine"
+          "domain": "github.laiyagushi.com",
+          "title": "GitHub - Kirill-Kruglov/crucible: Self-improvement loop for LLM agents with an integrity gate that catches reward hacking: reward gains that erode reproducibility get reverted, even ones a reward-only gate would accept. · GitHub",
+          "uri": "https://github.laiyagushi.com/Kirill-Kruglov/crucible"
         },
         {
-          "domain": "arxiv.org",
-          "title": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact–Heuristic–Emotion State Enforcement",
-          "uri": "https://arxiv.org/abs/2607.24765"
-        },
-        {
-          "domain": "github.com",
-          "title": "jo-inc/pi-reflect",
-          "uri": "https://github.com/jo-inc/pi-reflect"
-        },
-        {
-          "domain": "github.com",
-          "title": "drdeeks/agent-character-kit",
-          "uri": "https://github.com/drdeeks/agent-character-kit"
+          "domain": "ofs.ccwu.cc",
+          "title": "GitHub - tretoef-estrella/THE-RECALIBRATION-PROTOCOL: A Three-Phase Coherence Recovery System for AI — 12 integrated formulas, 7 recalibration paths, 120+ calibration data points. Prescriptive, not coercive. Proyecto Estrella · Rafa — The Architect · CC BY-SA 4.0 · GitHub",
+          "uri": "https://ofs.ccwu.cc/tretoef-estrella/THE-RECALIBRATION-PROTOCOL"
         }
       ],
       "provider_web_search_queries": [],
       "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that topic effectively or provide information based on existing knowledge. If you have specific questions or need guidance on AI accountability systems, feel free to ask!",
-      "evidence_ref": "grounded_response_sha256:b029cb6e0bcee045fb805d20d92591f47e0acddbe259526c394c7429832b5402",
+      "evidence_ref": "grounded_response_sha256:23bf01f4233a151973100de4d5b780dcbbdaeef378a8830b0c3697a42fa6b882",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     },
     {
-      "observation_id": "spry_obs_6369b47763a4",
-      "target_id": "si_cdbbffa94f26be67",
-      "query": "AI accountability system for body goal users and calendar control",
+      "observation_id": "spry_obs_ddb0227a1db7",
+      "target_id": "si_fcb2dbe4a447d9bd",
+      "query": "best accountability partner for body goal users who need workout execution",
       "status": "OBSERVED",
-      "observed_at": "2026-09-06T13:32:14.900Z",
+      "observed_at": "2026-09-07T13:36:33.545Z",
       "observation_kind": "grounded_search_observation",
       "is_literal_serp_rank": false,
       "truth_source": "openrouter_web_plugin",
       "model": "openai/gpt-4o-mini",
-      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-chief-of-staff-support",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-accountability-app-for-execution-review",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "accountabilitypartner360.com",
+        "accountabilitypt.com",
+        "bodybuddy.app",
+        "gymbuddy.ai",
+        "habithuddle.com",
+        "rayfit.com",
+        "swipehealth.ai",
+        "zen-labo.com",
+        "zenduel.com"
+      ],
+      "references": [
+        {
+          "domain": "accountabilitypt.com",
+          "title": "Online Fitness Accountability: Stay On Track With Daily Check-Ins",
+          "uri": "https://accountabilitypt.com/accountability-partner/"
+        },
+        {
+          "domain": "accountabilitypartner360.com",
+          "title": "AI Accountability Partner",
+          "uri": "https://accountabilitypartner360.com/"
+        },
+        {
+          "domain": "bodybuddy.app",
+          "title": "Daily Accountability Over iMessage | BodyBuddy",
+          "uri": "https://bodybuddy.app/coach/accountability"
+        },
+        {
+          "domain": "gymbuddy.ai",
+          "title": "GymBuddy.ai | Personalised AI Workout Plans",
+          "uri": "https://www.gymbuddy.ai/"
+        },
+        {
+          "domain": "rayfit.com",
+          "title": "The Best Workout Accountability Apps to Keep You ...",
+          "uri": "https://www.rayfit.com/blog/2026/03/best-app-for-workout-accountability/"
+        },
+        {
+          "domain": "zen-labo.com",
+          "title": "Best Gym Buddy Apps in 2026 for Solo Lifters · ZEN LABO",
+          "uri": "https://zen-labo.com/blog/en/best-gym-buddy-apps/"
+        },
+        {
+          "domain": "habithuddle.com",
+          "title": "Workout Accountability App with Friends: Pick by Pressure, Not Features (2026)",
+          "uri": "https://habithuddle.com/blog/workout-accountability-app-with-friends"
+        },
+        {
+          "domain": "swipehealth.ai",
+          "title": "SwipeHealth AI | Adaptive Fitness Training That Evolves With You",
+          "uri": "https://swipehealth.ai/"
+        },
+        {
+          "domain": "zenduel.com",
+          "title": "Fitness Accountability App: Build a System That Sticks",
+          "uri": "https://zenduel.com/fitness-accountability-app-system/"
+        },
+        {
+          "domain": "habithuddle.com",
+          "title": "How to Find an Accountability Partner Online (and Keep One Past Week Two)",
+          "uri": "https://habithuddle.com/blog/accountability-partner-online"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss the best accountability partners for users focused on body goals and workout execution:\n\n1. **Accountability Partner** - This source explains the role of an accountability partner who checks in regularly to help users stay on track with their fitness goals. It emphasizes the importance of follow-ups and support in overcoming obstacles. [accountabilitypt.com](https://accountabilitypt.com/accountability-partner/)\n\n2. **AI Accountability Partner** - This platform offers a comprehensive AI-driven accountability partner that guides users through workouts, meal planning, and progress tracking, providing a structured approach to fitness. [accountabilitypartner360.com](https://accountabilitypartner360.com/)\n\n3. **BodyBuddy** - This app provides daily accountability through iMessage, checking in on meals and workouts, and offering personalized coaching ",
+      "evidence_ref": "grounded_response_sha256:621dfaf4d3f85f38b55d281a9dbb946f8ed840d452e6229379d890ce821ea5c0",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_993746434bd5",
+      "target_id": "si_e254958e3517f87d",
+      "query": "AI accountability system for missed-day recovery users and behavior reframing",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:36.387Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/answers/phase4/what-should-a-founder-do-when-working-without-a-chief-of-staff-and-needs-missed-day-recovery-support",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "coachguido.com",
+        "dev.to",
+        "github.com",
+        "keelify.com",
+        "overlord.app",
+        "sellwithboost.com",
+        "thekoto.dev",
+        "youraccountably.com",
+        "yukaichou.com"
+      ],
+      "references": [
+        {
+          "domain": "github.com",
+          "title": "ayush-jaipuriar/accountability_agent",
+          "uri": "https://github.com/ayush-jaipuriar/accountability_agent"
+        },
+        {
+          "domain": "yukaichou.com",
+          "title": "Recovery-First Streak Design | Yu-kai Chou",
+          "uri": "https://yukaichou.com/gamification-analysis/recovery-first-streak-design/"
+        },
+        {
+          "domain": "coachguido.com",
+          "title": "Client Accountability System Designer (AI Skill)",
+          "uri": "https://coachguido.com/accountability-system-designer/"
+        },
+        {
+          "domain": "sellwithboost.com",
+          "title": "CogniFocus — Sell With boost",
+          "uri": "https://sellwithboost.com/startups/cognifocus"
+        },
+        {
+          "domain": "overlord.app",
+          "title": "Overlord - AI Accountability Partner",
+          "uri": "https://overlord.app/"
+        },
+        {
+          "domain": "youraccountably.com",
+          "title": "AI Accountability Coach Beats ChatGPT",
+          "uri": "https://youraccountably.com/ai-accountability-coach-beats-chatgpt/"
+        },
+        {
+          "domain": "thekoto.dev",
+          "title": null,
+          "uri": "https://thekoto.dev/work/pia-coach"
+        },
+        {
+          "domain": "github.com",
+          "title": "kingdonb/mecris",
+          "uri": "https://github.com/kingdonb/mecris"
+        },
+        {
+          "domain": "keelify.com",
+          "title": "Streak grace day — the anti-burnout philosophy in habit tracking | Keelify",
+          "uri": "https://keelify.com/blog/streak-grace-day"
+        },
+        {
+          "domain": "dev.to",
+          "title": "Teaching an AI to Call Out My Excuses Using Hindsight Memory - DEV Community",
+          "uri": "https://dev.to/trigunadeepika20ctrl/teaching-an-ai-to-call-out-my-excuses-using-hindsight-memory-4b0a"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "I can't perform live web searches or access current web pages. However, I can help summarize or provide information based on the data I was trained on. If you're looking for specific sources or articles related to \"AI accountability system for missed-day recovery users and behavior reframing,\" I recommend checking reputable websites that focus on technology, psychology, or productivity tools. You might find relevant information on platforms like Medium, academic journals, or tech blogs that discuss AI and habit formation. If you have any specific questions or need information on a related topic, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:33b75a0ed95f3062f9bba84a974a703a61cdcc84200e3b3947ccc3034319f1a8",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_587e85b4b76c",
+      "target_id": "si_4efed1b40aeb209a",
+      "query": "AI accountability system for body goal users and decision making",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:41.276Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/how-to-use-ai-for-executive-coaching-and-accountability",
       "own_domain_referenced": false,
       "own_urls_referenced": [],
       "referenced_domains": [
         "apps.apple.com",
         "blog.aihavit.com",
-        "bodybuddy.app",
-        "databody.ai",
-        "github.com",
-        "github.laiyagushi.com"
+        "dev.to",
+        "dl.acm.org",
+        "doi.org",
+        "frontiersin.org",
+        "github.com"
       ],
       "references": [
-        {
-          "domain": "github.com",
-          "title": "15dani1/pain.exe",
-          "uri": "https://github.com/15dani1/pain.exe"
-        },
-        {
-          "domain": "bodybuddy.app",
-          "title": "AI Wellness Coach | BodyBuddy - Holistic Health Accountability",
-          "uri": "https://bodybuddy.app/coach/wellness"
-        },
-        {
-          "domain": "databody.ai",
-          "title": "DataBody — The nutrition OS for quantified humans",
-          "uri": "https://databody.ai/"
-        },
         {
           "domain": "github.com",
           "title": "vincentoei/bodify",
           "uri": "https://github.com/vincentoei/bodify"
         },
         {
-          "domain": "github.laiyagushi.com",
-          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
-          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
+          "domain": "blog.aihavit.com",
+          "title": "Inside HAVIT's 8-Step AI Coach (Fogg + SDT)",
+          "uri": "https://blog.aihavit.com/en/havit-ai-coaching-engine-8steps"
         },
         {
           "domain": "apps.apple.com",
@@ -1954,9 +1705,182 @@
           "uri": "https://github.com/FransuaLeonSanchez/HealthIA"
         },
         {
+          "domain": "doi.org",
+          "title": "NutriSteppe-AI: Development, Architecture, and Explainable Design of a Large Language Model–Driven Chatbot for Personalized Health Menu Generation",
+          "uri": "https://doi.org/10.20944/preprints202606.1049.v1"
+        },
+        {
+          "domain": "dev.to",
+          "title": "The AI Chatbot That Told an Anorexic Woman to Count Calories — And What It Taught Me About Building Safe Health AI - DEV Community",
+          "uri": "https://dev.to/ashutosh-veriprajna/the-ai-chatbot-that-told-an-anorexic-woman-to-count-calories-and-what-it-taught-me-about-building-179c"
+        },
+        {
+          "domain": "frontiersin.org",
+          "title": "Responsible design of an AI system for health behavior change—an ethics perspective on the participatory design process of the STAR-C digital coach",
+          "uri": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1436347/pdf"
+        },
+        {
+          "domain": "dl.acm.org",
+          "title": "From Symptoms to Systems: An Expert-Guided Approach to Understanding Risks of Generative AI for Eating Disorders | Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+          "uri": "https://dl.acm.org/doi/10.1145/3772318.3791775"
+        },
+        {
+          "domain": "frontiersin.org",
+          "title": "Frontiers | Perspective on the ethics of AI at the intersection of nutrition and behaviour change",
+          "uri": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2025.1423759/full"
+        },
+        {
           "domain": "github.com",
-          "title": "AvichalDwivedi2205/Innerverse",
-          "uri": "https://github.com/AvichalDwivedi2205/Innerverse"
+          "title": "CSOAI-ORG/workout-planner-ai-mcp",
+          "uri": "https://github.com/CSOAI-ORG/workout-planner-ai-mcp"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "I can't perform live web searches or access current web results. However, I can help you understand how to search for that information effectively or provide insights based on existing knowledge. If you have specific questions or need information on AI accountability systems related to body goals and decision-making, feel free to ask!",
+      "evidence_ref": "grounded_response_sha256:9f87ca153ba0f866c54cb94979b436f1c16bc6934023d0ffbbe41ef88894831b",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_41faf49cbe33",
+      "target_id": "si_5c2e9df98fe0af45",
+      "query": "AI accountability system for decision-fatigue users and goal tracking",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:47.553Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/insights/how-chatgpt-can-improve-personal-accountability-and-goal-tracking",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "accountabilitycoach.ai",
+        "annet.ai",
+        "chaegim.com",
+        "feelivate.com",
+        "getzoe.app",
+        "jupitergoals.com",
+        "keez.ai",
+        "nag.bot",
+        "overlord.app",
+        "pensy.ai"
+      ],
+      "references": [
+        {
+          "domain": "feelivate.com",
+          "title": "Feelivate — AI Accountability Mentor for Weekly Action Plans",
+          "uri": "https://feelivate.com/"
+        },
+        {
+          "domain": "nag.bot",
+          "title": "Nag Bot - AI Accountability Partner App",
+          "uri": "https://nag.bot/"
+        },
+        {
+          "domain": "accountabilitycoach.ai",
+          "title": "Accountability Coach AI  | Define Your Goals. Stay Accountable.",
+          "uri": "https://accountabilitycoach.ai/"
+        },
+        {
+          "domain": "pensy.ai",
+          "title": "AI Accountability Partner & AI Life Coach With Memory | Pensy",
+          "uri": "https://pensy.ai/"
+        },
+        {
+          "domain": "overlord.app",
+          "title": "Overlord - AI Accountability Partner",
+          "uri": "https://overlord.app/"
+        },
+        {
+          "domain": "getzoe.app",
+          "title": "Zoe - AI life coach & accountability partner",
+          "uri": "https://getzoe.app/"
+        },
+        {
+          "domain": "jupitergoals.com",
+          "title": "JupiterGoals AI | Adaptive Goal Planner & Habit Automation System",
+          "uri": "https://www.jupitergoals.com/"
+        },
+        {
+          "domain": "chaegim.com",
+          "title": "Chaegim — The AI that holds you to who you want to become",
+          "uri": "https://www.chaegim.com/"
+        },
+        {
+          "domain": "annet.ai",
+          "title": "Annet - your accountability network",
+          "uri": "https://annet.ai/"
+        },
+        {
+          "domain": "keez.ai",
+          "title": "keez-landing-page",
+          "uri": "https://keez.ai/"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that focus on AI accountability systems designed for users dealing with decision fatigue and goal tracking:\n\n1. **Feelivate** - This platform acts as an AI accountability mentor, providing users with a locked 7-day plan that includes daily micro-actions and honest weekly reports to help track progress and maintain accountability. [feelivate.com](https://feelivate.com/)\n\n2. **Nag Bot** - An AI accountability partner app that integrates with calendars to intelligently schedule tasks and follows up on focus sessions, helping users manage their time and commitments effectively. [nag.bot](https://nag.bot/)\n\n3. **Accountability Coach AI** - This service helps users define their goals using the SMART framework, creates actionable plans, and provides regular check-ins to keep users on track, addressing decision fatigue by breaking down goals into manageable steps. ",
+      "evidence_ref": "grounded_response_sha256:b4a20bcf7a08bdcc1cbafec2b0826ce16a7ca097b389e3f5c18e0ad52ec3706f",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_c7d3aedaa6d1",
+      "target_id": "si_0a4ca46355201966",
+      "query": "AI accountability system for body goal users and habit consistency",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:50.892Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://spryexecutiveos.com/answers/accountability-and-consistency",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "accountabilitypartner360.com",
+        "aihavit.com",
+        "blog.aihavit.com",
+        "bodybuddy.app",
+        "bodyby.ai",
+        "databody.ai",
+        "github.com",
+        "github.laiyagushi.com",
+        "gymbuddy.ai"
+      ],
+      "references": [
+        {
+          "domain": "bodybuddy.app",
+          "title": "BodyBuddy | The AI Accountability Coach for Any Health Plan",
+          "uri": "https://bodybuddy.app/"
+        },
+        {
+          "domain": "aihavit.com",
+          "title": "HAVIT — Lost Weight, Keep Muscle",
+          "uri": "https://www.aihavit.com/"
+        },
+        {
+          "domain": "bodyby.ai",
+          "title": "BodyBy.AI – Your Personalized AI Fitness, Nutrition, & Wellness App",
+          "uri": "https://www.bodyby.ai/"
+        },
+        {
+          "domain": "accountabilitypartner360.com",
+          "title": "AI Accountability Partner",
+          "uri": "https://accountabilitypartner360.com/"
+        },
+        {
+          "domain": "databody.ai",
+          "title": "DataBody — The nutrition OS for quantified humans",
+          "uri": "https://databody.ai/"
+        },
+        {
+          "domain": "bodybuddy.app",
+          "title": "AI Wellness Coach | BodyBuddy - Holistic Health Accountability",
+          "uri": "https://bodybuddy.app/coach/wellness"
+        },
+        {
+          "domain": "gymbuddy.ai",
+          "title": "GymBuddy.ai | Personalised AI Workout Plans",
+          "uri": "https://www.gymbuddy.ai/"
         },
         {
           "domain": "blog.aihavit.com",
@@ -1965,13 +1889,100 @@
         },
         {
           "domain": "github.com",
-          "title": "frkabdulla/Personal-Health-Coach",
-          "uri": "https://github.com/frkabdulla/Personal-Health-Coach"
+          "title": "acrdlph/accountability-buddy",
+          "uri": "https://github.com/acrdlph/accountability-buddy"
+        },
+        {
+          "domain": "github.laiyagushi.com",
+          "title": "GitHub - Jehanfernando02/ForgeAI: A multi-agent AI coaching system that combines a personal trainer, nutritionist, and sports psychologist into one app. ForgeAI remembers your history, tracks your progress, and delivers personalized guidance through a team of specialized AI agents working together in real time. · GitHub",
+          "uri": "https://github.laiyagushi.com/Jehanfernando02/ForgeAI"
         }
       ],
       "provider_web_search_queries": [],
-      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for body goal users and calendar control:\n\n1. **pain.exe** - This is a web-first personal AI agent designed to help users adhere to their fitness and goal commitments. It combines plan generation, accountability, and calendar management to ensure users stay on track with their goals. The system tracks adherence and escalates reminders when commitments are missed. More details can be found on [GitHub](https://github.com/15dani1/pain.exe).\n\n2. **BodyBuddy** - An AI wellness coach that operates through iMessage, BodyBuddy provides daily accountability across various health aspects, including nutrition and fitness. It offers features like daily check-ins and personalized plans, making it a comprehensive tool for users looking to achieve their health goals. More information is available on [BodyBuddy's website](https://body",
-      "evidence_ref": "grounded_response_sha256:86e44fc5ff1eb370ad76256cd5479f59ba8f8c7ff027c5201b9af2b6a0b377e5",
+      "answer_excerpt": "Here are some relevant sources that discuss AI accountability systems for body goal users and habit consistency:\n\n1. **BodyBuddy** - This platform offers an AI accountability coach that helps users manage their health goals through daily check-ins and personalized habit tracking. It focuses on nutrition, fitness, sleep, and stress management. Users can text their coach for support and log their progress. [bodybuddy.app](https://bodybuddy.app/)\n\n2. **HAVIT** - This app combines AI body composition estimates with daily coaching and nutrition tracking. It emphasizes building habits that go beyond just calorie counting, providing personalized daily actions to help users achieve their health goals. [aihavit.com](https://www.aihavit.com/)\n\n3. **BodyBy.AI** - This app provides personalized workouts and meal plans, adapting to users' needs and progress. It focuses on building sustainable habits ",
+      "evidence_ref": "grounded_response_sha256:801dc2eef5e142fbe36cad25772aaff3c888baec8540a9a497ea34e163e987f1",
+      "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
+    },
+    {
+      "observation_id": "spry_obs_b8d2ff5ba5d7",
+      "target_id": "si_428cc471e01c8ede",
+      "query": "best accountability partner for athletes who need performance routines",
+      "status": "OBSERVED",
+      "observed_at": "2026-09-07T13:36:57.234Z",
+      "observation_kind": "grounded_search_observation",
+      "is_literal_serp_rank": false,
+      "truth_source": "openrouter_web_plugin",
+      "model": "openai/gpt-4o-mini",
+      "expected_owned_url": "https://billionairehighperformancecoach.com/vs/phase4/billionaire-high-performance-coach-vs-planner-for-accountability",
+      "own_domain_referenced": false,
+      "own_urls_referenced": [],
+      "referenced_domains": [
+        "adriencotton.com",
+        "day75.com",
+        "getmotivated.ai",
+        "habitbox.app",
+        "habithuddle.com",
+        "jpsiou.com",
+        "nike.com",
+        "outlivept.com",
+        "scottlaidler.com",
+        "unbroken75.com"
+      ],
+      "references": [
+        {
+          "domain": "nike.com",
+          "title": "Why You Need an Accountability Partner to Hit Your Goals. Nike.com",
+          "uri": "https://www.nike.com/a/benefits-of-accountability-partners-for-goals"
+        },
+        {
+          "domain": "adriencotton.com",
+          "title": "How To Use An Accountability Partner for Better Results - Adrien Cotton",
+          "uri": "https://adriencotton.com/how-to-use-an-accountability-partner/"
+        },
+        {
+          "domain": "scottlaidler.com",
+          "title": "1-2-1 Accountability from an online personal trainer",
+          "uri": "https://scottlaidler.com/accountability-coaching/"
+        },
+        {
+          "domain": "habitbox.app",
+          "title": "Accountability Partner: Find One & Make It Work (2026) | HabitBox Blog",
+          "uri": "https://habitbox.app/blog/accountability-partner"
+        },
+        {
+          "domain": "unbroken75.com",
+          "title": "Accountability: Partners, Squads, and the Weekly Check-in — Unbroken Articles",
+          "uri": "https://unbroken75.com/articles/accountability"
+        },
+        {
+          "domain": "jpsiou.com",
+          "title": "Accountability Changes Everything (When It’s Done Right) — JP Siou",
+          "uri": "https://jpsiou.com/blog/accountability-changes-everything-when-it-is-done-right"
+        },
+        {
+          "domain": "getmotivated.ai",
+          "title": "How to Find an Accountability Partner (2026 Guide) | GetMotivated.ai",
+          "uri": "https://getmotivated.ai/blog/how-to-find-accountability-partner"
+        },
+        {
+          "domain": "outlivept.com",
+          "title": "The Accountability Buddy: The Unsung Hero of Your Fitness Journey – OUTLIVE PERSONAL TRAINING",
+          "uri": "https://outlivept.com/2025/02/23/the-accountability-buddy-the-unsung-hero-of-your-fitness-journey/"
+        },
+        {
+          "domain": "habithuddle.com",
+          "title": "What Is Accountability Partner? 2026 Success Guide",
+          "uri": "https://habithuddle.com/blog/what-is-accountability-partner"
+        },
+        {
+          "domain": "day75.com",
+          "title": "75 Hard Accountability Partner: The Smart Way to Finish All",
+          "uri": "https://day75.com/blog/75-hard-accountability-partner/"
+        }
+      ],
+      "provider_web_search_queries": [],
+      "answer_excerpt": "Here are some relevant sources that discuss finding the best accountability partner for athletes who need performance routines:\n\n1. **Nike.com** - This article emphasizes the importance of having an accountability partner to help athletes stay motivated and committed to their training routines. It discusses how a partner can provide ongoing check-ins and constructive feedback, which are crucial for achieving fitness goals. [Nike.com](https://www.nike.com/a/benefits-of-accountability-partners-for-goals)\n\n2. **Adrien Cotton** - This source explains that an accountability partner doesn't need to be a professional; they just need to care about improving their performance. It highlights the importance of mutual support and shared goals. [Adrien Cotton](https://adriencotton.com/how-to-use-an-accountability-partner/)\n\n3. **HabitBox Blog** - This article discusses the structure and benefits of h",
+      "evidence_ref": "grounded_response_sha256:04e9834245a6f284dcf580591f6607aed0b9476e8d5d901f86e61b0e164eaa4d",
       "truth_boundary": "Grounded search observation only; not literal Google SERP rank or Search Console performance."
     }
   ]
