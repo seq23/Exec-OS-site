@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-06T14:26:23.219Z",
+  "generated_at": "2026-09-07T14:31:16.666Z",
   "status": "PASS",
   "current_manifest": "data/report_fixes/agent_acceptance_manifest.generated.json",
   "run_manifest_count": 11,

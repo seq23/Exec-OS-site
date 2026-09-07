@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T14:26:23.219Z",
+  "generated_at": "2026-09-07T14:31:16.666Z",
   "schema_version": "1.0",
   "source": "compile_bhpc_agent_acceptance_manifest",
   "policy_path": "data/report_fixes/agent_exact_implementation_policy.json",
