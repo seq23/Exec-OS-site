@@ -263,6 +263,7 @@
     "validate:demand-backed-pages": "node scripts/validation/validate_demand_backed_pages.mjs",
     "validate:derived-absorber-reproducibility": "node scripts/validators/validate_derived_absorber_reproducibility.mjs",
     "validate:disavow-asset": "node scripts/validation/validate_disavow_asset.mjs",
+    "validate:control-plane-reachability": "node scripts/validation/self_test_control_plane_reachability.mjs",
     "validate:distribution": "node scripts/validation/validate_distribution.mjs",
     "validate:extraction-contract-final-state": "node scripts/validation/run_extraction_contract_final_state_sharded.mjs",
     "validate:extraction-contract:self-test": "node scripts/validation/python_runtime.mjs run scripts/validation/self_test_extraction_contract.py",

@@ -20,10 +20,75 @@
 // removed key as null and silently produce a wrong answer rather than throwing.
 
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 
 const ROOT = process.cwd();
+const SELF = fileURLToPath(import.meta.url);
 const errors = [];
+
+// GOVERNANCE FIXTURES, EXECUTED.
+//
+// _validation_registry.json named positive_fixture and negative_fixture for
+// VAL-116 as absent, and validate:validation-registry reported that as
+// incomplete metadata for weeks. Naming two files would have silenced it while
+// proving nothing, which is the defect class this repository keeps producing.
+// So the fixtures are complete synthetic repositories, and this validator runs
+// itself against each one on every invocation - the same shape as
+// validate_admission_level_stability.mjs. If the comparison ever stops working,
+// the fixtures fail before the real tree is looked at.
+//
+// The child re-enters this file with the real checks intact; nothing is
+// skipped. The marker exists only so the child does not recurse into the
+// fixtures again.
+const FIXTURE_CHILD = process.env.ATLAS_UNITS_FIXTURE_CHILD === '1';
+const FIXTURE_DIR = 'fixtures/validation/atlas-units';
+const FIXTURES = ['pass.json', 'fail.json', 'empty.json'];
+
+function runFixtures() {
+  const dir = path.join(ROOT, FIXTURE_DIR);
+  const problems = [];
+  let ran = 0;
+  for (const name of FIXTURES) {
+    const fp = path.join(dir, name);
+    if (!fs.existsSync(fp)) { problems.push(`fixture missing: ${FIXTURE_DIR}/${name}`); continue; }
+    let fixture;
+    try { fixture = JSON.parse(fs.readFileSync(fp, 'utf8')); }
+    catch (e) { problems.push(`fixture is not valid JSON: ${FIXTURE_DIR}/${name}: ${e.message}`); continue; }
+    const files = fixture.files || {};
+    if (!Object.keys(files).length) { problems.push(`fixture declares no files: ${FIXTURE_DIR}/${name}`); continue; }
+    const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'atlas-units-fixture-'));
+    for (const [rel, body] of Object.entries(files)) {
+      fs.mkdirSync(path.join(tmp, path.dirname(rel)), { recursive: true });
+      fs.writeFileSync(path.join(tmp, rel), `${JSON.stringify(body, null, 2)}\n`);
+    }
+    const r = spawnSync(process.execPath, [SELF], {
+      cwd: tmp, encoding: 'utf8',
+      env: { ...process.env, ATLAS_UNITS_FIXTURE_CHILD: '1' },
+    });
+    ran += 1;
+    const combined = `${r.stdout || ''}${r.stderr || ''}`;
+    if (r.status !== fixture.expected_exit_code) {
+      problems.push(`${FIXTURE_DIR}/${name}: expected exit ${fixture.expected_exit_code}, got ${r.status} :: ${combined.slice(0, 300)}`);
+    }
+    for (const want of fixture.expected_error_substrings || []) {
+      if (!combined.includes(want)) problems.push(`${FIXTURE_DIR}/${name}: expected output to mention ${JSON.stringify(want)}`);
+    }
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+  // Rule 0 for the fixtures themselves.
+  if (ran === 0) problems.push(`executed 0 fixtures from ${FIXTURE_DIR}; expected ${FIXTURES.length}. Fixtures that never run prove nothing.`);
+  if (problems.length) {
+    console.error('ATLAS UNIT CONTRACT: HARD_FAIL - governance fixtures did not behave as declared');
+    for (const x of problems) console.error(`- ${x}`);
+    process.exit(1);
+  }
+  console.log(`atlas unit contract: ${ran} governance fixture(s) reproduced their declared outcome`);
+}
+
+if (!FIXTURE_CHILD) runFixtures();
 const read = (p) => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, p), 'utf8')); } catch { return null; } };
 
 const ATLAS = 'data/authority_scale/query_atlas.json';
@@ -85,12 +150,19 @@ function checkRows(label, rows) {
   }
 }
 
+// A unit contract asserted over zero rows is not a passing unit contract. Both
+// registries emptying is a real state - a truncated write, a build that wrote
+// the shell of the file - and every loop below iterates nothing, so this used
+// to print `atlas unit contract: PASS (0 rows ...)` and exit 0. Each registry
+// is checked on its own, because either can empty without the other.
 const evidence = read(EVIDENCE);
 if (!evidence) errors.push(`missing ${EVIDENCE}`);
+else if (!(evidence.queries || []).length) errors.push(`${EVIDENCE} carries 0 rows; expected at least one evidence query. Checking the unit contract against no rows proves nothing.`);
 else checkRows('evidence_queries', evidence.queries || []);
 
 const atlas = read(ATLAS);
 if (!atlas) errors.push(`missing ${ATLAS} - run the atlas build first`);
+else if (!(atlas.queries || []).length) errors.push(`${ATLAS} carries 0 rows; expected at least one atlas query. Every band, ordering and rank_score check below iterates this list, so an empty atlas passes all of them while asserting nothing.`);
 else {
   const rows = atlas.queries || [];
   checkRows('query_atlas', rows);

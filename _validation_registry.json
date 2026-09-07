@@ -5731,6 +5731,8 @@
       "implementation_path": "scripts/atlas/validate_atlas_units.mjs",
       "environment": "container",
       "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/atlas-units/pass.json",
+      "negative_fixture": "fixtures/validation/atlas-units/fail.json",
       "evidence_output": "reports/validation/atlas-units.json",
       "runtime_budget_seconds": 20,
       "maintenance_owner": "content",
@@ -7690,8 +7692,38 @@
         "MX-EXTRACTION-SURFACE-BASELINE-PRESENCE"
       ],
       "not_applicable_reason": null
+    },
+    {
+      "validation_id": "VAL-CONTROL-PLANE-REACHABILITY",
+      "status": "ADMITTED",
+      "name": "validate:control-plane-reachability",
+      "check_type": "validator",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "validate:validation-registry decides whether an admitted matrix entry actually runs by walking 'npm run' tokens through package.json, and it could not read shell scripts. On 2026-09-03, 525c0be44 (PR #64) replaced build:all's npm chain with 'bash scripts/build/cached_build_all.sh', which execs 'npm run build:all:uncached'. The whole build chain left the reachability graph in that one commit: unclassified admitted entries went from 0 at 525c0be44^ to 6 at 525c0be44 (MX-002 build:generated-content, MX-004 citation:build, MX-051 redirects:apply, MX-061 build:postprocess, MX-067 search:prepare-submission, MX-076 validate:indexnow-batch-budget), every one of which still ran on every build. The control plane reported six HARD_FAIL protections as wired to nothing, and it stayed that way for four days because the finding was a STRONG_WARNING and the lane printed PASS. This self-test drives the real registry validator in synthetic control planes and asserts that a command reachable only through a bash hop counts as armed, that a hop which is not a readable file is reported rather than silently truncating the graph, that an admitted entry in no profile with no recorded exclusion reason is an ERROR rather than a warning, that a recorded reason is still a legitimate deliberate exclusion, that zero registry records, zero matrix entries and zero profiles each hard-fail rather than reporting the control plane safe, and that this repository's own control plane carries no unarmed unexplained entry.",
+      "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:control-plane-reachability",
+      "implementation_path": "package.json",
+      "environment": "container",
+      "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/repo/pass.json",
+      "negative_fixture": "fixtures/validation/repo/fail.json",
+      "evidence_output": "artifacts/diagnostics/<run-id>/validate-control-plane-reachability/summary.json",
+      "runtime_budget_seconds": 300,
+      "maintenance_owner": "repo",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Atomically admitted by validation:add.",
+      "decision_date": "2026-09-07",
+      "matrix_ids": [
+        "MX-CONTROL-PLANE-REACHABILITY"
+      ],
+      "not_applicable_reason": null
     }
   ],
-  "record_count": 244,
+  "record_count": 245,
   "generated_at": "2026-08-08T23:30:00Z"
 }

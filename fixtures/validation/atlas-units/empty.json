@@ -1,0 +1,21 @@
+{
+  "fixture": "atlas-units",
+  "expectation": "FAIL",
+  "expected_exit_code": 1,
+  "description": "Both registries present and syntactically valid but carrying no rows. The validator used to walk zero rows and print \"atlas unit contract: PASS (0 rows...)\" - a unit contract asserted over nothing. Zero rows is now its own hard failure.",
+  "expected_error_substrings": [
+    "0 row"
+  ],
+  "files": {
+    "data/queries/evidence/evidence_queries.json": {
+      "queries": []
+    },
+    "data/authority_scale/query_atlas.json": {
+      "unit_contract": "search_volume is modelled monthly market volume from a keyword tool; impressions_90d is this domain's own 90-day GSC impression count. They are never the same field and never sort as peers.",
+      "rank_scoring": {
+        "formula": "band-major, then demand desc within band"
+      },
+      "queries": []
+    }
+  }
+}

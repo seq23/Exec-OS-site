@@ -2377,9 +2377,19 @@
       "severity": "HARD_FAIL",
       "release_effect": true,
       "status": "ADMITTED"
+    },
+    {
+      "matrix_id": "MX-CONTROL-PLANE-REACHABILITY",
+      "validation_id": "VAL-CONTROL-PLANE-REACHABILITY",
+      "lane": "validation-control-plane",
+      "command": "npm run validate:control-plane-reachability",
+      "order": 229,
+      "severity": "HARD_FAIL",
+      "release_effect": true,
+      "status": "ADMITTED"
     }
   ],
-  "entry_count": 237,
+  "entry_count": 238,
   "generated_at": "2026-07-27T17:50:00.000Z",
   "profiles": {
     "container-prepush": {
@@ -2929,6 +2939,10 @@
         {
           "id": "VAL-EXTRACTION-SURFACE-BASELINE-PRESENCE",
           "command": "npm run validate:extraction-surface-baseline-presence"
+        },
+        {
+          "id": "VAL-CONTROL-PLANE-REACHABILITY",
+          "command": "npm run validate:control-plane-reachability"
         }
       ]
     },

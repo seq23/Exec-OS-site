@@ -43,19 +43,47 @@ for(const r of registry){
 // so the route 404'd for two months and a coverage.json carrying draft counts
 // and the forward publishing runway shipped publicly the whole time.
 //
-// Reported as a strong warning rather than an error because several admitted
-// entries are legitimately not profile steps: orchestrators that RUN a profile
-// would recurse, and post-deploy audits need a live deployment. Reachability is
-// computed transitively, so a validator invoked inside another step counts.
+// Several admitted entries are legitimately not profile steps: orchestrators
+// that RUN a profile would recurse, and post-deploy audits need a live
+// deployment. Those carry a recorded reason in profile_exclusions. An entry
+// with NEITHER a profile nor a reason is the coverage-route shape, and is an
+// ERROR - see the ratchet note below.
+//
+// Reachability is computed transitively, so a validator invoked inside another
+// step counts. It must also follow shell scripts, and that is not theoretical.
+// 525c0be44 (PR #64) replaced `build:all`'s npm chain with `bash scripts/build/
+// cached_build_all.sh`, which execs `npm run build:all:uncached`. This walker
+// only followed `npm run` tokens found in package.json script bodies, so the
+// whole build chain fell off the graph in one commit: unclassified entries went
+// from 0 at 525c0be44^ to 6 at 525c0be44 (MX-002, MX-004, MX-051, MX-061,
+// MX-067, MX-076), all of which still ran on every build. The control plane was
+// not describing the repository, and because it said STRONG_WARNING nothing was
+// red and nobody looked for four days.
 function profileReachableCommands(){
   const scripts=(()=>{try{return JSON.parse(fs.readFileSync('package.json','utf8')).scripts||{}}catch{return {}}})();
   const reached=new Set();
+  // A shell hop the walker cannot read truncates reachability silently, which
+  // is the same failure again in a new place. Renaming or deleting a shell
+  // script a profile reaches through is therefore reported, not shrugged off.
+  const missingShellHops=new Set();
+  const shellHops=new Set();
+  const expandShell=(rel,seen)=>{
+    if(seen.has(`sh:${rel}`)) return;
+    seen.add(`sh:${rel}`);
+    shellHops.add(rel);
+    if(!fs.existsSync(rel)||!fs.statSync(rel).isFile()){missingShellHops.add(rel);return}
+    expand(fs.readFileSync(rel,'utf8'),seen);
+  };
   const expand=(cmd,seen)=>{
-    for(const name of String(cmd||'').match(/npm run [A-Za-z0-9:_-]+/g)||[]){
+    const text=String(cmd||'');
+    for(const name of text.match(/npm run [A-Za-z0-9:_-]+/g)||[]){
       const id=name.replace('npm run ','');
       if(seen.has(id)) continue;
       seen.add(id); reached.add(id);
       if(scripts[id]) expand(scripts[id],seen);
+    }
+    for(const m of text.matchAll(/\b(?:bash|sh)\s+(?:-[A-Za-z]+\s+)*((?:\.\/)?[A-Za-z0-9_.\/-]+\.sh)\b/g)){
+      expandShell(m[1].replace(/^\.\//,''),seen);
     }
   };
   for(const profile of Object.values(profiles)){
@@ -64,9 +92,13 @@ function profileReachableCommands(){
       expand(step.command,new Set());
     }
   }
-  return reached;
+  return {reached,shellHops:[...shellHops],missingShellHops:[...missingShellHops]};
 }
-const reachable=profileReachableCommands();
+const reachability=profileReachableCommands();
+const reachable=reachability.reached;
+for(const rel of reachability.missingShellHops){
+  errors.push(`profile reachability walks into ${rel}, which is not a readable file. Every npm script it invokes drops off the reachability graph, so validators that still run would be reported as running nowhere.`);
+}
 const unreachable=matrix
   .filter(m=>m.status==='ADMITTED' && !String(m.command||'').endsWith('.yml'))
   .filter(m=>{
@@ -82,7 +114,15 @@ const unreachable=matrix
 const exclusions=matrixDoc.profile_exclusions||{};
 const unclassified=unreachable.filter(id=>!exclusions[id]);
 const needsTriage=Object.entries(exclusions).filter(([,reason])=>String(reason).startsWith('NEEDS TRIAGE')).map(([id])=>id);
-if(unclassified.length) strongWarnings.push(`${unclassified.length} admitted matrix entr${unclassified.length===1?'y is':'ies are'} in no profile with no recorded reason: ${unclassified.slice(0,12).join(', ')}${unclassified.length>12?', ...':''}`);
+// This was a strong warning, and six entries accumulated under it in one commit
+// without anything turning red. A strong warning is the correct severity for a
+// judgement call; "is this admitted HARD_FAIL protection actually wired to
+// anything?" is not a judgement call, it has an answer, and `validation:add`
+// already REFUSES to create this state. Refusing it at creation while merely
+// noting it at validation is the gap that let 525c0be44 through. It is now an
+// error, which makes the count a ratchet: arm the entry, or record why it is
+// deliberately not armed. Neither of those is loosening anything.
+if(unclassified.length) errors.push(`${unclassified.length} admitted matrix entr${unclassified.length===1?'y is':'ies are'} in no profile with no recorded reason: ${unclassified.slice(0,12).join(', ')}${unclassified.length>12?', ...':''}. Arm each in a profile, or record why it is deliberately unarmed in _repo_validation_matrix.json profile_exclusions - the same choice validation:add forces at admission.`);
 if(needsTriage.length) warnings.push(`${needsTriage.length} admitted validator(s) excluded pending triage: ${needsTriage.join(', ')}`);
 
 const matrixIds=new Set(); const matrixByValidation=new Map();
