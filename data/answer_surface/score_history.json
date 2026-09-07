@@ -2,1278 +2,6 @@
   "version": "1.0",
   "runs": [
     {
-      "generated_at": "2026-09-04T13:50:19.619Z",
-      "cluster_count": 52,
-      "clusters": [
-        {
-          "cluster_id": "bhpc__systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__burnout-recovery",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__executive-os",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__systems-decisions",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__identity",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__wealth",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__planning-review-systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__coaching-accountability",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability-and-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__overplanning-and-reset",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__founder-and-workflows",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__decision-support",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-parent",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-executive-coaching",
-          "score": 4,
-          "previous_score": 4,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__missed-a-day-productivity-system",
-          "score": 5,
-          "previous_score": 5,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability",
-          "score": 6,
-          "previous_score": 6,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-exec-coach",
-          "score": 7,
-          "previous_score": 7,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__leverage",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__unmapped-probe-queries",
-          "score": 15,
-          "previous_score": 15,
-          "delta": 0
-        }
-      ]
-    },
-    {
-      "generated_at": "2026-09-04T14:30:16.217Z",
-      "cluster_count": 52,
-      "clusters": [
-        {
-          "cluster_id": "bhpc__systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__burnout-recovery",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__executive-os",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__systems-decisions",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__identity",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__wealth",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__planning-review-systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__coaching-accountability",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability-and-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__overplanning-and-reset",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__founder-and-workflows",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__decision-support",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-parent",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-executive-coaching",
-          "score": 4,
-          "previous_score": 4,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__missed-a-day-productivity-system",
-          "score": 5,
-          "previous_score": 5,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability",
-          "score": 6,
-          "previous_score": 6,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-exec-coach",
-          "score": 7,
-          "previous_score": 7,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__leverage",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__unmapped-probe-queries",
-          "score": 15,
-          "previous_score": 15,
-          "delta": 0
-        }
-      ]
-    },
-    {
-      "generated_at": "2026-09-04T14:32:05.067Z",
-      "cluster_count": 52,
-      "clusters": [
-        {
-          "cluster_id": "bhpc__systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__burnout-recovery",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__executive-os",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__systems-decisions",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__identity",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__wealth",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__planning-review-systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__coaching-accountability",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability-and-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__overplanning-and-reset",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__founder-and-workflows",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__decision-support",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-parent",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-executive-coaching",
-          "score": 4,
-          "previous_score": 4,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__missed-a-day-productivity-system",
-          "score": 5,
-          "previous_score": 5,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability",
-          "score": 6,
-          "previous_score": 6,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-exec-coach",
-          "score": 7,
-          "previous_score": 7,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__leverage",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__unmapped-probe-queries",
-          "score": 15,
-          "previous_score": 15,
-          "delta": 0
-        }
-      ]
-    },
-    {
-      "generated_at": "2026-09-04T14:33:53.735Z",
-      "cluster_count": 52,
-      "clusters": [
-        {
-          "cluster_id": "bhpc__systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__burnout-recovery",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__executive-os",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__systems-decisions",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__identity",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__wealth",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__planning-review-systems",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__coaching-accountability",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__execution-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__comparison-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability-and-consistency",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__overplanning-and-reset",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__founder-and-workflows",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__decision-support",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__recovery-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-athlete",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-coaching-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-executive",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__discipline-parent",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__conversion-founder",
-          "score": 0,
-          "previous_score": 0,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-executive-coaching",
-          "score": 4,
-          "previous_score": 4,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__missed-a-day-productivity-system",
-          "score": 5,
-          "previous_score": 5,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__accountability",
-          "score": 6,
-          "previous_score": 6,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__ai-exec-coach",
-          "score": 7,
-          "previous_score": 7,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__leverage",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
-          "score": 11,
-          "previous_score": 11,
-          "delta": 0
-        },
-        {
-          "cluster_id": "bhpc__unmapped-probe-queries",
-          "score": 15,
-          "previous_score": 15,
-          "delta": 0
-        }
-      ]
-    },
-    {
       "generated_at": "2026-09-04T14:35:50.195Z",
       "cluster_count": 52,
       "clusters": [
@@ -9225,6 +7953,1278 @@
     },
     {
       "generated_at": "2026-09-07T13:37:17.982Z",
+      "cluster_count": 52,
+      "clusters": [
+        {
+          "cluster_id": "bhpc__systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__burnout-recovery",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__executive-os",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__systems-decisions",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__identity",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__wealth",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__planning-review-systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__coaching-accountability",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability-and-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__overplanning-and-reset",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__founder-and-workflows",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__decision-support",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-parent",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-executive-coaching",
+          "score": 4,
+          "previous_score": 4,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__missed-a-day-productivity-system",
+          "score": 5,
+          "previous_score": 5,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability",
+          "score": 6,
+          "previous_score": 6,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-exec-coach",
+          "score": 8,
+          "previous_score": 8,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__leverage",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__unmapped-probe-queries",
+          "score": 15,
+          "previous_score": 15,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-07T13:43:42.057Z",
+      "cluster_count": 52,
+      "clusters": [
+        {
+          "cluster_id": "bhpc__systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__burnout-recovery",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__executive-os",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__systems-decisions",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__identity",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__wealth",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__planning-review-systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__coaching-accountability",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability-and-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__overplanning-and-reset",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__founder-and-workflows",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__decision-support",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-parent",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-executive-coaching",
+          "score": 4,
+          "previous_score": 4,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__missed-a-day-productivity-system",
+          "score": 5,
+          "previous_score": 5,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability",
+          "score": 6,
+          "previous_score": 6,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-exec-coach",
+          "score": 8,
+          "previous_score": 8,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__leverage",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__unmapped-probe-queries",
+          "score": 15,
+          "previous_score": 15,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-07T13:45:30.611Z",
+      "cluster_count": 52,
+      "clusters": [
+        {
+          "cluster_id": "bhpc__systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__burnout-recovery",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__executive-os",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__systems-decisions",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__identity",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__wealth",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__planning-review-systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__coaching-accountability",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability-and-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__overplanning-and-reset",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__founder-and-workflows",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__decision-support",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-parent",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-executive-coaching",
+          "score": 4,
+          "previous_score": 4,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__missed-a-day-productivity-system",
+          "score": 5,
+          "previous_score": 5,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability",
+          "score": 6,
+          "previous_score": 6,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-exec-coach",
+          "score": 8,
+          "previous_score": 8,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__leverage",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__unmapped-probe-queries",
+          "score": 15,
+          "previous_score": 15,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-07T13:49:40.025Z",
+      "cluster_count": 52,
+      "clusters": [
+        {
+          "cluster_id": "bhpc__systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__burnout-recovery",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__executive-os",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__systems-decisions",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__identity",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__wealth",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__planning-review-systems",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__coaching-accountability",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__execution-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__comparison-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability-and-consistency",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__overplanning-and-reset",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__founder-and-workflows",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__decision-support",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__recovery-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-athlete",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-coaching-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-executive",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__discipline-parent",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__conversion-founder",
+          "score": 0,
+          "previous_score": 0,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-executive-coaching",
+          "score": 4,
+          "previous_score": 4,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__missed-a-day-productivity-system",
+          "score": 5,
+          "previous_score": 5,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__accountability",
+          "score": 6,
+          "previous_score": 6,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__ai-exec-coach",
+          "score": 8,
+          "previous_score": 8,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__leverage",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
+          "score": 11,
+          "previous_score": 11,
+          "delta": 0
+        },
+        {
+          "cluster_id": "bhpc__unmapped-probe-queries",
+          "score": 15,
+          "previous_score": 15,
+          "delta": 0
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-07T13:51:41.021Z",
       "cluster_count": 52,
       "clusters": [
         {

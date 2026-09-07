@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:37:15.334Z",
+  "generated_at": "2026-09-07T13:51:38.464Z",
   "queries": [
     {
       "query": "how do I stay consistent when I miss a day",
@@ -11,7 +11,7 @@
       "content_type": "answer",
       "authority_target": "missed_day_recovery",
       "conversion_path": "https://aplayermode.com",
-      "ingested_at": "2026-09-07T13:37:15.334Z",
+      "ingested_at": "2026-09-07T13:51:38.464Z",
       "provenance": "hardcoded_seed_list",
       "observed": false
     },
@@ -25,7 +25,7 @@
       "content_type": "answer",
       "authority_target": "missed_day_recovery",
       "conversion_path": "https://aplayermode.com",
-      "ingested_at": "2026-09-07T13:37:15.334Z",
+      "ingested_at": "2026-09-07T13:51:38.464Z",
       "provenance": "hardcoded_seed_list",
       "observed": false
     },
@@ -39,7 +39,7 @@
       "content_type": "answer",
       "authority_target": "missed_day_recovery",
       "conversion_path": "https://aplayermode.com",
-      "ingested_at": "2026-09-07T13:37:15.334Z",
+      "ingested_at": "2026-09-07T13:51:38.464Z",
       "provenance": "hardcoded_seed_list",
       "observed": false
     },
@@ -53,7 +53,7 @@
       "content_type": "answer",
       "authority_target": "missed_day_recovery",
       "conversion_path": "https://aplayermode.com",
-      "ingested_at": "2026-09-07T13:37:15.334Z",
+      "ingested_at": "2026-09-07T13:51:38.464Z",
       "provenance": "hardcoded_seed_list",
       "observed": false
     },
@@ -67,7 +67,7 @@
       "content_type": "answer",
       "authority_target": "missed_day_recovery",
       "conversion_path": "https://aplayermode.com",
-      "ingested_at": "2026-09-07T13:37:15.334Z",
+      "ingested_at": "2026-09-07T13:51:38.464Z",
       "provenance": "hardcoded_seed_list",
       "observed": false
     }
