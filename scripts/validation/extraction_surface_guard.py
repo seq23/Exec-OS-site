@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import hashlib, json, os, sys
+import hashlib, json, os, subprocess, sys
 from pathlib import Path
 
 sys.dont_write_bytecode = True
@@ -119,6 +119,43 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, sort_keys=True, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
 
 
+def git(*argv: str) -> subprocess.CompletedProcess:
+    return subprocess.run(['git', *argv], cwd=ROOT, capture_output=True, text=True)
+
+
+def baseline_provenance() -> str:
+    """Why is the snapshot file not on disk?
+
+    'removed'   - this repository has carried this baseline; its absence is a
+                  deletion, not a first run.
+    'new'       - a git worktree that has never carried it: a real bootstrap.
+    'unknown'   - not a git worktree, so nothing can be established either way.
+
+    This distinction is the whole guard. `snapshot` runs immediately before
+    `check`, so a missing baseline means `snapshot` writes one and `check` then
+    compares the tree against a file written seconds earlier by the same run -
+    the "grades its own answer sheet" failure this pair was moved ahead of
+    build:all to fix, reachable again through the bootstrap path. Reproduced on
+    main at 51117429c: `rm artifacts/validation/extraction-surface-snapshot.json`
+    made both steps exit 0 while asserting nothing across 2,233 governed
+    surfaces. The registry record for VAL-EXTRACTION-SURFACE-GUARD-SNAPSHOT
+    already names this exact risk - "without the snapshot the check below has no
+    baseline and silently passes" - and the code did not enforce it.
+    """
+    if git('rev-parse', '--is-inside-work-tree').stdout.strip() != 'true':
+        return 'unknown'
+    rel = SNAP.relative_to(ROOT).as_posix()
+    if git('ls-files', '--error-unmatch', '--', rel).returncode == 0:
+        return 'removed'
+    if git('cat-file', '-e', f'HEAD:{rel}').returncode == 0:
+        return 'removed'
+    # Covers a committed deletion, and a shallow clone too: the commit that
+    # removed the path is itself a commit that touches the path.
+    if git('log', '-1', '--format=%H', '--all', '--', rel).stdout.strip():
+        return 'removed'
+    return 'new'
+
+
 state = build_state()
 if MODE == 'snapshot':
     # container-prepush runs `snapshot` at step 44 and `check` at step 58, and
@@ -134,8 +171,9 @@ if MODE == 'snapshot':
     # Re-baselining is not a validation step. It is an assertion that the current
     # surfaces are reviewed and correct, which is a human decision, so it now
     # requires saying so explicitly. Absent that, `snapshot` reports the drift and
-    # fails instead of quietly absorbing it. A missing snapshot is still written,
-    # because bootstrapping a baseline that does not exist asserts nothing.
+    # fails instead of quietly absorbing it. A missing snapshot is written only
+    # when it has genuinely never existed here - see baseline_provenance(),
+    # because `rm <snapshot>` was otherwise a silent rebaseline of the whole set.
     if SNAP.exists():
         previous = json.loads(SNAP.read_text(encoding='utf-8'))
         drifted = [key for key in sorted(set(previous) | set(state)) if previous.get(key) != state.get(key)]
@@ -147,11 +185,34 @@ if MODE == 'snapshot':
             print('Re-baselining asserts these surfaces are reviewed and correct. If they are, re-run with '
                   'EXTRACTION_SURFACE_REBASELINE=1 and commit the snapshot alongside the pages that changed it.')
             raise SystemExit(1)
+    else:
+        provenance = baseline_provenance()
+        if provenance == 'removed':
+            hard_fail(
+                f'{SNAP.relative_to(ROOT)} is absent but this repository has carried it, so this is a removal '
+                'rather than a first run. Writing a fresh baseline here would hand `check` a file this same run '
+                f'just produced, and {len(state)} governed surface(s) would pass unasserted. Restore the committed '
+                'snapshot (git checkout -- ' + str(SNAP.relative_to(ROOT)) + '), or, if the surfaces really are '
+                'reviewed and correct, restore it and re-run with EXTRACTION_SURFACE_REBASELINE=1 so the drift is '
+                'stated rather than erased.')
+        if provenance == 'unknown':
+            print('[extraction-surface-guard] NAMED STOP no-baseline-provenance: '
+                  f'{SNAP.relative_to(ROOT)} is absent and this tree is not a git worktree, so whether it was '
+                  'removed or never existed cannot be established. Writing the baseline for the first time.')
+        else:
+            print(f'[extraction-surface-guard] bootstrap: {SNAP.relative_to(ROOT)} has never existed in this '
+                  'repository; writing the first baseline, which asserts nothing about the surfaces yet.')
     write_json(SNAP, state)
     print(f'[extraction-surface-guard] snapshot {len(state)} governed surfaces')
     raise SystemExit(0)
 if MODE == 'check':
-    old = json.loads(SNAP.read_text(encoding='utf-8')) if SNAP.exists() else {}
+    if not SNAP.exists():
+        # `old = {} if not SNAP.exists()` reported every surface as changed, which
+        # named 2,233 innocent pages for one missing file. The baseline being gone
+        # is its own failure and is reported as itself.
+        hard_fail(f'{SNAP.relative_to(ROOT)} does not exist, so there is no baseline to check '
+                  f'{len(state)} governed surface(s) against.')
+    old = json.loads(SNAP.read_text(encoding='utf-8'))
     changed = [key for key in sorted(set(old) | set(state)) if old.get(key) != state.get(key)]
     write_json(OUT, {'status': 'PASS' if not changed else 'FAIL', 'changed': changed})
     if changed:
