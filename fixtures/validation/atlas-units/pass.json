@@ -1,0 +1,66 @@
+{
+  "fixture": "atlas-units",
+  "expectation": "PASS",
+  "expected_exit_code": 0,
+  "description": "Each demand number is in a declared unit: a keyword-tool row carries search_volume with keyword-tool provenance, a GSC row carries only its own impressions_90d, an evidenceless row is unscored, and the three sort band-major so no cross-unit comparison decides position.",
+  "files": {
+    "data/queries/evidence/evidence_queries.json": {
+      "queries": [
+        {
+          "query": "ai business coach",
+          "source_type": "semrush_keyword_magic",
+          "search_volume": 110,
+          "impressions_90d": null,
+          "demand_basis": "search_volume",
+          "search_volume_source": "semrush_keyword_magic"
+        },
+        {
+          "query": "ai accountability partner",
+          "source_type": "gsc_search_analytics",
+          "search_volume": null,
+          "impressions_90d": 5,
+          "demand_basis": "impressions_90d",
+          "search_volume_source": null
+        }
+      ]
+    },
+    "data/authority_scale/query_atlas.json": {
+      "unit_contract": "search_volume is modelled monthly market volume from a keyword tool; impressions_90d is this domain's own 90-day GSC impression count. They are never the same field and never sort as peers.",
+      "rank_scoring": {
+        "formula": "band-major, then demand desc within band"
+      },
+      "queries": [
+        {
+          "query": "ai business coach",
+          "source_type": "semrush_keyword_magic",
+          "search_volume": 110,
+          "impressions_90d": null,
+          "demand_basis": "search_volume",
+          "search_volume_source": "semrush_keyword_magic",
+          "rank_band": "measured_search_volume",
+          "rank_score": 110
+        },
+        {
+          "query": "ai accountability partner",
+          "source_type": "gsc_search_analytics",
+          "search_volume": null,
+          "impressions_90d": 5,
+          "demand_basis": "impressions_90d",
+          "search_volume_source": null,
+          "rank_band": "own_impressions_only",
+          "rank_score": 5
+        },
+        {
+          "query": "ai coach for founders",
+          "source_type": "gsc_search_analytics",
+          "search_volume": null,
+          "impressions_90d": null,
+          "demand_basis": "none",
+          "search_volume_source": null,
+          "rank_band": "unscored",
+          "rank_score": null
+        }
+      ]
+    }
+  }
+}
