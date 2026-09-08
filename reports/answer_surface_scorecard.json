@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-08T13:36:41.498Z",
+  "generated_at": "2026-09-08T13:50:18.282Z",
   "clusters": 52,
   "observation_sources": {
     "candidates": 51,
     "manual": 0,
     "probe_file": "data/signals/llm_citation_observations.json",
-    "probe_runs": 20,
+    "probe_runs": 21,
     "probe_observations_ingested": 77,
     "probe_observations_answered": 77,
     "probe_observations_unmapped": 11
@@ -14,19 +14,6 @@
     {
       "vertical": "bhpc",
       "cluster": "systems",
-      "total_queries": 3,
-      "observations": 3,
-      "observed_queries": 2,
-      "canonical_mentions": 0,
-      "velocity_mentions": 0,
-      "competitor_mentions": 1,
-      "unknown_mentions": 1,
-      "score": 0,
-      "status": "weak"
-    },
-    {
-      "vertical": "bhpc",
-      "cluster": "burnout-recovery",
       "total_queries": 3,
       "observations": 3,
       "observed_queries": 2,
@@ -650,6 +637,19 @@
     },
     {
       "vertical": "bhpc",
+      "cluster": "burnout-recovery",
+      "total_queries": 3,
+      "observations": 3,
+      "observed_queries": 2,
+      "canonical_mentions": 0,
+      "velocity_mentions": 0,
+      "competitor_mentions": 0,
+      "unknown_mentions": 1,
+      "score": 11,
+      "status": "weak"
+    },
+    {
+      "vertical": "bhpc",
       "cluster": "leverage",
       "total_queries": 3,
       "observations": 3,
@@ -682,9 +682,9 @@
       "observed_queries": 10,
       "canonical_mentions": 0,
       "velocity_mentions": 0,
-      "competitor_mentions": 0,
+      "competitor_mentions": 1,
       "unknown_mentions": 1,
-      "score": 15,
+      "score": 12,
       "status": "weak"
     }
   ]

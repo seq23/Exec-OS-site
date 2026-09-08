@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:36:41.261Z",
+  "generated_at": "2026-09-08T13:50:18.013Z",
   "selection_model": "ranked_items_plus_mandatory_use_case_coverage_v2",
   "min_score": 0.45,
   "max_ranked_items": 25,
@@ -431,10 +431,10 @@
       "meta": {
         "product_role": "executive_coach",
         "use_case": "career_acceleration",
-        "audience_count": 12,
+        "audience_count": 10,
         "source_count": 10,
         "full_coverage": true,
-        "differentiator": "executive_coach career_acceleration 12 audience segments 10 source types",
+        "differentiator": "executive_coach career_acceleration 10 audience segments 10 source types",
         "intent_anchor": "career_acceleration",
         "conversion_path": "https://aplayermode.com"
       }

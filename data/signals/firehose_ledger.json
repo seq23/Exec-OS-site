@@ -3,113 +3,6 @@
   "repo": "seq23/sprylabs-hpc-site",
   "runs": [
     {
-      "run_id": "firehose-1786111304053",
-      "generated_at": "2026-08-07T14:01:44.053Z",
-      "status": "PASS",
-      "adapters": [
-        {
-          "adapter": "fixture",
-          "source": "fixture_raw_signals",
-          "status": "PASS",
-          "terms_status": "allowed",
-          "records": 5,
-          "warnings": [
-            "offline fixture records used"
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "manual_import",
-          "source": "manual_import",
-          "status": "PASS",
-          "terms_status": "allowed",
-          "records": 0,
-          "warnings": [
-            "No live collection performed; allowed manual import reads data/signals/manual_import.json when present."
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "agent_artifacts",
-          "source": "agent_artifacts",
-          "status": "PASS",
-          "terms_status": "allowed",
-          "records": 0,
-          "warnings": [
-            "agent artifact root present; no ready manifest consumed in fixture run"
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "forums_rss",
-          "source": "forums_rss",
-          "status": "WARN",
-          "terms_status": "requires_review",
-          "records": 0,
-          "warnings": [
-            "requires terms review before live RSS/forum collection."
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "reddit",
-          "source": "reddit",
-          "status": "WARN",
-          "terms_status": "requires_credentials",
-          "records": 0,
-          "warnings": [
-            "requires credentials and API/terms authority before live collection."
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "bluesky",
-          "source": "bluesky",
-          "status": "WARN",
-          "terms_status": "requires_review",
-          "records": 0,
-          "warnings": [
-            "requires ATProto/firehose terms review before live collection."
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "x",
-          "source": "x",
-          "status": "WARN",
-          "terms_status": "requires_credentials",
-          "records": 0,
-          "warnings": [
-            "requires credentials and API terms before live collection."
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "youtube",
-          "source": "youtube",
-          "status": "WARN",
-          "terms_status": "requires_credentials",
-          "records": 0,
-          "warnings": [
-            "requires credentials/quota and API terms before live collection."
-          ],
-          "errors": []
-        },
-        {
-          "adapter": "search_console",
-          "source": "search_console",
-          "status": "WARN",
-          "terms_status": "requires_credentials",
-          "records": 0,
-          "warnings": [
-            "requires owned Search Console credentials/export before live collection."
-          ],
-          "errors": []
-        }
-      ],
-      "record_count": 5
-    },
-    {
       "run_id": "firehose-1786370752907",
       "generated_at": "2026-08-10T14:05:52.907Z",
       "status": "PASS",
@@ -3108,6 +3001,113 @@
     {
       "run_id": "firehose-1788788549787",
       "generated_at": "2026-09-07T13:42:29.787Z",
+      "status": "PASS",
+      "adapters": [
+        {
+          "adapter": "fixture",
+          "source": "fixture_raw_signals",
+          "status": "PASS",
+          "terms_status": "allowed",
+          "records": 5,
+          "warnings": [
+            "offline fixture records used"
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "manual_import",
+          "source": "manual_import",
+          "status": "PASS",
+          "terms_status": "allowed",
+          "records": 0,
+          "warnings": [
+            "No live collection performed; allowed manual import reads data/signals/manual_import.json when present."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "agent_artifacts",
+          "source": "agent_artifacts",
+          "status": "PASS",
+          "terms_status": "allowed",
+          "records": 0,
+          "warnings": [
+            "NOT_A_PRODUCING_SOURCE: agent artifacts are hash-protected by prove_agent_separation and already absorbed by scripts/agent_intake; this adapter never emits demand records."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "forums_rss",
+          "source": "forums_rss",
+          "status": "WARN",
+          "terms_status": "requires_review",
+          "records": 0,
+          "warnings": [
+            "requires terms review before live RSS/forum collection."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "reddit",
+          "source": "reddit",
+          "status": "WARN",
+          "terms_status": "requires_credentials",
+          "records": 0,
+          "warnings": [
+            "requires credentials and API/terms authority before live collection."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "bluesky",
+          "source": "bluesky",
+          "status": "WARN",
+          "terms_status": "requires_review",
+          "records": 0,
+          "warnings": [
+            "requires ATProto/firehose terms review before live collection."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "x",
+          "source": "x",
+          "status": "WARN",
+          "terms_status": "requires_credentials",
+          "records": 0,
+          "warnings": [
+            "requires credentials and API terms before live collection."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "youtube",
+          "source": "youtube",
+          "status": "WARN",
+          "terms_status": "requires_credentials",
+          "records": 0,
+          "warnings": [
+            "requires credentials/quota and API terms before live collection."
+          ],
+          "errors": []
+        },
+        {
+          "adapter": "search_console",
+          "source": "search_console",
+          "status": "WARN",
+          "terms_status": "requires_credentials",
+          "records": 0,
+          "warnings": [
+            "requires owned Search Console credentials/export before live collection."
+          ],
+          "errors": []
+        }
+      ],
+      "record_count": 5
+    },
+    {
+      "run_id": "firehose-1788874990782",
+      "generated_at": "2026-09-08T13:43:10.782Z",
       "status": "PASS",
       "adapters": [
         {
