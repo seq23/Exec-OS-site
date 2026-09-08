@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "validator": "bhpc-route-resolution-self-test",
-  "generated_at": "2026-09-07T14:28:39.092Z",
+  "generated_at": "2026-09-08T14:30:24.466Z",
   "status": "PASS",
   "cases": {
     "unambiguousTitleTypo": {

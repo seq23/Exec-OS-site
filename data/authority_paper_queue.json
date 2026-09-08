@@ -1566,7 +1566,7 @@
       "released_at": "2026-07-23T23:56:48.871Z"
     }
   ],
-  "generated_at": "2026-09-08T13:50:18.809Z",
+  "generated_at": "2026-09-08T14:38:39.896Z",
   "policy": {
     "trigger_based_authority": true,
     "min_authority_score": 70,

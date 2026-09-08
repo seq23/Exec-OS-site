@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
   "status": "PASS",
-  "generated_at": "2026-09-08T13:50:38.628Z",
+  "generated_at": "2026-09-08T14:38:59.213Z",
   "active_run_date": "2026-08-29",
   "acceptance_manifest_path": "data/report_fixes/agent_acceptance_manifest.generated.json",
   "policy_path": "data/report_fixes/agent_exact_implementation_policy.json",

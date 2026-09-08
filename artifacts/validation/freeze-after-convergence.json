@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "validator": "validate:freeze-after-convergence",
-  "generated_at": "2026-09-07T14:30:38.478Z",
+  "generated_at": "2026-09-08T14:32:09.036Z",
   "freeze_step": "authority:scale:freeze",
   "convergence_authority": ".github/scripts/converge_tree_before_commit.sh",
   "lanes_examined": 8,
@@ -55,7 +55,7 @@
       "compliant": true
     }
   ],
-  "runner_files_walked": 474,
+  "runner_files_walked": 476,
   "runner_excluded_dirs": [
     "scripts/validation",
     "scripts/validators"

@@ -1,6 +1,6 @@
 {
   "profile": "content-quality",
-  "started_at": "2026-09-07T14:30:18.506Z",
+  "started_at": "2026-09-08T14:31:51.362Z",
   "steps": [
     {
       "id": "VAL-CITATION-REPAIR-REACH",
@@ -169,5 +169,5 @@
   "failure_count": 0,
   "failures": [],
   "stopped_early_at": null,
-  "finished_at": "2026-09-07T14:30:42.290Z"
+  "finished_at": "2026-09-08T14:32:13.062Z"
 }

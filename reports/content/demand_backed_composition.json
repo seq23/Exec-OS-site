@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-08T13:50:33.811Z",
+  "generated_at": "2026-09-08T14:38:54.503Z",
   "input": {
     "demand": "data/demand/measured_demand.json",
     "atlas": "data/authority_scale/query_atlas.json",
