@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T13:36:57.236Z",
+  "generated_at": "2026-09-08T13:36:30.487Z",
   "eligible_targets": 120,
-  "window_start": 96,
+  "window_start": 24,
   "window_size": 24,
-  "next_index": 0
+  "next_index": 48
 }

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "mode": "incremental",
-  "elapsed_ms": 2262,
+  "elapsed_ms": 1425,
   "steps": [
     {
       "id": "profile_routing_self_test",

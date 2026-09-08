@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "checked_at": "2026-09-07T13:36:58.394Z",
+  "checked_at": "2026-09-08T13:36:31.218Z",
   "protected_paths": [
     "scripts/agent_intake",
     "data/report_fixes/agent_runs",

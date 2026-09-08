@@ -1,25 +1,35 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-07T14:28:38.661Z",
+  "generated_at": "2026-09-08T13:34:08.273Z",
   "mode": "incremental",
   "status": "PASS",
-  "files_checked": 12,
+  "files_checked": 22,
   "active_paths": [
     "ai-accountability-system-vs-habit-tracker.html",
     "ai-coach-vs-human-coach-for-founders.html",
+    "ai-coach-vs-human-coach.html",
     "ai-daily-planning-prompt-for-busy-founders.html",
     "ai-executive-coach-for-founders.html",
     "ai-executive-coach.html",
     "ai-workflow-for-founders.html",
+    "atlas.html",
+    "chatgpt-daily-planning-prompt-for-busy-founders.html",
     "how-do-you-use-chatgpt-as-an-executive-coach.html",
+    "how-to-stay-consistent/index.html",
+    "how-to-use-chatgpt-as-an-executive-coach.html",
     "insights/README.html",
+    "insights/a-clean-system-for-handling-email-without-losing-your-day.html",
+    "insights/a-clean-way-to-handle-shame-after-inconsistency.html",
+    "insights/a-practical-way-to-build-consistency-without-streak-pressure.html",
+    "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+    "insights/a-simple-knowledge-system-capture-distill-use.html",
     "insights/a-simple-meeting-rule-that-prevents-calendar-chaos.html",
     "insights/a-simple-system-for-tracking-what-actually-matters.html",
     "insights/personal-playbook-recurring-problems.html",
     "insights/the-daily-leverage-question-that-changes-everything.html"
   ],
   "failure_count": 0,
-  "warning_count": 19,
+  "warning_count": 35,
   "failures": [],
   "warnings": [
     {
@@ -114,9 +124,94 @@
       "detail": 183
     },
     {
+      "path": "atlas.html",
+      "code": "META_DESCRIPTION_LENGTH",
+      "detail": 62
+    },
+    {
       "path": "insights/README.html",
       "code": "META_DESCRIPTION_LENGTH",
       "detail": 220
+    },
+    {
+      "path": "insights/a-clean-system-for-handling-email-without-losing-your-day.html",
+      "code": "TITLE_LENGTH",
+      "detail": 77
+    },
+    {
+      "path": "insights/a-practical-way-to-build-consistency-without-streak-pressure.html",
+      "code": "TITLE_LENGTH",
+      "detail": 80
+    },
+    {
+      "path": "ai-coach-vs-human-coach.html",
+      "code": "TITLE_LENGTH",
+      "detail": 78
+    },
+    {
+      "path": "ai-coach-vs-human-coach.html",
+      "code": "META_DESCRIPTION_LENGTH",
+      "detail": 195
+    },
+    {
+      "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+      "code": "ANCHOR_TEXT_MISMATCH",
+      "detail": "Download the Spry Executive OS Routine Protocol",
+      "record_id": "2026-08-15-bhpc-019"
+    },
+    {
+      "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+      "code": "ANCHOR_TEXT_MISMATCH",
+      "detail": "Download the Spry Executive OS Routine Protocol",
+      "record_id": "2026-08-15-bhpc-020"
+    },
+    {
+      "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+      "code": "ANCHOR_TEXT_MISMATCH",
+      "detail": "Download the Spry Executive OS Routine Protocol",
+      "record_id": "2026-08-15-bhpc-021"
+    },
+    {
+      "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+      "code": "ANCHOR_TEXT_MISMATCH",
+      "detail": "Download the Spry Executive OS Routine Protocol",
+      "record_id": "2026-08-15-bhpc-022"
+    },
+    {
+      "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+      "code": "ANCHOR_TEXT_MISMATCH",
+      "detail": "Download the Spry Executive OS Routine Protocol",
+      "record_id": "2026-08-15-bhpc-023"
+    },
+    {
+      "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
+      "code": "TITLE_LENGTH",
+      "detail": 76
+    },
+    {
+      "path": "insights/a-simple-knowledge-system-capture-distill-use.html",
+      "code": "TITLE_LENGTH",
+      "detail": 72
+    },
+    {
+      "path": "how-to-use-chatgpt-as-an-executive-coach.html",
+      "code": "TITLE_LENGTH",
+      "detail": 77
+    },
+    {
+      "path": "how-to-use-chatgpt-as-an-executive-coach.html",
+      "code": "META_DESCRIPTION_LENGTH",
+      "detail": 250
+    },
+    {
+      "path": "chatgpt-daily-planning-prompt-for-busy-founders.html",
+      "code": "TITLE_LENGTH",
+      "detail": 84
+    },
+    {
+      "path": "chatgpt-daily-planning-prompt-for-busy-founders.html",
+      "code": "META_DESCRIPTION_LENGTH",
+      "detail": 255
     }
   ]
 }
