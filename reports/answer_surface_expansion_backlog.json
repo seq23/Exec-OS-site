@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T13:36:37.756Z",
+  "generated_at": "2026-09-09T13:50:33.777Z",
   "count": 52,
   "items": [
     {
       "id": "answer_surface_001",
       "priority": "P1-reinforce",
-      "cluster": "systems",
+      "cluster": "burnout-recovery",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -578,7 +578,7 @@
       "id": "answer_surface_045",
       "priority": "P1-reinforce",
       "cluster": "ai-executive-coaching",
-      "score": 4,
+      "score": 1,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -590,7 +590,7 @@
     {
       "id": "answer_surface_046",
       "priority": "P1-reinforce",
-      "cluster": "missed-a-day-productivity-system",
+      "cluster": "ai-exec-coach",
       "score": 5,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -603,8 +603,8 @@
     {
       "id": "answer_surface_047",
       "priority": "P1-reinforce",
-      "cluster": "accountability",
-      "score": 6,
+      "cluster": "missed-a-day-productivity-system",
+      "score": 5,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -616,8 +616,8 @@
     {
       "id": "answer_surface_048",
       "priority": "P1-reinforce",
-      "cluster": "ai-exec-coach",
-      "score": 8,
+      "cluster": "accountability",
+      "score": 6,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -629,8 +629,8 @@
     {
       "id": "answer_surface_049",
       "priority": "P1-reinforce",
-      "cluster": "burnout-recovery",
-      "score": 11,
+      "cluster": "unmapped-probe-queries",
+      "score": 9,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -642,7 +642,7 @@
     {
       "id": "answer_surface_050",
       "priority": "P1-reinforce",
-      "cluster": "leverage",
+      "cluster": "systems",
       "score": 11,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -655,7 +655,7 @@
     {
       "id": "answer_surface_051",
       "priority": "P1-reinforce",
-      "cluster": "readme-spry-executive-os-intended-winner-page-sp",
+      "cluster": "leverage",
       "score": 11,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -668,8 +668,8 @@
     {
       "id": "answer_surface_052",
       "priority": "P1-reinforce",
-      "cluster": "unmapped-probe-queries",
-      "score": 12,
+      "cluster": "readme-spry-executive-os-intended-winner-page-sp",
+      "score": 11,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",

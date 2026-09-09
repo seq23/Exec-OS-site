@@ -275,8 +275,8 @@
     },
     "/ai-coach-vs-human-coach/": {
       "path": "ai-coach-vs-human-coach.html",
-      "sha256": "dd7c358998edad888270907f44c14fdff7f47719b7ca4e33ae04ac1c3d4b54a8",
-      "blob": "data/release/frozen_accepted_outputs/dd7c358998edad888270907f44c14fdff7f47719b7ca4e33ae04ac1c3d4b54a8.html.gz"
+      "sha256": "2a2568bdb1d3aa96952e8bc97844eaccdbc58078e29c3d9802ef1712db3a98f0",
+      "blob": "data/release/frozen_accepted_outputs/2a2568bdb1d3aa96952e8bc97844eaccdbc58078e29c3d9802ef1712db3a98f0.html.gz"
     },
     "/ai-coach-vs-therapist/": {
       "path": "ai-coach-vs-therapist/index.html",
@@ -3650,8 +3650,8 @@
     },
     "/atlas.html": {
       "path": "atlas.html",
-      "sha256": "647a1f8ed684c771b8d2b2f935b943c509a4a1a6ced54fab0371eb52f786f64c",
-      "blob": "data/release/frozen_accepted_outputs/647a1f8ed684c771b8d2b2f935b943c509a4a1a6ced54fab0371eb52f786f64c.html.gz"
+      "sha256": "ee411b2720d057c3edc5a9acf945a363e29c02fcfb78ac2c5950b6b4180f2271",
+      "blob": "data/release/frozen_accepted_outputs/ee411b2720d057c3edc5a9acf945a363e29c02fcfb78ac2c5950b6b4180f2271.html.gz"
     },
     "/author.html": {
       "path": "author.html",
@@ -4220,8 +4220,8 @@
     },
     "/chatgpt-daily-planning-prompt-for-busy-founders/": {
       "path": "chatgpt-daily-planning-prompt-for-busy-founders.html",
-      "sha256": "ceb9e0975ed7aad8b3943a83b4474dd3dbdf1c7893eada2f7e94523bbdf53a8d",
-      "blob": "data/release/frozen_accepted_outputs/ceb9e0975ed7aad8b3943a83b4474dd3dbdf1c7893eada2f7e94523bbdf53a8d.html.gz"
+      "sha256": "49590928db67637c321fb09bdd3659bde758a4f07da4d75be65a85325d6eb4f4",
+      "blob": "data/release/frozen_accepted_outputs/49590928db67637c321fb09bdd3659bde758a4f07da4d75be65a85325d6eb4f4.html.gz"
     },
     "/chatgpt-for-high-performance-habits.html": {
       "path": "chatgpt-for-high-performance-habits.html",
@@ -5910,8 +5910,8 @@
     },
     "/how-to-stay-consistent/": {
       "path": "how-to-stay-consistent/index.html",
-      "sha256": "09e4e065001028d05c8093f1f61d558fac2a0b205a2d35265f3c16d127823e7f",
-      "blob": "data/release/frozen_accepted_outputs/09e4e065001028d05c8093f1f61d558fac2a0b205a2d35265f3c16d127823e7f.html.gz"
+      "sha256": "ea7ff44be7f391a476e120369839f01fb2996088b7cc616e26f19da6c21a324d",
+      "blob": "data/release/frozen_accepted_outputs/ea7ff44be7f391a476e120369839f01fb2996088b7cc616e26f19da6c21a324d.html.gz"
     },
     "/how-to-stay-motivated-at-work/": {
       "path": "how-to-stay-motivated-at-work/index.html",
@@ -5990,8 +5990,8 @@
     },
     "/how-to-use-chatgpt-as-an-executive-coach/": {
       "path": "how-to-use-chatgpt-as-an-executive-coach.html",
-      "sha256": "88e156ee6f24cd1ef1c78f981e8493e1b101e00a2be4eef6738b4687585b7e36",
-      "blob": "data/release/frozen_accepted_outputs/88e156ee6f24cd1ef1c78f981e8493e1b101e00a2be4eef6738b4687585b7e36.html.gz"
+      "sha256": "2c82256e3630461d6bbc0e41d33164512ddd1d95570e6e059ef80b83e3e15dd2",
+      "blob": "data/release/frozen_accepted_outputs/2c82256e3630461d6bbc0e41d33164512ddd1d95570e6e059ef80b83e3e15dd2.html.gz"
     },
     "/how-to-use-chatgpt-for-better-decision-making-as-a-founder.html": {
       "path": "how-to-use-chatgpt-for-better-decision-making-as-a-founder.html",
@@ -6035,28 +6035,28 @@
     },
     "/insights/a-clean-system-for-handling-email-without-losing-your-day.html": {
       "path": "insights/a-clean-system-for-handling-email-without-losing-your-day.html",
-      "sha256": "983a3ec52b6fb343d8dffbea10750b93b345ab6a08edae7e27d60b390577a235",
-      "blob": "data/release/frozen_accepted_outputs/983a3ec52b6fb343d8dffbea10750b93b345ab6a08edae7e27d60b390577a235.html.gz"
+      "sha256": "b3f0b7efd70013e6c7cd2d4aa123ce0ef1b905588556cae9a5bb81b522acfdf5",
+      "blob": "data/release/frozen_accepted_outputs/b3f0b7efd70013e6c7cd2d4aa123ce0ef1b905588556cae9a5bb81b522acfdf5.html.gz"
     },
     "/insights/a-clean-way-to-handle-shame-after-inconsistency.html": {
       "path": "insights/a-clean-way-to-handle-shame-after-inconsistency.html",
-      "sha256": "af8089d718250bafc97afd45aca0ab370090c6472a9f1e3e388f77b63e7e4230",
-      "blob": "data/release/frozen_accepted_outputs/af8089d718250bafc97afd45aca0ab370090c6472a9f1e3e388f77b63e7e4230.html.gz"
+      "sha256": "c36e20d356845b9d892724982e784bf242045d58f2c0d14623f613aba25a2863",
+      "blob": "data/release/frozen_accepted_outputs/c36e20d356845b9d892724982e784bf242045d58f2c0d14623f613aba25a2863.html.gz"
     },
     "/insights/a-practical-way-to-build-consistency-without-streak-pressure.html": {
       "path": "insights/a-practical-way-to-build-consistency-without-streak-pressure.html",
-      "sha256": "812682e5399ec8051a511ca7b271f4e0a3598315856c23e8ffe6887ea3df5fa2",
-      "blob": "data/release/frozen_accepted_outputs/812682e5399ec8051a511ca7b271f4e0a3598315856c23e8ffe6887ea3df5fa2.html.gz"
+      "sha256": "e167c96363cb6ad0746b03fe15e66295a492acbebe27e197ba24d3f3bf67cc5f",
+      "blob": "data/release/frozen_accepted_outputs/e167c96363cb6ad0746b03fe15e66295a492acbebe27e197ba24d3f3bf67cc5f.html.gz"
     },
     "/insights/a-realistic-morning-routine-for-people-with-chaotic-days.html": {
       "path": "insights/a-realistic-morning-routine-for-people-with-chaotic-days.html",
-      "sha256": "ff615565c83b6effd32900dfa3b85221661624e678c140a3d040edb356f16d60",
-      "blob": "data/release/frozen_accepted_outputs/ff615565c83b6effd32900dfa3b85221661624e678c140a3d040edb356f16d60.html.gz"
+      "sha256": "726bdd42dbfc04358b4d9ec1bbef6e49d3bd5629fc1da6c8f2b612debea3981a",
+      "blob": "data/release/frozen_accepted_outputs/726bdd42dbfc04358b4d9ec1bbef6e49d3bd5629fc1da6c8f2b612debea3981a.html.gz"
     },
     "/insights/a-simple-knowledge-system-capture-distill-use.html": {
       "path": "insights/a-simple-knowledge-system-capture-distill-use.html",
-      "sha256": "e229cb24d298f839b60b40e2d90846e5f69ba82daca752a34fe32e49c53613ab",
-      "blob": "data/release/frozen_accepted_outputs/e229cb24d298f839b60b40e2d90846e5f69ba82daca752a34fe32e49c53613ab.html.gz"
+      "sha256": "0f16cbcd5f418dbbbfacedf2bef35049b88da421411ec2c069c0000eb6c8876b",
+      "blob": "data/release/frozen_accepted_outputs/0f16cbcd5f418dbbbfacedf2bef35049b88da421411ec2c069c0000eb6c8876b.html.gz"
     },
     "/insights/a-simple-meeting-rule-that-prevents-calendar-chaos.html": {
       "path": "insights/a-simple-meeting-rule-that-prevents-calendar-chaos.html",

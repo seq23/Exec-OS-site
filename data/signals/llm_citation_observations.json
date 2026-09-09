@@ -7710,10 +7710,554 @@
           "answer_mentions_brand": false
         }
       ]
+    },
+    {
+      "run_at": "2026-09-09T13:46:39.846Z",
+      "provider": "openrouter",
+      "engines": [
+        "openai/gpt-4o-mini"
+      ],
+      "mode": "grounded",
+      "queries": 25,
+      "observations": [
+        {
+          "query": "ai coaching tools",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "coachhub.com",
+            "fireflies.ai",
+            "coachingfederation.org",
+            "instructionalcoaching.com",
+            "td.org",
+            "saner.ai",
+            "psychology.com",
+            "sally.io"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "adhd productivity",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "cbc.ca",
+            "healthpolicyohio.org",
+            "reuters.com",
+            "additudemag.com",
+            "add.org",
+            "chadd.org",
+            "adhdcentre.co.uk"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coach vs movement investigation",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "frontiersin.org",
+            "help.kaiahealth.com",
+            "businesstimes.com.sg",
+            "arxiv.org",
+            "aivancity.ai",
+            "tandfonline.com",
+            "radar.brookes.ac.uk",
+            "altis.world",
+            "trackman.com",
+            "cloud.google.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coach for founders and consultants",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "start.cofounder.ai",
+            "cofounder.ai",
+            "siift.ai",
+            "play.google.com",
+            "vela.partners",
+            "aicoaches.com",
+            "forbes.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai accountability partner",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "getyourself.ai",
+            "taskcoach.ai",
+            "accountability-partner-a753204.loginblogin.com",
+            "news.ycombinator.com",
+            "support.canopy.us",
+            "vic.ai",
+            "coachcall.ai",
+            "nag.bot",
+            "medium.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai tools for coaches",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "saner.ai",
+            "td.org",
+            "coachhub.com",
+            "instructionalcoaching.com",
+            "trainingtilt.com",
+            "coachvox.ai",
+            "coachingfederation.org",
+            "rocky.ai",
+            "sally.io"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai tools for team coaching",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "coachhub.com",
+            "coachbot.ai",
+            "morningstar.com",
+            "hedy.ai",
+            "usebloom.com",
+            "cloverleaf.me",
+            "coachingfederation.org",
+            "speexx.com",
+            "instructionalcoaching.com",
+            "fireflies.ai"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "best ai coach",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "coachhub.com",
+            "saner.ai",
+            "innerforge.ai",
+            "pcmag.com",
+            "eschoolnews.com",
+            "psychology.com",
+            "taskcoach.ai",
+            "virtualspeech.com",
+            "mobihealthnews.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coaching platform",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "ability.ai",
+            "rocky.ai",
+            "coachhub.com",
+            "morningstar.com",
+            "usebloom.com",
+            "ai.visecoach.com",
+            "speexx.com",
+            "coachingfederation.org"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "phone vortex meaning",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "collinsdictionary.com",
+            "dictionary.com",
+            "merriam-webster.com",
+            "oxfordlearnersdictionaries.com",
+            "vocabulary.com",
+            "dictionary.cambridge.org"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "human-like ai coach",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "usehumanai.com",
+            "multiverse.io",
+            "pmc.ncbi.nlm.nih.gov",
+            "emerald.com",
+            "hrexecutive.com",
+            "td.org",
+            "psycnet.apa.org",
+            "thejournal.com",
+            "support.betterup.com",
+            "sciencex.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "best ai coaching software",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "saner.ai",
+            "sally.io",
+            "psychology.com",
+            "fireflies.ai",
+            "siro.ai",
+            "rocky.ai",
+            "oliv.ai",
+            "delenta.com",
+            "circle.so"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai performance coach",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "taito.ai",
+            "athletica.ai",
+            "athleteassessments.com",
+            "learningnews.com",
+            "learn.workbravely.com",
+            "honehq.com",
+            "whoop.com",
+            "podcasts.apple.com",
+            "jobandtalent.com",
+            "reworked.co"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coaching tool for managers",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "attuned.ai",
+            "rapidcanvas.ai",
+            "trainingindustry.com",
+            "usebloom.com",
+            "fortune.com",
+            "lyrahealth.com",
+            "worldclassmanager.com",
+            "lattice.com",
+            "cloverleaf.me"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "best ai coaching",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "morningstar.com",
+            "saner.ai",
+            "instructionalcoaching.com",
+            "psychology.com",
+            "pages.coaching.com",
+            "coachingfederation.org",
+            "uare.ai",
+            "rocky.ai",
+            "forbes.com",
+            "techcrunch.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "build an ai coaching clone",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "coachvox.ai",
+            "rocky.ai",
+            "impactdrivenai.com",
+            "github.com",
+            "aitoolnet.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "nua coach alternative",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "nua.coach",
+            "provolleyball.com",
+            "cyclingcoachai.com",
+            "usctrojans.com",
+            "unlvrebels.com",
+            "mgoblue.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coaching vs human coaching",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "pmc.ncbi.nlm.nih.gov",
+            "psycnet.apa.org",
+            "journals.plos.org",
+            "td.org",
+            "research.vu.nl",
+            "tandfonline.com",
+            "prnewswire.com",
+            "torch.io",
+            "brookes.ac.uk"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai tool for coaches",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "saner.ai",
+            "prnewswire.com",
+            "trainingindustry.com",
+            "athleteassessments.com",
+            "sportlingo.ai",
+            "lytx.com",
+            "techcrunch.com",
+            "sally.io",
+            "coachhub.com",
+            "coachingfederation.org"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "compare humantelligence",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "humantelligence.com",
+            "cbinsights.com",
+            "trustradius.com",
+            "g2.com",
+            "pitchbook.com",
+            "sciencedirect.com",
+            "simplilearn.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "sprylabs",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "sprylab.com",
+            "spraylabs.com",
+            "content.sprytelabs.com",
+            "sprytelabs.github.io",
+            "labs.sprint.ly",
+            "sprytelab.com",
+            "docs.rs",
+            "opensource.adobe.com",
+            "sprl.ca"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coaching automation",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "coachingfederation.org",
+            "rocky.ai",
+            "forbes.com",
+            "instituteofcoaching.org",
+            "zapier.com",
+            "delenta.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai coaching platforms",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "coachhub.com",
+            "coachingfederation.org",
+            "rocky.ai",
+            "teamspective.com",
+            "aircall.io",
+            "honehq.com",
+            "delenta.com",
+            "instructionalcoaching.com",
+            "torch.io"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "spry reddit",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "support.sproutsocial.com",
+            "reddit.com",
+            "docs.rs",
+            "crunchbase.com",
+            "github.com",
+            "usaspending.gov"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        },
+        {
+          "query": "ai business coach",
+          "engine": "openrouter:openai/gpt-4o-mini",
+          "mode": "grounded",
+          "observed_at": "2026-09-09T13:46:39.846Z",
+          "status": "observed",
+          "cited_domains": [
+            "ibm.com",
+            "saas-ai-coach.vercel.app",
+            "ai-businesscoach.com",
+            "coachvox.ai",
+            "sintra.ai",
+            "sitespeak.ai",
+            "apps.apple.com",
+            "forbes.com",
+            "mainebiz.biz",
+            "rhythmsystems.com"
+          ],
+          "cited_ours": [],
+          "self_cited": false,
+          "named_in_answer": [],
+          "answer_mentions_brand": false
+        }
+      ]
     }
   ],
   "latest_summary": {
-    "run_at": "2026-09-08T13:46:17.155Z",
+    "run_at": "2026-09-09T13:46:39.846Z",
     "provider": "openrouter",
     "engines": [
       "openai/gpt-4o-mini"
