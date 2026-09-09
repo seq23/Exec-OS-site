@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "validator": "validate:freeze-after-convergence",
-  "generated_at": "2026-09-08T14:32:09.036Z",
+  "generated_at": "2026-09-09T14:31:20.614Z",
   "freeze_step": "authority:scale:freeze",
   "convergence_authority": ".github/scripts/converge_tree_before_commit.sh",
   "lanes_examined": 8,

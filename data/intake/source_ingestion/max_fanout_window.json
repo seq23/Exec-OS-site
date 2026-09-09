@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-09T13:43:09.713Z",
+  "generated_at": "2026-09-09T14:28:24.528Z",
   "source": "100k_max_fanout_rotating_window",
   "full_runway_records": 100000,
   "window_size": 5000,

@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-08T14:30:01.516Z",
+  "generated_at": "2026-09-09T14:28:17.335Z",
   "clean_baseline_start": "2026-08-26",
-  "clean_days_available": 13,
+  "clean_days_available": 14,
   "required_clean_days": 60,
   "status": "ESTABLISHING_BASELINE",
   "publish_new_pages": true,
-  "reason": "Only 13 of 60 days of post-fix data. Search Console history before 2026-08-26 measures a site whose sitemaps were never submitted and whose unknown URLs returned 200 with the homepage, so it cannot be used to judge publishing volume. The declared cadence stands until a clean baseline exists.",
+  "reason": "Only 14 of 60 days of post-fix data. Search Console history before 2026-08-26 measures a site whose sitemaps were never submitted and whose unknown URLs returned 200 with the homepage, so it cannot be used to judge publishing volume. The declared cadence stands until a clean baseline exists.",
   "sites": {}
 }
