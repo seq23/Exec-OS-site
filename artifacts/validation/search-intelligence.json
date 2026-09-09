@@ -1,9 +1,9 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-09-08T13:36:31.177Z",
+  "generated_at": "2026-09-09T13:36:20.027Z",
   "status": "PASS",
   "target_count": 120,
-  "repair_candidate_count": 2,
+  "repair_candidate_count": 0,
   "applied_repairs_verified_present": 8,
   "protected_agent_execution_boundary": "ENFORCED",
   "errors": []

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-08T13:36:30.867Z",
+  "generated_at": "2026-09-09T13:36:19.518Z",
   "overall_status": "PENDING",
   "status_is_healthy": false,
   "unavailable_note": null,
@@ -247,19 +247,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "businesscoachtoronto.ca",
-          "coaches.life",
-          "commitaction.com",
-          "giodella.com",
-          "gkliggans.com",
-          "habithuddle.com",
-          "ilty.co",
-          "keedia.com",
-          "ogamic.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -294,19 +283,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "businesscoachtoronto.ca",
-          "coaches.life",
-          "commitaction.com",
-          "giodella.com",
-          "gkliggans.com",
-          "habithuddle.com",
-          "ilty.co",
-          "keedia.com",
-          "ogamic.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -341,19 +319,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "businesscoachtoronto.ca",
-          "coaches.life",
-          "commitaction.com",
-          "giodella.com",
-          "gkliggans.com",
-          "habithuddle.com",
-          "ilty.co",
-          "keedia.com",
-          "ogamic.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -388,19 +355,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "businesscoachtoronto.ca",
-          "coaches.life",
-          "commitaction.com",
-          "giodella.com",
-          "gkliggans.com",
-          "habithuddle.com",
-          "ilty.co",
-          "keedia.com",
-          "ogamic.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -583,19 +539,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "businesscoachtoronto.ca",
-          "coaches.life",
-          "commitaction.com",
-          "giodella.com",
-          "gkliggans.com",
-          "habithuddle.com",
-          "ilty.co",
-          "keedia.com",
-          "ogamic.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -630,19 +575,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "businesscoachtoronto.ca",
-          "coaches.life",
-          "commitaction.com",
-          "giodella.com",
-          "gkliggans.com",
-          "habithuddle.com",
-          "ilty.co",
-          "keedia.com",
-          "ogamic.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,

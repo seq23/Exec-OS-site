@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1",
   "status": "PASS",
-  "generated_at": "2026-09-08T14:38:59.213Z",
+  "generated_at": "2026-09-09T13:37:07.186Z",
   "active_run_date": "2026-08-29",
   "acceptance_manifest_path": "data/report_fixes/agent_acceptance_manifest.generated.json",
   "policy_path": "data/report_fixes/agent_exact_implementation_policy.json",
@@ -1102,7 +1102,7 @@
       "intended_winner_page": "https://spryexecutiveos.com/atlas.html",
       "intended_winner_path": "atlas.html",
       "implementation_path": "atlas.html",
-      "before_hash": "e3cf439453d2eb4b901e8e59b99ab36fa6d56d60f5f157c0948ebe3966ff3c64",
+      "before_hash": "4db588e84d7960e4f7ed8099e50caacec572aa3990f57cce8d0795a669eced0e",
       "status": "PLANNED",
       "blocked_reason": "",
       "extraction_type": "concept",

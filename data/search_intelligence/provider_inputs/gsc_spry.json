@@ -1,9 +1,9 @@
 {
   "provider": "google_search_console",
   "site_url": "sc-domain:spryexecutiveos.com",
-  "start_date": "2026-08-10",
-  "end_date": "2026-09-06",
-  "collected_at": "2026-09-08",
+  "start_date": "2026-08-11",
+  "end_date": "2026-09-07",
+  "collected_at": "2026-09-09",
   "raw_row_count": 30,
   "raw_distinct_query_count": 24,
   "raw_impressions": 76,

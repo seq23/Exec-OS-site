@@ -1,12 +1,12 @@
 {
   "provider": "google_search_console",
   "site_url": "sc-domain:billionairehighperformancecoach.com",
-  "start_date": "2026-08-10",
-  "end_date": "2026-09-06",
-  "collected_at": "2026-09-08",
+  "start_date": "2026-08-11",
+  "end_date": "2026-09-07",
+  "collected_at": "2026-09-09",
   "raw_row_count": 91,
   "raw_distinct_query_count": 77,
-  "raw_impressions": 315,
+  "raw_impressions": 310,
   "raw_clicks": 1,
   "row_count": 0,
   "target_query_filter": {
@@ -15,7 +15,7 @@
     "rows_matched": 0,
     "rows_discarded": 91,
     "distinct_queries_matched": 0,
-    "discarded_impressions": 315,
+    "discarded_impressions": 310,
     "discarded_clicks": 1,
     "discard_ratio": 1.0,
     "filter_discarded_every_row": true,
@@ -25,13 +25,7 @@
         "query": "ai coach vs movement investigation",
         "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
         "clicks": 0,
-        "impressions": 83
-      },
-      {
-        "query": "ai coach for founders and consultants",
-        "page": "https://billionairehighperformancecoach.com/ai-executive-coach-for-founders",
-        "clicks": 0,
-        "impressions": 12
+        "impressions": 80
       },
       {
         "query": "ai executive coaching",
@@ -44,6 +38,12 @@
         "page": "https://billionairehighperformancecoach.com/glossary/review-cadence/",
         "clicks": 0,
         "impressions": 12
+      },
+      {
+        "query": "ai coach for founders and consultants",
+        "page": "https://billionairehighperformancecoach.com/ai-executive-coach-for-founders",
+        "clicks": 0,
+        "impressions": 11
       },
       {
         "query": "human matched executive coaching",
@@ -79,7 +79,7 @@
         "query": "ai coaching vs human coaching",
         "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
         "clicks": 0,
-        "impressions": 6
+        "impressions": 5
       },
       {
         "query": "executive coaching pricing packages",
