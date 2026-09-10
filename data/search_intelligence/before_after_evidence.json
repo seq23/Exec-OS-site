@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-09T13:36:19.518Z",
+  "generated_at": "2026-09-10T13:34:05.634Z",
   "overall_status": "PENDING",
   "status_is_healthy": false,
   "unavailable_note": null,
@@ -24,8 +24,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "accountabilityworks.com",
+          "atlasradd.com",
+          "businesscoachtoronto.ca",
+          "earnifyhub.com",
+          "finestreak.com",
+          "giodella.com",
+          "habithuddle.com",
+          "ilty.co",
+          "keedia.com",
+          "ogamic.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -55,8 +66,18 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "bodybuddy.app",
+          "coachingportal.io",
+          "finestreak.com",
+          "giodella.com",
+          "ilty.co",
+          "keedia.com",
+          "legacyfitness.coach",
+          "psychologytoday.com",
+          "spy-fitness.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -100,8 +121,16 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "cochrane.org",
+          "feeds.waynepernell.com",
+          "knightcolumbia.org",
+          "library.uniq.edu.iq",
+          "mckinsey.com",
+          "nsf.gov",
+          "pmc.ncbi.nlm.nih.gov"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -137,8 +166,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "atlasradd.com",
+          "bridges2understanding.com",
+          "businesscoachtoronto.ca",
+          "finestreak.com",
+          "giodella.com",
+          "gkliggans.com",
+          "melissanokeslifecoach.com",
+          "spring-coaching.com",
+          "theparentingpassport.com",
+          "yourunbusylife.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -174,8 +214,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "atlasradd.com",
+          "bridges2understanding.com",
+          "businesscoachtoronto.ca",
+          "finestreak.com",
+          "giodella.com",
+          "gkliggans.com",
+          "melissanokeslifecoach.com",
+          "spring-coaching.com",
+          "theparentingpassport.com",
+          "yourunbusylife.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -211,8 +262,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "accountabilityworks.com",
+          "atlasradd.com",
+          "businesscoachtoronto.ca",
+          "earnifyhub.com",
+          "finestreak.com",
+          "giodella.com",
+          "habithuddle.com",
+          "ilty.co",
+          "keedia.com",
+          "ogamic.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -392,8 +454,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "accountabilityworks.com",
+          "atlasradd.com",
+          "businesscoachtoronto.ca",
+          "earnifyhub.com",
+          "finestreak.com",
+          "giodella.com",
+          "habithuddle.com",
+          "ilty.co",
+          "keedia.com",
+          "ogamic.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -429,8 +502,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "atlasradd.com",
+          "bridges2understanding.com",
+          "businesscoachtoronto.ca",
+          "finestreak.com",
+          "giodella.com",
+          "gkliggans.com",
+          "melissanokeslifecoach.com",
+          "spring-coaching.com",
+          "theparentingpassport.com",
+          "yourunbusylife.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -466,8 +550,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "accountabilityworks.com",
+          "atlasradd.com",
+          "businesscoachtoronto.ca",
+          "earnifyhub.com",
+          "finestreak.com",
+          "giodella.com",
+          "habithuddle.com",
+          "ilty.co",
+          "keedia.com",
+          "ogamic.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -503,8 +598,19 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": null,
-        "competitor_domains": []
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "atlasradd.com",
+          "bridges2understanding.com",
+          "businesscoachtoronto.ca",
+          "finestreak.com",
+          "giodella.com",
+          "gkliggans.com",
+          "melissanokeslifecoach.com",
+          "spring-coaching.com",
+          "theparentingpassport.com",
+          "yourunbusylife.com"
+        ]
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,

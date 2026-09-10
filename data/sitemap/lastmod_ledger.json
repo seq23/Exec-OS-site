@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "url_count": 2231,
-  "newest_lastmod": "2026-09-09",
+  "newest_lastmod": "2026-09-10",
   "oldest_lastmod": "2026-07-28",
-  "distinct_lastmod_count": 7,
+  "distinct_lastmod_count": 8,
   "urls": [
     {
       "url": "https://billionairehighperformancecoach.com/",
@@ -14368,8 +14368,8 @@
     {
       "url": "https://spryexecutiveos.com/atlas",
       "source_file": "atlas.html",
-      "content_sha256": "0eb31ee0f0dc0f637a59bca7",
-      "lastmod": "2026-09-09",
+      "content_sha256": "65fdcedb2214249e1ef239bb",
+      "lastmod": "2026-09-10",
       "evidence": "content_hash_changed",
       "first_seen": "2026-08-27"
     },

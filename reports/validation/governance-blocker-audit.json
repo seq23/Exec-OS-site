@@ -1,24 +1,24 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-09-09T14:37:07.741Z",
+  "generated_at": "2026-09-10T13:34:07.250Z",
   "purpose": "Inventory existing release-blocking validators before changing severity or repair behavior.",
-  "admitted_hard_fail_count": 229,
+  "admitted_hard_fail_count": 231,
   "reviewed_count": 8,
-  "unreviewed_count": 221,
+  "unreviewed_count": 223,
   "suggested_review_counts": {
     "REVIEW_REQUIRED": 178,
     "EXISTING_REPAIR_AVAILABLE": 8,
-    "TRUE_BLOCKER": 27,
-    "REVIEW_WARNING_BOUNDARY": 16
+    "TRUE_BLOCKER": 28,
+    "REVIEW_WARNING_BOUNDARY": 17
   },
   "unresolved_review_counts": {
     "REVIEW_REQUIRED": 178,
     "EXISTING_REPAIR_AVAILABLE": 8,
-    "TRUE_BLOCKER": 27,
-    "REVIEW_WARNING_BOUNDARY": 8
+    "TRUE_BLOCKER": 28,
+    "REVIEW_WARNING_BOUNDARY": 9
   },
   "migration_status_counts": {
-    "UNREVIEWED": 221,
+    "UNREVIEWED": 223,
     "REVIEWED_NO_CHANGE": 8
   },
   "rows": [
@@ -3478,6 +3478,36 @@
         "MX-CONTROL-PLANE-REACHABILITY"
       ],
       "suggested_review": "REVIEW_WARNING_BOUNDARY",
+      "migration_status": "UNREVIEWED",
+      "decision": null,
+      "evidence": []
+    },
+    {
+      "validation_id": "VAL-REPAIR-FIXTURE-CAPABILITY",
+      "name": "validate:repair-fixture-capability",
+      "command": "npm run validate:repair-fixture-capability",
+      "owning_lane": "self-heal",
+      "risk_prevented": "scripts/selfheal/heal_until_clean.mjs registers a repair for ten validation steps and nothing in this repository had ever run one; the map could not even be read without running self-heal, because it was defined inside a module that executes a full validation loop at import time. A repair whose validator is GREEN is exercised by nothing, so its capability can be removed without a single check noticing - until production needs it, at which point self-heal runs the repair, the repair exits 0 having changed nothing relevant, the loop burns its attempt budget and exits UNRESOLVED, and the release lane deadlocks with the ingest half still pushing behind it. The sibling repo local-guides-citation-velocity lost eleven days and accumulated ~690 undelivered recommendations to exactly that, on its release lane. This constructs a genuinely failing state in a throwaway git worktree, runs the REGISTERED repair, and requires the REGISTERED validator to go FAIL to PASS - nine of ten pairings proven, the tenth declared uncovered with its measured evidence, and a new pairing with neither a fixture nor a written reason fails.",
+      "current_severity": "HARD_FAIL",
+      "matrix_ids": [
+        "MX-REPAIR-FIXTURE-CAPABILITY"
+      ],
+      "suggested_review": "REVIEW_WARNING_BOUNDARY",
+      "migration_status": "UNREVIEWED",
+      "decision": null,
+      "evidence": []
+    },
+    {
+      "validation_id": "VAL-PUBLISHED-SURFACE-PAGES-ONLY",
+      "name": "validate:published-surface-is-pages-only",
+      "command": "npm run validate:published-surface-is-pages-only",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "Refuses build-input directories reaching the published surface and unrendered {{...}} placeholders in published links. templates/ was missing from the assembler deny-list, so twelve raw Mustache sources shipped as live pages on spryexecutiveos.com and billionairehighperformancecoach.com, each carrying href=\"{{canonical}}\" which resolves to /templates/{{canonical}} and 404s; Ahrefs Site Audit 2026-09-03 counted that island as the entire Spryexecutiveos error budget (Page has links to broken page 3, 4XX page 2, 404 page 2 of Errors 7). The gate now assembles the output and fails on either signal, and hard-fails when it examines fewer than 500 pages so an empty corpus cannot report green.",
+      "current_severity": "HARD_FAIL",
+      "matrix_ids": [
+        "MX-PUBLISHED-SURFACE-PAGES-ONLY"
+      ],
+      "suggested_review": "TRUE_BLOCKER",
       "migration_status": "UNREVIEWED",
       "decision": null,
       "evidence": []
