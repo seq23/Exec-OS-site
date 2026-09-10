@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4",
   "repo": "seq23/sprylabs-hpc-site",
-  "generated_at": "2026-09-09T13:43:11.101Z",
+  "generated_at": "2026-09-10T13:41:58.611Z",
   "clusters": [
     {
       "cluster_id": "spry_cluster_001",

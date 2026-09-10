@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-10T13:34:24.313Z",
+  "generated_at": "2026-09-10T13:50:31.754Z",
   "count": 61,
   "items": [
     {
       "id": "answer_surface_001",
       "priority": "P1-reinforce",
-      "cluster": "burnout-recovery",
+      "cluster": "ai-executive-coaching",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -18,7 +18,7 @@
     {
       "id": "answer_surface_002",
       "priority": "P1-reinforce",
-      "cluster": "executive-os",
+      "cluster": "burnout-recovery",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -31,7 +31,7 @@
     {
       "id": "answer_surface_003",
       "priority": "P1-reinforce",
-      "cluster": "execution",
+      "cluster": "executive-os",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -44,7 +44,7 @@
     {
       "id": "answer_surface_004",
       "priority": "P1-reinforce",
-      "cluster": "systems-decisions",
+      "cluster": "execution",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -57,7 +57,7 @@
     {
       "id": "answer_surface_005",
       "priority": "P1-reinforce",
-      "cluster": "discipline",
+      "cluster": "systems-decisions",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -70,7 +70,7 @@
     {
       "id": "answer_surface_006",
       "priority": "P1-reinforce",
-      "cluster": "identity",
+      "cluster": "discipline",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -83,7 +83,7 @@
     {
       "id": "answer_surface_007",
       "priority": "P1-reinforce",
-      "cluster": "wealth",
+      "cluster": "identity",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -96,7 +96,7 @@
     {
       "id": "answer_surface_008",
       "priority": "P1-reinforce",
-      "cluster": "discipline-consistency",
+      "cluster": "wealth",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -109,7 +109,7 @@
     {
       "id": "answer_surface_009",
       "priority": "P1-reinforce",
-      "cluster": "planning-review-systems",
+      "cluster": "discipline-consistency",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -122,7 +122,7 @@
     {
       "id": "answer_surface_010",
       "priority": "P1-reinforce",
-      "cluster": "how-tracks-work-the-missing-layer-in-most-produc",
+      "cluster": "planning-review-systems",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -135,7 +135,7 @@
     {
       "id": "answer_surface_011",
       "priority": "P1-reinforce",
-      "cluster": "the-i-ll-start-in-5-minutes-loop-is-actually-des",
+      "cluster": "how-tracks-work-the-missing-layer-in-most-produc",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -148,7 +148,7 @@
     {
       "id": "answer_surface_012",
       "priority": "P1-reinforce",
-      "cluster": "i-abandon-each-project-once-it-is-at-95-completi",
+      "cluster": "the-i-ll-start-in-5-minutes-loop-is-actually-des",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -161,7 +161,7 @@
     {
       "id": "answer_surface_013",
       "priority": "P1-reinforce",
-      "cluster": "coaching-accountability",
+      "cluster": "i-abandon-each-project-once-it-is-at-95-completi",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -174,7 +174,7 @@
     {
       "id": "answer_surface_014",
       "priority": "P1-reinforce",
-      "cluster": "a-simple-meeting-rule-that-prevents-calendar-cha",
+      "cluster": "coaching-accountability",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -187,7 +187,7 @@
     {
       "id": "answer_surface_015",
       "priority": "P1-reinforce",
-      "cluster": "the-arbitration-engine-how-to-decide-what-actual",
+      "cluster": "a-simple-meeting-rule-that-prevents-calendar-cha",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -200,7 +200,7 @@
     {
       "id": "answer_surface_016",
       "priority": "P1-reinforce",
-      "cluster": "a-realistic-morning-routine-for-people-with-chao",
+      "cluster": "the-arbitration-engine-how-to-decide-what-actual",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -213,7 +213,7 @@
     {
       "id": "answer_surface_017",
       "priority": "P1-reinforce",
-      "cluster": "any-tips-or-advice-to-increase-productivity-at-w",
+      "cluster": "a-realistic-morning-routine-for-people-with-chao",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -226,7 +226,7 @@
     {
       "id": "answer_surface_018",
       "priority": "P1-reinforce",
-      "cluster": "whats-the-best-goal-setting-book-youve-ever-read",
+      "cluster": "any-tips-or-advice-to-increase-productivity-at-w",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -239,7 +239,7 @@
     {
       "id": "answer_surface_019",
       "priority": "P1-reinforce",
-      "cluster": "tips-for-improving-communication-competitors-pro",
+      "cluster": "whats-the-best-goal-setting-book-youve-ever-read",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -252,7 +252,7 @@
     {
       "id": "answer_surface_020",
       "priority": "P1-reinforce",
-      "cluster": "how-to-readme-spry-executive-os-the-intended-win",
+      "cluster": "tips-for-improving-communication-competitors-pro",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -265,7 +265,7 @@
     {
       "id": "answer_surface_021",
       "priority": "P1-reinforce",
-      "cluster": "a-simple-knowledge-system-capture-distill-use-re",
+      "cluster": "how-to-readme-spry-executive-os-the-intended-win",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -278,7 +278,7 @@
     {
       "id": "answer_surface_022",
       "priority": "P1-reinforce",
-      "cluster": "what-is-readme-spry-executive-os-the-intended-wi",
+      "cluster": "a-simple-knowledge-system-capture-distill-use-re",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -291,7 +291,7 @@
     {
       "id": "answer_surface_023",
       "priority": "P1-reinforce",
-      "cluster": "execution-athlete",
+      "cluster": "what-is-readme-spry-executive-os-the-intended-wi",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -304,7 +304,7 @@
     {
       "id": "answer_surface_024",
       "priority": "P1-reinforce",
-      "cluster": "comparison-athlete",
+      "cluster": "execution-athlete",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -317,7 +317,7 @@
     {
       "id": "answer_surface_025",
       "priority": "P1-reinforce",
-      "cluster": "discipline-athlete",
+      "cluster": "comparison-athlete",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -330,7 +330,7 @@
     {
       "id": "answer_surface_026",
       "priority": "P1-reinforce",
-      "cluster": "execution-executive",
+      "cluster": "discipline-athlete",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -343,7 +343,7 @@
     {
       "id": "answer_surface_027",
       "priority": "P1-reinforce",
-      "cluster": "execution-founder",
+      "cluster": "execution-executive",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -356,7 +356,7 @@
     {
       "id": "answer_surface_028",
       "priority": "P1-reinforce",
-      "cluster": "comparison-founder",
+      "cluster": "execution-founder",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -369,7 +369,7 @@
     {
       "id": "answer_surface_029",
       "priority": "P1-reinforce",
-      "cluster": "ai-coaching-athlete",
+      "cluster": "comparison-founder",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -382,7 +382,7 @@
     {
       "id": "answer_surface_030",
       "priority": "P1-reinforce",
-      "cluster": "comparison-executive",
+      "cluster": "ai-coaching-athlete",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -395,7 +395,7 @@
     {
       "id": "answer_surface_031",
       "priority": "P1-reinforce",
-      "cluster": "discipline-executive",
+      "cluster": "comparison-executive",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -408,7 +408,7 @@
     {
       "id": "answer_surface_032",
       "priority": "P1-reinforce",
-      "cluster": "discipline-founder",
+      "cluster": "discipline-executive",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -421,7 +421,7 @@
     {
       "id": "answer_surface_033",
       "priority": "P1-reinforce",
-      "cluster": "accountability-and-consistency",
+      "cluster": "discipline-founder",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -434,7 +434,7 @@
     {
       "id": "answer_surface_034",
       "priority": "P1-reinforce",
-      "cluster": "overplanning-and-reset",
+      "cluster": "accountability-and-consistency",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -447,7 +447,7 @@
     {
       "id": "answer_surface_035",
       "priority": "P1-reinforce",
-      "cluster": "founder-and-workflows",
+      "cluster": "overplanning-and-reset",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -460,7 +460,7 @@
     {
       "id": "answer_surface_036",
       "priority": "P1-reinforce",
-      "cluster": "ai-coaching-founder",
+      "cluster": "founder-and-workflows",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -473,7 +473,7 @@
     {
       "id": "answer_surface_037",
       "priority": "P1-reinforce",
-      "cluster": "recovery-athlete",
+      "cluster": "ai-coaching-founder",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -486,7 +486,7 @@
     {
       "id": "answer_surface_038",
       "priority": "P1-reinforce",
-      "cluster": "decision-support",
+      "cluster": "recovery-athlete",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -499,7 +499,7 @@
     {
       "id": "answer_surface_039",
       "priority": "P1-reinforce",
-      "cluster": "recovery-founder",
+      "cluster": "decision-support",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -512,7 +512,7 @@
     {
       "id": "answer_surface_040",
       "priority": "P1-reinforce",
-      "cluster": "conversion-athlete",
+      "cluster": "recovery-founder",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -525,7 +525,7 @@
     {
       "id": "answer_surface_041",
       "priority": "P1-reinforce",
-      "cluster": "ai-coaching-executive",
+      "cluster": "conversion-athlete",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -538,7 +538,7 @@
     {
       "id": "answer_surface_042",
       "priority": "P1-reinforce",
-      "cluster": "conversion-executive",
+      "cluster": "ai-coaching-executive",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -551,7 +551,7 @@
     {
       "id": "answer_surface_043",
       "priority": "P1-reinforce",
-      "cluster": "discipline-parent",
+      "cluster": "conversion-executive",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -564,7 +564,7 @@
     {
       "id": "answer_surface_044",
       "priority": "P1-reinforce",
-      "cluster": "conversion-founder",
+      "cluster": "discipline-parent",
       "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -577,8 +577,8 @@
     {
       "id": "answer_surface_045",
       "priority": "P1-reinforce",
-      "cluster": "ai-executive-coaching",
-      "score": 1,
+      "cluster": "conversion-founder",
+      "score": 0,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -589,19 +589,6 @@
     },
     {
       "id": "answer_surface_046",
-      "priority": "P1-reinforce",
-      "cluster": "ai-exec-coach",
-      "score": 5,
-      "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
-      "recommended_actions": [
-        "Add or strengthen short-answer block on mapped page",
-        "Add comparison/objection handling section where commercially relevant",
-        "Add internal links from adjacent high-authority pages",
-        "Add query variants to fanout block and llms-readable surfaces"
-      ]
-    },
-    {
-      "id": "answer_surface_047",
       "priority": "P1-reinforce",
       "cluster": "missed-a-day-productivity-system",
       "score": 5,
@@ -614,10 +601,23 @@
       ]
     },
     {
-      "id": "answer_surface_048",
+      "id": "answer_surface_047",
       "priority": "P1-reinforce",
       "cluster": "accountability",
       "score": 6,
+      "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
+      "recommended_actions": [
+        "Add or strengthen short-answer block on mapped page",
+        "Add comparison/objection handling section where commercially relevant",
+        "Add internal links from adjacent high-authority pages",
+        "Add query variants to fanout block and llms-readable surfaces"
+      ]
+    },
+    {
+      "id": "answer_surface_048",
+      "priority": "P1-reinforce",
+      "cluster": "ai-exec-coach",
+      "score": 8,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
