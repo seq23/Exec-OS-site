@@ -26,6 +26,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { REPAIRS } from './repairs.mjs';
 
 const ROOT = process.cwd();
 const PROFILE = process.argv.find((a) => a.startsWith('--profile='))?.split('=')[1] ?? 'container-prepush';
@@ -33,40 +34,12 @@ const MAX = Number(process.argv.find((a) => a.startsWith('--max='))?.split('=')[
 const DRY = process.argv.includes('--dry-run');
 const REPORT = path.join(ROOT, 'reports/validation/self-heal-loop.json');
 
-// step id -> repair command. Only where the repair writes what the check reads.
-const REPAIRS = {
-  'validate:citation-contract': { command: 'npm run repair:citation-contract-surfaces',
-    why: 'repair_active_citation_contract.py and its siblings are the only writers of the citation contract surfaces this check reads.' },
-  'validate:programmatic-registry': { command: 'npm run repair:programmatic-registry-owners',
-    why: 'repair_programmatic_registry_owners.mjs is the sole writer of the admission/query registry rows this check validates.' },
-  'VAL-QUERY-OWNER-UNIQUENESS': { command: 'npm run repair:programmatic-registry-owners',
-    why: 'Duplicate query ownership is exactly what this repair resolves, by renaming the losing page.' },
-  'VAL-VISIBLE-CONTENT-ARTIFACTS': { command: 'npm run repair:visible-content-artifacts',
-    why: 'The repair strips the visible artifacts this check reports.' },
-  'VAL-EXTRACTION-SURFACE-GUARD-CHECK': { command: 'npm run repair:extraction-final-state',
-    why: 'The extraction final-state repair writes the surface state this guard compares against.' },
-  'VAL-EXTRACTION-CONTRACT-SELF-TEST': { command: 'npm run repair:extraction-contracts',
-    why: 'repair_extraction_contracts.py is the only writer of the extraction contracts under test.' },
-  'VAL-FULL-PAGE-AUDIT': { command: 'npm run agent:bhpc:plan-exact && npm run agent:bhpc:apply-exact',
-    why: 'The page-seo contract inside this audit fails on record markers and required headings that the agent acceptance manifest expects; plan-exact/apply-exact are what write them. Proven: a page carrying 24 such failures went to 0 after one apply.' },
-  'VAL-BHPC-PAGE-SEO': { command: 'npm run agent:bhpc:plan-exact && npm run agent:bhpc:apply-exact',
-    why: 'Same contract, incremental mode - same writer.' },
-  'validate:sitemap-coverage': { command: 'npm run build:aplayer-phase-expansion',
-    why: 'The generator is the sole writer of sitemap-bhpc.xml, sitemap-spry.xml and the sitemap index this check reads; a page present in the registry but missing from a sitemap is fixed by rebuilding them, not by editing XML.' },
-  'validate:llms-full-coverage': { command: 'npm run build:aplayer-phase-expansion',
-    why: 'Same writer: llms.txt and llms-full.txt are written from the citable-page registry by that generator.' },
-  'validate:ui-test-parity': { command: 'npm run repair:citation-contract-surfaces',
-    why: 'repair_ui_test_parity.py runs inside this chain and writes the parity manifest the check reads.' },
-};
-
-// Deliberately unpaired, recorded so the omissions stay auditable:
-// validate:repo, validate:validation-registry, validate:workflow-* and the
-// orchestration/python-runtime checks describe repository and toolchain state -
-// repairing them would mean asserting a configuration nobody chose.
-// validate:agent-run, agent:bhpc:* and VAL-SEARCH-INTELLIGENCE measure
-// externally produced runs; generating their inputs would be fabrication.
-// validate:content-pattern, VAL-BHPC-PAGE-SEO and validate:claim-safety need
-// words written into pages, which is an editorial decision, not a repair.
+// The map itself lives in ./repairs.mjs so a validator can read it WITHOUT
+// running this loop. It used to be defined here, in a module that executes a
+// full validation pass at import time, which is why nothing in the repository
+// had ever checked whether a single registered repair still worked.
+// validate:repair-fixture-capability now proves each one against a constructed
+// failing state, off this tree, while its validator is green.
 
 const run = (command) => spawnSync('sh', ['-c', command], { cwd: ROOT, encoding: 'utf8', stdio: 'inherit' }).status ?? 1;
 
