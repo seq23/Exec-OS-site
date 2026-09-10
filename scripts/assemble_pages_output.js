@@ -31,6 +31,16 @@ const EXCLUDE = new Set([
   '.nvmrc', '.build', '.validation-cache', '.validation-runtime',
   'scripts', 'data', 'reports', 'artifacts', 'docs', 'tests', 'fixtures',
   'config', 'content', 'functions', 'seo', 'LICENSES',
+  // templates/ holds the raw Mustache sources the generators render FROM. They
+  // are not pages, but the root deploy published them anyway, so
+  // https://spryexecutiveos.com/templates/answer_page and eleven siblings
+  // answered 200 on both hostnames - each one an unrendered template carrying
+  // `href="{{canonical}}"`, which resolves to /templates/{{canonical}} and 404s,
+  // plus hard links to every other template that kept the island crawlable.
+  // Ahrefs Site Audit, 3 September 2026, reported this as the whole of the
+  // Spryexecutiveos error budget: "Page has links to broken page: 3",
+  // "4XX page: 2", "404 page: 2" against Errors 7.
+  'templates',
   'package.json', 'package-lock.json', 'requirements-validation.txt',
   'playwright.config.mjs', 'wrangler.toml',
   'distribution.config.json', 'distribution.config.example.json',

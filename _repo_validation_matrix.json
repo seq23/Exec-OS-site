@@ -2397,9 +2397,19 @@
       "severity": "HARD_FAIL",
       "release_effect": true,
       "status": "ADMITTED"
+    },
+    {
+      "matrix_id": "MX-PUBLISHED-SURFACE-PAGES-ONLY",
+      "validation_id": "VAL-PUBLISHED-SURFACE-PAGES-ONLY",
+      "lane": "validation-control-plane",
+      "command": "npm run validate:published-surface-is-pages-only",
+      "order": 231,
+      "severity": "HARD_FAIL",
+      "release_effect": true,
+      "status": "ADMITTED"
     }
   ],
-  "entry_count": 239,
+  "entry_count": 240,
   "generated_at": "2026-07-27T17:50:00.000Z",
   "profiles": {
     "container-prepush": {
@@ -2957,6 +2967,10 @@
         {
           "id": "VAL-REPAIR-FIXTURE-CAPABILITY",
           "command": "npm run validate:repair-fixture-capability"
+        },
+        {
+          "id": "VAL-PUBLISHED-SURFACE-PAGES-ONLY",
+          "command": "npm run validate:published-surface-is-pages-only"
         }
       ]
     },

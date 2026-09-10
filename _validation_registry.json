@@ -7752,8 +7752,38 @@
         "MX-REPAIR-FIXTURE-CAPABILITY"
       ],
       "not_applicable_reason": null
+    },
+    {
+      "validation_id": "VAL-PUBLISHED-SURFACE-PAGES-ONLY",
+      "status": "ADMITTED",
+      "name": "validate:published-surface-is-pages-only",
+      "check_type": "validator",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "Refuses build-input directories reaching the published surface and unrendered {{...}} placeholders in published links. templates/ was missing from the assembler deny-list, so twelve raw Mustache sources shipped as live pages on spryexecutiveos.com and billionairehighperformancecoach.com, each carrying href=\"{{canonical}}\" which resolves to /templates/{{canonical}} and 404s; Ahrefs Site Audit 2026-09-03 counted that island as the entire Spryexecutiveos error budget (Page has links to broken page 3, 4XX page 2, 404 page 2 of Errors 7). The gate now assembles the output and fails on either signal, and hard-fails when it examines fewer than 500 pages so an empty corpus cannot report green.",
+      "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:published-surface-is-pages-only",
+      "implementation_path": "package.json",
+      "environment": "container",
+      "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/repo/pass.json",
+      "negative_fixture": "fixtures/validation/repo/fail.json",
+      "evidence_output": "artifacts/diagnostics/<run-id>/validate-published-surface-is-pages-only/summary.json",
+      "runtime_budget_seconds": 300,
+      "maintenance_owner": "repo",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Atomically admitted by validation:add.",
+      "decision_date": "2026-09-10",
+      "matrix_ids": [
+        "MX-PUBLISHED-SURFACE-PAGES-ONLY"
+      ],
+      "not_applicable_reason": null
     }
   ],
-  "record_count": 246,
+  "record_count": 247,
   "generated_at": "2026-08-08T23:30:00Z"
 }
