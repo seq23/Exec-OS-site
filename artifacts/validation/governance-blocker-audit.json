@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "generated_at": "2026-09-10T13:34:07.250Z",
+  "generated_at": "2026-09-10T14:35:30.336Z",
   "purpose": "Inventory existing release-blocking validators before changing severity or repair behavior.",
   "admitted_hard_fail_count": 231,
   "reviewed_count": 8,

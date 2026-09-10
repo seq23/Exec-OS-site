@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "validator": "bhpc-agent-source-coverage",
-  "generated_at": "2026-09-09T14:28:52.112Z",
+  "generated_at": "2026-09-10T14:27:51.352Z",
   "status": "PASS",
   "policy": {
     "checked_statuses": [
