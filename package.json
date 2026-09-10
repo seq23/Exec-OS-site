@@ -308,6 +308,7 @@
     "validate:page-seo:full": "node scripts/validation/validate_page_seo_contract.mjs --full",
     "validate:page-surface-coverage": "node scripts/validators/validate_page_surface_coverage.mjs",
     "validate:priority-citation-pages": "node scripts/validation/python_runtime.mjs run scripts/validation/validate_priority_citation_pages.py",
+    "validate:published-surface-is-pages-only": "node scripts/validators/validate_published_surface_is_pages_only.mjs",
     "validate:profile": "node scripts/validation/validate_profile.mjs",
     "validate:programmatic-admission": "node scripts/validation/python_runtime.mjs run scripts/validation/validate_programmatic_admission.py",
     "validate:programmatic-provenance": "node scripts/programmatic/run_lane.mjs --lane authority --self-test-provenance",
