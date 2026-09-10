@@ -7630,8 +7630,38 @@
         "MX-WORKFLOW-MANUAL-ONLY-DECLARED"
       ],
       "not_applicable_reason": null
+    },
+    {
+      "validation_id": "VAL-REPAIR-FIXTURE-CAPABILITY",
+      "status": "ADMITTED",
+      "name": "validate:repair-fixture-capability",
+      "check_type": "validator",
+      "owning_lane": "self-heal",
+      "risk_prevented": "scripts/selfheal/heal_until_clean.mjs registers a repair for ten validation steps and nothing in this repository had ever run one. The map could not even be read without running self-heal, because it was defined inside a module that executes a full validation loop at import time. A repair whose validator is GREEN is exercised by nothing, so its capability can be removed without a single check noticing - until production needs it, at which point self-heal runs the repair, the repair exits 0 having changed nothing relevant, the loop burns its attempt budget and exits UNRESOLVED, and the release lane deadlocks with the ingest half still pushing behind it. The sibling repo local-guides-citation-velocity lost eleven days and accumulated ~690 undelivered recommendations to exactly that. This proves each registered repair still CLEARS a constructed failing state, off the production tree, while its validator is green.",
+      "existing_coverage_gap": "VAL-CITATION-REPAIR-REACH and validate:health-boundary-reach each prove ONE repair is aimed at pages its validator judges, statically; neither runs a repair and neither reads the REPAIRS map. Nothing else in the repository references the map at all. There is no static repair contract, no commit-coverage check and no efficacy check here, so a repair that has gone inert is indistinguishable from one that is simply not needed today.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:repair-fixture-capability",
+      "implementation_path": "scripts/validators/validate_repair_fixture_capability.mjs",
+      "environment": "container",
+      "proof_tier": 2,
+      "positive_fixture": "artifacts/validation/repair-fixture-capability.json",
+      "negative_fixture": "artifacts/validation/repair-fixture-capability.json",
+      "evidence_output": "artifacts/validation/repair-fixture-capability.json",
+      "runtime_budget_seconds": 900,
+      "maintenance_owner": "self-heal",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Admitted 2026-09-09 with nine of ten registered pairings proven behaviourally FAIL -> PASS against real failure modes in a throwaway git worktree; measured 97s locally. Proven negatively: re-pointing VAL-VISIBLE-CONTENT-ARTIFACTS at repair:programmatic-registry-owners produced repair_does_not_clear naming the pairing, re-adding the removed VAL-EXTRACTION-CONTRACT-SELF-TEST pairing produced undeclared_repair, and the grow-only floor produced behavioural_coverage_fell; restoring the map returned PASS.",
+      "decision_date": "2026-09-09",
+      "matrix_ids": [
+        "MX-REPAIR-FIXTURE-CAPABILITY"
+      ],
+      "not_applicable_reason": null
     }
   ],
-  "record_count": 242,
+  "record_count": 243,
   "generated_at": "2026-08-08T23:30:00Z"
 }
