@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "validator": "repair-fixture-capability",
+  "status": "PASS",
+  "generated_at": "2026-09-10T00:47:28.532Z",
+  "repairs_registered": 10,
+  "distinct_repair_commands": 6,
+  "behavioural_pass": 9,
+  "fixture_floor": 9,
+  "behavioural_fixture_missing": [
+    "VAL-EXTRACTION-SURFACE-GUARD-CHECK"
+  ],
+  "examined": [
+    {
+      "id": "validate:citation-contract",
+      "repair_command": "npm run repair:citation-contract-surfaces",
+      "validate_command": "npm run validate:citation-contract",
+      "fault": "90-day-plan-template/index.html lost its CITATION_PAGE_SCHEMA block",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "validate:programmatic-registry",
+      "repair_command": "npm run repair:programmatic-registry-owners",
+      "validate_command": "npm run validate:programmatic-registry",
+      "fault": "data/content/page_admission_registry.json carries a DRAFT row no ACTIVE query owns, and a stale record_count",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "VAL-QUERY-OWNER-UNIQUENESS",
+      "repair_command": "npm run repair:programmatic-registry-owners",
+      "validate_command": "npm run validate:query-owner-uniqueness",
+      "fault": "\"90-Day Plan Template\" is claimed by both 90-day-plan-template/index.html and insights/a-clean-system-for-handling-email-without-losing-your-day.html",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "VAL-VISIBLE-CONTENT-ARTIFACTS",
+      "repair_command": "npm run repair:visible-content-artifacts",
+      "validate_command": "npm run validate:visible-content-artifacts",
+      "fault": "arbitration-engine.html carries a page-visible \"n/a\" agent recommendation",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "VAL-EXTRACTION-SURFACE-GUARD-CHECK",
+      "repair_command": "npm run repair:extraction-final-state",
+      "behavioural": "NO_FIXTURE",
+      "reason": "CONFIRMED not clearable by its registered repair for the two faithful drift classes tried, and left declared rather than unpaired because a third class may exist. extraction_surface_guard.py check hashes every governed extraction block and citation schema and compares them to artifacts/validation/extraction-surface-snapshot.json, a HUMAN-REVIEWED baseline that no repair in this repository reads or writes; snapshot mode deliberately refuses to re-baseline drift on its own. Measured 2026-09-09 in a scratch worktree: (a) stripping a page CITATION_PAGE_SCHEMA fails check, and repair:extraction-final-state rebuilds a semantically equivalent but structurally different block (WebPage+Article split, reordered @graph), so check still fails; (b) drifting a block data-extraction-type away from the registry fails check, and the repair leaves the attribute untouched. The repair is idempotent against the guard on a clean tree (55 files written, check still PASS), so it does not manufacture drift - it simply cannot reverse it. Clearing genuine drift is a review decision, not a repair."
+    },
+    {
+      "id": "VAL-FULL-PAGE-AUDIT",
+      "repair_command": "npm run agent:bhpc:plan-exact && npm run agent:bhpc:apply-exact",
+      "validate_command": "npm run validate:full-page-audit",
+      "fault": "how-to-stay-consistent/index.html lost the acceptance record marker for 2026-06-27-bhpc-005",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "VAL-BHPC-PAGE-SEO",
+      "repair_command": "npm run agent:bhpc:plan-exact && npm run agent:bhpc:apply-exact",
+      "validate_command": "npm run validate:page-seo",
+      "fault": "how-to-stay-consistent/index.html lost the acceptance record marker for 2026-06-27-bhpc-005",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "validate:sitemap-coverage",
+      "repair_command": "npm run build:aplayer-phase-expansion",
+      "validate_command": "node scripts/validation/validate_sitemap_coverage.mjs",
+      "fault": "sitemap-bhpc.xml is missing https://billionairehighperformancecoach.com/ai-accountability-coach-for-founders",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "validate:llms-full-coverage",
+      "repair_command": "npm run build:aplayer-phase-expansion",
+      "validate_command": "node scripts/validation/validate_llms_full_coverage.mjs",
+      "fault": "llms-full.txt is missing https://spryexecutiveos.com/90-day-plan-template/",
+      "behavioural": "PASS"
+    },
+    {
+      "id": "validate:ui-test-parity",
+      "repair_command": "npm run repair:citation-contract-surfaces",
+      "validate_command": "npm run validate:ui-test-parity",
+      "fault": "data/routes/public_route_manifest.json is missing the route for about.html",
+      "behavioural": "PASS"
+    }
+  ],
+  "errors": []
+}

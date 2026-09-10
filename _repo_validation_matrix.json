@@ -2387,9 +2387,19 @@
       "severity": "HARD_FAIL",
       "release_effect": true,
       "status": "ADMITTED"
+    },
+    {
+      "matrix_id": "MX-REPAIR-FIXTURE-CAPABILITY",
+      "validation_id": "VAL-REPAIR-FIXTURE-CAPABILITY",
+      "lane": "validation-control-plane",
+      "command": "npm run validate:repair-fixture-capability",
+      "order": 230,
+      "severity": "HARD_FAIL",
+      "release_effect": true,
+      "status": "ADMITTED"
     }
   ],
-  "entry_count": 238,
+  "entry_count": 239,
   "generated_at": "2026-07-27T17:50:00.000Z",
   "profiles": {
     "container-prepush": {
@@ -2943,6 +2953,10 @@
         {
           "id": "VAL-CONTROL-PLANE-REACHABILITY",
           "command": "npm run validate:control-plane-reachability"
+        },
+        {
+          "id": "VAL-REPAIR-FIXTURE-CAPABILITY",
+          "command": "npm run validate:repair-fixture-capability"
         }
       ]
     },

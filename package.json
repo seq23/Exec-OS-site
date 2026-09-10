@@ -180,6 +180,7 @@
     "self-heal:generated-content": "node scripts/content/self_heal_generated_content.mjs",
     "selfheal": "node scripts/selfheal/heal_until_clean.mjs",
     "selfheal:dry": "node scripts/selfheal/heal_until_clean.mjs --dry-run",
+    "validate:repair-fixture-capability": "node scripts/validators/validate_repair_fixture_capability.mjs",
     "signals:candidates": "node scripts/signals/build_release_candidates.mjs",
     "signals:cluster": "node scripts/signals/build_signal_clusters.mjs",
     "signals:opportunity-map": "node scripts/signals/build_aeo_geo_seo_opportunity_map.mjs",
