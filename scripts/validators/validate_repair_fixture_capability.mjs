@@ -51,7 +51,16 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { createRequire } from 'node:module';
 import { REPAIRS } from '../selfheal/repairs.mjs';
+
+// The citation-contract fixture removes a page's CITATION_PAGE_SCHEMA block, so
+// it needs the pattern that finds one. That pattern has exactly one owner. A
+// hand-rolled copy here would be a second definition of the governed block's
+// shape living in a file nobody would think to update, which is the drift
+// validate:citation-schema-authority exists to stop - and it caught this file on
+// its first CI run for precisely that.
+const { SCHEMA_SCRIPT_RE } = createRequire(import.meta.url)('../lib/citation_page_schema.cjs');
 
 const ROOT = process.cwd();
 const MATRIX_REL = '_repo_validation_matrix.json';
@@ -134,7 +143,9 @@ const FIXTURES = {
     // is the half that silently went inert once before.
     break(scratch) {
       const { rel, abs, html } = firstCitablePageWith(scratch, 'CITATION_PAGE_SCHEMA');
-      write(abs, html.replace(/<script id="CITATION_PAGE_SCHEMA"[\s\S]*?<\/script>/, ''));
+      const stripped = html.replace(SCHEMA_SCRIPT_RE, '');
+      if (stripped === html) throw new Error(`${rel} matched on the marker but not on the authority's block pattern; the fixture could not construct the fault`);
+      write(abs, stripped);
       return `${rel} lost its CITATION_PAGE_SCHEMA block`;
     },
   },
