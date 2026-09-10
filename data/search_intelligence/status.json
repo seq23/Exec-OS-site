@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T13:31:34.664Z",
+  "generated_at": "2026-09-09T13:36:19.671Z",
   "overall_status": "DEGRADED",
   "status_is_healthy": false,
   "provider_states": {
@@ -11,7 +11,7 @@
   "target_queries": 120,
   "gsc_queries_with_rows": 0,
   "actionable_diagnoses": 120,
-  "repairs_applied": 6,
+  "repairs_applied": 8,
   "agent_lane_dependency": false,
   "agent_lane_mutation": false
 }

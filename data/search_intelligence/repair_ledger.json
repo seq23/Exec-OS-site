@@ -936,6 +936,138 @@
         "restore_sha256": "dbebd2e698c7bc78d1fa9ab7c734a62e1f9ebcdea577804c6bd1c4587f4c15c6"
       },
       "validation_required": true
+    },
+    {
+      "repair_id": "repair_568ac268735378bd",
+      "target_id": "si_16d254cf0b735007",
+      "query": "accountability partner vs traditional coaching for people with many projects",
+      "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
+      "owned_file": "billionaire-high-performance-coach-vs-coaching/index.html",
+      "content_owner": "legacy_eligible",
+      "repair_type": "answer_and_comparison_clarity",
+      "basis": [
+        {
+          "code": "GSC_NO_ROW_FOR_TARGET",
+          "basis": "google_search_console",
+          "detail": "No Search Console row for this query in the collected window."
+        },
+        {
+          "code": "GROUNDED_REFERENCES_COMPETITORS_NOT_OWN_DOMAIN",
+          "basis": "grounded_search_observation",
+          "detail": "Grounded answer referenced 9 other domain(s) and not an owned domain."
+        }
+      ],
+      "evidence_used": [
+        "google_search_console",
+        "grounded_search_observation"
+      ],
+      "baseline_gsc_metrics": null,
+      "baseline_grounded_own_domain_referenced": false,
+      "baseline_competitor_domains": [
+        "atlasradd.com",
+        "businesscoachtoronto.ca",
+        "coaches.life",
+        "commitaction.com",
+        "giodella.com",
+        "gkliggans.com",
+        "habithuddle.com",
+        "ilty.co",
+        "linkedin.com"
+      ],
+      "priority": 33,
+      "current_title": "the structured AI accountability system Vs Coaching | Spry Page | Spry Executive OS",
+      "current_description": "",
+      "competitor_domains": [
+        "atlasradd.com",
+        "businesscoachtoronto.ca",
+        "coaches.life",
+        "commitaction.com",
+        "giodella.com",
+        "gkliggans.com",
+        "habithuddle.com",
+        "ilty.co",
+        "linkedin.com"
+      ],
+      "state": "PREPARED_NOT_APPLIED",
+      "new_url": false,
+      "publishes": false,
+      "mutates_publishing_cadence": false,
+      "agent_lane_excluded": true,
+      "status": "APPLIED",
+      "applied_at": "2026-09-06T13:29:48.986Z",
+      "before_sha256": "d8d8932dd512d2b0d58f65344b709f2cad2a029883dfd5236364f5106097499a",
+      "after_sha256": "f2d7eb62b690d1b01f0d67086fc281758de1277d4cd84f8c555699a21a2cfc81",
+      "rollback": {
+        "type": "content_hash",
+        "restore_sha256": "d8d8932dd512d2b0d58f65344b709f2cad2a029883dfd5236364f5106097499a"
+      },
+      "validation_required": true
+    },
+    {
+      "repair_id": "repair_568ac268735378bd",
+      "target_id": "si_16d254cf0b735007",
+      "query": "accountability partner vs traditional coaching for people with many projects",
+      "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
+      "owned_file": "billionaire-high-performance-coach-vs-coaching/index.html",
+      "content_owner": "legacy_eligible",
+      "repair_type": "answer_and_comparison_clarity",
+      "basis": [
+        {
+          "code": "GSC_NO_ROW_FOR_TARGET",
+          "basis": "google_search_console",
+          "detail": "No Search Console row for this query in the collected window."
+        },
+        {
+          "code": "GROUNDED_REFERENCES_COMPETITORS_NOT_OWN_DOMAIN",
+          "basis": "grounded_search_observation",
+          "detail": "Grounded answer referenced 9 other domain(s) and not an owned domain."
+        }
+      ],
+      "evidence_used": [
+        "google_search_console",
+        "grounded_search_observation"
+      ],
+      "baseline_gsc_metrics": null,
+      "baseline_grounded_own_domain_referenced": false,
+      "baseline_competitor_domains": [
+        "atlasradd.com",
+        "businesscoachtoronto.ca",
+        "coaches.life",
+        "commitaction.com",
+        "giodella.com",
+        "gkliggans.com",
+        "habithuddle.com",
+        "ilty.co",
+        "linkedin.com"
+      ],
+      "priority": 33,
+      "current_title": "the structured AI accountability system Vs Coaching | Spry Page | Spry Executive OS",
+      "current_description": "",
+      "competitor_domains": [
+        "atlasradd.com",
+        "businesscoachtoronto.ca",
+        "coaches.life",
+        "commitaction.com",
+        "giodella.com",
+        "gkliggans.com",
+        "habithuddle.com",
+        "ilty.co",
+        "linkedin.com"
+      ],
+      "state": "PREPARED_NOT_APPLIED",
+      "new_url": false,
+      "publishes": false,
+      "mutates_publishing_cadence": false,
+      "agent_lane_excluded": true,
+      "status": "APPLIED",
+      "applied_at": "2026-09-06T13:42:39.310Z",
+      "before_sha256": "6f9c57aa5a1d3097d08c0025cc04dc19cc8d62bef8bee9bc4baed24224d20acc",
+      "after_sha256": "db5800d8d27393770b1bf61a618de7a6fcfb3658e9f5a5cff460dee407473534",
+      "rollback": {
+        "type": "content_hash",
+        "restore_sha256": "6f9c57aa5a1d3097d08c0025cc04dc19cc8d62bef8bee9bc4baed24224d20acc"
+      },
+      "validation_required": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "profile": "container-prepush",
-  "started_at": "2026-08-29T03:40:11.359Z",
+  "started_at": "2026-09-06T12:53:21.950Z",
   "steps": [
     {
       "id": "VAL-ORCHESTRATION-CONTRACT",
@@ -29,6 +29,12 @@
     {
       "id": "VAL-PYTHON-RUNTIME-SELF-TEST",
       "command": "npm run validation:python-runtime:self-test",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-EXTRACTION-SURFACE-GUARD-SNAPSHOT",
+      "command": "npm run validate:extraction-surface-guard:snapshot",
       "exit_code": 0,
       "status": "PASS"
     },
@@ -63,6 +69,12 @@
       "status": "PASS"
     },
     {
+      "id": "VAL-EXTRACTION-SURFACE-GUARD-CHECK",
+      "command": "npm run validate:extraction-surface-guard:check",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
       "id": "VAL-QUERY-OWNER-UNIQUENESS",
       "command": "npm run validate:query-owner-uniqueness",
       "exit_code": 0,
@@ -81,7 +93,7 @@
       "status": "PASS"
     },
     {
-      "id": "VAL-VALIDATION-CACHE-CONTROL-PLANE",
+      "id": "VAL-VALIDATION-CACHE-SELF-TEST",
       "command": "npm run validation:cache:self-test",
       "exit_code": 0,
       "status": "PASS"
@@ -267,12 +279,6 @@
       "status": "PASS"
     },
     {
-      "id": "VAL-EXTRACTION-SURFACE-GUARD-SNAPSHOT",
-      "command": "npm run validate:extraction-surface-guard:snapshot",
-      "exit_code": 0,
-      "status": "PASS"
-    },
-    {
       "id": "validate:release-atom-contract",
       "command": "node scripts/validation/validate_release_atom_contract.mjs",
       "exit_code": 0,
@@ -347,12 +353,6 @@
     {
       "id": "VAL-EXTRACTION-PIPELINE-TRACE",
       "command": "npm run trace:extraction-pipeline",
-      "exit_code": 0,
-      "status": "PASS"
-    },
-    {
-      "id": "VAL-EXTRACTION-SURFACE-GUARD-CHECK",
-      "command": "npm run validate:extraction-surface-guard:check",
       "exit_code": 0,
       "status": "PASS"
     },
@@ -487,11 +487,335 @@
       "command": "npm run validate:canonical-no-redirect",
       "exit_code": 0,
       "status": "PASS"
+    },
+    {
+      "id": "VAL-CITATION-REPAIR-REACH",
+      "command": "npm run validate:citation-repair-reach",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CITATION-SIGNAL-JOIN",
+      "command": "npm run validate:citation-signal-join",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "validate:no-silent-zero-work",
+      "command": "npm run validate:no-silent-zero-work",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-SITEMAP-LEDGER-FINAL",
+      "command": "npm run validate:lastmod-ledger-final",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CITATION-SCHEMA-SERIALIZATION",
+      "command": "npm run validate:citation-schema-serialization",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-PAGE-SURFACE-COVERAGE",
+      "command": "npm run validate:page-surface-coverage",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-PYTHON-DEPENDENCY-CONTRACT",
+      "command": "npm run validate:python-dependency-contract",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-030",
+      "command": "npm run validate:reopened-baseline",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-AMAZON-BOOK-LANDING",
+      "command": "npm run validate:amazon-book-landing",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-SIGNAL-SOURCE-PRODUCERS",
+      "command": "npm run validate:signal-source-producers",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-SOCIAL-SOURCE-CONTRACT",
+      "command": "npm run validate:social-source-contract",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-FRAMEWORK-NAME-SHAPE",
+      "command": "npm run validate:framework-name-shape",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CURATED-FRAMEWORK-AUTHORITY",
+      "command": "npm run validate:curated-framework-authority",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CURATED-DEFINITION-REGISTRY-REACH",
+      "command": "npm run validate:curated-definition-registry-reach",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-FROZEN-OUTPUT-CONTRACT",
+      "command": "npm run validate:frozen-output-contract",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CITATION-SCHEMA-AUTHORITY-REACH",
+      "command": "npm run validate:citation-schema-authority-reach",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CITATION-SCHEMA-AUTHORITY",
+      "command": "npm run validate:citation-schema-authority",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CITATION-PHASE-MANIFEST",
+      "command": "npm run validate:citation-phase-manifest",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-INTERNAL-LINK-VELOCITY",
+      "command": "npm run validate:internal-link-velocity",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-LLMS-FULL-COVERAGE",
+      "command": "npm run validate:llms-full-coverage",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-RELEASE-ATOM-CONTRACT",
+      "command": "npm run validate:release-atom-contract",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-RELEASE-MIX-POLICY",
+      "command": "npm run validate:release-mix-policy",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-SITEMAP-COVERAGE",
+      "command": "npm run validate:sitemap-coverage",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-PAGE-CONTRACTS",
+      "command": "npm run validate:page-contracts",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-SHORT-ANSWER-UNIQUENESS",
+      "command": "npm run validate:short-answer-uniqueness",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-INSIGHT-SCHEMA",
+      "command": "npm run validate:insight-schema",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-PUBLISH-SIGNAL-GATE",
+      "command": "npm run validate:publish-signal-gate",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-ATTESTATION-MATCHES-RECEIPT",
+      "command": "npm run validate:attestation-matches-receipt",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-BUILD-ALL-INTEGRITY",
+      "command": "npm run validate:build-all-integrity",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-REDIRECT-MAP-EQUIVALENCE",
+      "command": "npm run validate:redirect-map-equivalence",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-REPO-WALK-BOUNDARY",
+      "command": "npm run validate:repo-walk-boundary",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-MAIN-WRITER-VALIDATION-GATE",
+      "command": "npm run validate:main-writer-validation-gate",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CONTROL-PLANE-IDENTITY",
+      "command": "npm run validate:control-plane-identity",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-FEED-DATE-DETERMINISM",
+      "command": "npm run validate:feed-date-determinism",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-SURFACE-GUARD-ORDERING",
+      "command": "npm run validate:surface-guard-ordering",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-MAIN-WRITER-CONVERGENCE",
+      "command": "npm run validate:main-writer-convergence",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-AGENT-RUN-ABSORPTION-COMPLETENESS",
+      "command": "npm run validate:agent-run-absorption-completeness",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-FROZEN-OUTPUT-SHRINK-GUARD",
+      "command": "npm run validation:frozen-shrink:self-test",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CLUSTER-SIGNAL-INTEGRITY",
+      "command": "npm run validate:cluster-signal-integrity",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-AUTHORITY-ADMISSION-HONESTY",
+      "command": "npm run validate:authority-admission-honesty",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-AGENT-ARTIFACT-ABSORPTION-TRIGGER",
+      "command": "npm run validate:agent-artifact-absorption-trigger",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "AGENT-BHPC-ACCEPTANCE-VISIBILITY",
+      "command": "npm run agent:bhpc:self-test-acceptance-visibility",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-DERIVED-ABSORBER-REPRODUCIBILITY",
+      "command": "npm run validate:derived-absorber-reproducibility",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-HEALTH-BOUNDARY-REACH",
+      "command": "npm run validate:health-boundary-reach",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-FREEZE-AFTER-CONVERGENCE",
+      "command": "npm run validate:freeze-after-convergence",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-AUTHORITY-PAPER-DISK-REGISTRY-PARITY",
+      "command": "npm run validate:authority-paper-disk-registry-parity",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-CONVERGENCE-REENTRY-SOUNDNESS",
+      "command": "npm run validate:convergence-reentry-soundness",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-LASTMOD-DERIVATION-RECEIPT",
+      "command": "npm run validate:lastmod-derivation-receipt",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-LEDGER-RECEIPT-RUN-SCOPE",
+      "command": "npm run validate:ledger-receipt-run-scope",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-NAMED-STOP-EXIT-CODE",
+      "command": "npm run validate:named-stop-exit-code",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-BUILD-CACHE-INTEGRITY",
+      "command": "npm run validate:build-cache-integrity",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-ADMIN-COMMAND-VERIFY-LANE",
+      "command": "npm run validate:admin-command-verify",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-WORKFLOW-MANUAL-ONLY-DECLARED",
+      "command": "npm run validate:workflow-manual-only-declared",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "VAL-RISK-STATEMENT-SUBSTANCE",
+      "command": "npm run validate:risk-statement-substance",
+      "exit_code": 0,
+      "status": "PASS"
     }
   ],
   "status": "PASS",
   "failure_count": 0,
   "failures": [],
   "stopped_early_at": null,
-  "finished_at": "2026-08-29T03:44:34.845Z"
+  "finished_at": "2026-09-06T12:58:55.889Z"
 }

@@ -1,21 +1,21 @@
 {
   "provider": "google_search_console",
   "site_url": "sc-domain:billionairehighperformancecoach.com",
-  "start_date": "2026-08-07",
-  "end_date": "2026-09-03",
-  "collected_at": "2026-09-05",
-  "raw_row_count": 59,
-  "raw_distinct_query_count": 53,
-  "raw_impressions": 237,
+  "start_date": "2026-08-11",
+  "end_date": "2026-09-07",
+  "collected_at": "2026-09-09",
+  "raw_row_count": 91,
+  "raw_distinct_query_count": 77,
+  "raw_impressions": 310,
   "raw_clicks": 1,
   "row_count": 0,
   "target_query_filter": {
     "target_query_count": 120,
-    "rows_in": 59,
+    "rows_in": 91,
     "rows_matched": 0,
-    "rows_discarded": 59,
+    "rows_discarded": 91,
     "distinct_queries_matched": 0,
-    "discarded_impressions": 237,
+    "discarded_impressions": 310,
     "discarded_clicks": 1,
     "discard_ratio": 1.0,
     "filter_discarded_every_row": true,
@@ -25,13 +25,43 @@
         "query": "ai coach vs movement investigation",
         "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
         "clicks": 0,
-        "impressions": 94
+        "impressions": 80
+      },
+      {
+        "query": "ai executive coaching",
+        "page": "https://billionairehighperformancecoach.com/ai-executive-coach",
+        "clicks": 0,
+        "impressions": 12
+      },
+      {
+        "query": "review cadence meaning",
+        "page": "https://billionairehighperformancecoach.com/glossary/review-cadence/",
+        "clicks": 0,
+        "impressions": 12
       },
       {
         "query": "ai coach for founders and consultants",
         "page": "https://billionairehighperformancecoach.com/ai-executive-coach-for-founders",
         "clicks": 0,
-        "impressions": 15
+        "impressions": 11
+      },
+      {
+        "query": "human matched executive coaching",
+        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
+        "clicks": 0,
+        "impressions": 10
+      },
+      {
+        "query": "personal development plan template",
+        "page": "https://billionairehighperformancecoach.com/personal-development-plan-template/",
+        "clicks": 0,
+        "impressions": 10
+      },
+      {
+        "query": "executive ai coaching",
+        "page": "https://billionairehighperformancecoach.com/ai-executive-coach",
+        "clicks": 0,
+        "impressions": 8
       },
       {
         "query": "executive coaching cost",
@@ -43,12 +73,6 @@
         "query": "spry reddit",
         "page": "https://billionairehighperformancecoach.com/what-reddit-keeps-asking-when-comparing-ai-coaching-tools",
         "clicks": 1,
-        "impressions": 6
-      },
-      {
-        "query": "human matched executive coaching",
-        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
-        "clicks": 0,
         "impressions": 6
       },
       {
@@ -66,6 +90,18 @@
       {
         "query": "ai business coach",
         "page": "https://billionairehighperformancecoach.com/ai-business-coach/",
+        "clicks": 0,
+        "impressions": 4
+      },
+      {
+        "query": "ai weekly review",
+        "page": "https://billionairehighperformancecoach.com/how-to-run-a-weekly-review-with-ai",
+        "clicks": 0,
+        "impressions": 4
+      },
+      {
+        "query": "betterup alternative",
+        "page": "https://billionairehighperformancecoach.com/betterup-alternatives-ai-coaching/",
         "clicks": 0,
         "impressions": 4
       },
@@ -88,14 +124,14 @@
         "impressions": 4
       },
       {
-        "query": "human coaching",
-        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
+        "query": "how to be a better man",
+        "page": "https://billionairehighperformancecoach.com/how-to-be-a-better-man/",
         "clicks": 0,
         "impressions": 4
       },
       {
-        "query": "review cadence meaning",
-        "page": "https://billionairehighperformancecoach.com/glossary/review-cadence/",
+        "query": "human coaching",
+        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
         "clicks": 0,
         "impressions": 4
       },
@@ -124,52 +160,16 @@
         "impressions": 3
       },
       {
-        "query": "betterup alternative",
-        "page": "https://billionairehighperformancecoach.com/betterup-alternatives-ai-coaching/",
+        "query": "human coach",
+        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
         "clicks": 0,
         "impressions": 3
       },
       {
-        "query": "sprylabs",
-        "page": "https://billionairehighperformancecoach.com/spry-labs",
+        "query": "human coach vs ai leadership platform for fixing trust issues",
+        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
         "clicks": 0,
         "impressions": 3
-      },
-      {
-        "query": "ai coach for business processes",
-        "page": "https://billionairehighperformancecoach.com/ai-business-coach/",
-        "clicks": 0,
-        "impressions": 2
-      },
-      {
-        "query": "ai coach for high achievers",
-        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
-        "clicks": 0,
-        "impressions": 2
-      },
-      {
-        "query": "ai executive coaching",
-        "page": "https://billionairehighperformancecoach.com/ai-executive-coach",
-        "clicks": 0,
-        "impressions": 2
-      },
-      {
-        "query": "ai influence coach for high achievers",
-        "page": "https://billionairehighperformancecoach.com/ai-coach-vs-human-coach",
-        "clicks": 0,
-        "impressions": 2
-      },
-      {
-        "query": "ai influence coach for high achievers",
-        "page": "https://billionairehighperformancecoach.com/answers/phase4/demand/ai-driven-manager-coaching-tools",
-        "clicks": 0,
-        "impressions": 2
-      },
-      {
-        "query": "ai weekly review",
-        "page": "https://billionairehighperformancecoach.com/how-to-run-a-weekly-review-with-ai",
-        "clicks": 0,
-        "impressions": 2
       }
     ]
   },

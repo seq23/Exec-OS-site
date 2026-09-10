@@ -2359,17 +2359,47 @@
       "status": "ADMITTED"
     },
     {
+      "matrix_id": "MX-RISK-STATEMENT-SUBSTANCE",
+      "validation_id": "VAL-RISK-STATEMENT-SUBSTANCE",
+      "lane": "validation-control-plane",
+      "command": "npm run validate:risk-statement-substance",
+      "order": 227,
+      "severity": "HARD_FAIL",
+      "release_effect": true,
+      "status": "ADMITTED"
+    },
+    {
+      "matrix_id": "MX-EXTRACTION-SURFACE-BASELINE-PRESENCE",
+      "validation_id": "VAL-EXTRACTION-SURFACE-BASELINE-PRESENCE",
+      "lane": "validation-control-plane",
+      "command": "npm run validate:extraction-surface-baseline-presence",
+      "order": 228,
+      "severity": "HARD_FAIL",
+      "release_effect": true,
+      "status": "ADMITTED"
+    },
+    {
+      "matrix_id": "MX-CONTROL-PLANE-REACHABILITY",
+      "validation_id": "VAL-CONTROL-PLANE-REACHABILITY",
+      "lane": "validation-control-plane",
+      "command": "npm run validate:control-plane-reachability",
+      "order": 229,
+      "severity": "HARD_FAIL",
+      "release_effect": true,
+      "status": "ADMITTED"
+    },
+    {
       "matrix_id": "MX-REPAIR-FIXTURE-CAPABILITY",
       "validation_id": "VAL-REPAIR-FIXTURE-CAPABILITY",
       "lane": "validation-control-plane",
       "command": "npm run validate:repair-fixture-capability",
-      "order": 227,
+      "order": 230,
       "severity": "HARD_FAIL",
       "release_effect": true,
       "status": "ADMITTED"
     }
   ],
-  "entry_count": 236,
+  "entry_count": 239,
   "generated_at": "2026-07-27T17:50:00.000Z",
   "profiles": {
     "container-prepush": {
@@ -2911,6 +2941,18 @@
         {
           "id": "VAL-WORKFLOW-MANUAL-ONLY-DECLARED",
           "command": "npm run validate:workflow-manual-only-declared"
+        },
+        {
+          "id": "VAL-RISK-STATEMENT-SUBSTANCE",
+          "command": "npm run validate:risk-statement-substance"
+        },
+        {
+          "id": "VAL-EXTRACTION-SURFACE-BASELINE-PRESENCE",
+          "command": "npm run validate:extraction-surface-baseline-presence"
+        },
+        {
+          "id": "VAL-CONTROL-PLANE-REACHABILITY",
+          "command": "npm run validate:control-plane-reachability"
         },
         {
           "id": "VAL-REPAIR-FIXTURE-CAPABILITY",

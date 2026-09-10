@@ -3,7 +3,7 @@
   "validator": "bhpc-page-family-contract",
   "authority_model": "artifact_admitted_route_authority",
   "status": "PASS",
-  "generated_at": "2026-09-05T14:25:07.132Z",
+  "generated_at": "2026-09-09T14:30:05.489Z",
   "record_count": 999,
   "admitted_count": 976,
   "blocked_count": 23,

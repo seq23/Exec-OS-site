@@ -5,7 +5,7 @@
     "schema_version": "1.2",
     "requirements_sha256": "e535d4a992b24918efc0d393827402d5536cec4854dcce1e5da63b53f4ac17c7",
     "dependency_mode": "pinned-venv",
-    "python": "3.11.16",
+    "python": "3.12.3",
     "bs4": "4.12.3",
     "lxml": "5.4.0",
     "yaml": "6.0.2",

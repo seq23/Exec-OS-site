@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-05T14:31:31.709Z",
+  "generated_at": "2026-09-09T14:37:08.852Z",
   "status": "ATTENTION",
   "goal": {
     "target": 100000,
@@ -37,7 +37,7 @@
     "system_core": 1
   },
   "exceptions": {
-    "total": 280
+    "total": 300
   },
   "outcomes": {
     "observed_llm_mentions": null,

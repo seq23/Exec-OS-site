@@ -30,7 +30,54 @@ function cleanRepoPycache(){
 }
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 const reqHash=()=>sha(fs.readFileSync(REQ));
-function basePython(){return process.env.PYTHON_BOOTSTRAP_BIN||'python3'}
+/*
+ * THE BOOTSTRAP INTERPRETER MUST BE ONE THE VALIDATORS CAN RUN ON.
+ *
+ * This returned bare 'python3', which on macOS is /usr/bin/python3 - Python 3.9.6 - even when a
+ * newer interpreter is first on the user's PATH. The venv was then built from 3.9, and the failure
+ * surfaced three validators later as:
+ *
+ *   [validate:python-dependency-contract] FAIL: this interpreter is Python 3.9.6, which has no
+ *   sys.stdlib_module_names (added in 3.10)
+ *
+ * which reads like a code defect and is an interpreter choice. validate:all was red on main for
+ * anyone running it on a Mac, while CI passed because its runner ships 3.12 - so the repo's own
+ * full validation and its CI disagreed about whether main was healthy, and the disagreement was
+ * invisible from either side.
+ *
+ * Candidates are tried newest-first and each is ASKED its version rather than trusted by name.
+ * PYTHON_BOOTSTRAP_BIN still wins outright, so CI and anyone with a deliberate choice are
+ * unaffected.
+ */
+const MIN_PYTHON = [3, 10];
+const PYTHON_CANDIDATES = ['python3.14', 'python3.13', 'python3.12', 'python3.11', 'python3.10', 'python3'];
+
+function pythonVersionOf(bin){
+  const r=spawnSync(bin,['-c','import sys;print("%d.%d"%sys.version_info[:2])'],{encoding:'utf8',env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}});
+  if(r.status!==0||!r.stdout)return null;
+  const [maj,min]=r.stdout.trim().split('.').map(Number);
+  return Number.isInteger(maj)&&Number.isInteger(min)?[maj,min]:null;
+}
+
+function atLeast(v,min){return v && (v[0]>min[0] || (v[0]===min[0] && v[1]>=min[1]))}
+
+let BASE_PYTHON=null;
+function basePython(){
+  if(process.env.PYTHON_BOOTSTRAP_BIN)return process.env.PYTHON_BOOTSTRAP_BIN;
+  if(BASE_PYTHON)return BASE_PYTHON;
+  const tried=[];
+  for(const bin of PYTHON_CANDIDATES){
+    const v=pythonVersionOf(bin);
+    if(!v){tried.push(`${bin}: not found`);continue}
+    tried.push(`${bin}: ${v.join('.')}`);
+    if(atLeast(v,MIN_PYTHON)){BASE_PYTHON=bin;return bin}
+  }
+  throw new Error(
+    `no Python ${MIN_PYTHON.join('.')}+ on PATH, and the validators need one - sys.stdlib_module_names ` +
+    `arrived in 3.10 and without it the standard library cannot be told from a third-party import. ` +
+    `Tried: ${tried.join('; ')}. Install a newer Python or set PYTHON_BOOTSTRAP_BIN.`,
+  );
+}
 function resolvedBasePython(){const r=spawnSync(basePython(),['-c','import sys; print(sys.executable)'],{encoding:'utf8',env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}});return r.status===0&&r.stdout.trim()?r.stdout.trim():basePython()}
 function run(cmd,args,opts={}){const r=spawnSync(cmd,args,{stdio:'inherit',env:{...process.env,PYTHONDONTWRITEBYTECODE:'1',PIP_DISABLE_PIP_VERSION_CHECK:'1'},...opts});cleanRepoPycache();return r.status??2}
 function probe(executable=SELECTED_PY){if(path.isAbsolute(executable)&&!fs.existsSync(executable))return null;const code=`import json,sys,bs4,lxml,yaml; from bs4 import BeautifulSoup; BeautifulSoup('<p>x</p>','lxml'); print(json.dumps({'python':sys.version.split()[0],'bs4':bs4.__version__,'lxml':lxml.__version__,'yaml':yaml.__version__}))`;const r=spawnSync(executable,['-c',code],{encoding:'utf8',env:{...process.env,PYTHONDONTWRITEBYTECODE:'1'}});if(r.status!==0)return null;try{return JSON.parse(r.stdout.trim())}catch{return null}}

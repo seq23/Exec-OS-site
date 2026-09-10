@@ -1,0 +1,44 @@
+{
+  "fixture": "atlas-units",
+  "expectation": "FAIL",
+  "expected_exit_code": 1,
+  "description": "The original defect restored: 'ai business coach' is a GSC row whose search_volume was overwritten with its own 5-impression count and given GSC provenance, it still carries the removed `volume` key, and it is banded measured_search_volume so it sorts as a peer of real market-volume rows. This is the 22x mis-scoring VAL-116 was admitted to refuse.",
+  "expected_error_substrings": [
+    "still carries the ambiguous `volume` key",
+    "without keyword-tool provenance"
+  ],
+  "files": {
+    "data/queries/evidence/evidence_queries.json": {
+      "queries": [
+        {
+          "query": "ai business coach",
+          "source_type": "gsc_search_analytics",
+          "search_volume": 5,
+          "impressions_90d": 5,
+          "demand_basis": "search_volume",
+          "search_volume_source": "gsc_search_analytics",
+          "volume": 5
+        }
+      ]
+    },
+    "data/authority_scale/query_atlas.json": {
+      "unit_contract": "search_volume is modelled monthly market volume; impressions_90d is this domain's own 90-day count.",
+      "rank_scoring": {
+        "formula": "band-major, then demand desc within band"
+      },
+      "queries": [
+        {
+          "query": "ai business coach",
+          "source_type": "gsc_search_analytics",
+          "search_volume": 5,
+          "impressions_90d": 5,
+          "demand_basis": "search_volume",
+          "search_volume_source": "gsc_search_analytics",
+          "volume": 5,
+          "rank_band": "measured_search_volume",
+          "rank_score": 5
+        }
+      ]
+    }
+  }
+}

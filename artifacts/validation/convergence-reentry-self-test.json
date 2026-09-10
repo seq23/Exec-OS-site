@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "self_test": "convergence-reentry-soundness",
-  "generated_at": "2026-09-05T14:26:19.281Z",
+  "generated_at": "2026-09-09T14:31:23.358Z",
   "script": ".github/scripts/converge_tree_before_commit.sh",
   "assertions_executed": 7,
   "assertions": [

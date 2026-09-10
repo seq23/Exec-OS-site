@@ -56,6 +56,48 @@ def add_trace(workflow, scenario, trigger, included_steps, skipped_steps, assert
         'assertions': assertions,
     })
 
+
+# Command separators. A `./x` after any of these starts a new command; anywhere else it is an
+# argument to the command already running.
+_SEPARATORS = re.compile(r'(?:\|\||&&|\||;|\n)')
+# Wrappers that take a command as their argument, so the thing after them IS still in command
+# position. Deliberately short: a longer list is a longer list of ways to be wrong.
+_WRAPPERS = {'sudo', 'exec', 'time', 'nohup', 'env', 'xargs', 'bash', 'sh', 'command'}
+
+
+def invoked_local_paths(run: str):
+    """Local paths this script actually INVOKES, as opposed to merely mentions.
+
+    The previous version matched every `./...` token anywhere in a step, which reads an argument as
+    a command. It failed on main for exactly that reason:
+
+        tar -xf "$RUNNER_TEMP/spry-build-tree.tar" ./artifacts/validation/shard-producers.json
+
+    where the path is a member name INSIDE the tarball - a thing that by definition does not exist
+    in the worktree, and never will. The guard was demanding the presence of a file whose whole
+    purpose is to be absent until extracted.
+
+    A guard that fires on correct code is worse than no guard: it is the one people learn to skip,
+    and it took the whole `validate:all` red on main while CI stayed green, which is how the two
+    drifted apart without anyone deciding they should.
+
+    So: command position only. First token of a line or of a `;` / `&&` / `||` / `|` segment, after
+    stepping over wrappers like `sudo` and `env` that take a command as their argument.
+    """
+    found = []
+    for segment in _SEPARATORS.split(run):
+        tokens = segment.strip().split()
+        i = 0
+        # Step over `FOO=bar` assignments and command wrappers to reach the actual command.
+        while i < len(tokens) and (re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]*=.*', tokens[i]) or tokens[i] in _WRAPPERS):
+            i += 1
+        if i >= len(tokens):
+            continue
+        head = tokens[i].strip('"\'').rstrip(';&|')
+        if head.startswith('./') and '${{' not in head:
+            found.append(head)
+    return found
+
 workflows={}
 for path in sorted(WF_DIR.glob('*.yml')) + sorted(WF_DIR.glob('*.yaml')):
     rel=str(path.relative_to(ROOT))
@@ -83,9 +125,8 @@ for path in sorted(WF_DIR.glob('*.yml')) + sorted(WF_DIR.glob('*.yaml')):
                 shell_syntax(run, f'{rel}/{job_id}/{label}')
                 for cmd in npm_commands(run):
                     if cmd not in scripts: errors.append(f'{rel}/{job_id}/{label}: missing package script {cmd}')
-                for local in re.findall(r'(?:^|\s)(\./[^\s"\']+)', run):
-                    clean=local.rstrip(';&|')
-                    if '${{' not in clean and not (ROOT/clean).exists():
+                for clean in invoked_local_paths(run):
+                    if not (ROOT/clean).exists():
                         errors.append(f'{rel}/{job_id}/{label}: missing local executable {clean}')
             uses=step.get('uses')
             if uses and '@' not in uses: errors.append(f'{rel}/{job_id}/{label}: action not version pinned: {uses}')

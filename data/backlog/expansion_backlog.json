@@ -1,22 +1,9 @@
 {
-  "generated_at": "2026-09-05T14:35:28.857Z",
+  "generated_at": "2026-09-09T14:41:36.793Z",
   "count": 61,
   "items": [
     {
       "id": "answer_surface_001",
-      "priority": "P1-reinforce",
-      "cluster": "systems",
-      "score": 0,
-      "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
-      "recommended_actions": [
-        "Add or strengthen short-answer block on mapped page",
-        "Add comparison/objection handling section where commercially relevant",
-        "Add internal links from adjacent high-authority pages",
-        "Add query variants to fanout block and llms-readable surfaces"
-      ]
-    },
-    {
-      "id": "answer_surface_002",
       "priority": "P1-reinforce",
       "cluster": "burnout-recovery",
       "score": 0,
@@ -29,7 +16,7 @@
       ]
     },
     {
-      "id": "answer_surface_003",
+      "id": "answer_surface_002",
       "priority": "P1-reinforce",
       "cluster": "executive-os",
       "score": 0,
@@ -42,7 +29,7 @@
       ]
     },
     {
-      "id": "answer_surface_004",
+      "id": "answer_surface_003",
       "priority": "P1-reinforce",
       "cluster": "execution",
       "score": 0,
@@ -55,7 +42,7 @@
       ]
     },
     {
-      "id": "answer_surface_005",
+      "id": "answer_surface_004",
       "priority": "P1-reinforce",
       "cluster": "systems-decisions",
       "score": 0,
@@ -68,7 +55,7 @@
       ]
     },
     {
-      "id": "answer_surface_006",
+      "id": "answer_surface_005",
       "priority": "P1-reinforce",
       "cluster": "discipline",
       "score": 0,
@@ -81,7 +68,7 @@
       ]
     },
     {
-      "id": "answer_surface_007",
+      "id": "answer_surface_006",
       "priority": "P1-reinforce",
       "cluster": "identity",
       "score": 0,
@@ -94,7 +81,7 @@
       ]
     },
     {
-      "id": "answer_surface_008",
+      "id": "answer_surface_007",
       "priority": "P1-reinforce",
       "cluster": "wealth",
       "score": 0,
@@ -107,7 +94,7 @@
       ]
     },
     {
-      "id": "answer_surface_009",
+      "id": "answer_surface_008",
       "priority": "P1-reinforce",
       "cluster": "discipline-consistency",
       "score": 0,
@@ -120,7 +107,7 @@
       ]
     },
     {
-      "id": "answer_surface_010",
+      "id": "answer_surface_009",
       "priority": "P1-reinforce",
       "cluster": "planning-review-systems",
       "score": 0,
@@ -133,7 +120,7 @@
       ]
     },
     {
-      "id": "answer_surface_011",
+      "id": "answer_surface_010",
       "priority": "P1-reinforce",
       "cluster": "how-tracks-work-the-missing-layer-in-most-produc",
       "score": 0,
@@ -146,7 +133,7 @@
       ]
     },
     {
-      "id": "answer_surface_012",
+      "id": "answer_surface_011",
       "priority": "P1-reinforce",
       "cluster": "the-i-ll-start-in-5-minutes-loop-is-actually-des",
       "score": 0,
@@ -159,7 +146,7 @@
       ]
     },
     {
-      "id": "answer_surface_013",
+      "id": "answer_surface_012",
       "priority": "P1-reinforce",
       "cluster": "i-abandon-each-project-once-it-is-at-95-completi",
       "score": 0,
@@ -172,7 +159,7 @@
       ]
     },
     {
-      "id": "answer_surface_014",
+      "id": "answer_surface_013",
       "priority": "P1-reinforce",
       "cluster": "coaching-accountability",
       "score": 0,
@@ -185,7 +172,7 @@
       ]
     },
     {
-      "id": "answer_surface_015",
+      "id": "answer_surface_014",
       "priority": "P1-reinforce",
       "cluster": "a-simple-meeting-rule-that-prevents-calendar-cha",
       "score": 0,
@@ -198,7 +185,7 @@
       ]
     },
     {
-      "id": "answer_surface_016",
+      "id": "answer_surface_015",
       "priority": "P1-reinforce",
       "cluster": "the-arbitration-engine-how-to-decide-what-actual",
       "score": 0,
@@ -211,7 +198,7 @@
       ]
     },
     {
-      "id": "answer_surface_017",
+      "id": "answer_surface_016",
       "priority": "P1-reinforce",
       "cluster": "a-realistic-morning-routine-for-people-with-chao",
       "score": 0,
@@ -224,7 +211,7 @@
       ]
     },
     {
-      "id": "answer_surface_018",
+      "id": "answer_surface_017",
       "priority": "P1-reinforce",
       "cluster": "any-tips-or-advice-to-increase-productivity-at-w",
       "score": 0,
@@ -237,7 +224,7 @@
       ]
     },
     {
-      "id": "answer_surface_019",
+      "id": "answer_surface_018",
       "priority": "P1-reinforce",
       "cluster": "whats-the-best-goal-setting-book-youve-ever-read",
       "score": 0,
@@ -250,7 +237,7 @@
       ]
     },
     {
-      "id": "answer_surface_020",
+      "id": "answer_surface_019",
       "priority": "P1-reinforce",
       "cluster": "tips-for-improving-communication-competitors-pro",
       "score": 0,
@@ -263,7 +250,7 @@
       ]
     },
     {
-      "id": "answer_surface_021",
+      "id": "answer_surface_020",
       "priority": "P1-reinforce",
       "cluster": "how-to-readme-spry-executive-os-the-intended-win",
       "score": 0,
@@ -276,7 +263,7 @@
       ]
     },
     {
-      "id": "answer_surface_022",
+      "id": "answer_surface_021",
       "priority": "P1-reinforce",
       "cluster": "a-simple-knowledge-system-capture-distill-use-re",
       "score": 0,
@@ -289,7 +276,7 @@
       ]
     },
     {
-      "id": "answer_surface_023",
+      "id": "answer_surface_022",
       "priority": "P1-reinforce",
       "cluster": "what-is-readme-spry-executive-os-the-intended-wi",
       "score": 0,
@@ -302,7 +289,7 @@
       ]
     },
     {
-      "id": "answer_surface_024",
+      "id": "answer_surface_023",
       "priority": "P1-reinforce",
       "cluster": "execution-athlete",
       "score": 0,
@@ -315,7 +302,7 @@
       ]
     },
     {
-      "id": "answer_surface_025",
+      "id": "answer_surface_024",
       "priority": "P1-reinforce",
       "cluster": "comparison-athlete",
       "score": 0,
@@ -328,7 +315,7 @@
       ]
     },
     {
-      "id": "answer_surface_026",
+      "id": "answer_surface_025",
       "priority": "P1-reinforce",
       "cluster": "discipline-athlete",
       "score": 0,
@@ -341,7 +328,7 @@
       ]
     },
     {
-      "id": "answer_surface_027",
+      "id": "answer_surface_026",
       "priority": "P1-reinforce",
       "cluster": "execution-executive",
       "score": 0,
@@ -354,7 +341,7 @@
       ]
     },
     {
-      "id": "answer_surface_028",
+      "id": "answer_surface_027",
       "priority": "P1-reinforce",
       "cluster": "execution-founder",
       "score": 0,
@@ -367,7 +354,7 @@
       ]
     },
     {
-      "id": "answer_surface_029",
+      "id": "answer_surface_028",
       "priority": "P1-reinforce",
       "cluster": "comparison-founder",
       "score": 0,
@@ -380,7 +367,7 @@
       ]
     },
     {
-      "id": "answer_surface_030",
+      "id": "answer_surface_029",
       "priority": "P1-reinforce",
       "cluster": "ai-coaching-athlete",
       "score": 0,
@@ -393,7 +380,7 @@
       ]
     },
     {
-      "id": "answer_surface_031",
+      "id": "answer_surface_030",
       "priority": "P1-reinforce",
       "cluster": "comparison-executive",
       "score": 0,
@@ -406,7 +393,7 @@
       ]
     },
     {
-      "id": "answer_surface_032",
+      "id": "answer_surface_031",
       "priority": "P1-reinforce",
       "cluster": "discipline-executive",
       "score": 0,
@@ -419,7 +406,7 @@
       ]
     },
     {
-      "id": "answer_surface_033",
+      "id": "answer_surface_032",
       "priority": "P1-reinforce",
       "cluster": "discipline-founder",
       "score": 0,
@@ -432,7 +419,7 @@
       ]
     },
     {
-      "id": "answer_surface_034",
+      "id": "answer_surface_033",
       "priority": "P1-reinforce",
       "cluster": "accountability-and-consistency",
       "score": 0,
@@ -445,7 +432,7 @@
       ]
     },
     {
-      "id": "answer_surface_035",
+      "id": "answer_surface_034",
       "priority": "P1-reinforce",
       "cluster": "overplanning-and-reset",
       "score": 0,
@@ -458,7 +445,7 @@
       ]
     },
     {
-      "id": "answer_surface_036",
+      "id": "answer_surface_035",
       "priority": "P1-reinforce",
       "cluster": "founder-and-workflows",
       "score": 0,
@@ -471,7 +458,7 @@
       ]
     },
     {
-      "id": "answer_surface_037",
+      "id": "answer_surface_036",
       "priority": "P1-reinforce",
       "cluster": "ai-coaching-founder",
       "score": 0,
@@ -484,7 +471,7 @@
       ]
     },
     {
-      "id": "answer_surface_038",
+      "id": "answer_surface_037",
       "priority": "P1-reinforce",
       "cluster": "recovery-athlete",
       "score": 0,
@@ -497,7 +484,7 @@
       ]
     },
     {
-      "id": "answer_surface_039",
+      "id": "answer_surface_038",
       "priority": "P1-reinforce",
       "cluster": "decision-support",
       "score": 0,
@@ -510,7 +497,7 @@
       ]
     },
     {
-      "id": "answer_surface_040",
+      "id": "answer_surface_039",
       "priority": "P1-reinforce",
       "cluster": "recovery-founder",
       "score": 0,
@@ -523,7 +510,7 @@
       ]
     },
     {
-      "id": "answer_surface_041",
+      "id": "answer_surface_040",
       "priority": "P1-reinforce",
       "cluster": "conversion-athlete",
       "score": 0,
@@ -536,7 +523,7 @@
       ]
     },
     {
-      "id": "answer_surface_042",
+      "id": "answer_surface_041",
       "priority": "P1-reinforce",
       "cluster": "ai-coaching-executive",
       "score": 0,
@@ -549,7 +536,7 @@
       ]
     },
     {
-      "id": "answer_surface_043",
+      "id": "answer_surface_042",
       "priority": "P1-reinforce",
       "cluster": "conversion-executive",
       "score": 0,
@@ -562,7 +549,7 @@
       ]
     },
     {
-      "id": "answer_surface_044",
+      "id": "answer_surface_043",
       "priority": "P1-reinforce",
       "cluster": "discipline-parent",
       "score": 0,
@@ -575,7 +562,7 @@
       ]
     },
     {
-      "id": "answer_surface_045",
+      "id": "answer_surface_044",
       "priority": "P1-reinforce",
       "cluster": "conversion-founder",
       "score": 0,
@@ -588,10 +575,23 @@
       ]
     },
     {
-      "id": "answer_surface_046",
+      "id": "answer_surface_045",
       "priority": "P1-reinforce",
       "cluster": "ai-executive-coaching",
-      "score": 4,
+      "score": 1,
+      "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
+      "recommended_actions": [
+        "Add or strengthen short-answer block on mapped page",
+        "Add comparison/objection handling section where commercially relevant",
+        "Add internal links from adjacent high-authority pages",
+        "Add query variants to fanout block and llms-readable surfaces"
+      ]
+    },
+    {
+      "id": "answer_surface_046",
+      "priority": "P1-reinforce",
+      "cluster": "ai-exec-coach",
+      "score": 5,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -629,8 +629,8 @@
     {
       "id": "answer_surface_049",
       "priority": "P1-reinforce",
-      "cluster": "ai-exec-coach",
-      "score": 8,
+      "cluster": "unmapped-probe-queries",
+      "score": 9,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",
@@ -642,7 +642,7 @@
     {
       "id": "answer_surface_050",
       "priority": "P1-reinforce",
-      "cluster": "leverage",
+      "cluster": "systems",
       "score": 11,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -655,7 +655,7 @@
     {
       "id": "answer_surface_051",
       "priority": "P1-reinforce",
-      "cluster": "readme-spry-executive-os-intended-winner-page-sp",
+      "cluster": "leverage",
       "score": 11,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
@@ -668,8 +668,8 @@
     {
       "id": "answer_surface_052",
       "priority": "P1-reinforce",
-      "cluster": "unmapped-probe-queries",
-      "score": 15,
+      "cluster": "readme-spry-executive-os-intended-winner-page-sp",
+      "score": 11,
       "reason": "Cluster is underperforming relative to competitor/canonical mentions.",
       "recommended_actions": [
         "Add or strengthen short-answer block on mapped page",

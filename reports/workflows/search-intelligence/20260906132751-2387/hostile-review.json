@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.4",
+  "workflow_id": "search-intelligence",
+  "run_id": "20260906132751-2387",
+  "generated_at": "2026-09-06T13:32:17.111Z",
+  "status": "PASS_WITH_WARNING",
+  "changed_file_count": 16,
+  "raw_finding_count": 2,
+  "aggregated_finding_count": 1,
+  "input_count": 18,
+  "output_count": 16,
+  "finding_summary": {
+    "counts": {
+      "SAFE_NOISE": 0,
+      "WARNING": 1,
+      "SELF_HEALABLE": 0,
+      "ITEM_SKIP": 0,
+      "TRUE_BLOCKER": 0,
+      "INTERNAL_ERROR": 0
+    },
+    "blocking_count": 0,
+    "warning_count": 1,
+    "safe_noise_count": 0,
+    "self_healable_count": 0,
+    "item_skip_count": 0
+  },
+  "findings": [
+    {
+      "id": "aggregate:undeclared_generated_output",
+      "kind": "undeclared_generated_output",
+      "message": "2 generated output(s) were outside declared workflow patterns",
+      "file": null,
+      "material": false,
+      "repairable": false,
+      "item_scoped": false,
+      "evidence": [
+        {
+          "occurrence_count": 2,
+          "sample_files": [
+            "agency/index.html",
+            "billionaire-high-performance-coach-vs-coaching/index.html"
+          ]
+        }
+      ],
+      "classification": "WARNING",
+      "occurrence_count": 2,
+      "sample_files": [
+        "agency/index.html",
+        "billionaire-high-performance-coach-vs-coaching/index.html"
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "2 generated output(s) were outside declared workflow patterns"
+  ],
+  "safe_noise": [],
+  "info": [
+    "programmatic candidate manifest retains 1410 admitted release atom(s) for downstream validation"
+  ],
+  "governance_fixture_count": 15,
+  "governance_blocker_audit": {
+    "admitted_hard_fail_count": 227,
+    "suggested_review_counts": {
+      "REVIEW_REQUIRED": 177,
+      "EXISTING_REPAIR_AVAILABLE": 8,
+      "TRUE_BLOCKER": 27,
+      "REVIEW_WARNING_BOUNDARY": 15
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "validator": "validate:freeze-after-convergence",
-  "generated_at": "2026-09-05T14:26:16.518Z",
+  "generated_at": "2026-09-09T14:31:20.614Z",
   "freeze_step": "authority:scale:freeze",
   "convergence_authority": ".github/scripts/converge_tree_before_commit.sh",
   "lanes_examined": 8,
@@ -13,21 +13,9 @@
       "compliant": true
     },
     {
-      "lane": "release:daily-citation-intelligence",
-      "freeze_step_index": 92,
-      "convergence_step_index": 88,
-      "compliant": true
-    },
-    {
-      "lane": "workflow:daily-citation-intelligence",
-      "freeze_step_index": 93,
-      "convergence_step_index": 89,
-      "compliant": true
-    },
-    {
-      "lane": "release:controlled-citation-intelligence",
-      "freeze_step_index": 93,
-      "convergence_step_index": 89,
+      "lane": "release:batch-f-agent-continuity",
+      "freeze_step_index": 100,
+      "convergence_step_index": 96,
       "compliant": true
     },
     {
@@ -37,9 +25,15 @@
       "compliant": true
     },
     {
-      "lane": "release:batch-f-agent-continuity",
-      "freeze_step_index": 100,
-      "convergence_step_index": 96,
+      "lane": "release:controlled-citation-intelligence",
+      "freeze_step_index": 93,
+      "convergence_step_index": 89,
+      "compliant": true
+    },
+    {
+      "lane": "release:daily-citation-intelligence",
+      "freeze_step_index": 92,
+      "convergence_step_index": 88,
       "compliant": true
     },
     {
@@ -49,13 +43,19 @@
       "compliant": true
     },
     {
+      "lane": "workflow:daily-citation-intelligence",
+      "freeze_step_index": 93,
+      "convergence_step_index": 89,
+      "compliant": true
+    },
+    {
       "lane": "workflow:zero-dollar-autonomous",
       "freeze_step_index": 92,
       "convergence_step_index": 88,
       "compliant": true
     }
   ],
-  "runner_files_walked": 469,
+  "runner_files_walked": 476,
   "runner_excluded_dirs": [
     "scripts/validation",
     "scripts/validators"

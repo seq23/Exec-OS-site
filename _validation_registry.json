@@ -4499,7 +4499,7 @@
       "name": "validate:extraction-surface-guard:snapshot",
       "check_type": "validator",
       "owning_lane": "validation-control-plane",
-      "risk_prevented": "Declared validator protection.",
+      "risk_prevented": "A page's extractable surface - the text an answer engine actually lifts - can be rewritten by a build without any authored change, and nothing else in the repo records what it used to be. This freezes that surface for every governed page so a later run has something to be compared against; without the snapshot the check below has no baseline and silently passes.",
       "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
       "scope": [
         "repository"
@@ -4529,7 +4529,7 @@
       "name": "validate:extraction-surface-guard:check",
       "check_type": "validator",
       "owning_lane": "validation-control-plane",
-      "risk_prevented": "Declared validator protection.",
+      "risk_prevented": "A build that quietly rewrites what an answer engine extracts is the most expensive silent change this repo can make: the pages still render, the site still deploys, and the thing being cited changes underneath. This refuses any run whose governed surfaces differ from the frozen snapshot unless a human re-baselines deliberately, so a surface change is always somebody's decision.",
       "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
       "scope": [
         "repository"
@@ -5731,6 +5731,8 @@
       "implementation_path": "scripts/atlas/validate_atlas_units.mjs",
       "environment": "container",
       "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/atlas-units/pass.json",
+      "negative_fixture": "fixtures/validation/atlas-units/fail.json",
       "evidence_output": "reports/validation/atlas-units.json",
       "runtime_budget_seconds": 20,
       "maintenance_owner": "content",
@@ -7632,12 +7634,102 @@
       "not_applicable_reason": null
     },
     {
+      "validation_id": "VAL-RISK-STATEMENT-SUBSTANCE",
+      "status": "ADMITTED",
+      "name": "validate:risk-statement-substance",
+      "check_type": "validator",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "A HARD_FAIL gate whose risk_prevented is the tool's placeholder cannot be reviewed: nobody reading the registry can tell what it refuses, and audit_governance_blockers.mjs reads that same field when proposing a severity migration. This refuses any new record carrying the placeholder, and ratchets the 53 that predate the rule so the list can only shrink.",
+      "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:risk-statement-substance",
+      "implementation_path": "package.json",
+      "environment": "container",
+      "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/repo/pass.json",
+      "negative_fixture": "fixtures/validation/repo/fail.json",
+      "evidence_output": "artifacts/diagnostics/<run-id>/validate-risk-statement-substance/summary.json",
+      "runtime_budget_seconds": 300,
+      "maintenance_owner": "repo",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Atomically admitted by validation:add.",
+      "decision_date": "2026-09-06",
+      "matrix_ids": [
+        "MX-RISK-STATEMENT-SUBSTANCE"
+      ],
+      "not_applicable_reason": null
+    },
+    {
+      "validation_id": "VAL-EXTRACTION-SURFACE-BASELINE-PRESENCE",
+      "status": "ADMITTED",
+      "name": "validate:extraction-surface-baseline-presence",
+      "check_type": "validator",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "The extraction-surface guard could be disarmed by deleting its own baseline. snapshot and check run adjacent in the ordered build job; with artifacts/validation/extraction-surface-snapshot.json absent, snapshot wrote a fresh baseline and exited 0, and check then compared the tree against a file the same run had just written and printed PASS - 2,233 governed surfaces green while asserting nothing. Reproduced on main at 51117429c by a single rm. This is the 'grades its own answer sheet' failure that moving the pair ahead of build:all was supposed to end, returning through the bootstrap path, and VAL-EXTRACTION-SURFACE-GUARD-SNAPSHOT's own risk statement already named it in prose while the code did not enforce it. This self-test drives the real guard in throwaway git repositories and asserts that a removed baseline hard-fails in both snapshot and check, that git rm and EXTRACTION_SURFACE_REBASELINE=1 are not back doors to it, that a genuinely first-ever baseline still bootstraps and a non-git tree stops by name rather than silently, that drift refusal and reviewed rebaselining are unchanged, that zero governed pages hard-fail rather than snapshot an empty set, and that no workflow or npm script sets the rebaseline override.",
+      "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:extraction-surface-baseline-presence",
+      "implementation_path": "package.json",
+      "environment": "container",
+      "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/repo/pass.json",
+      "negative_fixture": "fixtures/validation/repo/fail.json",
+      "evidence_output": "artifacts/diagnostics/<run-id>/validate-extraction-surface-baseline-presence/summary.json",
+      "runtime_budget_seconds": 300,
+      "maintenance_owner": "repo",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Atomically admitted by validation:add.",
+      "decision_date": "2026-09-07",
+      "matrix_ids": [
+        "MX-EXTRACTION-SURFACE-BASELINE-PRESENCE"
+      ],
+      "not_applicable_reason": null
+    },
+    {
+      "validation_id": "VAL-CONTROL-PLANE-REACHABILITY",
+      "status": "ADMITTED",
+      "name": "validate:control-plane-reachability",
+      "check_type": "validator",
+      "owning_lane": "validation-control-plane",
+      "risk_prevented": "validate:validation-registry decides whether an admitted matrix entry actually runs by walking 'npm run' tokens through package.json, and it could not read shell scripts. On 2026-09-03, 525c0be44 (PR #64) replaced build:all's npm chain with 'bash scripts/build/cached_build_all.sh', which execs 'npm run build:all:uncached'. The whole build chain left the reachability graph in that one commit: unclassified admitted entries went from 0 at 525c0be44^ to 6 at 525c0be44 (MX-002 build:generated-content, MX-004 citation:build, MX-051 redirects:apply, MX-061 build:postprocess, MX-067 search:prepare-submission, MX-076 validate:indexnow-batch-budget), every one of which still ran on every build. The control plane reported six HARD_FAIL protections as wired to nothing, and it stayed that way for four days because the finding was a STRONG_WARNING and the lane printed PASS. This self-test drives the real registry validator in synthetic control planes and asserts that a command reachable only through a bash hop counts as armed, that a hop which is not a readable file is reported rather than silently truncating the graph, that an admitted entry in no profile with no recorded exclusion reason is an ERROR rather than a warning, that a recorded reason is still a legitimate deliberate exclusion, that zero registry records, zero matrix entries and zero profiles each hard-fail rather than reporting the control plane safe, and that this repository's own control plane carries no unarmed unexplained entry.",
+      "existing_coverage_gap": "Atomic registration prevents package/registry/matrix drift.",
+      "scope": [
+        "repository"
+      ],
+      "proposed_severity": "HARD_FAIL",
+      "command": "npm run validate:control-plane-reachability",
+      "implementation_path": "package.json",
+      "environment": "container",
+      "proof_tier": 1,
+      "positive_fixture": "fixtures/validation/repo/pass.json",
+      "negative_fixture": "fixtures/validation/repo/fail.json",
+      "evidence_output": "artifacts/diagnostics/<run-id>/validate-control-plane-reachability/summary.json",
+      "runtime_budget_seconds": 300,
+      "maintenance_owner": "repo",
+      "overlap_analysis": [],
+      "retirement_offset": null,
+      "decision": "Atomically admitted by validation:add.",
+      "decision_date": "2026-09-07",
+      "matrix_ids": [
+        "MX-CONTROL-PLANE-REACHABILITY"
+      ],
+      "not_applicable_reason": null
+    },
+    {
       "validation_id": "VAL-REPAIR-FIXTURE-CAPABILITY",
       "status": "ADMITTED",
       "name": "validate:repair-fixture-capability",
       "check_type": "validator",
       "owning_lane": "self-heal",
-      "risk_prevented": "scripts/selfheal/heal_until_clean.mjs registers a repair for ten validation steps and nothing in this repository had ever run one. The map could not even be read without running self-heal, because it was defined inside a module that executes a full validation loop at import time. A repair whose validator is GREEN is exercised by nothing, so its capability can be removed without a single check noticing - until production needs it, at which point self-heal runs the repair, the repair exits 0 having changed nothing relevant, the loop burns its attempt budget and exits UNRESOLVED, and the release lane deadlocks with the ingest half still pushing behind it. The sibling repo local-guides-citation-velocity lost eleven days and accumulated ~690 undelivered recommendations to exactly that. This proves each registered repair still CLEARS a constructed failing state, off the production tree, while its validator is green.",
+      "risk_prevented": "scripts/selfheal/heal_until_clean.mjs registers a repair for ten validation steps and nothing in this repository had ever run one; the map could not even be read without running self-heal, because it was defined inside a module that executes a full validation loop at import time. A repair whose validator is GREEN is exercised by nothing, so its capability can be removed without a single check noticing - until production needs it, at which point self-heal runs the repair, the repair exits 0 having changed nothing relevant, the loop burns its attempt budget and exits UNRESOLVED, and the release lane deadlocks with the ingest half still pushing behind it. The sibling repo local-guides-citation-velocity lost eleven days and accumulated ~690 undelivered recommendations to exactly that, on its release lane. This constructs a genuinely failing state in a throwaway git worktree, runs the REGISTERED repair, and requires the REGISTERED validator to go FAIL to PASS - nine of ten pairings proven, the tenth declared uncovered with its measured evidence, and a new pairing with neither a fixture nor a written reason fails.",
       "existing_coverage_gap": "VAL-CITATION-REPAIR-REACH and validate:health-boundary-reach each prove ONE repair is aimed at pages its validator judges, statically; neither runs a repair and neither reads the REPAIRS map. Nothing else in the repository references the map at all. There is no static repair contract, no commit-coverage check and no efficacy check here, so a repair that has gone inert is indistinguishable from one that is simply not needed today.",
       "scope": [
         "repository"
@@ -7654,7 +7746,7 @@
       "maintenance_owner": "self-heal",
       "overlap_analysis": [],
       "retirement_offset": null,
-      "decision": "Admitted 2026-09-09 with nine of ten registered pairings proven behaviourally FAIL -> PASS against real failure modes in a throwaway git worktree; measured 97s locally. Proven negatively: re-pointing VAL-VISIBLE-CONTENT-ARTIFACTS at repair:programmatic-registry-owners produced repair_does_not_clear naming the pairing, re-adding the removed VAL-EXTRACTION-CONTRACT-SELF-TEST pairing produced undeclared_repair, and the grow-only floor produced behavioural_coverage_fell; restoring the map returned PASS.",
+      "decision": "Admitted 2026-09-09 with nine of ten registered pairings proven behaviourally FAIL -> PASS against real failure modes in a throwaway git worktree; 167.1s measured in CI run 34423816915. Proven negatively: re-pointing VAL-VISIBLE-CONTENT-ARTIFACTS at repair:programmatic-registry-owners produced repair_does_not_clear naming the pairing, re-adding the removed VAL-EXTRACTION-CONTRACT-SELF-TEST pairing produced undeclared_repair, and the grow-only floor produced behavioural_coverage_fell; restoring the map returned PASS.",
       "decision_date": "2026-09-09",
       "matrix_ids": [
         "MX-REPAIR-FIXTURE-CAPABILITY"
@@ -7662,6 +7754,6 @@
       "not_applicable_reason": null
     }
   ],
-  "record_count": 243,
+  "record_count": 246,
   "generated_at": "2026-08-08T23:30:00Z"
 }

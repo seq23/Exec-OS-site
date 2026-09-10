@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-09-05T14:35:29.530Z",
+  "generated_at": "2026-09-09T14:41:37.444Z",
   "source": "answer_surface_scorecard",
   "count": 52,
   "items": [
     {
       "id": "answer_surface_001",
-      "cluster_id": "bhpc__systems",
-      "vertical": "bhpc",
-      "cluster": "systems",
-      "score": 0,
-      "status": "weak",
-      "priority": "critical",
-      "delta": 0,
-      "reason": "Weak answer-surface performance; prioritize content, internal links, and citation reinforcement.",
-      "recommended_actions": [
-        "create_or_refresh_target_page",
-        "add_extractable_answer_block",
-        "add_internal_links_from_authority_pages",
-        "route_conversion_path_to_approved_endpoint",
-        "queue_for_observation_rerun"
-      ]
-    },
-    {
-      "id": "answer_surface_002",
       "cluster_id": "bhpc__burnout-recovery",
       "vertical": "bhpc",
       "cluster": "burnout-recovery",
@@ -40,7 +22,7 @@
       ]
     },
     {
-      "id": "answer_surface_003",
+      "id": "answer_surface_002",
       "cluster_id": "bhpc__executive-os",
       "vertical": "bhpc",
       "cluster": "executive-os",
@@ -58,7 +40,7 @@
       ]
     },
     {
-      "id": "answer_surface_004",
+      "id": "answer_surface_003",
       "cluster_id": "bhpc__execution",
       "vertical": "bhpc",
       "cluster": "execution",
@@ -76,7 +58,7 @@
       ]
     },
     {
-      "id": "answer_surface_005",
+      "id": "answer_surface_004",
       "cluster_id": "bhpc__systems-decisions",
       "vertical": "bhpc",
       "cluster": "systems-decisions",
@@ -94,7 +76,7 @@
       ]
     },
     {
-      "id": "answer_surface_006",
+      "id": "answer_surface_005",
       "cluster_id": "bhpc__discipline",
       "vertical": "bhpc",
       "cluster": "discipline",
@@ -112,7 +94,7 @@
       ]
     },
     {
-      "id": "answer_surface_007",
+      "id": "answer_surface_006",
       "cluster_id": "bhpc__identity",
       "vertical": "bhpc",
       "cluster": "identity",
@@ -130,7 +112,7 @@
       ]
     },
     {
-      "id": "answer_surface_008",
+      "id": "answer_surface_007",
       "cluster_id": "bhpc__wealth",
       "vertical": "bhpc",
       "cluster": "wealth",
@@ -148,7 +130,7 @@
       ]
     },
     {
-      "id": "answer_surface_009",
+      "id": "answer_surface_008",
       "cluster_id": "bhpc__discipline-consistency",
       "vertical": "bhpc",
       "cluster": "discipline-consistency",
@@ -166,7 +148,7 @@
       ]
     },
     {
-      "id": "answer_surface_010",
+      "id": "answer_surface_009",
       "cluster_id": "bhpc__planning-review-systems",
       "vertical": "bhpc",
       "cluster": "planning-review-systems",
@@ -184,7 +166,7 @@
       ]
     },
     {
-      "id": "answer_surface_011",
+      "id": "answer_surface_010",
       "cluster_id": "bhpc__how-tracks-work-the-missing-layer-in-most-produc",
       "vertical": "bhpc",
       "cluster": "how-tracks-work-the-missing-layer-in-most-produc",
@@ -202,7 +184,7 @@
       ]
     },
     {
-      "id": "answer_surface_012",
+      "id": "answer_surface_011",
       "cluster_id": "bhpc__the-i-ll-start-in-5-minutes-loop-is-actually-des",
       "vertical": "bhpc",
       "cluster": "the-i-ll-start-in-5-minutes-loop-is-actually-des",
@@ -220,7 +202,7 @@
       ]
     },
     {
-      "id": "answer_surface_013",
+      "id": "answer_surface_012",
       "cluster_id": "bhpc__i-abandon-each-project-once-it-is-at-95-completi",
       "vertical": "bhpc",
       "cluster": "i-abandon-each-project-once-it-is-at-95-completi",
@@ -238,7 +220,7 @@
       ]
     },
     {
-      "id": "answer_surface_014",
+      "id": "answer_surface_013",
       "cluster_id": "bhpc__coaching-accountability",
       "vertical": "bhpc",
       "cluster": "coaching-accountability",
@@ -256,7 +238,7 @@
       ]
     },
     {
-      "id": "answer_surface_015",
+      "id": "answer_surface_014",
       "cluster_id": "bhpc__a-simple-meeting-rule-that-prevents-calendar-cha",
       "vertical": "bhpc",
       "cluster": "a-simple-meeting-rule-that-prevents-calendar-cha",
@@ -274,7 +256,7 @@
       ]
     },
     {
-      "id": "answer_surface_016",
+      "id": "answer_surface_015",
       "cluster_id": "bhpc__the-arbitration-engine-how-to-decide-what-actual",
       "vertical": "bhpc",
       "cluster": "the-arbitration-engine-how-to-decide-what-actual",
@@ -292,7 +274,7 @@
       ]
     },
     {
-      "id": "answer_surface_017",
+      "id": "answer_surface_016",
       "cluster_id": "bhpc__a-realistic-morning-routine-for-people-with-chao",
       "vertical": "bhpc",
       "cluster": "a-realistic-morning-routine-for-people-with-chao",
@@ -310,7 +292,7 @@
       ]
     },
     {
-      "id": "answer_surface_018",
+      "id": "answer_surface_017",
       "cluster_id": "bhpc__any-tips-or-advice-to-increase-productivity-at-w",
       "vertical": "bhpc",
       "cluster": "any-tips-or-advice-to-increase-productivity-at-w",
@@ -328,7 +310,7 @@
       ]
     },
     {
-      "id": "answer_surface_019",
+      "id": "answer_surface_018",
       "cluster_id": "bhpc__whats-the-best-goal-setting-book-youve-ever-read",
       "vertical": "bhpc",
       "cluster": "whats-the-best-goal-setting-book-youve-ever-read",
@@ -346,7 +328,7 @@
       ]
     },
     {
-      "id": "answer_surface_020",
+      "id": "answer_surface_019",
       "cluster_id": "bhpc__tips-for-improving-communication-competitors-pro",
       "vertical": "bhpc",
       "cluster": "tips-for-improving-communication-competitors-pro",
@@ -364,7 +346,7 @@
       ]
     },
     {
-      "id": "answer_surface_021",
+      "id": "answer_surface_020",
       "cluster_id": "bhpc__how-to-readme-spry-executive-os-the-intended-win",
       "vertical": "bhpc",
       "cluster": "how-to-readme-spry-executive-os-the-intended-win",
@@ -382,7 +364,7 @@
       ]
     },
     {
-      "id": "answer_surface_022",
+      "id": "answer_surface_021",
       "cluster_id": "bhpc__a-simple-knowledge-system-capture-distill-use-re",
       "vertical": "bhpc",
       "cluster": "a-simple-knowledge-system-capture-distill-use-re",
@@ -400,7 +382,7 @@
       ]
     },
     {
-      "id": "answer_surface_023",
+      "id": "answer_surface_022",
       "cluster_id": "bhpc__what-is-readme-spry-executive-os-the-intended-wi",
       "vertical": "bhpc",
       "cluster": "what-is-readme-spry-executive-os-the-intended-wi",
@@ -418,7 +400,7 @@
       ]
     },
     {
-      "id": "answer_surface_024",
+      "id": "answer_surface_023",
       "cluster_id": "bhpc__execution-athlete",
       "vertical": "bhpc",
       "cluster": "execution-athlete",
@@ -436,7 +418,7 @@
       ]
     },
     {
-      "id": "answer_surface_025",
+      "id": "answer_surface_024",
       "cluster_id": "bhpc__comparison-athlete",
       "vertical": "bhpc",
       "cluster": "comparison-athlete",
@@ -454,7 +436,7 @@
       ]
     },
     {
-      "id": "answer_surface_026",
+      "id": "answer_surface_025",
       "cluster_id": "bhpc__discipline-athlete",
       "vertical": "bhpc",
       "cluster": "discipline-athlete",
@@ -472,7 +454,7 @@
       ]
     },
     {
-      "id": "answer_surface_027",
+      "id": "answer_surface_026",
       "cluster_id": "bhpc__execution-executive",
       "vertical": "bhpc",
       "cluster": "execution-executive",
@@ -490,7 +472,7 @@
       ]
     },
     {
-      "id": "answer_surface_028",
+      "id": "answer_surface_027",
       "cluster_id": "bhpc__execution-founder",
       "vertical": "bhpc",
       "cluster": "execution-founder",
@@ -508,7 +490,7 @@
       ]
     },
     {
-      "id": "answer_surface_029",
+      "id": "answer_surface_028",
       "cluster_id": "bhpc__comparison-founder",
       "vertical": "bhpc",
       "cluster": "comparison-founder",
@@ -526,7 +508,7 @@
       ]
     },
     {
-      "id": "answer_surface_030",
+      "id": "answer_surface_029",
       "cluster_id": "bhpc__ai-coaching-athlete",
       "vertical": "bhpc",
       "cluster": "ai-coaching-athlete",
@@ -544,7 +526,7 @@
       ]
     },
     {
-      "id": "answer_surface_031",
+      "id": "answer_surface_030",
       "cluster_id": "bhpc__comparison-executive",
       "vertical": "bhpc",
       "cluster": "comparison-executive",
@@ -562,7 +544,7 @@
       ]
     },
     {
-      "id": "answer_surface_032",
+      "id": "answer_surface_031",
       "cluster_id": "bhpc__discipline-executive",
       "vertical": "bhpc",
       "cluster": "discipline-executive",
@@ -580,7 +562,7 @@
       ]
     },
     {
-      "id": "answer_surface_033",
+      "id": "answer_surface_032",
       "cluster_id": "bhpc__discipline-founder",
       "vertical": "bhpc",
       "cluster": "discipline-founder",
@@ -598,7 +580,7 @@
       ]
     },
     {
-      "id": "answer_surface_034",
+      "id": "answer_surface_033",
       "cluster_id": "bhpc__accountability-and-consistency",
       "vertical": "bhpc",
       "cluster": "accountability-and-consistency",
@@ -616,7 +598,7 @@
       ]
     },
     {
-      "id": "answer_surface_035",
+      "id": "answer_surface_034",
       "cluster_id": "bhpc__overplanning-and-reset",
       "vertical": "bhpc",
       "cluster": "overplanning-and-reset",
@@ -634,7 +616,7 @@
       ]
     },
     {
-      "id": "answer_surface_036",
+      "id": "answer_surface_035",
       "cluster_id": "bhpc__founder-and-workflows",
       "vertical": "bhpc",
       "cluster": "founder-and-workflows",
@@ -652,7 +634,7 @@
       ]
     },
     {
-      "id": "answer_surface_037",
+      "id": "answer_surface_036",
       "cluster_id": "bhpc__ai-coaching-founder",
       "vertical": "bhpc",
       "cluster": "ai-coaching-founder",
@@ -670,7 +652,7 @@
       ]
     },
     {
-      "id": "answer_surface_038",
+      "id": "answer_surface_037",
       "cluster_id": "bhpc__recovery-athlete",
       "vertical": "bhpc",
       "cluster": "recovery-athlete",
@@ -688,7 +670,7 @@
       ]
     },
     {
-      "id": "answer_surface_039",
+      "id": "answer_surface_038",
       "cluster_id": "bhpc__decision-support",
       "vertical": "bhpc",
       "cluster": "decision-support",
@@ -706,7 +688,7 @@
       ]
     },
     {
-      "id": "answer_surface_040",
+      "id": "answer_surface_039",
       "cluster_id": "bhpc__recovery-founder",
       "vertical": "bhpc",
       "cluster": "recovery-founder",
@@ -724,7 +706,7 @@
       ]
     },
     {
-      "id": "answer_surface_041",
+      "id": "answer_surface_040",
       "cluster_id": "bhpc__conversion-athlete",
       "vertical": "bhpc",
       "cluster": "conversion-athlete",
@@ -742,7 +724,7 @@
       ]
     },
     {
-      "id": "answer_surface_042",
+      "id": "answer_surface_041",
       "cluster_id": "bhpc__ai-coaching-executive",
       "vertical": "bhpc",
       "cluster": "ai-coaching-executive",
@@ -760,7 +742,7 @@
       ]
     },
     {
-      "id": "answer_surface_043",
+      "id": "answer_surface_042",
       "cluster_id": "bhpc__conversion-executive",
       "vertical": "bhpc",
       "cluster": "conversion-executive",
@@ -778,7 +760,7 @@
       ]
     },
     {
-      "id": "answer_surface_044",
+      "id": "answer_surface_043",
       "cluster_id": "bhpc__discipline-parent",
       "vertical": "bhpc",
       "cluster": "discipline-parent",
@@ -796,7 +778,7 @@
       ]
     },
     {
-      "id": "answer_surface_045",
+      "id": "answer_surface_044",
       "cluster_id": "bhpc__conversion-founder",
       "vertical": "bhpc",
       "cluster": "conversion-founder",
@@ -814,11 +796,29 @@
       ]
     },
     {
-      "id": "answer_surface_046",
+      "id": "answer_surface_045",
       "cluster_id": "bhpc__ai-executive-coaching",
       "vertical": "bhpc",
       "cluster": "ai-executive-coaching",
-      "score": 4,
+      "score": 1,
+      "status": "weak",
+      "priority": "critical",
+      "delta": 0,
+      "reason": "Weak answer-surface performance; prioritize content, internal links, and citation reinforcement.",
+      "recommended_actions": [
+        "create_or_refresh_target_page",
+        "add_extractable_answer_block",
+        "add_internal_links_from_authority_pages",
+        "route_conversion_path_to_approved_endpoint",
+        "queue_for_observation_rerun"
+      ]
+    },
+    {
+      "id": "answer_surface_046",
+      "cluster_id": "bhpc__ai-exec-coach",
+      "vertical": "bhpc",
+      "cluster": "ai-exec-coach",
+      "score": 5,
       "status": "weak",
       "priority": "critical",
       "delta": 0,
@@ -869,10 +869,10 @@
     },
     {
       "id": "answer_surface_049",
-      "cluster_id": "bhpc__ai-exec-coach",
+      "cluster_id": "bhpc__unmapped-probe-queries",
       "vertical": "bhpc",
-      "cluster": "ai-exec-coach",
-      "score": 8,
+      "cluster": "unmapped-probe-queries",
+      "score": 9,
       "status": "weak",
       "priority": "critical",
       "delta": 0,
@@ -887,6 +887,24 @@
     },
     {
       "id": "answer_surface_050",
+      "cluster_id": "bhpc__systems",
+      "vertical": "bhpc",
+      "cluster": "systems",
+      "score": 11,
+      "status": "weak",
+      "priority": "critical",
+      "delta": 0,
+      "reason": "Weak answer-surface performance; prioritize content, internal links, and citation reinforcement.",
+      "recommended_actions": [
+        "create_or_refresh_target_page",
+        "add_extractable_answer_block",
+        "add_internal_links_from_authority_pages",
+        "route_conversion_path_to_approved_endpoint",
+        "queue_for_observation_rerun"
+      ]
+    },
+    {
+      "id": "answer_surface_051",
       "cluster_id": "bhpc__leverage",
       "vertical": "bhpc",
       "cluster": "leverage",
@@ -904,29 +922,11 @@
       ]
     },
     {
-      "id": "answer_surface_051",
+      "id": "answer_surface_052",
       "cluster_id": "bhpc__readme-spry-executive-os-intended-winner-page-sp",
       "vertical": "bhpc",
       "cluster": "readme-spry-executive-os-intended-winner-page-sp",
       "score": 11,
-      "status": "weak",
-      "priority": "critical",
-      "delta": 0,
-      "reason": "Weak answer-surface performance; prioritize content, internal links, and citation reinforcement.",
-      "recommended_actions": [
-        "create_or_refresh_target_page",
-        "add_extractable_answer_block",
-        "add_internal_links_from_authority_pages",
-        "route_conversion_path_to_approved_endpoint",
-        "queue_for_observation_rerun"
-      ]
-    },
-    {
-      "id": "answer_surface_052",
-      "cluster_id": "bhpc__unmapped-probe-queries",
-      "vertical": "bhpc",
-      "cluster": "unmapped-probe-queries",
-      "score": 15,
       "status": "weak",
       "priority": "critical",
       "delta": 0,

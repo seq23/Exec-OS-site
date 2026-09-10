@@ -403,13 +403,13 @@
     {
       "cluster_id": "comparison-athlete",
       "audiences": {
-        "athlete": 49
+        "athlete": 40
       },
       "intents": {
-        "comparison": 49
+        "comparison": 40
       },
       "routes": {
-        "comparison": 49
+        "comparison": 40
       },
       "canonical_target": "https://billionairehighperformancecoach.com/compare/comparison-athlete.html",
       "cta_target": "https://aplayermode.com",
@@ -450,13 +450,13 @@
     {
       "cluster_id": "comparison-founder",
       "audiences": {
-        "founder": 23
+        "founder": 21
       },
       "intents": {
-        "comparison": 23
+        "comparison": 21
       },
       "routes": {
-        "comparison": 23
+        "comparison": 21
       },
       "canonical_target": "https://billionairehighperformancecoach.com/compare/comparison-founder.html",
       "cta_target": "https://aplayermode.com",

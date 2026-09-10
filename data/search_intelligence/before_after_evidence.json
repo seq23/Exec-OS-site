@@ -1,6 +1,6 @@
 {
   "schema_version": "1.1",
-  "generated_at": "2026-09-05T13:31:34.526Z",
+  "generated_at": "2026-09-09T13:36:19.518Z",
   "overall_status": "PENDING",
   "status_is_healthy": false,
   "unavailable_note": null,
@@ -24,19 +24,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "accountabilitycoach.co",
-          "accountabilityworks.com",
-          "businesscoachtoronto.ca",
-          "earnifyhub.com",
-          "finestreak.com",
-          "giodella.com",
-          "habithuddle.com",
-          "ilty.co",
-          "logie.ai",
-          "tanyaeby.substack.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -66,18 +55,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "coachingportal.io",
-          "finestreak.com",
-          "giodella.com",
-          "ilty.co",
-          "jpsiou.com",
-          "keedia.com",
-          "legacyfitness.coach",
-          "psychologytoday.com",
-          "spy-fitness.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -121,18 +100,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "bodybuddy.app",
-          "dontsnooze.io",
-          "finestreak.com",
-          "iamcoachedbykate.substack.com",
-          "ilty.co",
-          "inithabits.com",
-          "legacyfitness.coach",
-          "reshapeapp.ai",
-          "spy-fitness.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -168,19 +137,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "bridges2understanding.com",
-          "businesscoachtoronto.ca",
-          "finestreak.com",
-          "giodella.com",
-          "gkliggans.com",
-          "ilty.co",
-          "melissanokeslifecoach.com",
-          "theparentingpassport.com",
-          "yourunbusylife.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -216,19 +174,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "bridges2understanding.com",
-          "businesscoachtoronto.ca",
-          "finestreak.com",
-          "giodella.com",
-          "gkliggans.com",
-          "ilty.co",
-          "melissanokeslifecoach.com",
-          "theparentingpassport.com",
-          "yourunbusylife.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -264,19 +211,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "accountabilitycoach.co",
-          "accountabilityworks.com",
-          "businesscoachtoronto.ca",
-          "earnifyhub.com",
-          "finestreak.com",
-          "giodella.com",
-          "habithuddle.com",
-          "ilty.co",
-          "logie.ai",
-          "tanyaeby.substack.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -456,19 +392,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "accountabilitycoach.co",
-          "accountabilityworks.com",
-          "businesscoachtoronto.ca",
-          "earnifyhub.com",
-          "finestreak.com",
-          "giodella.com",
-          "habithuddle.com",
-          "ilty.co",
-          "logie.ai",
-          "tanyaeby.substack.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -504,19 +429,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "atlasradd.com",
-          "bridges2understanding.com",
-          "businesscoachtoronto.ca",
-          "finestreak.com",
-          "giodella.com",
-          "gkliggans.com",
-          "ilty.co",
-          "melissanokeslifecoach.com",
-          "theparentingpassport.com",
-          "yourunbusylife.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -552,19 +466,8 @@
       },
       "after": {
         "gsc_metrics": null,
-        "grounded_own_domain_referenced": false,
-        "competitor_domains": [
-          "accountabilitycoach.co",
-          "accountabilityworks.com",
-          "businesscoachtoronto.ca",
-          "earnifyhub.com",
-          "finestreak.com",
-          "giodella.com",
-          "habithuddle.com",
-          "ilty.co",
-          "logie.ai",
-          "tanyaeby.substack.com"
-        ]
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,
@@ -600,19 +503,80 @@
       },
       "after": {
         "gsc_metrics": null,
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
+      },
+      "outcome_state": "NO_PROVEN_IMPROVEMENT",
+      "improvement_claimed": false,
+      "reason": "Retest evidence exists but did not prove improvement against the recorded baseline."
+    },
+    {
+      "repair_id": "repair_568ac268735378bd",
+      "target_id": "si_16d254cf0b735007",
+      "query": "accountability partner vs traditional coaching for people with many projects",
+      "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
+      "repair_type": "answer_and_comparison_clarity",
+      "before_sha256": "d8d8932dd512d2b0d58f65344b709f2cad2a029883dfd5236364f5106097499a",
+      "after_sha256": "f2d7eb62b690d1b01f0d67086fc281758de1277d4cd84f8c555699a21a2cfc81",
+      "rollback": {
+        "type": "content_hash",
+        "restore_sha256": "d8d8932dd512d2b0d58f65344b709f2cad2a029883dfd5236364f5106097499a"
+      },
+      "baseline": {
+        "gsc_metrics": null,
         "grounded_own_domain_referenced": false,
         "competitor_domains": [
           "atlasradd.com",
-          "bridges2understanding.com",
           "businesscoachtoronto.ca",
-          "finestreak.com",
+          "coaches.life",
+          "commitaction.com",
           "giodella.com",
           "gkliggans.com",
+          "habithuddle.com",
           "ilty.co",
-          "melissanokeslifecoach.com",
-          "theparentingpassport.com",
-          "yourunbusylife.com"
+          "linkedin.com"
         ]
+      },
+      "after": {
+        "gsc_metrics": null,
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
+      },
+      "outcome_state": "NO_PROVEN_IMPROVEMENT",
+      "improvement_claimed": false,
+      "reason": "Retest evidence exists but did not prove improvement against the recorded baseline."
+    },
+    {
+      "repair_id": "repair_568ac268735378bd",
+      "target_id": "si_16d254cf0b735007",
+      "query": "accountability partner vs traditional coaching for people with many projects",
+      "owned_route": "/billionaire-high-performance-coach-vs-coaching/",
+      "repair_type": "answer_and_comparison_clarity",
+      "before_sha256": "6f9c57aa5a1d3097d08c0025cc04dc19cc8d62bef8bee9bc4baed24224d20acc",
+      "after_sha256": "db5800d8d27393770b1bf61a618de7a6fcfb3658e9f5a5cff460dee407473534",
+      "rollback": {
+        "type": "content_hash",
+        "restore_sha256": "6f9c57aa5a1d3097d08c0025cc04dc19cc8d62bef8bee9bc4baed24224d20acc"
+      },
+      "baseline": {
+        "gsc_metrics": null,
+        "grounded_own_domain_referenced": false,
+        "competitor_domains": [
+          "atlasradd.com",
+          "businesscoachtoronto.ca",
+          "coaches.life",
+          "commitaction.com",
+          "giodella.com",
+          "gkliggans.com",
+          "habithuddle.com",
+          "ilty.co",
+          "linkedin.com"
+        ]
+      },
+      "after": {
+        "gsc_metrics": null,
+        "grounded_own_domain_referenced": null,
+        "competitor_domains": []
       },
       "outcome_state": "NO_PROVEN_IMPROVEMENT",
       "improvement_claimed": false,

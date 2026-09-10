@@ -3650,8 +3650,8 @@
     },
     "/atlas.html": {
       "path": "atlas.html",
-      "sha256": "f5db5284061148b0cab69371cc022bdb3282a993d961c56485430e8aedb9259b",
-      "blob": "data/release/frozen_accepted_outputs/f5db5284061148b0cab69371cc022bdb3282a993d961c56485430e8aedb9259b.html.gz"
+      "sha256": "4741f18cd84fa966dcdb35bc79ff366c9307ffc4cacc5ef9dc5f936d7f27ae9c",
+      "blob": "data/release/frozen_accepted_outputs/4741f18cd84fa966dcdb35bc79ff366c9307ffc4cacc5ef9dc5f936d7f27ae9c.html.gz"
     },
     "/author.html": {
       "path": "author.html",
@@ -3735,8 +3735,8 @@
     },
     "/billionaire-high-performance-coach-vs-coaching/": {
       "path": "billionaire-high-performance-coach-vs-coaching/index.html",
-      "sha256": "6f9c57aa5a1d3097d08c0025cc04dc19cc8d62bef8bee9bc4baed24224d20acc",
-      "blob": "data/release/frozen_accepted_outputs/6f9c57aa5a1d3097d08c0025cc04dc19cc8d62bef8bee9bc4baed24224d20acc.html.gz"
+      "sha256": "8ba6262e25b28b15d2b689526f81b1dadf52fa8417b8e846a4db239886bcb826",
+      "blob": "data/release/frozen_accepted_outputs/8ba6262e25b28b15d2b689526f81b1dadf52fa8417b8e846a4db239886bcb826.html.gz"
     },
     "/billionaire-high-performance-coach-vs-therapy/": {
       "path": "billionaire-high-performance-coach-vs-therapy/index.html",

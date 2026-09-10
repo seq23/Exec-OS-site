@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-09-06T14:23:53.874Z",
+  "policy": "signals_only_no_firehose",
+  "pipeline_role": "query_discovery_only",
+  "records": [],
+  "health": [
+    {
+      "source_key": "manual_operator_import",
+      "platform": "manual",
+      "status": "empty_no_action",
+      "count": 0
+    }
+  ],
+  "stop_reason": {
+    "code": "NO_OPERATOR_INPUT",
+    "message": "1 implemented source(s) [manual_operator_import] ran and collected zero high-intent records. WHO MUST ACT: the repo owner. Supply data/social/manual_import.json with { \"items\": [...] }, or activate a credentialed source once its terms review exists. Nothing is broken; there is simply no permitted input today. Exiting 0 as a declared stop, not as success.",
+    "declared_sources": [
+      "manual",
+      "reddit",
+      "forums",
+      "search_console",
+      "llm_citation_checks"
+    ],
+    "supported_platforms": [
+      "youtube",
+      "manual"
+    ],
+    "active_sources": [
+      "manual_operator_import"
+    ],
+    "declared_unimplemented": [
+      {
+        "source": "reddit",
+        "reason": "No collector is implemented, and data/signals/source_registry.json governs the same platform as requires_credentials with no unauthorized scraping. Implementing one here would route around that policy."
+      },
+      {
+        "source": "forums",
+        "reason": "No collector is implemented, and the sibling signal registry holds public RSS/forum feeds behind a terms review that has not happened."
+      },
+      {
+        "source": "search_console",
+        "reason": "Owned Search Console export requires credentials the owner has not supplied to this lane."
+      },
+      {
+        "source": "llm_citation_checks",
+        "reason": "Citation observation is produced by the citation probe in daily-citation-intelligence.yml, not by this social collector. Listing it here as a live source double-counted another lane's output."
+      }
+    ],
+    "exit_code": 0
+  },
+  "source_mode": "active_sources"
+}
